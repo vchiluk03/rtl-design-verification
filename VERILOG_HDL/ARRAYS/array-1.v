@@ -1,0 +1,54 @@
+//We have another copy of this code with introduction to tasks for code minimization. The name of file is array-2.v
+
+module tb;
+
+integer intA[9:0];
+integer intA1[9:0];
+integer i;
+
+initial begin 
+	//display array contents before initialization
+	for (i=0;i<10;i=i+1) begin 
+		$display("intA[%0d] = %0d",i,intA[i]);
+		$display("index = %0d, array_value = %0d",i,intA[i]);
+	end
+
+	$display("*********************************************************************");
+
+	//display the array contents after initialization
+	for (i=0;i<10;i=i+1) begin 
+		intA[i] = $urandom_range(40,50);
+		$display("array at index[%0d] has %0d",i,intA[i]);
+	end
+	
+	$display("*********************************************************************");
+	
+	//Copy 1st array values to 2nd array, then display 2nd array elements
+	for (i=0;i<10;i=i+1) begin 
+		intA1[i] = intA[i];
+		$display("array2 at index[%0d] has %0d",i,intA1[i]);
+	end
+	
+	$display("*********************************************************************");
+	
+	//write code to compare 1st array elements with 2nd array elements
+	for(i=0;i<10;i=i+1) begin 
+		if(intA1[i] == intA[i]) 
+			$display("At index[%0d] : Comparison successful : No mismatch",i);
+		else
+			$display("At index[%0d] : Comparison unsuccessful : there is a value mismatch",i);		
+	end
+	
+	$display("*********************************************************************");
+	
+	//write a code to increment 2nd array values by +1 for all elements, then compare both the arrays 
+	for (i=0;i<10;i=i+1) begin 
+		intA1[i] = intA1[i]+1;
+		if(intA[i] == intA1[i]) 
+			$display("At index[%0d] : Comparison successful : No mismatch",i);
+		else
+			$display("At index[%0d] : Comparison unsuccessful : there is a value mismatch : value at 1st array:%0d , value at 2nd array:%0d",i,intA[i],intA1[i]);		
+	
+	end
+end
+endmodule

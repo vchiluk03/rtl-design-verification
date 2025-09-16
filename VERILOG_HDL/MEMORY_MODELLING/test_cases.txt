@@ -1,0 +1,17 @@
+Now we are creating test cases for the design to check the design.
+Test case: Creating a scenario(inputs) to test one feature of design is called test-case.
+-----------
+Test plan: |
+-----------
+    - The test case that works for one feature of the design may not work for other feature of the same design.
+    - So, we write different test cases based on the feature of the design.
+    - Merging all those test cases of the design in one spreadsheet is what we called "TEST PLAN".
+    - we give test case name(string) as command line argument, based on that, TB will generate the scenarion and send it to design.
+    - TB will access user argument using "$value$plusargs".
+
+CREATING FOUR TESTCASES:
+    1-Front door write, Front door read(FD write FD read) - test_fd_write_fd_read
+    2-BD write FD read- test_fd_write_bd_read
+    3-BD write BD read- test_bd_write_fd_read
+    4-FD write BD read- test_bd_write_bd_read
+    5-random write and reads- test_random_write_read

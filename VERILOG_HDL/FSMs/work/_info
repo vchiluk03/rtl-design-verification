@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2025.1_1 2025.02, Feb 13 2025
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/mnt/ncsudrive/v/vchiluk3/vlsi-guru/FSMs
+vpattern_detector
+!s110 1749587547
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+2pattern_detector.v
+!i10b 1
+!s100 Sl7Q;>>no`zcgHf9:`M[E3
+IWkLL;hK6@0@RMWJ8O?LVG0
+R0
+w1749587109
+8pattern_detector.v
+Fpattern_detector.v
+!i122 22
+L0 6 53
+Z2 OL;L;2025.1_1;82
+31
+Z3 !s108 1749587547.000000
+!s107 pattern_detector.v|
+!s90 -reportprogress|300|pattern_detector.v|
+!i113 0
+Z4 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z5 tCvgOpt 0
+vtb
+!s110 1749587548
+R1
+r1
+!s85 0
+2tb.v
+!i10b 1
+!s100 o6_h8CE6B]8Nf[7d@SEJE2
+I[KDlaK;F6JL0Y6T^K<L_]1
+R0
+w1749587545
+8tb.v
+Ftb.v
+!i122 23
+L0 1 51
+R2
+31
+R3
+!s107 tb.v|
+!s90 -reportprogress|300|tb.v|
+!i113 0
+R4
+R5

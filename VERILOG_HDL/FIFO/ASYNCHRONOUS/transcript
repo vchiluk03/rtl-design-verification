@@ -1,0 +1,1348 @@
+# //  Questa Sim-64
+# //  Version 2025.1_1 linux_x86_64 Feb 13 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# vsim do 
+# Start time: 12:22:18 on Jun 03,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: (vopt-11) Could not find work.do.
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=0.
+# Error loading design
+# End time: 12:22:24 on Jun 03,2025, Elapsed time: 0:00:06
+# Errors: 1, Warnings: 0
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 12:23:48 on Jun 03,2025
+# vlog -reportprogress 300 async_fifo.v 
+# -- Compiling module Async_fifo
+# 
+# Top level modules:
+# 	Async_fifo
+# End time: 12:23:51 on Jun 03,2025, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 12:23:51 on Jun 03,2025
+# vlog -reportprogress 300 async_test_cases_tb.v 
+# -- Compiling module tb
+# ** Warning: async_test_cases_tb.v(70): (vlog-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+# 
+# Top level modules:
+# 	tb
+# End time: 12:23:51 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vsim -novopt -suppress 12110 tb "+TEST_NAME:test_full" 
+# Start time: 12:23:51 on Jun 03,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/ASYNCHRONOUS/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/ASYNCHRONOUS/work.Async_fifo
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.Async_fifo
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+#    Time: 0 ns  Iteration: 0  Instance: /tb File: async_test_cases_tb.v Line: 70
+# ==========================Full flag before testing:0==================
+# ==========================Full flag after testing:0=====================
+# ** Note: $finish    : async_test_cases_tb.v(119)
+#    Time: 514 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at async_test_cases_tb.v line 119
+
+
+ls
+# async_fifo.v
+# async_test_cases_tb.v
+# run.do
+# transcript
+# vsim.wlf
+# work
+ls
+# async_fifo.v
+# async_test_cases_tb.v
+# run.do
+# transcript
+# vsim.wlf
+# work
+cd ..
+# Cannot change directory while a simulation is in progress.
+# Use the "quit -sim" command to unload the design first.
+ls
+# async_fifo.v
+# async_test_cases_tb.v
+# run.do
+# transcript
+# vsim.wlf
+# work
+cd ..
+# Cannot change directory while a simulation is in progress.
+# Use the "quit -sim" command to unload the design first.
+cd ..
+# Cannot change directory while a simulation is in progress.
+# Use the "quit -sim" command to unload the design first.
+quit -sim
+# End time: 15:01:33 on Jun 03,2025, Elapsed time: 2:37:42
+# Errors: 0, Warnings: 2
+cd ..
+ls
+# ASYNCHRONOUS
+# FIFO.txt
+# PRACTICE
+# SYNCHRONOUS
+cd PRACTICE
+ls
+# run.do
+# sync_fifo.v
+vlog sync_fifo.v
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 15:01:46 on Jun 03,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# ** Error (suppressible): sync_fifo.v(20): (vlog-13299) Undefined variable: 'rst_n'.
+# ** Error (suppressible): sync_fifo.v(21): (vlog-13299) Undefined variable: 'rst_n'.
+# ** Error: sync_fifo.v(29): (vlog-2730) Undefined variable: 'i'.
+# ** Error: (vlog-13069) sync_fifo.v(50): near "always": syntax error, unexpected always.
+# ** Error: (vlog-13069) sync_fifo.v(66): near "end": syntax error, unexpected end.
+# End time: 15:01:47 on Jun 03,2025, Elapsed time: 0:00:01
+# Errors: 5, Warnings: 0
+# /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+
+vlog sync_fifo.v
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 15:04:18 on Jun 03,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# ** Error (suppressible): sync_fifo.v(20): (vlog-13299) Undefined variable: 'rst_n'.
+# ** Error (suppressible): sync_fifo.v(21): (vlog-13299) Undefined variable: 'rst_n'.
+# ** Error: (vlog-13069) sync_fifo.v(50): near "always": syntax error, unexpected always.
+# ** Error: (vlog-13069) sync_fifo.v(56): near "end": syntax error, unexpected end.
+# End time: 15:04:19 on Jun 03,2025, Elapsed time: 0:00:01
+# Errors: 4, Warnings: 0
+# /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+
+vlog sync_fifo.v
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 15:05:00 on Jun 03,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# ** Error (suppressible): sync_fifo.v(20): (vlog-13299) Undefined variable: 'rst_n'.
+# ** Error (suppressible): sync_fifo.v(21): (vlog-13299) Undefined variable: 'rst_n'.
+# ** Error: (vlog-13069) sync_fifo.v(50): near "always": syntax error, unexpected always.
+# ** Error: (vlog-13069) sync_fifo.v(54): near "end": syntax error, unexpected end.
+# End time: 15:05:00 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+vlog sync_fifo.v
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 15:05:02 on Jun 03,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# ** Error (suppressible): sync_fifo.v(20): (vlog-13299) Undefined variable: 'rst_n'.
+# ** Error (suppressible): sync_fifo.v(21): (vlog-13299) Undefined variable: 'rst_n'.
+# ** Error: (vlog-13069) sync_fifo.v(50): near "always": syntax error, unexpected always.
+# ** Error: (vlog-13069) sync_fifo.v(54): near "end": syntax error, unexpected end.
+# End time: 15:05:03 on Jun 03,2025, Elapsed time: 0:00:01
+# Errors: 4, Warnings: 0
+# /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+
+vlog sync_fifo.v
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 15:05:47 on Jun 03,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# ** Error (suppressible): sync_fifo.v(20): (vlog-13299) Undefined variable: 'rst_n'.
+# ** Error (suppressible): sync_fifo.v(21): (vlog-13299) Undefined variable: 'rst_n'.
+# ** Error: sync_fifo.v(1): (vlog-2730) Undefined variable: 'rst_n'.
+# ** Error: sync_fifo.v(1): (vlog-13294) Identifier must be declared with a port mode: rst_n.
+# End time: 15:05:48 on Jun 03,2025, Elapsed time: 0:00:01
+# Errors: 4, Warnings: 0
+# /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+vlog sync_fifo.v
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 15:05:49 on Jun 03,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# ** Error (suppressible): sync_fifo.v(20): (vlog-13299) Undefined variable: 'rst_n'.
+# ** Error (suppressible): sync_fifo.v(21): (vlog-13299) Undefined variable: 'rst_n'.
+# ** Error: sync_fifo.v(1): (vlog-2730) Undefined variable: 'rst_n'.
+# ** Error: sync_fifo.v(1): (vlog-13294) Identifier must be declared with a port mode: rst_n.
+# End time: 15:05:50 on Jun 03,2025, Elapsed time: 0:00:01
+# Errors: 4, Warnings: 0
+# /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+vlog sync_fifo.v
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 15:06:03 on Jun 03,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 15:06:04 on Jun 03,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+
+vlog sync_fifo.v
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 15:06:57 on Jun 03,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 15:06:58 on Jun 03,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+
+
+ls
+# run.do
+# sync_fifo.v
+# tasks.v
+# tb.v
+# work
+vlog tasks.v
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 15:11:47 on Jun 03,2025
+# vlog -reportprogress 300 tasks.v 
+# ** Error: tasks.v(1): (vlog-2155) Global declarations are illegal in Verilog 2001 syntax.
+# ** Error: tasks.v(3): (vlog-2730) Undefined variable: 'rst'.
+# ** Error: tasks.v(6): (vlog-2730) Undefined variable: 'clk'.
+# End time: 15:11:48 on Jun 03,2025, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 0
+# /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+vlog tasks.v
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 15:12:16 on Jun 03,2025
+# vlog -reportprogress 300 tasks.v 
+# ** Error: (vlog-13069) tasks.v(1): near "input": syntax error, unexpected input.
+# End time: 15:12:16 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+ls
+# run.do
+# sync_fifo.v
+# tasks.v
+# tb.v
+# work
+vlog tb.v
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 15:15:49 on Jun 03,2025
+# vlog -reportprogress 300 tb.v 
+# ** Error: ** while parsing file included at tb.v(1)
+# ** at tasks.v(1): (vlog-2155) Global declarations are illegal in Verilog 2001 syntax.
+# ** Error: ** while parsing file included at tb.v(1)
+# ** at tasks.v(3): (vlog-2730) Undefined variable: 'rst_n'.
+# ** Error: ** while parsing file included at tb.v(1)
+# ** at tasks.v(6): (vlog-2730) Undefined variable: 'clk'.
+# End time: 15:15:49 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+vlog tb.v
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 15:17:43 on Jun 03,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 15:17:43 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog tb.v
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 15:26:39 on Jun 03,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 15:26:39 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+
+
+ls
+# run.do
+# sync_fifo.v
+# tasks.v
+# tb.v
+# work
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 15:27:10 on Jun 03,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 15:27:10 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 15:27:10 on Jun 03,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 15:27:11 on Jun 03,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -novopt -suppress 12110 tb 
+# Start time: 15:27:11 on Jun 03,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.sync_fifo
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.sync_fifo
+#                    2	RESET APPLIED
+
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 15:28:06 on Jun 03,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 15:28:07 on Jun 03,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 15:28:07 on Jun 03,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 15:28:07 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:28:08 on Jun 03,2025, Elapsed time: 0:00:57
+# Errors: 0, Warnings: 1
+# vsim -novopt -suppress 12110 tb 
+# Start time: 15:28:08 on Jun 03,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.sync_fifo
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.sync_fifo
+#                    2	RESET APPLIED
+# ** Note: $finish    : tb.v(21)
+#    Time: 215 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb.v line 21
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 15:28:52 on Jun 03,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 15:28:52 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 15:28:53 on Jun 03,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 15:28:53 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:28:54 on Jun 03,2025, Elapsed time: 0:00:46
+# Errors: 0, Warnings: 1
+# vsim -novopt -suppress 12110 tb 
+# Start time: 15:28:54 on Jun 03,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.sync_fifo
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.sync_fifo
+# time-                   2:	RESET APPLIED
+# ** Note: $finish    : tb.v(21)
+#    Time: 215 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb.v line 21
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 15:29:27 on Jun 03,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 15:29:27 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 15:29:27 on Jun 03,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 15:29:27 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:29:28 on Jun 03,2025, Elapsed time: 0:00:34
+# Errors: 0, Warnings: 1
+# vsim -novopt -suppress 12110 tb 
+# Start time: 15:29:28 on Jun 03,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.sync_fifo
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.sync_fifo
+# time-2:	========RESET APPLIED==========
+# ** Note: $finish    : tb.v(21)
+#    Time: 215 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb.v line 21
+
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 15:41:47 on Jun 03,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 15:41:47 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 15:41:47 on Jun 03,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# ** Error: ** while parsing file included at tb.v(12)
+# ** at tasks.v(18): (vlog-2730) Undefined variable: 'i'.
+# ** Error: (vlog-13069) tb.v(22): near "#": syntax error, unexpected '#', expecting ';'.
+# End time: 15:41:48 on Jun 03,2025, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 0
+# ** Error: /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+# Error in macro ./run.do line 3
+# /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog tb.v"
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 15:42:52 on Jun 03,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 15:42:52 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 15:42:52 on Jun 03,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# ** Error: (vlog-13069) tb.v(23): near "#": syntax error, unexpected '#', expecting ';'.
+# End time: 15:42:53 on Jun 03,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# ** Error: /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+# Error in macro ./run.do line 3
+# /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog tb.v"
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 15:43:12 on Jun 03,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 15:43:12 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 15:43:12 on Jun 03,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 15:43:13 on Jun 03,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 15:43:16 on Jun 03,2025, Elapsed time: 0:13:48
+# Errors: 2, Warnings: 1
+# vsim -novopt -suppress 12110 tb 
+# Start time: 15:43:16 on Jun 03,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.sync_fifo
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.sync_fifo
+# ** Error: (vsim-3043) Unresolved reference to 'wr_ptr'.
+#    Time: 0 ns  Iteration: 0  Instance: /tb File: tasks.v Line: 25
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 6
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 15:43:28 on Jun 03,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 15:43:28 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 15:43:28 on Jun 03,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 15:43:29 on Jun 03,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -novopt -suppress 12110 tb 
+# Start time: 15:43:16 on Jun 03,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.sync_fifo
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.sync_fifo
+# ** Error: (vsim-3043) Unresolved reference to 'wr_ptr'.
+#    Time: 0 ns  Iteration: 0  Instance: /tb File: tasks.v Line: 25
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 6
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 15:43:53 on Jun 03,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 15:43:53 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 15:43:53 on Jun 03,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 15:43:53 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -suppress 12110 tb 
+# Start time: 15:43:16 on Jun 03,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.sync_fifo
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.sync_fifo
+# time-2:	========RESET APPLIED==========
+# USER WRITES 36 IN THE FIFO POINTS TO LOCATION : 0
+# USER WRITES 129 IN THE FIFO POINTS TO LOCATION : 1
+# USER WRITES 9 IN THE FIFO POINTS TO LOCATION : 2
+# USER WRITES 99 IN THE FIFO POINTS TO LOCATION : 3
+# ** Note: $finish    : tb.v(23)
+#    Time: 256 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb.v line 23
+
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 15:44:51 on Jun 03,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 15:44:51 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 15:44:51 on Jun 03,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 15:44:51 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:44:52 on Jun 03,2025, Elapsed time: 0:01:36
+# Errors: 2, Warnings: 3
+# vsim -novopt -suppress 12110 tb 
+# Start time: 15:44:52 on Jun 03,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.sync_fifo
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.sync_fifo
+# time-2:	========RESET APPLIED==========
+# USER WRITES 36 IN THE FIFO POINTS TO LOCATION : 0
+# USER WRITES 129 IN THE FIFO POINTS TO LOCATION : 1
+# USER WRITES 9 IN THE FIFO POINTS TO LOCATION : 2
+# USER WRITES 99 IN THE FIFO POINTS TO LOCATION : 3
+# ** Note: $finish    : tb.v(23)
+#    Time: 256 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb.v line 23
+
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 15:45:05 on Jun 03,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 15:45:05 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 15:45:05 on Jun 03,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 15:45:06 on Jun 03,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 15:45:08 on Jun 03,2025, Elapsed time: 0:00:16
+# Errors: 0, Warnings: 1
+# vsim -novopt -suppress 12110 tb 
+# Start time: 15:45:08 on Jun 03,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.sync_fifo
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.sync_fifo
+# time-2:	========RESET APPLIED==========
+# USER WRITES 36 IN THE FIFO POINTS TO LOCATION : 0
+# USER WRITES 129 IN THE FIFO POINTS TO LOCATION : 1
+# USER WRITES 9 IN THE FIFO POINTS TO LOCATION : 2
+# USER WRITES 99 IN THE FIFO POINTS TO LOCATION : 3
+# USER WRITES 13 IN THE FIFO POINTS TO LOCATION : 4
+# USER WRITES 141 IN THE FIFO POINTS TO LOCATION : 5
+# USER WRITES 101 IN THE FIFO POINTS TO LOCATION : 6
+# USER WRITES 18 IN THE FIFO POINTS TO LOCATION : 7
+# USER WRITES 1 IN THE FIFO POINTS TO LOCATION : 8
+# USER WRITES 13 IN THE FIFO POINTS TO LOCATION : 9
+# USER WRITES 118 IN THE FIFO POINTS TO LOCATION : 10
+# USER WRITES 61 IN THE FIFO POINTS TO LOCATION : 11
+# USER WRITES 237 IN THE FIFO POINTS TO LOCATION : 12
+# USER WRITES 140 IN THE FIFO POINTS TO LOCATION : 13
+# USER WRITES 249 IN THE FIFO POINTS TO LOCATION : 14
+# USER WRITES 198 IN THE FIFO POINTS TO LOCATION : 15
+# USER WRITES 197 IN THE FIFO POINTS TO LOCATION : 16
+# USER WRITES 170 IN THE FIFO POINTS TO LOCATION : 17
+# USER WRITES 229 IN THE FIFO POINTS TO LOCATION : 18
+# USER WRITES 119 IN THE FIFO POINTS TO LOCATION : 19
+# USER WRITES 18 IN THE FIFO POINTS TO LOCATION : 20
+# USER WRITES 143 IN THE FIFO POINTS TO LOCATION : 21
+# USER WRITES 242 IN THE FIFO POINTS TO LOCATION : 22
+# USER WRITES 206 IN THE FIFO POINTS TO LOCATION : 23
+# USER WRITES 232 IN THE FIFO POINTS TO LOCATION : 24
+# USER WRITES 197 IN THE FIFO POINTS TO LOCATION : 25
+# USER WRITES 92 IN THE FIFO POINTS TO LOCATION : 26
+# USER WRITES 189 IN THE FIFO POINTS TO LOCATION : 27
+# USER WRITES 45 IN THE FIFO POINTS TO LOCATION : 28
+# USER WRITES 101 IN THE FIFO POINTS TO LOCATION : 29
+# USER WRITES 99 IN THE FIFO POINTS TO LOCATION : 30
+# USER WRITES 10 IN THE FIFO POINTS TO LOCATION : 31
+# ** Note: $finish    : tb.v(23)
+#    Time: 536 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb.v line 23
+
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 15:46:38 on Jun 03,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 15:46:39 on Jun 03,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 15:46:39 on Jun 03,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 15:46:39 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:46:40 on Jun 03,2025, Elapsed time: 0:01:32
+# Errors: 0, Warnings: 1
+# vsim -novopt -suppress 12110 tb 
+# Start time: 15:46:40 on Jun 03,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.sync_fifo
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.sync_fifo
+# time-2:	========RESET APPLIED==========
+# USER WROTE DATA:36 POINTS TO LOCATION:0 IN FIFO MEMORY
+# USER WROTE DATA:129 POINTS TO LOCATION:1 IN FIFO MEMORY
+# USER WROTE DATA:9 POINTS TO LOCATION:2 IN FIFO MEMORY
+# USER WROTE DATA:99 POINTS TO LOCATION:3 IN FIFO MEMORY
+# USER WROTE DATA:13 POINTS TO LOCATION:4 IN FIFO MEMORY
+# USER WROTE DATA:141 POINTS TO LOCATION:5 IN FIFO MEMORY
+# USER WROTE DATA:101 POINTS TO LOCATION:6 IN FIFO MEMORY
+# USER WROTE DATA:18 POINTS TO LOCATION:7 IN FIFO MEMORY
+# USER WROTE DATA:1 POINTS TO LOCATION:8 IN FIFO MEMORY
+# USER WROTE DATA:13 POINTS TO LOCATION:9 IN FIFO MEMORY
+# USER WROTE DATA:118 POINTS TO LOCATION:10 IN FIFO MEMORY
+# USER WROTE DATA:61 POINTS TO LOCATION:11 IN FIFO MEMORY
+# USER WROTE DATA:237 POINTS TO LOCATION:12 IN FIFO MEMORY
+# USER WROTE DATA:140 POINTS TO LOCATION:13 IN FIFO MEMORY
+# USER WROTE DATA:249 POINTS TO LOCATION:14 IN FIFO MEMORY
+# USER WROTE DATA:198 POINTS TO LOCATION:15 IN FIFO MEMORY
+# USER WROTE DATA:197 POINTS TO LOCATION:16 IN FIFO MEMORY
+# USER WROTE DATA:170 POINTS TO LOCATION:17 IN FIFO MEMORY
+# USER WROTE DATA:229 POINTS TO LOCATION:18 IN FIFO MEMORY
+# USER WROTE DATA:119 POINTS TO LOCATION:19 IN FIFO MEMORY
+# USER WROTE DATA:18 POINTS TO LOCATION:20 IN FIFO MEMORY
+# USER WROTE DATA:143 POINTS TO LOCATION:21 IN FIFO MEMORY
+# USER WROTE DATA:242 POINTS TO LOCATION:22 IN FIFO MEMORY
+# USER WROTE DATA:206 POINTS TO LOCATION:23 IN FIFO MEMORY
+# USER WROTE DATA:232 POINTS TO LOCATION:24 IN FIFO MEMORY
+# USER WROTE DATA:197 POINTS TO LOCATION:25 IN FIFO MEMORY
+# USER WROTE DATA:92 POINTS TO LOCATION:26 IN FIFO MEMORY
+# USER WROTE DATA:189 POINTS TO LOCATION:27 IN FIFO MEMORY
+# USER WROTE DATA:45 POINTS TO LOCATION:28 IN FIFO MEMORY
+# USER WROTE DATA:101 POINTS TO LOCATION:29 IN FIFO MEMORY
+# USER WROTE DATA:99 POINTS TO LOCATION:30 IN FIFO MEMORY
+# USER WROTE DATA:10 POINTS TO LOCATION:31 IN FIFO MEMORY
+# ** Note: $finish    : tb.v(23)
+#    Time: 536 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb.v line 23
+
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 15:47:04 on Jun 03,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 15:47:04 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 15:47:04 on Jun 03,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 15:47:05 on Jun 03,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 15:47:05 on Jun 03,2025, Elapsed time: 0:00:25
+# Errors: 0, Warnings: 1
+# vsim -novopt -suppress 12110 tb 
+# Start time: 15:47:05 on Jun 03,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.sync_fifo
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.sync_fifo
+# time-2:	========RESET APPLIED==========
+# USER WROTE DATA : 36 POINTS TO LOCATION : 0
+# USER WROTE DATA : 129 POINTS TO LOCATION : 1
+# USER WROTE DATA : 9 POINTS TO LOCATION : 2
+# USER WROTE DATA : 99 POINTS TO LOCATION : 3
+# USER WROTE DATA : 13 POINTS TO LOCATION : 4
+# USER WROTE DATA : 141 POINTS TO LOCATION : 5
+# USER WROTE DATA : 101 POINTS TO LOCATION : 6
+# USER WROTE DATA : 18 POINTS TO LOCATION : 7
+# USER WROTE DATA : 1 POINTS TO LOCATION : 8
+# USER WROTE DATA : 13 POINTS TO LOCATION : 9
+# USER WROTE DATA : 118 POINTS TO LOCATION : 10
+# USER WROTE DATA : 61 POINTS TO LOCATION : 11
+# USER WROTE DATA : 237 POINTS TO LOCATION : 12
+# USER WROTE DATA : 140 POINTS TO LOCATION : 13
+# USER WROTE DATA : 249 POINTS TO LOCATION : 14
+# USER WROTE DATA : 198 POINTS TO LOCATION : 15
+# USER WROTE DATA : 197 POINTS TO LOCATION : 16
+# USER WROTE DATA : 170 POINTS TO LOCATION : 17
+# USER WROTE DATA : 229 POINTS TO LOCATION : 18
+# USER WROTE DATA : 119 POINTS TO LOCATION : 19
+# USER WROTE DATA : 18 POINTS TO LOCATION : 20
+# USER WROTE DATA : 143 POINTS TO LOCATION : 21
+# USER WROTE DATA : 242 POINTS TO LOCATION : 22
+# USER WROTE DATA : 206 POINTS TO LOCATION : 23
+# USER WROTE DATA : 232 POINTS TO LOCATION : 24
+# USER WROTE DATA : 197 POINTS TO LOCATION : 25
+# USER WROTE DATA : 92 POINTS TO LOCATION : 26
+# USER WROTE DATA : 189 POINTS TO LOCATION : 27
+# USER WROTE DATA : 45 POINTS TO LOCATION : 28
+# USER WROTE DATA : 101 POINTS TO LOCATION : 29
+# USER WROTE DATA : 99 POINTS TO LOCATION : 30
+# USER WROTE DATA : 10 POINTS TO LOCATION : 31
+# ** Note: $finish    : tb.v(23)
+#    Time: 536 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb.v line 23
+
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 15:47:27 on Jun 03,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 15:47:27 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 15:47:27 on Jun 03,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 15:47:28 on Jun 03,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 15:47:29 on Jun 03,2025, Elapsed time: 0:00:24
+# Errors: 0, Warnings: 1
+# vsim -novopt -suppress 12110 tb 
+# Start time: 15:47:29 on Jun 03,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.sync_fifo
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.sync_fifo
+# time-2:	========RESET APPLIED==========
+# USER WROTE DATA : 36	POINTS TO LOCATION : 0
+# USER WROTE DATA : 129	POINTS TO LOCATION : 1
+# USER WROTE DATA : 9	POINTS TO LOCATION : 2
+# USER WROTE DATA : 99	POINTS TO LOCATION : 3
+# USER WROTE DATA : 13	POINTS TO LOCATION : 4
+# USER WROTE DATA : 141	POINTS TO LOCATION : 5
+# USER WROTE DATA : 101	POINTS TO LOCATION : 6
+# USER WROTE DATA : 18	POINTS TO LOCATION : 7
+# USER WROTE DATA : 1	POINTS TO LOCATION : 8
+# USER WROTE DATA : 13	POINTS TO LOCATION : 9
+# USER WROTE DATA : 118	POINTS TO LOCATION : 10
+# USER WROTE DATA : 61	POINTS TO LOCATION : 11
+# USER WROTE DATA : 237	POINTS TO LOCATION : 12
+# USER WROTE DATA : 140	POINTS TO LOCATION : 13
+# USER WROTE DATA : 249	POINTS TO LOCATION : 14
+# USER WROTE DATA : 198	POINTS TO LOCATION : 15
+# USER WROTE DATA : 197	POINTS TO LOCATION : 16
+# USER WROTE DATA : 170	POINTS TO LOCATION : 17
+# USER WROTE DATA : 229	POINTS TO LOCATION : 18
+# USER WROTE DATA : 119	POINTS TO LOCATION : 19
+# USER WROTE DATA : 18	POINTS TO LOCATION : 20
+# USER WROTE DATA : 143	POINTS TO LOCATION : 21
+# USER WROTE DATA : 242	POINTS TO LOCATION : 22
+# USER WROTE DATA : 206	POINTS TO LOCATION : 23
+# USER WROTE DATA : 232	POINTS TO LOCATION : 24
+# USER WROTE DATA : 197	POINTS TO LOCATION : 25
+# USER WROTE DATA : 92	POINTS TO LOCATION : 26
+# USER WROTE DATA : 189	POINTS TO LOCATION : 27
+# USER WROTE DATA : 45	POINTS TO LOCATION : 28
+# USER WROTE DATA : 101	POINTS TO LOCATION : 29
+# USER WROTE DATA : 99	POINTS TO LOCATION : 30
+# USER WROTE DATA : 10	POINTS TO LOCATION : 31
+# ** Note: $finish    : tb.v(23)
+#    Time: 536 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb.v line 23
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 15:47:44 on Jun 03,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 15:47:45 on Jun 03,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 15:47:45 on Jun 03,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 15:47:45 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:47:46 on Jun 03,2025, Elapsed time: 0:00:17
+# Errors: 0, Warnings: 1
+# vsim -novopt -suppress 12110 tb 
+# Start time: 15:47:46 on Jun 03,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.sync_fifo
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.sync_fifo
+# time-2:	========RESET APPLIED==========
+# USER WROTE DATA : 36		POINTS TO LOCATION : 0
+# USER WROTE DATA : 129		POINTS TO LOCATION : 1
+# USER WROTE DATA : 9		POINTS TO LOCATION : 2
+# USER WROTE DATA : 99		POINTS TO LOCATION : 3
+# USER WROTE DATA : 13		POINTS TO LOCATION : 4
+# USER WROTE DATA : 141		POINTS TO LOCATION : 5
+# USER WROTE DATA : 101		POINTS TO LOCATION : 6
+# USER WROTE DATA : 18		POINTS TO LOCATION : 7
+# USER WROTE DATA : 1		POINTS TO LOCATION : 8
+# USER WROTE DATA : 13		POINTS TO LOCATION : 9
+# USER WROTE DATA : 118		POINTS TO LOCATION : 10
+# USER WROTE DATA : 61		POINTS TO LOCATION : 11
+# USER WROTE DATA : 237		POINTS TO LOCATION : 12
+# USER WROTE DATA : 140		POINTS TO LOCATION : 13
+# USER WROTE DATA : 249		POINTS TO LOCATION : 14
+# USER WROTE DATA : 198		POINTS TO LOCATION : 15
+# USER WROTE DATA : 197		POINTS TO LOCATION : 16
+# USER WROTE DATA : 170		POINTS TO LOCATION : 17
+# USER WROTE DATA : 229		POINTS TO LOCATION : 18
+# USER WROTE DATA : 119		POINTS TO LOCATION : 19
+# USER WROTE DATA : 18		POINTS TO LOCATION : 20
+# USER WROTE DATA : 143		POINTS TO LOCATION : 21
+# USER WROTE DATA : 242		POINTS TO LOCATION : 22
+# USER WROTE DATA : 206		POINTS TO LOCATION : 23
+# USER WROTE DATA : 232		POINTS TO LOCATION : 24
+# USER WROTE DATA : 197		POINTS TO LOCATION : 25
+# USER WROTE DATA : 92		POINTS TO LOCATION : 26
+# USER WROTE DATA : 189		POINTS TO LOCATION : 27
+# USER WROTE DATA : 45		POINTS TO LOCATION : 28
+# USER WROTE DATA : 101		POINTS TO LOCATION : 29
+# USER WROTE DATA : 99		POINTS TO LOCATION : 30
+# USER WROTE DATA : 10		POINTS TO LOCATION : 31
+# ** Note: $finish    : tb.v(23)
+#    Time: 536 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb.v line 23
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 15:48:23 on Jun 03,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 15:48:24 on Jun 03,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 15:48:24 on Jun 03,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 15:48:24 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:48:25 on Jun 03,2025, Elapsed time: 0:00:39
+# Errors: 0, Warnings: 1
+# vsim -novopt -suppress 12110 tb 
+# Start time: 15:48:25 on Jun 03,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.sync_fifo
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.sync_fifo
+# time-2:	========RESET APPLIED==========
+# USER WROTE DATA : 36			===>POINTS TO LOCATION : 0
+# USER WROTE DATA : 129			===>POINTS TO LOCATION : 1
+# USER WROTE DATA : 9			===>POINTS TO LOCATION : 2
+# USER WROTE DATA : 99			===>POINTS TO LOCATION : 3
+# USER WROTE DATA : 13			===>POINTS TO LOCATION : 4
+# USER WROTE DATA : 141			===>POINTS TO LOCATION : 5
+# USER WROTE DATA : 101			===>POINTS TO LOCATION : 6
+# USER WROTE DATA : 18			===>POINTS TO LOCATION : 7
+# USER WROTE DATA : 1			===>POINTS TO LOCATION : 8
+# USER WROTE DATA : 13			===>POINTS TO LOCATION : 9
+# USER WROTE DATA : 118			===>POINTS TO LOCATION : 10
+# USER WROTE DATA : 61			===>POINTS TO LOCATION : 11
+# USER WROTE DATA : 237			===>POINTS TO LOCATION : 12
+# USER WROTE DATA : 140			===>POINTS TO LOCATION : 13
+# USER WROTE DATA : 249			===>POINTS TO LOCATION : 14
+# USER WROTE DATA : 198			===>POINTS TO LOCATION : 15
+# USER WROTE DATA : 197			===>POINTS TO LOCATION : 16
+# USER WROTE DATA : 170			===>POINTS TO LOCATION : 17
+# USER WROTE DATA : 229			===>POINTS TO LOCATION : 18
+# USER WROTE DATA : 119			===>POINTS TO LOCATION : 19
+# USER WROTE DATA : 18			===>POINTS TO LOCATION : 20
+# USER WROTE DATA : 143			===>POINTS TO LOCATION : 21
+# USER WROTE DATA : 242			===>POINTS TO LOCATION : 22
+# USER WROTE DATA : 206			===>POINTS TO LOCATION : 23
+# USER WROTE DATA : 232			===>POINTS TO LOCATION : 24
+# USER WROTE DATA : 197			===>POINTS TO LOCATION : 25
+# USER WROTE DATA : 92			===>POINTS TO LOCATION : 26
+# USER WROTE DATA : 189			===>POINTS TO LOCATION : 27
+# USER WROTE DATA : 45			===>POINTS TO LOCATION : 28
+# USER WROTE DATA : 101			===>POINTS TO LOCATION : 29
+# USER WROTE DATA : 99			===>POINTS TO LOCATION : 30
+# USER WROTE DATA : 10			===>POINTS TO LOCATION : 31
+# ** Note: $finish    : tb.v(23)
+#    Time: 536 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb.v line 23
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 15:50:37 on Jun 03,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 15:50:37 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 15:50:37 on Jun 03,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 15:50:38 on Jun 03,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 15:50:40 on Jun 03,2025, Elapsed time: 0:02:15
+# Errors: 0, Warnings: 1
+# vsim -novopt -suppress 12110 tb 
+# Start time: 15:50:40 on Jun 03,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.sync_fifo
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.sync_fifo
+# time-2:	========RESET APPLIED==========
+# USER WROTE DATA : 36			===>POINTS TO LOCATION : 0
+# USER WROTE DATA : 129			===>POINTS TO LOCATION : 1
+# USER WROTE DATA : 9			===>POINTS TO LOCATION : 2
+# USER WROTE DATA : 99			===>POINTS TO LOCATION : 3
+# USER WROTE DATA : 13			===>POINTS TO LOCATION : 4
+# USER WROTE DATA : 141			===>POINTS TO LOCATION : 5
+# USER WROTE DATA : 101			===>POINTS TO LOCATION : 6
+# USER WROTE DATA : 18			===>POINTS TO LOCATION : 7
+# USER WROTE DATA : 1			===>POINTS TO LOCATION : 8
+# USER WROTE DATA : 13			===>POINTS TO LOCATION : 9
+# USER WROTE DATA : 118			===>POINTS TO LOCATION : 10
+# USER WROTE DATA : 61			===>POINTS TO LOCATION : 11
+# USER WROTE DATA : 237			===>POINTS TO LOCATION : 12
+# USER WROTE DATA : 140			===>POINTS TO LOCATION : 13
+# USER WROTE DATA : 249			===>POINTS TO LOCATION : 14
+# USER WROTE DATA : 198			===>POINTS TO LOCATION : 15
+# USER WROTE DATA : 197			===>POINTS TO LOCATION : 16
+# USER WROTE DATA : 170			===>POINTS TO LOCATION : 17
+# USER WROTE DATA : 229			===>POINTS TO LOCATION : 18
+# USER WROTE DATA : 119			===>POINTS TO LOCATION : 19
+# USER WROTE DATA : 18			===>POINTS TO LOCATION : 20
+# USER WROTE DATA : 143			===>POINTS TO LOCATION : 21
+# USER WROTE DATA : 242			===>POINTS TO LOCATION : 22
+# USER WROTE DATA : 206			===>POINTS TO LOCATION : 23
+# USER WROTE DATA : 232			===>POINTS TO LOCATION : 24
+# USER WROTE DATA : 197			===>POINTS TO LOCATION : 25
+# USER WROTE DATA : 92			===>POINTS TO LOCATION : 26
+# USER WROTE DATA : 189			===>POINTS TO LOCATION : 27
+# USER WROTE DATA : 45			===>POINTS TO LOCATION : 28
+# USER WROTE DATA : 101			===>POINTS TO LOCATION : 29
+# USER WROTE DATA : 99			===>POINTS TO LOCATION : 30
+# USER WROTE DATA : 10			===>POINTS TO LOCATION : 31
+# USER WROTE DATA : 128			===>POINTS TO LOCATION : 0
+# ** Note: $finish    : tb.v(23)
+#    Time: 546 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb.v line 23
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 15:51:50 on Jun 03,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 15:51:51 on Jun 03,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 15:51:51 on Jun 03,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 15:51:51 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:51:52 on Jun 03,2025, Elapsed time: 0:01:12
+# Errors: 0, Warnings: 1
+# vsim -novopt -suppress 12110 tb 
+# Start time: 15:51:52 on Jun 03,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.sync_fifo
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.sync_fifo
+# time-2:	========RESET APPLIED==========
+# USER WROTE DATA : 36			===>POINTS TO LOCATION : 0	==>FULL flag=0
+# USER WROTE DATA : 129			===>POINTS TO LOCATION : 1	==>FULL flag=0
+# USER WROTE DATA : 9			===>POINTS TO LOCATION : 2	==>FULL flag=0
+# USER WROTE DATA : 99			===>POINTS TO LOCATION : 3	==>FULL flag=0
+# USER WROTE DATA : 13			===>POINTS TO LOCATION : 4	==>FULL flag=0
+# USER WROTE DATA : 141			===>POINTS TO LOCATION : 5	==>FULL flag=0
+# USER WROTE DATA : 101			===>POINTS TO LOCATION : 6	==>FULL flag=0
+# USER WROTE DATA : 18			===>POINTS TO LOCATION : 7	==>FULL flag=0
+# USER WROTE DATA : 1			===>POINTS TO LOCATION : 8	==>FULL flag=0
+# USER WROTE DATA : 13			===>POINTS TO LOCATION : 9	==>FULL flag=0
+# USER WROTE DATA : 118			===>POINTS TO LOCATION : 10	==>FULL flag=0
+# USER WROTE DATA : 61			===>POINTS TO LOCATION : 11	==>FULL flag=0
+# USER WROTE DATA : 237			===>POINTS TO LOCATION : 12	==>FULL flag=0
+# USER WROTE DATA : 140			===>POINTS TO LOCATION : 13	==>FULL flag=0
+# USER WROTE DATA : 249			===>POINTS TO LOCATION : 14	==>FULL flag=0
+# USER WROTE DATA : 198			===>POINTS TO LOCATION : 15	==>FULL flag=0
+# USER WROTE DATA : 197			===>POINTS TO LOCATION : 16	==>FULL flag=0
+# USER WROTE DATA : 170			===>POINTS TO LOCATION : 17	==>FULL flag=0
+# USER WROTE DATA : 229			===>POINTS TO LOCATION : 18	==>FULL flag=0
+# USER WROTE DATA : 119			===>POINTS TO LOCATION : 19	==>FULL flag=0
+# USER WROTE DATA : 18			===>POINTS TO LOCATION : 20	==>FULL flag=0
+# USER WROTE DATA : 143			===>POINTS TO LOCATION : 21	==>FULL flag=0
+# USER WROTE DATA : 242			===>POINTS TO LOCATION : 22	==>FULL flag=0
+# USER WROTE DATA : 206			===>POINTS TO LOCATION : 23	==>FULL flag=0
+# USER WROTE DATA : 232			===>POINTS TO LOCATION : 24	==>FULL flag=0
+# USER WROTE DATA : 197			===>POINTS TO LOCATION : 25	==>FULL flag=0
+# USER WROTE DATA : 92			===>POINTS TO LOCATION : 26	==>FULL flag=0
+# USER WROTE DATA : 189			===>POINTS TO LOCATION : 27	==>FULL flag=0
+# USER WROTE DATA : 45			===>POINTS TO LOCATION : 28	==>FULL flag=0
+# USER WROTE DATA : 101			===>POINTS TO LOCATION : 29	==>FULL flag=0
+# USER WROTE DATA : 99			===>POINTS TO LOCATION : 30	==>FULL flag=0
+# USER WROTE DATA : 10			===>POINTS TO LOCATION : 31	==>FULL flag=0
+# USER WROTE DATA : 128			===>POINTS TO LOCATION : 0	==>FULL flag=1
+# ** Note: $finish    : tb.v(23)
+#    Time: 546 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb.v line 23
+
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:01:54 on Jun 03,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 16:01:54 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:01:54 on Jun 03,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 16:01:55 on Jun 03,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 16:01:56 on Jun 03,2025, Elapsed time: 0:10:04
+# Errors: 0, Warnings: 1
+# vsim -novopt -suppress 12110 tb 
+# Start time: 16:01:56 on Jun 03,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# 
+# ** License Issue: Licensing system communication failure
+# ** Error: Failure to obtain a Verilog simulation license. Unable to checkout any of these license features: 'qhsimvl' or 'msimhdlsim'.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 6
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:02:04 on Jun 03,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 16:02:05 on Jun 03,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:02:05 on Jun 03,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 16:02:05 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -suppress 12110 tb 
+# Start time: 16:01:56 on Jun 03,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# 
+# ** License Issue: Licensing system communication failure
+# ** Error: Failure to obtain a Verilog simulation license. Unable to checkout any of these license features: 'qhsimvl' or 'msimhdlsim'.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 6
+quit -sim
+# End time: 16:02:20 on Jun 03,2025, Elapsed time: 0:00:24
+# Errors: 0, Warnings: 2
+ls
+# run.do
+# sync_fifo.v
+# tasks.v
+# tb.v
+# vsim.wlf
+# work
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:02:27 on Jun 03,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 16:02:28 on Jun 03,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:02:28 on Jun 03,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 16:02:28 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -suppress 12110 tb 
+# Start time: 16:02:28 on Jun 03,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# 
+# ** License Issue: Licensing system communication failure
+# ** Error: Failure to obtain a Verilog simulation license. Unable to checkout any of these license features: 'qhsimvl' or 'msimhdlsim'.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 6
+
+
+vlog sync_fifo.v
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:02:52 on Jun 03,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 16:02:52 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:03:05 on Jun 03,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 16:03:06 on Jun 03,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:03:06 on Jun 03,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 16:03:06 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -suppress 12110 tb 
+# Start time: 16:02:28 on Jun 03,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# 
+# ** License Issue: Licensing system communication failure
+# ** Error: Failure to obtain a Verilog simulation license. Unable to checkout any of these license features: 'qhsimvl' or 'msimhdlsim'.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 6
+
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:03:39 on Jun 03,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 16:03:40 on Jun 03,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:03:40 on Jun 03,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 16:03:40 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -suppress 12110 tb 
+# Start time: 16:02:28 on Jun 03,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# 
+# ** License Issue: Licensing system communication failure
+# ** Error: Failure to obtain a Verilog simulation license. Unable to checkout any of these license features: 'qhsimvl' or 'msimhdlsim'.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 6
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:04:36 on Jun 03,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 16:04:37 on Jun 03,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:04:37 on Jun 03,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 16:04:37 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -suppress 12110 tb 
+# Start time: 16:02:28 on Jun 03,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# 
+# ** License Issue: Licensing system communication failure
+# ** Error: Failure to obtain a Verilog simulation license. Unable to checkout any of these license features: 'qhsimvl' or 'msimhdlsim'.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 6
+# End time: 16:04:58 on Jun 03,2025, Elapsed time: 0:02:30
+# Errors: 0, Warnings: 4

@@ -1,0 +1,695 @@
+# //  Questa Sim-64
+# //  Version 2025.1_1 linux_x86_64 Feb 13 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# vsim do 
+# Start time: 18:26:25 on Jun 02,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: (vopt-11) Could not find work.do.
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=0.
+# Error loading design
+# End time: 18:26:32 on Jun 02,2025, Elapsed time: 0:00:07
+# Errors: 1, Warnings: 0
+ls
+# FIFO.txt
+# run.do
+# sync_fifo_tb.v
+# sync_fifo.v
+# sync_test_cases_tb.v
+# transcript
+# vsim.wlf
+# work
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 18:26:51 on Jun 02,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 18:26:52 on Jun 02,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 18:26:52 on Jun 02,2025
+# vlog -reportprogress 300 sync_test_cases_tb.v 
+# -- Compiling module tb
+# ** Warning: sync_test_cases_tb.v(64): (vlog-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+# 
+# Top level modules:
+# 	tb
+# End time: 18:26:53 on Jun 02,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# vsim -novopt -suppress 12110 tb "+TEST_NAME:test_overflow" 
+# Start time: 18:26:53 on Jun 02,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/work.sync_fifo
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.sync_fifo
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+#    Time: 0 ns  Iteration: 0  Instance: /tb File: sync_test_cases_tb.v Line: 64
+#                   15	==========================OVERFLOW flag before testing:0===================
+#                  195	==========================OVERFLOW flag before testing:1===================
+#                  205	==========================OVERFLOW flag before testing:0===================
+#                  215	==========================OVERFLOW flag before testing:1===================
+#                  375	==========================OVERFLOW flag before testing:0===================
+# ** Note: $finish    : sync_test_cases_tb.v(104)
+#    Time: 635 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at sync_test_cases_tb.v line 104
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 18:27:26 on Jun 02,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 18:27:26 on Jun 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 18:27:26 on Jun 02,2025
+# vlog -reportprogress 300 sync_test_cases_tb.v 
+# -- Compiling module tb
+# ** Warning: sync_test_cases_tb.v(64): (vlog-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+# 
+# Top level modules:
+# 	tb
+# End time: 18:27:27 on Jun 02,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# End time: 18:27:28 on Jun 02,2025, Elapsed time: 0:00:35
+# Errors: 0, Warnings: 2
+# vsim -novopt -suppress 12110 tb "+TEST_NAME:test_overflow" 
+# Start time: 18:27:28 on Jun 02,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/work.sync_fifo
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.sync_fifo
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+#    Time: 0 ns  Iteration: 0  Instance: /tb File: sync_test_cases_tb.v Line: 64
+#                   15	==========================OVERFLOW flag before testing:0===================
+#                  195	==========================OVERFLOW flag before testing:1===================
+#                  205	==========================OVERFLOW flag before testing:0===================
+# ** Note: $finish    : sync_test_cases_tb.v(102)
+#    Time: 295 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at sync_test_cases_tb.v line 102
+
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 18:28:14 on Jun 02,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 18:28:14 on Jun 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 18:28:14 on Jun 02,2025
+# vlog -reportprogress 300 sync_test_cases_tb.v 
+# -- Compiling module tb
+# ** Warning: sync_test_cases_tb.v(64): (vlog-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+# 
+# Top level modules:
+# 	tb
+# End time: 18:28:15 on Jun 02,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# End time: 18:28:18 on Jun 02,2025, Elapsed time: 0:00:50
+# Errors: 0, Warnings: 2
+# vsim -novopt -suppress 12110 tb "+TEST_NAME:test_overflow" 
+# Start time: 18:28:18 on Jun 02,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/work.sync_fifo
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.sync_fifo
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+#    Time: 0 ns  Iteration: 0  Instance: /tb File: sync_test_cases_tb.v Line: 64
+#                   15	==========================OVERFLOW flag before testing:0===================
+#                  195	===========================OVERFLOW flag after testing:0====================
+# ** Note: $finish    : sync_test_cases_tb.v(100)
+#    Time: 295 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at sync_test_cases_tb.v line 100
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 18:29:00 on Jun 02,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 18:29:00 on Jun 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 18:29:00 on Jun 02,2025
+# vlog -reportprogress 300 sync_test_cases_tb.v 
+# -- Compiling module tb
+# ** Warning: sync_test_cases_tb.v(64): (vlog-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+# 
+# Top level modules:
+# 	tb
+# End time: 18:29:01 on Jun 02,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# End time: 18:29:05 on Jun 02,2025, Elapsed time: 0:00:47
+# Errors: 0, Warnings: 2
+# vsim -novopt -suppress 12110 tb "+TEST_NAME:test_overflow" 
+# Start time: 18:29:05 on Jun 02,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/work.sync_fifo
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.sync_fifo
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+#    Time: 0 ns  Iteration: 0  Instance: /tb File: sync_test_cases_tb.v Line: 64
+#                   15	==========================OVERFLOW flag before testing:0===================
+#                  196	===========================OVERFLOW flag after testing:1====================
+# ** Note: $finish    : sync_test_cases_tb.v(101)
+#    Time: 296 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at sync_test_cases_tb.v line 101
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 18:29:54 on Jun 02,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 18:29:54 on Jun 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 18:29:54 on Jun 02,2025
+# vlog -reportprogress 300 sync_test_cases_tb.v 
+# -- Compiling module tb
+# ** Warning: sync_test_cases_tb.v(64): (vlog-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+# 
+# Top level modules:
+# 	tb
+# End time: 18:29:55 on Jun 02,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# End time: 18:29:58 on Jun 02,2025, Elapsed time: 0:00:53
+# Errors: 0, Warnings: 2
+# vsim -novopt -suppress 12110 tb "+TEST_NAME:test_underflow" 
+# Start time: 18:29:58 on Jun 02,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/work.sync_fifo
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.sync_fifo
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+#    Time: 0 ns  Iteration: 0  Instance: /tb File: sync_test_cases_tb.v Line: 64
+# ============================UNDERFLOW flag before testing:0==================
+# =============================UNDERFLOW flag after testing:1===================
+# ** Note: $finish    : sync_test_cases_tb.v(104)
+#    Time: 186 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at sync_test_cases_tb.v line 104
+# Causality operation skipped due to absence of debug database file
+
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 18:31:09 on Jun 02,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 18:31:10 on Jun 02,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 18:31:10 on Jun 02,2025
+# vlog -reportprogress 300 sync_test_cases_tb.v 
+# -- Compiling module tb
+# ** Warning: sync_test_cases_tb.v(64): (vlog-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+# 
+# Top level modules:
+# 	tb
+# End time: 18:31:10 on Jun 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 18:31:11 on Jun 02,2025, Elapsed time: 0:01:13
+# Errors: 0, Warnings: 2
+# vsim -novopt -suppress 12110 tb "+TEST_NAME:test_concurrent_wr_rd" 
+# Start time: 18:31:11 on Jun 02,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/work.sync_fifo
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.sync_fifo
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+#    Time: 0 ns  Iteration: 0  Instance: /tb File: sync_test_cases_tb.v Line: 64
+# ** Note: $finish    : sync_test_cases_tb.v(104)
+#    Time: 305 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at sync_test_cases_tb.v line 104
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 18:31:48 on Jun 02,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 18:31:49 on Jun 02,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 18:31:49 on Jun 02,2025
+# vlog -reportprogress 300 sync_test_cases_tb.v 
+# -- Compiling module tb
+# ** Warning: sync_test_cases_tb.v(64): (vlog-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+# 
+# Top level modules:
+# 	tb
+# End time: 18:31:49 on Jun 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 18:31:53 on Jun 02,2025, Elapsed time: 0:00:42
+# Errors: 0, Warnings: 2
+# vsim -novopt -suppress 12110 tb "+TEST_NAME:test_concurrent_wr_rd" 
+# Start time: 18:31:53 on Jun 02,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/work.sync_fifo
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.sync_fifo
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+#    Time: 0 ns  Iteration: 0  Instance: /tb File: sync_test_cases_tb.v Line: 64
+# ** Note: $finish    : sync_test_cases_tb.v(102)
+#    Time: 185 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at sync_test_cases_tb.v line 102
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 18:45:07 on Jun 02,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 18:45:08 on Jun 02,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 18:45:08 on Jun 02,2025
+# vlog -reportprogress 300 sync_test_cases_tb.v 
+# -- Compiling module tb
+# ** Error: sync_test_cases_tb.v(107): (vlog-2730) Undefined variable: 'clk'.
+# End time: 18:45:08 on Jun 02,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+# Error in macro ./run.do line 4
+# /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog sync_test_cases_tb.v"
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 18:45:19 on Jun 02,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 18:45:19 on Jun 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 18:45:19 on Jun 02,2025
+# vlog -reportprogress 300 sync_test_cases_tb.v 
+# -- Compiling module tb
+# ** Warning: sync_test_cases_tb.v(64): (vlog-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+# 
+# Top level modules:
+# 	tb
+# End time: 18:45:20 on Jun 02,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# End time: 18:45:22 on Jun 02,2025, Elapsed time: 0:13:29
+# Errors: 1, Warnings: 2
+# vsim -novopt -suppress 12110 tb "+TEST_NAME:test_concurrent_wr_rd" 
+# Start time: 18:45:22 on Jun 02,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/work.sync_fifo
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.sync_fifo
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+#    Time: 0 ns  Iteration: 0  Instance: /tb File: sync_test_cases_tb.v Line: 64
+# ** Note: $finish    : sync_test_cases_tb.v(113)
+#    Time: 7885 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at sync_test_cases_tb.v line 113
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 18:48:07 on Jun 02,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 18:48:07 on Jun 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 18:48:07 on Jun 02,2025
+# vlog -reportprogress 300 sync_test_cases_tb.v 
+# -- Compiling module tb
+# ** Warning: sync_test_cases_tb.v(64): (vlog-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+# 
+# Top level modules:
+# 	tb
+# End time: 18:48:08 on Jun 02,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# End time: 18:48:10 on Jun 02,2025, Elapsed time: 0:02:48
+# Errors: 0, Warnings: 2
+# vsim -novopt -suppress 12110 tb "+TEST_NAME:test_concurrent_wr_rd" 
+# Start time: 18:48:10 on Jun 02,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/work.sync_fifo
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.sync_fifo
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+#    Time: 0 ns  Iteration: 0  Instance: /tb File: sync_test_cases_tb.v Line: 64
+# ** Note: $finish    : sync_test_cases_tb.v(113)
+#    Time: 475 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at sync_test_cases_tb.v line 113
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 18:53:26 on Jun 02,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 18:53:27 on Jun 02,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 18:53:27 on Jun 02,2025
+# vlog -reportprogress 300 sync_test_cases_tb.v 
+# -- Compiling module tb
+# ** Warning: sync_test_cases_tb.v(64): (vlog-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+# 
+# Top level modules:
+# 	tb
+# End time: 18:53:28 on Jun 02,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# End time: 18:53:30 on Jun 02,2025, Elapsed time: 0:05:20
+# Errors: 0, Warnings: 2
+# vsim -novopt -suppress 12110 tb "+TEST_NAME:test_concurrent_wr_rd" 
+# Start time: 18:53:30 on Jun 02,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/work.sync_fifo
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.sync_fifo
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+#    Time: 0 ns  Iteration: 0  Instance: /tb File: sync_test_cases_tb.v Line: 64
+#                   35	write data:0
+#                   35	Read data:0
+#                   95	write data:0
+#                  115	Read data:0
+#                  185	write data:0
+#                  205	Read data:36
+#                  235	write data:0
+#                  305	Read data:129
+#                  315	write data:0
+#                  345	Read data:9
+# ** Note: $finish    : sync_test_cases_tb.v(115)
+#    Time: 475 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at sync_test_cases_tb.v line 115
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 18:54:03 on Jun 02,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 18:54:03 on Jun 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 18:54:03 on Jun 02,2025
+# vlog -reportprogress 300 sync_test_cases_tb.v 
+# -- Compiling module tb
+# ** Warning: sync_test_cases_tb.v(64): (vlog-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+# 
+# Top level modules:
+# 	tb
+# End time: 18:54:04 on Jun 02,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# End time: 18:54:06 on Jun 02,2025, Elapsed time: 0:00:36
+# Errors: 0, Warnings: 2
+# vsim -novopt -suppress 12110 tb "+TEST_NAME:test_concurrent_wr_rd" 
+# Start time: 18:54:06 on Jun 02,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/work.sync_fifo
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.sync_fifo
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+#    Time: 0 ns  Iteration: 0  Instance: /tb File: sync_test_cases_tb.v Line: 64
+#                   36	write data:0
+#                   36	Read data:0
+#                   96	write data:0
+#                  116	Read data:36
+#                  186	write data:0
+#                  206	Read data:129
+#                  236	write data:0
+#                  306	Read data:9
+#                  316	write data:0
+#                  346	Read data:99
+# ** Note: $finish    : sync_test_cases_tb.v(117)
+#    Time: 475 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at sync_test_cases_tb.v line 117
+
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 18:56:39 on Jun 02,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 18:56:40 on Jun 02,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 18:56:40 on Jun 02,2025
+# vlog -reportprogress 300 sync_test_cases_tb.v 
+# -- Compiling module tb
+# ** Warning: sync_test_cases_tb.v(64): (vlog-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+# 
+# Top level modules:
+# 	tb
+# End time: 18:56:40 on Jun 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 18:56:43 on Jun 02,2025, Elapsed time: 0:02:37
+# Errors: 0, Warnings: 2
+# vsim -novopt -suppress 12110 tb "+TEST_NAME:test_concurrent_wr_rd" 
+# Start time: 18:56:43 on Jun 02,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/work.sync_fifo
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.sync_fifo
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+#    Time: 0 ns  Iteration: 0  Instance: /tb File: sync_test_cases_tb.v Line: 64
+# ** Note: $finish    : sync_test_cases_tb.v(113)
+#    Time: 475 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at sync_test_cases_tb.v line 113
+ls
+# ASYNCHRONOUS
+# FIFO.txt
+# SYNCHRONOUS
+cd ASYNCHRONOUS
+# Cannot change directory while a simulation is in progress.
+# Use the "quit -sim" command to unload the design first.
+quit -sim
+# End time: 20:59:43 on Jun 02,2025, Elapsed time: 2:03:00
+# Errors: 0, Warnings: 2
+cd ASYNCHRONOUS
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 20:59:51 on Jun 02,2025
+# vlog -reportprogress 300 async_fifo.v 
+# -- Compiling module Async_fifo
+# ** Error (suppressible): async_fifo.v(73): (vlog-2388) 'rd_toggle_f' already declared in this scope (Async_fifo) at async_fifo.v(23).
+# ** Error (suppressible): async_fifo.v(73): (vlog-2388) 'wr_toggle_f' already declared in this scope (Async_fifo) at async_fifo.v(23).
+# ** Error: async_fifo.v(78): (vlog-2730) Undefined variable: 'rd_toggle_f_wr_clk'.
+# ** Error: async_fifo.v(84): (vlog-2730) Undefined variable: 'wr_toggle_f_rd_clk'.
+# End time: 20:59:52 on Jun 02,2025, Elapsed time: 0:00:01
+# Errors: 4, Warnings: 0
+# ** Error: /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+# Error in macro ./run.do line 2
+# /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog async_fifo.v"
+
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 21:00:23 on Jun 02,2025
+# vlog -reportprogress 300 async_fifo.v 
+# -- Compiling module Async_fifo
+# 
+# Top level modules:
+# 	Async_fifo
+# End time: 21:00:23 on Jun 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 21:00:23 on Jun 02,2025
+# vlog -reportprogress 300 async_test_cases_tb.v 
+# -- Compiling module tb
+# ** Error: async_test_cases_tb.v(38): (vlog-2730) Undefined variable: 'clk_i'.
+# End time: 21:00:24 on Jun 02,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# ** Error: /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+# Error in macro ./run.do line 3
+# /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog async_test_cases_tb.v"
+
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 21:00:50 on Jun 02,2025
+# vlog -reportprogress 300 async_fifo.v 
+# -- Compiling module Async_fifo
+# 
+# Top level modules:
+# 	Async_fifo
+# End time: 21:00:50 on Jun 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 21:00:50 on Jun 02,2025
+# vlog -reportprogress 300 async_test_cases_tb.v 
+# -- Compiling module tb
+# ** Warning: async_test_cases_tb.v(70): (vlog-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+# 
+# Top level modules:
+# 	tb
+# End time: 21:00:51 on Jun 02,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# vsim -novopt -suppress 12110 tb "+TEST_NAME:test_full" 
+# Start time: 21:00:51 on Jun 02,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/ASYNCHRONOUS/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# ** Error: (vsim-3033) Instantiation of 'sync_fifo' failed. The design unit was not found.
+#    Time: 0 ns  Iteration: 0  Instance: /tb File: async_test_cases_tb.v Line: 12
+#         Searched libraries:
+#             /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/ASYNCHRONOUS/work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 6
+cd ASYNCHRONOUS
+# couldn't change working directory to "ASYNCHRONOUS": no such file or directory
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 21:01:04 on Jun 02,2025
+# vlog -reportprogress 300 async_fifo.v 
+# -- Compiling module Async_fifo
+# 
+# Top level modules:
+# 	Async_fifo
+# End time: 21:01:05 on Jun 02,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 21:01:05 on Jun 02,2025
+# vlog -reportprogress 300 async_test_cases_tb.v 
+# -- Compiling module tb
+# ** Warning: async_test_cases_tb.v(70): (vlog-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+# 
+# Top level modules:
+# 	tb
+# End time: 21:01:05 on Jun 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vsim -novopt -suppress 12110 tb "+TEST_NAME:test_full" 
+# Start time: 21:00:51 on Jun 02,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/ASYNCHRONOUS/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# ** Error: (vsim-3033) Instantiation of 'async_fifo' failed. The design unit was not found.
+#    Time: 0 ns  Iteration: 0  Instance: /tb File: async_test_cases_tb.v Line: 12
+#         Searched libraries:
+#             /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/ASYNCHRONOUS/work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 6
+
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 21:01:32 on Jun 02,2025
+# vlog -reportprogress 300 async_fifo.v 
+# -- Compiling module Async_fifo
+# 
+# Top level modules:
+# 	Async_fifo
+# End time: 21:01:33 on Jun 02,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 21:01:33 on Jun 02,2025
+# vlog -reportprogress 300 async_test_cases_tb.v 
+# -- Compiling module tb
+# ** Warning: async_test_cases_tb.v(70): (vlog-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+# 
+# Top level modules:
+# 	tb
+# End time: 21:01:33 on Jun 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vsim -novopt -suppress 12110 tb "+TEST_NAME:test_full" 
+# Start time: 21:00:51 on Jun 02,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/ASYNCHRONOUS/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/ASYNCHRONOUS/work.Async_fifo
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.Async_fifo
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+#    Time: 0 ns  Iteration: 0  Instance: /tb File: async_test_cases_tb.v Line: 70
+# ==========================Full flag before testing:0==================
+# ==========================Full flag after testing:0=====================
+# ** Note: $finish    : async_test_cases_tb.v(119)
+#    Time: 514 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at async_test_cases_tb.v line 119
+# End time: 21:11:57 on Jun 02,2025, Elapsed time: 0:11:06
+# Errors: 2, Warnings: 4

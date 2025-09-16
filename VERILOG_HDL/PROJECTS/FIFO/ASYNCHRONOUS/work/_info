@@ -1,0 +1,58 @@
+m255
+K4
+z2
+!s11f vlog 2025.1_1 2025.02, Feb 13 2025
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/ASYNCHRONOUS
+vAsync_fifo
+Z1 !s110 1748967831
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+2async_fifo.v
+!i10b 1
+!s100 >KPD3UKT9;;W:TB5oE87P3
+Ig_VbM155Z_QFP<ze>QZLM0
+R0
+w1748912484
+8async_fifo.v
+Fasync_fifo.v
+!i122 7
+L0 1 90
+Z3 OL;L;2025.1_1;82
+31
+!s108 1748967828.000000
+!s107 async_fifo.v|
+!s90 -reportprogress|300|async_fifo.v|
+!i113 0
+Z4 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z5 tCvgOpt 0
+n@async_fifo
+vtb
+R1
+R2
+r1
+!s85 0
+2async_test_cases_tb.v
+!i10b 1
+!s100 XQBcd09`XElM`BOCVbdEf0
+IJFh]eC_RDE=:S6S9ZKT4;1
+R0
+w1748912490
+8async_test_cases_tb.v
+Fasync_test_cases_tb.v
+!i122 8
+L0 1 122
+R3
+31
+!s108 1748967831.000000
+!s107 async_test_cases_tb.v|
+!s90 -reportprogress|300|async_test_cases_tb.v|
+!i113 0
+R4
+R5

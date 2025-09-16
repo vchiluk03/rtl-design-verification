@@ -1,0 +1,1487 @@
+# //  Questa Sim-64
+# //  Version 2025.1_1 linux_x86_64 Feb 13 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# vsim do 
+# Start time: 15:49:33 on Jun 10,2025
+# ** Error (suppressible): (vsim-19) Failed to access library 'work' at "work".
+# No such file or directory. (errno = ENOENT)
+# Error loading design
+# End time: 15:49:34 on Jun 10,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+ls
+# pattern_detector.v
+# run.do
+# tb.v
+# transcript
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 15:49:40 on Jun 10,2025
+# vlog -reportprogress 300 pattern_detector.v 
+# -- Compiling module pattern_detector
+# ** Error: pattern_detector.v(30): (vlog-2730) Undefined variable: 'clk'.
+# ** Error: pattern_detector.v(31): (vlog-2730) Undefined variable: 'rst'.
+# ** Error: pattern_detector.v(6): (vlog-2730) Undefined variable: 'valid_i'.
+# ** Error: pattern_detector.v(6): (vlog-13294) Identifier must be declared with a port mode: valid_i.
+# ** Error: pattern_detector.v(6): (vlog-2730) Undefined variable: 'd_in'.
+# ** Error: pattern_detector.v(6): (vlog-13294) Identifier must be declared with a port mode: d_in.
+# End time: 15:49:41 on Jun 10,2025, Elapsed time: 0:00:01
+# Errors: 6, Warnings: 0
+# ** Error: /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+# Error in macro ./run.do line 2
+# /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog pattern_detector.v"
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 15:51:18 on Jun 10,2025
+# vlog -reportprogress 300 pattern_detector.v 
+# -- Compiling module pattern_detector
+# ** Error (suppressible): pattern_detector.v(43): (vlog-13299) Undefined variable: 'valid_i'.
+# ** Error (suppressible): pattern_detector.v(44): (vlog-13299) Undefined variable: 'valid_i'.
+# ** Error (suppressible): pattern_detector.v(45): (vlog-13299) Undefined variable: 'valid_i'.
+# ** Error (suppressible): pattern_detector.v(46): (vlog-13299) Undefined variable: 'valid_i'.
+# ** Error (suppressible): pattern_detector.v(47): (vlog-13299) Undefined variable: 'valid_i'.
+# ** Error (suppressible): pattern_detector.v(48): (vlog-13299) Undefined variable: 'valid_i'.
+# ** Error: pattern_detector.v(6): (vlog-2730) Undefined variable: 'valid_i'.
+# ** Error: pattern_detector.v(6): (vlog-13294) Identifier must be declared with a port mode: valid_i.
+# ** Error: pattern_detector.v(6): (vlog-2730) Undefined variable: 'd_in'.
+# ** Error: pattern_detector.v(6): (vlog-13294) Identifier must be declared with a port mode: d_in.
+# End time: 15:51:18 on Jun 10,2025, Elapsed time: 0:00:00
+# Errors: 10, Warnings: 0
+# ** Error: /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+# Error in macro ./run.do line 2
+# /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog pattern_detector.v"
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 15:51:36 on Jun 10,2025
+# vlog -reportprogress 300 pattern_detector.v 
+# -- Compiling module pattern_detector
+# ** Error: pattern_detector.v(6): (vlog-2730) Undefined variable: 'd_in'.
+# ** Error: pattern_detector.v(6): (vlog-13294) Identifier must be declared with a port mode: d_in.
+# End time: 15:51:36 on Jun 10,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+# Error in macro ./run.do line 2
+# /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog pattern_detector.v"
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 15:51:46 on Jun 10,2025
+# vlog -reportprogress 300 pattern_detector.v 
+# -- Compiling module pattern_detector
+# ** Error: pattern_detector.v(43): (vlog-2730) Undefined variable: 'din'.
+# End time: 15:51:46 on Jun 10,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+# Error in macro ./run.do line 2
+# /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog pattern_detector.v"
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 15:52:17 on Jun 10,2025
+# vlog -reportprogress 300 pattern_detector.v 
+# -- Compiling module pattern_detector
+# 
+# Top level modules:
+# 	pattern_detector
+# End time: 15:52:18 on Jun 10,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 15:52:18 on Jun 10,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 15:52:18 on Jun 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -suppress 12110 tb 
+# Start time: 15:52:18 on Jun 10,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FSMs/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# ** Error: (vsim-3037) Missing instance name in instantiation of 'pattern_detector'.
+#    Time: 0 ns  Iteration: 0  Instance: /tb File: tb.v Line: 7
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 6
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 15:52:32 on Jun 10,2025
+# vlog -reportprogress 300 pattern_detector.v 
+# -- Compiling module pattern_detector
+# 
+# Top level modules:
+# 	pattern_detector
+# End time: 15:52:32 on Jun 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 15:52:32 on Jun 10,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 15:52:33 on Jun 10,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -novopt -suppress 12110 tb 
+# Start time: 15:52:18 on Jun 10,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FSMs/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FSMs/work.pattern_detector
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.pattern_detector
+# ** Note: $finish    : tb.v(27)
+#    Time: 6065 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb.v line 27
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 15:53:58 on Jun 10,2025
+# vlog -reportprogress 300 pattern_detector.v 
+# -- Compiling module pattern_detector
+# 
+# Top level modules:
+# 	pattern_detector
+# End time: 15:53:58 on Jun 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 15:53:58 on Jun 10,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 15:53:59 on Jun 10,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 15:54:03 on Jun 10,2025, Elapsed time: 0:01:45
+# Errors: 1, Warnings: 2
+# vsim -novopt -suppress 12110 tb 
+# Start time: 15:54:03 on Jun 10,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FSMs/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FSMs/work.pattern_detector
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.pattern_detector
+# ** Note: $finish    : tb.v(28)
+#    Time: 6065 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb.v line 28
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 15:55:09 on Jun 10,2025
+# vlog -reportprogress 300 pattern_detector.v 
+# -- Compiling module pattern_detector
+# 
+# Top level modules:
+# 	pattern_detector
+# End time: 15:55:10 on Jun 10,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 15:55:10 on Jun 10,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 15:55:10 on Jun 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:55:12 on Jun 10,2025, Elapsed time: 0:01:09
+# Errors: 0, Warnings: 1
+# vsim -novopt -suppress 12110 tb 
+# Start time: 15:55:13 on Jun 10,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FSMs/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FSMs/work.pattern_detector
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.pattern_detector
+# input is 
+# input is  
+# input is  
+# input is  
+# input is  
+# input is  
+# input is 
+# input is 
+# input is  
+# input is 
+# input is 
+# input is 
+# input is 
+# input is  
+# input is  
+# input is  
+# input is  
+# input is  
+# input is  
+# input is 
+# input is 
+# input is 
+# input is  
+# input is  
+# input is 
+# input is 
+# input is  
+# input is  
+# input is 
+# input is  
+# input is 
+# input is 
+# input is  
+# input is  
+# input is 
+# input is  
+# input is  
+# input is  
+# input is 
+# input is  
+# input is 
+# input is  
+# input is  
+# input is 
+# input is 
+# input is  
+# input is 
+# input is 
+# input is  
+# input is 
+# input is  
+# input is 
+# input is 
+# input is 
+# input is  
+# input is  
+# input is  
+# input is 
+# input is  
+# input is 
+# input is 
+# input is 
+# input is  
+# input is 
+# input is 
+# input is 
+# input is  
+# input is  
+# input is  
+# input is 
+# input is  
+# input is 
+# input is  
+# input is 
+# input is  
+# input is 
+# input is  
+# input is 
+# input is 
+# input is 
+# input is 
+# input is 
+# input is  
+# input is  
+# input is 
+# input is 
+# input is  
+# input is  
+# input is  
+# input is  
+# input is 
+# input is  
+# input is  
+# input is 
+# input is 
+# input is  
+# input is 
+# input is  
+# input is 
+# input is 
+# input is 
+# input is 
+# input is 
+# input is 
+# input is 
+# input is 
+# input is  
+# input is 
+# input is  
+# input is 
+# input is  
+# input is 
+# input is  
+# input is  
+# input is 
+# input is  
+# input is  
+# input is  
+# input is  
+# input is 
+# input is 
+# input is 
+# input is  
+# input is 
+# input is 
+# input is  
+# input is 
+# input is  
+# input is 
+# input is  
+# input is  
+# input is  
+# input is 
+# input is  
+# input is 
+# input is 
+# input is 
+# input is  
+# input is 
+# input is 
+# input is 
+# input is  
+# input is 
+# input is 
+# input is 
+# input is  
+# input is 
+# input is  
+# input is  
+# input is  
+# input is 
+# input is 
+# input is 
+# input is 
+# input is  
+# input is  
+# input is 
+# input is 
+# input is  
+# input is  
+# input is  
+# input is 
+# input is 
+# input is  
+# input is 
+# input is 
+# input is 
+# input is  
+# input is 
+# input is 
+# input is  
+# input is  
+# input is 
+# input is 
+# input is  
+# input is 
+# input is  
+# input is  
+# input is 
+# input is 
+# input is  
+# input is 
+# input is 
+# input is  
+# input is 
+# input is 
+# input is 
+# input is 
+# input is  
+# input is  
+# input is 
+# input is 
+# input is  
+# input is  
+# input is 
+# input is  
+# input is  
+# input is 
+# input is 
+# input is  
+# input is  
+# input is 
+# input is  
+# input is 
+# input is  
+# input is 
+# input is  
+# input is 
+# input is  
+# input is 
+# input is 
+# input is  
+# input is 
+# input is  
+# input is  
+# input is 
+# input is  
+# input is 
+# input is  
+# input is 
+# input is  
+# input is  
+# input is 
+# input is 
+# input is 
+# input is  
+# input is 
+# input is  
+# input is  
+# input is  
+# input is  
+# input is 
+# input is  
+# input is 
+# input is 
+# input is 
+# input is  
+# input is 
+# input is  
+# input is  
+# input is 
+# input is 
+# input is  
+# input is  
+# input is 
+# input is  
+# input is  
+# input is 
+# input is  
+# input is 
+# input is  
+# input is  
+# input is 
+# input is 
+# input is  
+# input is  
+# input is 
+# input is 
+# input is 
+# input is  
+# input is 
+# input is  
+# input is 
+# input is 
+# input is 
+# input is 
+# input is 
+# input is 
+# input is  
+# input is 
+# input is 
+# input is 
+# input is 
+# input is  
+# input is  
+# input is 
+# input is 
+# input is  
+# input is  
+# input is  
+# input is 
+# input is  
+# input is  
+# input is  
+# input is 
+# input is  
+# input is  
+# input is  
+# input is 
+# input is  
+# input is  
+# input is  
+# input is  
+# input is  
+# input is  
+# input is 
+# input is  
+# input is 
+# input is  
+# input is  
+# input is  
+# input is  
+# input is  
+# input is  
+# input is 
+# input is  
+# input is 
+# input is 
+# input is 
+# input is  
+# input is  
+# input is 
+# input is 
+# input is 
+# input is 
+# input is 
+# input is  
+# input is  
+# input is  
+# input is 
+# input is 
+# input is 
+# input is  
+# input is  
+# input is  
+# input is 
+# input is 
+# input is  
+# input is  
+# input is  
+# input is  
+# input is 
+# input is  
+# input is  
+# input is  
+# input is  
+# input is 
+# input is 
+# input is 
+# input is 
+# input is  
+# input is 
+# input is 
+# input is  
+# input is 
+# input is 
+# input is 
+# input is 
+# input is 
+# input is  
+# input is  
+# input is 
+# input is  
+# input is  
+# input is 
+# input is 
+# input is  
+# input is 
+# input is 
+# input is 
+# input is  
+# input is 
+# input is 
+# input is  
+# input is  
+# input is 
+# input is  
+# input is 
+# input is 
+# input is 
+# input is  
+# input is 
+# input is  
+# input is 
+# input is 
+# input is 
+# input is  
+# input is 
+# input is 
+# input is 
+# input is  
+# input is 
+# input is 
+# input is  
+# input is 
+# input is  
+# input is  
+# input is  
+# input is  
+# input is  
+# input is 
+# input is  
+# input is 
+# input is  
+# input is  
+# input is  
+# input is  
+# input is  
+# input is 
+# input is  
+# input is 
+# input is 
+# input is  
+# input is 
+# input is  
+# input is  
+# input is  
+# input is  
+# input is  
+# input is 
+# input is 
+# input is  
+# input is  
+# input is 
+# input is  
+# input is  
+# input is 
+# input is  
+# input is  
+# input is  
+# input is  
+# input is  
+# input is  
+# input is 
+# input is 
+# input is 
+# input is  
+# input is  
+# input is  
+# input is  
+# input is  
+# input is 
+# input is 
+# input is  
+# input is 
+# input is 
+# input is  
+# input is 
+# input is 
+# input is  
+# input is 
+# input is  
+# input is  
+# input is 
+# input is 
+# input is  
+# input is 
+# input is  
+# input is 
+# input is 
+# input is 
+# input is 
+# input is  
+# input is 
+# input is  
+# input is 
+# input is  
+# input is  
+# input is  
+# input is  
+# input is  
+# input is 
+# input is  
+# input is  
+# input is  
+# input is  
+# input is 
+# input is  
+# input is 
+# input is  
+# input is  
+# input is  
+# input is  
+# input is  
+# input is 
+# input is  
+# input is  
+# input is  
+# input is 
+# input is  
+# input is 
+# input is 
+# input is  
+# input is  
+# input is  
+# input is  
+# input is 
+# input is  
+# input is  
+# input is 
+# input is  
+# input is 
+# input is  
+# input is 
+# input is  
+# input is 
+# input is 
+# input is  
+# input is  
+# input is  
+# input is 
+# input is 
+# input is  
+# input is  
+# input is 
+# input is 
+# input is 
+# input is  
+# input is 
+# input is 
+# input is  
+# input is 
+# input is 
+# input is  
+# input is 
+# input is 
+# input is 
+# input is  
+# input is 
+# input is  
+# input is 
+# input is  
+# input is  
+# input is 
+# input is  
+# input is 
+# input is  
+# input is  
+# input is  
+# input is  
+# input is 
+# input is 
+# input is 
+# input is 
+# input is  
+# input is 
+# input is  
+# input is  
+# input is  
+# input is 
+# input is 
+# input is 
+# input is 
+# input is 
+# input is  
+# input is 
+# input is  
+# input is  
+# input is  
+# input is  
+# input is  
+# input is  
+# input is 
+# input is 
+# input is  
+# input is  
+# input is 
+# input is 
+# input is 
+# input is 
+# input is 
+# input is  
+# input is  
+# input is  
+# input is 
+# input is 
+# input is 
+# input is 
+# input is 
+# input is 
+# input is  
+# input is 
+# input is 
+# input is  
+# input is 
+# input is  
+# input is 
+# input is 
+# input is 
+# input is  
+# input is  
+# input is 
+# input is  
+# input is  
+# input is  
+# input is  
+# input is  
+# input is  
+# input is  
+# input is 
+# input is 
+# input is 
+# input is  
+# input is 
+# input is 
+# input is  
+# input is 
+# input is 
+# input is  
+# input is 
+# ** Note: $finish    : tb.v(29)
+#    Time: 6065 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb.v line 29
+# Causality operation skipped due to absence of debug database file
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:04:17 on Jun 10,2025
+# vlog -reportprogress 300 pattern_detector.v 
+# -- Compiling module pattern_detector
+# 
+# Top level modules:
+# 	pattern_detector
+# End time: 16:04:17 on Jun 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:04:17 on Jun 10,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 16:04:18 on Jun 10,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 16:04:19 on Jun 10,2025, Elapsed time: 0:09:06
+# Errors: 0, Warnings: 1
+# vsim -novopt -suppress 12110 tb 
+# Start time: 16:04:19 on Jun 10,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FSMs/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FSMs/work.pattern_detector
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.pattern_detector
+# Number of times pattern detected:x
+# ** Note: $finish    : tb.v(30)
+#    Time: 6065 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb.v line 30
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:05:10 on Jun 10,2025
+# vlog -reportprogress 300 pattern_detector.v 
+# -- Compiling module pattern_detector
+# 
+# Top level modules:
+# 	pattern_detector
+# End time: 16:05:10 on Jun 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:05:10 on Jun 10,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 16:05:11 on Jun 10,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 16:05:11 on Jun 10,2025, Elapsed time: 0:00:52
+# Errors: 0, Warnings: 1
+# vsim -novopt -suppress 12110 tb 
+# Start time: 16:05:11 on Jun 10,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FSMs/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FSMs/work.pattern_detector
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.pattern_detector
+# Number of times pattern detected:x
+# ** Note: $finish    : tb.v(30)
+#    Time: 6065 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb.v line 30
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:05:52 on Jun 10,2025
+# vlog -reportprogress 300 pattern_detector.v 
+# -- Compiling module pattern_detector
+# 
+# Top level modules:
+# 	pattern_detector
+# End time: 16:05:53 on Jun 10,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:05:53 on Jun 10,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 16:05:53 on Jun 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:05:55 on Jun 10,2025, Elapsed time: 0:00:44
+# Errors: 0, Warnings: 1
+# vsim -novopt -suppress 12110 tb 
+# Start time: 16:05:55 on Jun 10,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FSMs/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FSMs/work.pattern_detector
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.pattern_detector
+# Number of times pattern detected:18
+# ** Note: $finish    : tb.v(31)
+#    Time: 6065 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb.v line 31
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:16:36 on Jun 10,2025
+# vlog -reportprogress 300 pattern_detector.v 
+# -- Compiling module pattern_detector
+# ** Error: pattern_detector.v(8): In, out, or inout does not appear in port list: moore_OL.
+# ** Error: pattern_detector.v(8): In, out, or inout does not appear in port list: moore_NOL.
+# End time: 16:16:37 on Jun 10,2025, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 0
+# ** Error: /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+# Error in macro ./run.do line 2
+# /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog pattern_detector.v"
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:16:58 on Jun 10,2025
+# vlog -reportprogress 300 pattern_detector.v 
+# -- Compiling module pattern_detector
+# 
+# Top level modules:
+# 	pattern_detector
+# End time: 16:16:58 on Jun 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:16:58 on Jun 10,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 16:16:59 on Jun 10,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 16:17:00 on Jun 10,2025, Elapsed time: 0:11:05
+# Errors: 1, Warnings: 1
+# vsim -novopt -suppress 12110 tb 
+# Start time: 16:17:00 on Jun 10,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FSMs/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FSMs/work.pattern_detector
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.pattern_detector
+# Number of times pattern detected:22
+# ** Note: $finish    : tb.v(37)
+#    Time: 6065 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb.v line 37
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:17:18 on Jun 10,2025
+# vlog -reportprogress 300 pattern_detector.v 
+# -- Compiling module pattern_detector
+# 
+# Top level modules:
+# 	pattern_detector
+# End time: 16:17:19 on Jun 10,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:17:19 on Jun 10,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 16:17:19 on Jun 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:17:21 on Jun 10,2025, Elapsed time: 0:00:21
+# Errors: 0, Warnings: 1
+# vsim -novopt -suppress 12110 tb 
+# Start time: 16:17:21 on Jun 10,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FSMs/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FSMs/work.pattern_detector
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.pattern_detector
+# Number of times pattern detected:18
+# ** Note: $finish    : tb.v(37)
+#    Time: 6065 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb.v line 37
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:17:45 on Jun 10,2025
+# vlog -reportprogress 300 pattern_detector.v 
+# -- Compiling module pattern_detector
+# 
+# Top level modules:
+# 	pattern_detector
+# End time: 16:17:45 on Jun 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:17:45 on Jun 10,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 16:17:46 on Jun 10,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 16:17:47 on Jun 10,2025, Elapsed time: 0:00:26
+# Errors: 0, Warnings: 1
+# vsim -novopt -suppress 12110 tb 
+# Start time: 16:17:47 on Jun 10,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FSMs/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FSMs/work.pattern_detector
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.pattern_detector
+# Number of times pattern detected:22
+# ** Note: $finish    : tb.v(37)
+#    Time: 6065 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb.v line 37
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:31:50 on Jun 10,2025
+# vlog -reportprogress 300 pattern_detector.v 
+# -- Compiling module pattern_detector
+# 
+# Top level modules:
+# 	pattern_detector
+# End time: 16:31:51 on Jun 10,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:31:51 on Jun 10,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# ** Error: (vlog-13069) tb.v(21): near "endcase": syntax error, unexpected endcase, expecting ';'.
+# End time: 16:31:51 on Jun 10,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+# Error in macro ./run.do line 3
+# /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog tb.v"
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:32:18 on Jun 10,2025
+# vlog -reportprogress 300 pattern_detector.v 
+# -- Compiling module pattern_detector
+# 
+# Top level modules:
+# 	pattern_detector
+# End time: 16:32:19 on Jun 10,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:32:19 on Jun 10,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# ** Error: (vlog-13069) tb.v(21): near "endcase": syntax error, unexpected endcase, expecting ';'.
+# End time: 16:32:19 on Jun 10,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+# Error in macro ./run.do line 3
+# /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog tb.v"
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:32:27 on Jun 10,2025
+# vlog -reportprogress 300 pattern_detector.v 
+# -- Compiling module pattern_detector
+# 
+# Top level modules:
+# 	pattern_detector
+# End time: 16:32:27 on Jun 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:32:27 on Jun 10,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 16:32:28 on Jun 10,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 16:32:29 on Jun 10,2025, Elapsed time: 0:14:42
+# Errors: 2, Warnings: 1
+# vsim -novopt -suppress 12110 tb 
+# Start time: 16:32:29 on Jun 10,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FSMs/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FSMs/work.pattern_detector
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.pattern_detector
+# Number of times pattern detected:18
+# ** Note: $finish    : tb.v(46)
+#    Time: 6065 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb.v line 46
+ls
+# pattern_detector.v
+# QUALCOMM
+# run.do
+# tb.v
+# transcript
+# vsim.wlf
+# work
+ls
+# pattern_detector.v
+# QUALCOMM
+# run.do
+# tb.v
+# transcript
+# vsim.wlf
+# work
+cd QUALCOMM`
+# Cannot change directory while a simulation is in progress.
+# Use the "quit -sim" command to unload the design first.
+cd  QUALCOMM
+# Cannot change directory while a simulation is in progress.
+# Use the "quit -sim" command to unload the design first.
+quit -sim
+# End time: 18:18:09 on Jun 10,2025, Elapsed time: 1:45:40
+# Errors: 0, Warnings: 1
+cd QUALCOMM
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 18:18:32 on Jun 10,2025
+# vlog -reportprogress 300 pattern_detector_1.v 
+# -- Compiling module pattern_detector_1
+# ** Warning: pattern_detector_1.v(30): (vlog-2182) 'state' might be read before written in always_comb or always @* block.
+# 
+# Top level modules:
+# 	pattern_detector_1
+# End time: 18:18:33 on Jun 10,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 18:18:33 on Jun 10,2025
+# vlog -reportprogress 300 tb-1.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 18:18:34 on Jun 10,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -novopt -suppress 12110 tb 
+# Start time: 18:18:34 on Jun 10,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FSMs/QUALCOMM/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FSMs/QUALCOMM/work.pattern_detector_1
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.pattern_detector_1
+# ** Note: $finish    : tb-1.v(25)
+#    Time: 515 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb-1.v line 25
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 18:28:34 on Jun 10,2025
+# vlog -reportprogress 300 pattern_detector_1.v 
+# -- Compiling module pattern_detector_1
+# ** Warning: pattern_detector_1.v(30): (vlog-2182) 'state' might be read before written in always_comb or always @* block.
+# 
+# Top level modules:
+# 	pattern_detector_1
+# End time: 18:28:35 on Jun 10,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 18:28:35 on Jun 10,2025
+# vlog -reportprogress 300 tb-1.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 18:28:36 on Jun 10,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 18:28:37 on Jun 10,2025, Elapsed time: 0:10:03
+# Errors: 0, Warnings: 1
+# vsim -novopt -suppress 12110 tb 
+# Start time: 18:28:37 on Jun 10,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FSMs/QUALCOMM/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FSMs/QUALCOMM/work.pattern_detector_1
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.pattern_detector_1
+# ** Note: $finish    : tb-1.v(25)
+#    Time: 515 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb-1.v line 25
+
+
+ls
+# pattern_detector_1.v
+# run.do
+# tb-1.v
+# vsim.wlf
+# work
+quit -sim
+# End time: 20:26:21 on Jun 10,2025, Elapsed time: 1:57:44
+# Errors: 0, Warnings: 1
+ls
+# pattern_detector_1.v
+# run.do
+# tb-1.v
+# vsim.wlf
+# work
+cd ..
+ls
+# coffee_vending_machine.v
+# pattern_detector.v
+# QUALCOMM
+# run.do
+# tb.v
+# transcript
+# vsim.wlf
+# work
+ls
+# coffee_vending_machine.v
+# pattern_detector.v
+# QUALCOMM
+# run.do
+# tb.v
+# transcript
+# vsim.wlf
+# work
+cd ..
+ls
+# clock-2.v
+# D_FF
+# FIFO
+# FSMs
+# MEMORY_MODELLING
+# SYSTEM_VERILOG
+# transcript
+cd SYSTEM_VERILOG
+ls
+# OPERATORS
+cd OPERATORS
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 20:26:48 on Jun 10,2025
+# vlog -reportprogress 300 operators.sv 
+# -- Compiling module tb
+# ** Error: (vlog-13069) operators.sv(9): near "+=": syntax error, unexpected +=, expecting ++ or --.
+# ** Error: (vlog-13069) operators.sv(10): near "-=": syntax error, unexpected -=, expecting ++ or --.
+# ** Error: (vlog-13069) operators.sv(11): near "*=": syntax error, unexpected *=, expecting ++ or --.
+# ** Error: (vlog-13069) operators.sv(12): near "/=": syntax error, unexpected /=, expecting ++ or --.
+# ** Error: (vlog-13069) operators.sv(13): near "%=": syntax error, unexpected %=, expecting ++ or --.
+# ** Error: (vlog-13069) operators.sv(14): near "&=": syntax error, unexpected &=, expecting ++ or --.
+# ** Error: (vlog-13069) operators.sv(15): near "|=": syntax error, unexpected |=, expecting ++ or --.
+# ** Error: (vlog-13069) operators.sv(16): near "^=": syntax error, unexpected ^=, expecting ++ or --.
+# ** Error: (vlog-13069) operators.sv(17): near "<<=": syntax error, unexpected <<=, expecting ++ or --.
+# ** Error: (vlog-13069) operators.sv(18): near ">>=": syntax error, unexpected >>=, expecting ++ or --.
+# ** Error: (vlog-13069) operators.sv(19): near "<<<=": syntax error, unexpected <<<=, expecting ++ or --.
+# ** Error: (vlog-13069) operators.sv(20): near ">>>=": syntax error, unexpected >>>=, expecting ++ or --.
+# End time: 20:26:49 on Jun 10,2025, Elapsed time: 0:00:01
+# Errors: 12, Warnings: 0
+# ** Error: /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+# Error in macro ./run.do line 2
+# /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog operators.sv"
+
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 20:31:28 on Jun 10,2025
+# vlog -reportprogress 300 operators.sv 
+# -- Compiling module tb
+# ** Error: (vlog-13069) operators.sv(18): near "$display": syntax error, unexpected SYSTEM_IDENTIFIER, expecting ';'.
+# End time: 20:31:29 on Jun 10,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# ** Error: /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+# Error in macro ./run.do line 2
+# /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog operators.sv"
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 20:31:40 on Jun 10,2025
+# vlog -reportprogress 300 operators.sv 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 20:31:40 on Jun 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim tb -sv_seed 597349 
+# Start time: 20:31:40 on Jun 10,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): operators.sv(18): (vopt-2122) Invalid format specification '%='.
+# Optimization failed
+# ** Error: (vopt-2064) Compiler back-end code generation process terminated due to previous errors with code 12.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=2, Warnings=0.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 5
+cd OPERATORS
+# couldn't change working directory to "OPERATORS": no such file or directory
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 20:32:34 on Jun 10,2025
+# vlog -reportprogress 300 operators.sv 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 20:32:34 on Jun 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim tb -sv_seed 597349 
+# Start time: 20:31:40 on Jun 10,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.tb(fast)
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '*'.
+# Error in macro ./run.do line 7
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '*'.
+#     while executing
+# "add wave -r *"
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 20:33:30 on Jun 10,2025
+# vlog -reportprogress 300 operators.sv 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 20:33:30 on Jun 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:33:31 on Jun 10,2025, Elapsed time: 0:01:51
+# Errors: 2, Warnings: 0
+# vsim tb -sv_seed 597349 
+# Start time: 20:33:31 on Jun 10,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.tb(fast)
+# a+=b:1011
+# a-=b:10010
+# a*=b:2
+# a/=b:0
+# a%=bb:0
+# a&=b:0
+# a|=b:25
+# a^=b:0
+# a<<=b:0
+# a>>=b:0
+# a<<<=b:0
+# a>>>=b:0
+
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 20:37:33 on Jun 10,2025
+# vlog -reportprogress 300 operators.sv 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 20:37:34 on Jun 10,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 20:37:34 on Jun 10,2025, Elapsed time: 0:04:03
+# Errors: 0, Warnings: 0
+# vsim tb -sv_seed 597349 
+# Start time: 20:37:34 on Jun 10,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.tb(fast)
+# a+=b:1011
+# a-=b:10010
+# a*=b:2
+# a/=b:0
+# a%=b:0
+# a&=b:0
+# a|=b:25
+# a^=b:0
+# c<<=2:-800
+# c>>=2:1073741624
+# c<<<=2:-800
+# c>>>=2:-200
+
+
+
+
+
+ls
+# operators-1.sv
+# operators.sv
+# run.do
+# vsim.wlf
+# work
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 21:02:05 on Jun 10,2025
+# vlog -reportprogress 300 operators.sv 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 21:02:05 on Jun 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 21:02:05 on Jun 10,2025
+# vlog -reportprogress 300 operators-1.sv 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 21:02:06 on Jun 10,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 21:02:07 on Jun 10,2025, Elapsed time: 0:24:33
+# Errors: 0, Warnings: 0
+# vsim tb -sv_seed 597349 
+# Start time: 21:02:07 on Jun 10,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.tb(fast)
+# case equality: === : a=x01x, b=x00x, f=0
+# case inequality: !== : a=x01x, b=x00x, f=1
+# logical equality: == : a=x01x, b=x00x, f=0
+# logical inequality: != : a=x01x, b=x00x, f=1
+
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 21:08:20 on Jun 10,2025
+# vlog -reportprogress 300 operators.sv 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 21:08:21 on Jun 10,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 21:08:21 on Jun 10,2025
+# vlog -reportprogress 300 operators-1.sv 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 21:08:21 on Jun 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:08:22 on Jun 10,2025, Elapsed time: 0:06:15
+# Errors: 0, Warnings: 0
+# vsim tb -sv_seed 597349 
+# Start time: 21:08:22 on Jun 10,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.tb(fast)
+# case equality: === : a=x01x, b=x00z, f=0
+# case inequality: !== : a=x01x, b=x00z, f=1
+# logical equality: == : a=x01x, b=x00z, f=0
+# logical inequality: != : a=x01x, b=x00z, f=1
+# case equality: === : a=x00x, b=x00z, f=0
+# case inequality: !== : a=x00x, b=x00z, f=1
+# logical equality: == : a=x00x, b=x00z, f=x
+# logical inequality: != : a=x00x, b=x00z, f=x

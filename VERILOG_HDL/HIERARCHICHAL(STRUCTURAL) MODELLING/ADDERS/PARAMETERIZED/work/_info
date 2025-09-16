@@ -1,0 +1,42 @@
+m255
+K3
+13
+cModel Technology
+Z0 dF:\VLSI GURU\verilog\HIERARCHICHAL(STRUCTURAL) MODELLING\ADDERS\PARAMETERIZED
+vone_bit_full_adder
+IoZ<[OCofJ0B_@=1ReOZ4j1
+V59FSdhhSRH?eD4IBXDM9;2
+Z1 w1747685874
+F../1-bit_full_adder.v
+Z2 8param_full_adder.v
+Z3 Fparam_full_adder.v
+L0 1
+Z4 OV;L;6.3g_p1;37
+r1
+31
+o-O0
+!s85 0
+vparam_full_adder
+IM`l3n5_3Wkhf=^OH];e;O3
+VkIXPS?LZ5k7_JQ;AY2<OP3
+R1
+R2
+R3
+L0 7
+R4
+r1
+31
+o-O0
+!s85 0
+vtb
+I?ki^gNO=jP]UgmCM6NF:R3
+VRXiJiCLalm4Sdef9?9lUZ2
+w1747686079
+8tb.v
+Ftb.v
+L0 1
+R4
+r1
+!s85 0
+31
+o+define+MACRO=15 -O0

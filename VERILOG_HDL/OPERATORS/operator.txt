@@ -1,0 +1,34 @@
+//operators
+
+ARITHMETIC: +,-,*,/,%,**
+LOGICAL : &&, ||, !
+BITWISE: &, |, ^, ~^
+RELATIONAL: >,<,>=,<=,==
+CONCATENTAION: {}
+UNARY REDUCTION: &,|,^,~^
+SHIFT: >>,<<
+CONDITIONAL: ()? () : ()
+CASE EQUALITY: !==, ===
+REPETITION:  
+
+//practical use cases
+-----------------------
+unary reduction: when we want to check the value between bits of same vector.
+b = &a; //b=1, if all bits of a are 1. Otherwise 0.
+b = |a; //b=0, if all bits of a are 0. Otherwise 1.
+
+
+Significance of shift operator: 
+-------------------------------
+Left shift of vector by once: number will gets by 2. 
+	-if shifted by n-bits, then number gets multiplied by 2**n.
+Right shift of vector by once: number will gets divided  by 2.
+	-if shifted by n-bits, then number will gets divided by n times- division with 2**n.
+
+Example:
+--------
+a = 5'b01010; //10
+b = a>>1; --> 00101 --> 5
+c = a>>2; --> 00010 --> 2 //it should gets 2.5, but rounded off to lower integer(not nearest).
+
+//Any multiplication/division in hardware can be done by using shift operators.

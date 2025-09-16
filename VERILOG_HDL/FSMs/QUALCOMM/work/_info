@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2025.1_1 2025.02, Feb 13 2025
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/mnt/ncsudrive/v/vchiluk3/vlsi-guru/FSMs/QUALCOMM
+vpattern_detector_1
+Z1 !s110 1749594515
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+2pattern_detector_1.v
+!i10b 1
+!s100 Oi2=9QGal?NBKi]1;R7jM1
+I_ezKnh<C97NkFaRh1DiB;2
+R0
+w1749594509
+8pattern_detector_1.v
+Fpattern_detector_1.v
+!i122 2
+L0 5 39
+Z3 OL;L;2025.1_1;82
+31
+!s108 1749594514.000000
+!s107 pattern_detector_1.v|
+!s90 -reportprogress|300|pattern_detector_1.v|
+!i113 0
+Z4 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z5 tCvgOpt 0
+vtb
+R1
+R2
+r1
+!s85 0
+2tb-1.v
+!i10b 1
+!s100 5Zoi4I;i`57Bj<gN=O_cC2
+I=9d4ISdlPi4eBXgC0h`ET2
+R0
+w1749593793
+8tb-1.v
+Ftb-1.v
+!i122 3
+L0 1 28
+R3
+31
+!s108 1749594515.000000
+!s107 tb-1.v|
+!s90 -reportprogress|300|tb-1.v|
+!i113 0
+R4
+R5

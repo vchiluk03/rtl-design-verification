@@ -1,0 +1,10 @@
+index[0]:39
+index[1]:30
+index[2]:38
+index[3]:27
+index[4]:15
+index[5]:27
+index[6]:19
+index[7]:19
+index[8]:26
+index[9]:39

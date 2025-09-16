@@ -1,0 +1,42 @@
+m255
+K3
+13
+cModel Technology
+Z0 dF:\VLSI GURU\verilog\FULL_ADDER
+vfull_adder
+Im2WB`acg0;zMUQP[i;2LD0
+VaV:V92X43[6c52l1GZj271
+Z1 w1747156476
+Z2 8full_adder_gate-2.v
+Z3 Ffull_adder_gate-2.v
+L0 6
+Z4 OV;L;6.3g_p1;37
+r1
+31
+o-O0
+!s85 0
+vhalf_adder
+ISz7kV@z@@m79DKOh;UPR81
+VEnooaR<dT<QC6cWhNme:@1
+R1
+F../HALF_ADDER/half-adder-gate.v
+R2
+R3
+L0 1
+R4
+r1
+31
+o-O0
+!s85 0
+vtb
+IbeXcFej3>dG80[n>zJbn^1
+VV@Xn<HnSRM[I5c1?BH]3a3
+w1747155104
+8tb.v
+Ftb.v
+L0 1
+R4
+r1
+!s85 0
+31
+o-O0

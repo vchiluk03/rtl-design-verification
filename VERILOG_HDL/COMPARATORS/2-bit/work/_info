@@ -1,0 +1,42 @@
+m255
+K3
+13
+cModel Technology
+Z0 dF:\VLSI GURU\verilog\COMPARATORS\2-bit
+vcomp_1bit
+IcKocQEB2zW4;YV:V1Adh23
+V<2Unk8AEbe28NCNiGda`93
+Z1 w1747253174
+F../1-bit/comp_1bit_behv.v
+Z2 8comp_2bit_structural.v
+Z3 Fcomp_2bit_structural.v
+L0 3
+Z4 OV;L;6.3g_p1;37
+r1
+31
+o-O0
+!s85 0
+vcomp_2bit
+I2UfC=PZQfE[[WJUimH?Q41
+Vz=8i`YF0>zHXQWi?nmoej1
+R1
+R2
+R3
+L0 9
+R4
+r1
+31
+o-O0
+!s85 0
+vtb
+I[R?I86jYVUk=okhTRP0z_2
+VV@Xn<HnSRM[I5c1?BH]3a3
+w1747240125
+8tb.v
+Ftb.v
+L0 1
+R4
+r1
+!s85 0
+31
+o-O0

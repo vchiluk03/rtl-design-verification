@@ -1,0 +1,1962 @@
+# //  Questa Sim-64
+# //  Version 2025.1_1 linux_x86_64 Feb 13 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# vsim do 
+# Start time: 16:06:14 on Jun 03,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: (vopt-11) Could not find work.do.
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=0.
+# Error loading design
+# End time: 16:06:15 on Jun 03,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+ls
+# run.do
+# sync_fifo.v
+# tasks.v
+# tb.v
+# transcript
+# vsim.wlf
+# work
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:06:30 on Jun 03,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 16:06:31 on Jun 03,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:06:31 on Jun 03,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 16:06:31 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -suppress 12110 tb 
+# Start time: 16:06:31 on Jun 03,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.sync_fifo
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.sync_fifo
+# time-2:	========RESET APPLIED==========
+# USER WROTE DATA : 36			===>POINTS TO LOCATION : 0	==>FULL flag=0
+# USER WROTE DATA : 129			===>POINTS TO LOCATION : 1	==>FULL flag=0
+# USER WROTE DATA : 9			===>POINTS TO LOCATION : 2	==>FULL flag=0
+# USER WROTE DATA : 99			===>POINTS TO LOCATION : 3	==>FULL flag=0
+# USER WROTE DATA : 13			===>POINTS TO LOCATION : 4	==>FULL flag=0
+# USER WROTE DATA : 141			===>POINTS TO LOCATION : 5	==>FULL flag=0
+# USER WROTE DATA : 101			===>POINTS TO LOCATION : 6	==>FULL flag=0
+# USER WROTE DATA : 18			===>POINTS TO LOCATION : 7	==>FULL flag=0
+# USER WROTE DATA : 1			===>POINTS TO LOCATION : 8	==>FULL flag=0
+# USER WROTE DATA : 13			===>POINTS TO LOCATION : 9	==>FULL flag=0
+# USER WROTE DATA : 118			===>POINTS TO LOCATION : 10	==>FULL flag=0
+# USER WROTE DATA : 61			===>POINTS TO LOCATION : 11	==>FULL flag=0
+# USER WROTE DATA : 237			===>POINTS TO LOCATION : 12	==>FULL flag=0
+# USER WROTE DATA : 140			===>POINTS TO LOCATION : 13	==>FULL flag=0
+# USER WROTE DATA : 249			===>POINTS TO LOCATION : 14	==>FULL flag=0
+# USER WROTE DATA : 198			===>POINTS TO LOCATION : 15	==>FULL flag=0
+# USER WROTE DATA : 197			===>POINTS TO LOCATION : 16	==>FULL flag=0
+# USER WROTE DATA : 170			===>POINTS TO LOCATION : 17	==>FULL flag=0
+# USER WROTE DATA : 229			===>POINTS TO LOCATION : 18	==>FULL flag=0
+# USER WROTE DATA : 119			===>POINTS TO LOCATION : 19	==>FULL flag=0
+# USER WROTE DATA : 18			===>POINTS TO LOCATION : 20	==>FULL flag=0
+# USER WROTE DATA : 143			===>POINTS TO LOCATION : 21	==>FULL flag=0
+# USER WROTE DATA : 242			===>POINTS TO LOCATION : 22	==>FULL flag=0
+# USER WROTE DATA : 206			===>POINTS TO LOCATION : 23	==>FULL flag=0
+# USER WROTE DATA : 232			===>POINTS TO LOCATION : 24	==>FULL flag=0
+# USER WROTE DATA : 197			===>POINTS TO LOCATION : 25	==>FULL flag=0
+# USER WROTE DATA : 92			===>POINTS TO LOCATION : 26	==>FULL flag=0
+# USER WROTE DATA : 189			===>POINTS TO LOCATION : 27	==>FULL flag=0
+# USER WROTE DATA : 45			===>POINTS TO LOCATION : 28	==>FULL flag=0
+# USER WROTE DATA : 101			===>POINTS TO LOCATION : 29	==>FULL flag=0
+# USER WROTE DATA : 99			===>POINTS TO LOCATION : 30	==>FULL flag=0
+# USER WROTE DATA : 10			===>POINTS TO LOCATION : 31	==>FULL flag=0
+# USER WROTE DATA : 128			===>POINTS TO LOCATION : 0	==>FULL flag=1
+# ** Note: $finish    : tb.v(23)
+#    Time: 546 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb.v line 23
+
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:07:02 on Jun 03,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 16:07:02 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:07:02 on Jun 03,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 16:07:02 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:07:03 on Jun 03,2025, Elapsed time: 0:00:32
+# Errors: 0, Warnings: 1
+# vsim -novopt -suppress 12110 tb 
+# Start time: 16:07:03 on Jun 03,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.sync_fifo
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.sync_fifo
+# time-2:	========RESET APPLIED==========
+# USER WROTE DATA : 36			===>POINTS TO LOCATION : 0	==>FULL flag=0
+# USER WROTE DATA : 129			===>POINTS TO LOCATION : 1	==>FULL flag=0
+# USER WROTE DATA : 9			===>POINTS TO LOCATION : 2	==>FULL flag=0
+# USER WROTE DATA : 99			===>POINTS TO LOCATION : 3	==>FULL flag=0
+# USER WROTE DATA : 13			===>POINTS TO LOCATION : 4	==>FULL flag=0
+# USER WROTE DATA : 141			===>POINTS TO LOCATION : 5	==>FULL flag=0
+# USER WROTE DATA : 101			===>POINTS TO LOCATION : 6	==>FULL flag=0
+# USER WROTE DATA : 18			===>POINTS TO LOCATION : 7	==>FULL flag=0
+# USER WROTE DATA : 1			===>POINTS TO LOCATION : 8	==>FULL flag=0
+# USER WROTE DATA : 13			===>POINTS TO LOCATION : 9	==>FULL flag=0
+# USER WROTE DATA : 118			===>POINTS TO LOCATION : 10	==>FULL flag=0
+# USER WROTE DATA : 61			===>POINTS TO LOCATION : 11	==>FULL flag=0
+# USER WROTE DATA : 237			===>POINTS TO LOCATION : 12	==>FULL flag=0
+# USER WROTE DATA : 140			===>POINTS TO LOCATION : 13	==>FULL flag=0
+# USER WROTE DATA : 249			===>POINTS TO LOCATION : 14	==>FULL flag=0
+# USER WROTE DATA : 198			===>POINTS TO LOCATION : 15	==>FULL flag=0
+# USER WROTE DATA : 197			===>POINTS TO LOCATION : 16	==>FULL flag=0
+# USER WROTE DATA : 170			===>POINTS TO LOCATION : 17	==>FULL flag=0
+# USER WROTE DATA : 229			===>POINTS TO LOCATION : 18	==>FULL flag=0
+# USER WROTE DATA : 119			===>POINTS TO LOCATION : 19	==>FULL flag=0
+# USER WROTE DATA : 18			===>POINTS TO LOCATION : 20	==>FULL flag=0
+# USER WROTE DATA : 143			===>POINTS TO LOCATION : 21	==>FULL flag=0
+# USER WROTE DATA : 242			===>POINTS TO LOCATION : 22	==>FULL flag=0
+# USER WROTE DATA : 206			===>POINTS TO LOCATION : 23	==>FULL flag=0
+# USER WROTE DATA : 232			===>POINTS TO LOCATION : 24	==>FULL flag=0
+# USER WROTE DATA : 197			===>POINTS TO LOCATION : 25	==>FULL flag=0
+# USER WROTE DATA : 92			===>POINTS TO LOCATION : 26	==>FULL flag=0
+# USER WROTE DATA : 189			===>POINTS TO LOCATION : 27	==>FULL flag=0
+# USER WROTE DATA : 45			===>POINTS TO LOCATION : 28	==>FULL flag=0
+# USER WROTE DATA : 101			===>POINTS TO LOCATION : 29	==>FULL flag=0
+# USER WROTE DATA : 99			===>POINTS TO LOCATION : 30	==>FULL flag=0
+# USER WROTE DATA : 10			===>POINTS TO LOCATION : 31	==>FULL flag=0
+# USER WROTE DATA : 128			===>POINTS TO LOCATION : 0	==>FULL flag=1
+# ** Note: $finish    : tb.v(23)
+#    Time: 546 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb.v line 23
+
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:13:14 on Jun 03,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 16:13:14 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:13:14 on Jun 03,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 16:13:15 on Jun 03,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 16:13:20 on Jun 03,2025, Elapsed time: 0:06:17
+# Errors: 0, Warnings: 1
+# vsim -novopt -suppress 12110 tb 
+# Start time: 16:13:20 on Jun 03,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.sync_fifo
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.sync_fifo
+# time-2:	========RESET APPLIED==========
+# USER WROTE DATA : 36			===>POINTS TO LOCATION : 0	==>FULL flag=0
+# USER WROTE DATA : 129			===>POINTS TO LOCATION : 1	==>FULL flag=0
+# USER WROTE DATA : 9			===>POINTS TO LOCATION : 2	==>FULL flag=0
+# USER WROTE DATA : 99			===>POINTS TO LOCATION : 3	==>FULL flag=0
+# USER WROTE DATA : 13			===>POINTS TO LOCATION : 4	==>FULL flag=0
+# USER WROTE DATA : 141			===>POINTS TO LOCATION : 5	==>FULL flag=0
+# USER WROTE DATA : 101			===>POINTS TO LOCATION : 6	==>FULL flag=0
+# USER WROTE DATA : 18			===>POINTS TO LOCATION : 7	==>FULL flag=0
+# USER WROTE DATA : 1			===>POINTS TO LOCATION : 8	==>FULL flag=0
+# USER WROTE DATA : 13			===>POINTS TO LOCATION : 9	==>FULL flag=0
+# USER WROTE DATA : 118			===>POINTS TO LOCATION : 10	==>FULL flag=0
+# USER WROTE DATA : 61			===>POINTS TO LOCATION : 11	==>FULL flag=0
+# USER WROTE DATA : 237			===>POINTS TO LOCATION : 12	==>FULL flag=0
+# USER WROTE DATA : 140			===>POINTS TO LOCATION : 13	==>FULL flag=0
+# USER WROTE DATA : 249			===>POINTS TO LOCATION : 14	==>FULL flag=0
+# USER WROTE DATA : 198			===>POINTS TO LOCATION : 15	==>FULL flag=0
+# USER WROTE DATA : 197			===>POINTS TO LOCATION : 16	==>FULL flag=0
+# USER WROTE DATA : 170			===>POINTS TO LOCATION : 17	==>FULL flag=0
+# USER WROTE DATA : 229			===>POINTS TO LOCATION : 18	==>FULL flag=0
+# USER WROTE DATA : 119			===>POINTS TO LOCATION : 19	==>FULL flag=0
+# USER WROTE DATA : 18			===>POINTS TO LOCATION : 20	==>FULL flag=0
+# USER WROTE DATA : 143			===>POINTS TO LOCATION : 21	==>FULL flag=0
+# USER WROTE DATA : 242			===>POINTS TO LOCATION : 22	==>FULL flag=0
+# USER WROTE DATA : 206			===>POINTS TO LOCATION : 23	==>FULL flag=0
+# USER WROTE DATA : 232			===>POINTS TO LOCATION : 24	==>FULL flag=0
+# USER WROTE DATA : 197			===>POINTS TO LOCATION : 25	==>FULL flag=0
+# USER WROTE DATA : 92			===>POINTS TO LOCATION : 26	==>FULL flag=0
+# USER WROTE DATA : 189			===>POINTS TO LOCATION : 27	==>FULL flag=0
+# USER WROTE DATA : 45			===>POINTS TO LOCATION : 28	==>FULL flag=0
+# USER WROTE DATA : 101			===>POINTS TO LOCATION : 29	==>FULL flag=0
+# USER WROTE DATA : 99			===>POINTS TO LOCATION : 30	==>FULL flag=0
+# USER WROTE DATA : 10			===>POINTS TO LOCATION : 31	==>FULL flag=0
+# USER WROTE DATA : 128			===>POINTS TO LOCATION : 0	==>FULL flag=1
+# USER READING THE DATA : 0			===>POINTED AT LOCATION : 0	
+# USER READING THE DATA : 0			===>POINTED AT LOCATION : 0	
+# USER READING THE DATA : 36			===>POINTED AT LOCATION : 0	
+# USER READING THE DATA : 36			===>POINTED AT LOCATION : 0	
+# USER READING THE DATA : 36			===>POINTED AT LOCATION : 0	
+# ** Note: $finish    : tb.v(24)
+#    Time: 595 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb.v line 24
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:13:31 on Jun 03,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 16:13:32 on Jun 03,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:13:32 on Jun 03,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 16:13:32 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:13:33 on Jun 03,2025, Elapsed time: 0:00:13
+# Errors: 0, Warnings: 1
+# vsim -novopt -suppress 12110 tb 
+# Start time: 16:13:33 on Jun 03,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.sync_fifo
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.sync_fifo
+# time-2:	========RESET APPLIED==========
+# USER WROTE DATA : 36			===>POINTS TO LOCATION : 0	==>FULL flag=0
+# USER WROTE DATA : 129			===>POINTS TO LOCATION : 1	==>FULL flag=0
+# USER WROTE DATA : 9			===>POINTS TO LOCATION : 2	==>FULL flag=0
+# USER WROTE DATA : 99			===>POINTS TO LOCATION : 3	==>FULL flag=0
+# USER WROTE DATA : 13			===>POINTS TO LOCATION : 4	==>FULL flag=0
+# USER WROTE DATA : 141			===>POINTS TO LOCATION : 5	==>FULL flag=0
+# USER WROTE DATA : 101			===>POINTS TO LOCATION : 6	==>FULL flag=0
+# USER WROTE DATA : 18			===>POINTS TO LOCATION : 7	==>FULL flag=0
+# USER WROTE DATA : 1			===>POINTS TO LOCATION : 8	==>FULL flag=0
+# USER WROTE DATA : 13			===>POINTS TO LOCATION : 9	==>FULL flag=0
+# USER WROTE DATA : 118			===>POINTS TO LOCATION : 10	==>FULL flag=0
+# USER WROTE DATA : 61			===>POINTS TO LOCATION : 11	==>FULL flag=0
+# USER WROTE DATA : 237			===>POINTS TO LOCATION : 12	==>FULL flag=0
+# USER WROTE DATA : 140			===>POINTS TO LOCATION : 13	==>FULL flag=0
+# USER WROTE DATA : 249			===>POINTS TO LOCATION : 14	==>FULL flag=0
+# USER WROTE DATA : 198			===>POINTS TO LOCATION : 15	==>FULL flag=0
+# USER WROTE DATA : 197			===>POINTS TO LOCATION : 16	==>FULL flag=0
+# USER WROTE DATA : 170			===>POINTS TO LOCATION : 17	==>FULL flag=0
+# USER WROTE DATA : 229			===>POINTS TO LOCATION : 18	==>FULL flag=0
+# USER WROTE DATA : 119			===>POINTS TO LOCATION : 19	==>FULL flag=0
+# USER WROTE DATA : 18			===>POINTS TO LOCATION : 20	==>FULL flag=0
+# USER WROTE DATA : 143			===>POINTS TO LOCATION : 21	==>FULL flag=0
+# USER WROTE DATA : 242			===>POINTS TO LOCATION : 22	==>FULL flag=0
+# USER WROTE DATA : 206			===>POINTS TO LOCATION : 23	==>FULL flag=0
+# USER WROTE DATA : 232			===>POINTS TO LOCATION : 24	==>FULL flag=0
+# USER WROTE DATA : 197			===>POINTS TO LOCATION : 25	==>FULL flag=0
+# USER WROTE DATA : 92			===>POINTS TO LOCATION : 26	==>FULL flag=0
+# USER WROTE DATA : 189			===>POINTS TO LOCATION : 27	==>FULL flag=0
+# USER WROTE DATA : 45			===>POINTS TO LOCATION : 28	==>FULL flag=0
+# USER WROTE DATA : 101			===>POINTS TO LOCATION : 29	==>FULL flag=0
+# USER WROTE DATA : 99			===>POINTS TO LOCATION : 30	==>FULL flag=0
+# USER WROTE DATA : 10			===>POINTS TO LOCATION : 31	==>FULL flag=0
+# USER WROTE DATA : 128			===>POINTS TO LOCATION : 0	==>FULL flag=1
+# USER READING THE DATA : 0			===>POINTED AT LOCATION : 0	
+# USER READING THE DATA : 36			===>POINTED AT LOCATION : 0	
+# USER READING THE DATA : 36			===>POINTED AT LOCATION : 0	
+# USER READING THE DATA : 36			===>POINTED AT LOCATION : 0	
+# USER READING THE DATA : 36			===>POINTED AT LOCATION : 0	
+# ** Note: $finish    : tb.v(24)
+#    Time: 596 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb.v line 24
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:13:55 on Jun 03,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 16:13:55 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:13:55 on Jun 03,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 16:13:56 on Jun 03,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 16:13:56 on Jun 03,2025, Elapsed time: 0:00:23
+# Errors: 0, Warnings: 1
+# vsim -novopt -suppress 12110 tb 
+# Start time: 16:13:56 on Jun 03,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.sync_fifo
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.sync_fifo
+# time-2:	========RESET APPLIED==========
+# USER WROTE DATA : 36			===>POINTS TO LOCATION : 0	==>FULL flag=0
+# USER WROTE DATA : 129			===>POINTS TO LOCATION : 1	==>FULL flag=0
+# USER WROTE DATA : 9			===>POINTS TO LOCATION : 2	==>FULL flag=0
+# USER WROTE DATA : 99			===>POINTS TO LOCATION : 3	==>FULL flag=0
+# USER WROTE DATA : 13			===>POINTS TO LOCATION : 4	==>FULL flag=0
+# USER WROTE DATA : 141			===>POINTS TO LOCATION : 5	==>FULL flag=0
+# USER WROTE DATA : 101			===>POINTS TO LOCATION : 6	==>FULL flag=0
+# USER WROTE DATA : 18			===>POINTS TO LOCATION : 7	==>FULL flag=0
+# USER WROTE DATA : 1			===>POINTS TO LOCATION : 8	==>FULL flag=0
+# USER WROTE DATA : 13			===>POINTS TO LOCATION : 9	==>FULL flag=0
+# USER WROTE DATA : 118			===>POINTS TO LOCATION : 10	==>FULL flag=0
+# USER WROTE DATA : 61			===>POINTS TO LOCATION : 11	==>FULL flag=0
+# USER WROTE DATA : 237			===>POINTS TO LOCATION : 12	==>FULL flag=0
+# USER WROTE DATA : 140			===>POINTS TO LOCATION : 13	==>FULL flag=0
+# USER WROTE DATA : 249			===>POINTS TO LOCATION : 14	==>FULL flag=0
+# USER WROTE DATA : 198			===>POINTS TO LOCATION : 15	==>FULL flag=0
+# USER WROTE DATA : 197			===>POINTS TO LOCATION : 16	==>FULL flag=0
+# USER WROTE DATA : 170			===>POINTS TO LOCATION : 17	==>FULL flag=0
+# USER WROTE DATA : 229			===>POINTS TO LOCATION : 18	==>FULL flag=0
+# USER WROTE DATA : 119			===>POINTS TO LOCATION : 19	==>FULL flag=0
+# USER WROTE DATA : 18			===>POINTS TO LOCATION : 20	==>FULL flag=0
+# USER WROTE DATA : 143			===>POINTS TO LOCATION : 21	==>FULL flag=0
+# USER WROTE DATA : 242			===>POINTS TO LOCATION : 22	==>FULL flag=0
+# USER WROTE DATA : 206			===>POINTS TO LOCATION : 23	==>FULL flag=0
+# USER WROTE DATA : 232			===>POINTS TO LOCATION : 24	==>FULL flag=0
+# USER WROTE DATA : 197			===>POINTS TO LOCATION : 25	==>FULL flag=0
+# USER WROTE DATA : 92			===>POINTS TO LOCATION : 26	==>FULL flag=0
+# USER WROTE DATA : 189			===>POINTS TO LOCATION : 27	==>FULL flag=0
+# USER WROTE DATA : 45			===>POINTS TO LOCATION : 28	==>FULL flag=0
+# USER WROTE DATA : 101			===>POINTS TO LOCATION : 29	==>FULL flag=0
+# USER WROTE DATA : 99			===>POINTS TO LOCATION : 30	==>FULL flag=0
+# USER WROTE DATA : 10			===>POINTS TO LOCATION : 31	==>FULL flag=0
+# USER WROTE DATA : 128			===>POINTS TO LOCATION : 0	==>FULL flag=1
+# USER READING THE DATA : 36			===>POINTED AT LOCATION : 0	
+# USER READING THE DATA : 36			===>POINTED AT LOCATION : 0	
+# USER READING THE DATA : 36			===>POINTED AT LOCATION : 0	
+# USER READING THE DATA : 36			===>POINTED AT LOCATION : 0	
+# USER READING THE DATA : 36			===>POINTED AT LOCATION : 0	
+# ** Note: $finish    : tb.v(24)
+#    Time: 646 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb.v line 24
+
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:14:20 on Jun 03,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 16:14:21 on Jun 03,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:14:21 on Jun 03,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 16:14:21 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:14:22 on Jun 03,2025, Elapsed time: 0:00:26
+# Errors: 0, Warnings: 1
+# vsim -novopt -suppress 12110 tb 
+# Start time: 16:14:22 on Jun 03,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.sync_fifo
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.sync_fifo
+# time-2:	========RESET APPLIED==========
+# USER WROTE DATA : 36			===>POINTS TO LOCATION : 0	==>FULL flag=0
+# USER WROTE DATA : 129			===>POINTS TO LOCATION : 1	==>FULL flag=0
+# USER WROTE DATA : 9			===>POINTS TO LOCATION : 2	==>FULL flag=0
+# USER WROTE DATA : 99			===>POINTS TO LOCATION : 3	==>FULL flag=0
+# USER WROTE DATA : 13			===>POINTS TO LOCATION : 4	==>FULL flag=0
+# USER WROTE DATA : 141			===>POINTS TO LOCATION : 5	==>FULL flag=0
+# USER WROTE DATA : 101			===>POINTS TO LOCATION : 6	==>FULL flag=0
+# USER WROTE DATA : 18			===>POINTS TO LOCATION : 7	==>FULL flag=0
+# USER WROTE DATA : 1			===>POINTS TO LOCATION : 8	==>FULL flag=0
+# USER WROTE DATA : 13			===>POINTS TO LOCATION : 9	==>FULL flag=0
+# USER WROTE DATA : 118			===>POINTS TO LOCATION : 10	==>FULL flag=0
+# USER WROTE DATA : 61			===>POINTS TO LOCATION : 11	==>FULL flag=0
+# USER WROTE DATA : 237			===>POINTS TO LOCATION : 12	==>FULL flag=0
+# USER WROTE DATA : 140			===>POINTS TO LOCATION : 13	==>FULL flag=0
+# USER WROTE DATA : 249			===>POINTS TO LOCATION : 14	==>FULL flag=0
+# USER WROTE DATA : 198			===>POINTS TO LOCATION : 15	==>FULL flag=0
+# USER WROTE DATA : 197			===>POINTS TO LOCATION : 16	==>FULL flag=0
+# USER WROTE DATA : 170			===>POINTS TO LOCATION : 17	==>FULL flag=0
+# USER WROTE DATA : 229			===>POINTS TO LOCATION : 18	==>FULL flag=0
+# USER WROTE DATA : 119			===>POINTS TO LOCATION : 19	==>FULL flag=0
+# USER WROTE DATA : 18			===>POINTS TO LOCATION : 20	==>FULL flag=0
+# USER WROTE DATA : 143			===>POINTS TO LOCATION : 21	==>FULL flag=0
+# USER WROTE DATA : 242			===>POINTS TO LOCATION : 22	==>FULL flag=0
+# USER WROTE DATA : 206			===>POINTS TO LOCATION : 23	==>FULL flag=0
+# USER WROTE DATA : 232			===>POINTS TO LOCATION : 24	==>FULL flag=0
+# USER WROTE DATA : 197			===>POINTS TO LOCATION : 25	==>FULL flag=0
+# USER WROTE DATA : 92			===>POINTS TO LOCATION : 26	==>FULL flag=0
+# USER WROTE DATA : 189			===>POINTS TO LOCATION : 27	==>FULL flag=0
+# USER WROTE DATA : 45			===>POINTS TO LOCATION : 28	==>FULL flag=0
+# USER WROTE DATA : 101			===>POINTS TO LOCATION : 29	==>FULL flag=0
+# USER WROTE DATA : 99			===>POINTS TO LOCATION : 30	==>FULL flag=0
+# USER WROTE DATA : 10			===>POINTS TO LOCATION : 31	==>FULL flag=0
+# USER WROTE DATA : 128			===>POINTS TO LOCATION : 0	==>FULL flag=1
+# USER READING THE DATA : 0			===>POINTED AT LOCATION : 0	
+# USER READING THE DATA : 36			===>POINTED AT LOCATION : 0	
+# USER READING THE DATA : 36			===>POINTED AT LOCATION : 0	
+# USER READING THE DATA : 36			===>POINTED AT LOCATION : 0	
+# USER READING THE DATA : 36			===>POINTED AT LOCATION : 0	
+# ** Note: $finish    : tb.v(24)
+#    Time: 645 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb.v line 24
+
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:16:02 on Jun 03,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 16:16:02 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:16:02 on Jun 03,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 16:16:03 on Jun 03,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 16:16:03 on Jun 03,2025, Elapsed time: 0:01:41
+# Errors: 0, Warnings: 1
+# vsim -novopt -suppress 12110 tb 
+# Start time: 16:16:03 on Jun 03,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.sync_fifo
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.sync_fifo
+# time-2:	========RESET APPLIED==========
+# USER WROTE DATA : 36			===>POINTS TO LOCATION : 0	==>FULL flag=0
+# USER WROTE DATA : 129			===>POINTS TO LOCATION : 1	==>FULL flag=0
+# USER WROTE DATA : 9			===>POINTS TO LOCATION : 2	==>FULL flag=0
+# USER WROTE DATA : 99			===>POINTS TO LOCATION : 3	==>FULL flag=0
+# USER WROTE DATA : 13			===>POINTS TO LOCATION : 4	==>FULL flag=0
+# USER WROTE DATA : 141			===>POINTS TO LOCATION : 5	==>FULL flag=0
+# USER WROTE DATA : 101			===>POINTS TO LOCATION : 6	==>FULL flag=0
+# USER WROTE DATA : 18			===>POINTS TO LOCATION : 7	==>FULL flag=0
+# USER WROTE DATA : 1			===>POINTS TO LOCATION : 8	==>FULL flag=0
+# USER WROTE DATA : 13			===>POINTS TO LOCATION : 9	==>FULL flag=0
+# USER WROTE DATA : 118			===>POINTS TO LOCATION : 10	==>FULL flag=0
+# USER WROTE DATA : 61			===>POINTS TO LOCATION : 11	==>FULL flag=0
+# USER WROTE DATA : 237			===>POINTS TO LOCATION : 12	==>FULL flag=0
+# USER WROTE DATA : 140			===>POINTS TO LOCATION : 13	==>FULL flag=0
+# USER WROTE DATA : 249			===>POINTS TO LOCATION : 14	==>FULL flag=0
+# USER WROTE DATA : 198			===>POINTS TO LOCATION : 15	==>FULL flag=0
+# USER WROTE DATA : 197			===>POINTS TO LOCATION : 16	==>FULL flag=0
+# USER WROTE DATA : 170			===>POINTS TO LOCATION : 17	==>FULL flag=0
+# USER WROTE DATA : 229			===>POINTS TO LOCATION : 18	==>FULL flag=0
+# USER WROTE DATA : 119			===>POINTS TO LOCATION : 19	==>FULL flag=0
+# USER WROTE DATA : 18			===>POINTS TO LOCATION : 20	==>FULL flag=0
+# USER WROTE DATA : 143			===>POINTS TO LOCATION : 21	==>FULL flag=0
+# USER WROTE DATA : 242			===>POINTS TO LOCATION : 22	==>FULL flag=0
+# USER WROTE DATA : 206			===>POINTS TO LOCATION : 23	==>FULL flag=0
+# USER WROTE DATA : 232			===>POINTS TO LOCATION : 24	==>FULL flag=0
+# USER WROTE DATA : 197			===>POINTS TO LOCATION : 25	==>FULL flag=0
+# USER WROTE DATA : 92			===>POINTS TO LOCATION : 26	==>FULL flag=0
+# USER WROTE DATA : 189			===>POINTS TO LOCATION : 27	==>FULL flag=0
+# USER WROTE DATA : 45			===>POINTS TO LOCATION : 28	==>FULL flag=0
+# USER WROTE DATA : 101			===>POINTS TO LOCATION : 29	==>FULL flag=0
+# USER WROTE DATA : 99			===>POINTS TO LOCATION : 30	==>FULL flag=0
+# USER WROTE DATA : 10			===>POINTS TO LOCATION : 31	==>FULL flag=0
+# USER WROTE DATA : 128			===>POINTS TO LOCATION : 0	==>FULL flag=1
+# USER READING THE DATA : 0			===>POINTED AT LOCATION : 0	
+# USER READING THE DATA : 36			===>POINTED AT LOCATION : 0	
+# USER READING THE DATA : 36			===>POINTED AT LOCATION : 0	
+# USER READING THE DATA : 36			===>POINTED AT LOCATION : 0	
+# USER READING THE DATA : 36			===>POINTED AT LOCATION : 0	
+# ** Note: $finish    : tb.v(24)
+#    Time: 595 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb.v line 24
+
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:16:18 on Jun 03,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 16:16:19 on Jun 03,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:16:19 on Jun 03,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 16:16:19 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:16:20 on Jun 03,2025, Elapsed time: 0:00:17
+# Errors: 0, Warnings: 1
+# vsim -novopt -suppress 12110 tb 
+# Start time: 16:16:20 on Jun 03,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.sync_fifo
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.sync_fifo
+# time-2:	========RESET APPLIED==========
+# USER WROTE DATA : 36			===>POINTS TO LOCATION : 0	==>FULL flag=0
+# USER WROTE DATA : 129			===>POINTS TO LOCATION : 1	==>FULL flag=0
+# USER WROTE DATA : 9			===>POINTS TO LOCATION : 2	==>FULL flag=0
+# USER WROTE DATA : 99			===>POINTS TO LOCATION : 3	==>FULL flag=0
+# USER WROTE DATA : 13			===>POINTS TO LOCATION : 4	==>FULL flag=0
+# USER WROTE DATA : 141			===>POINTS TO LOCATION : 5	==>FULL flag=0
+# USER WROTE DATA : 101			===>POINTS TO LOCATION : 6	==>FULL flag=0
+# USER WROTE DATA : 18			===>POINTS TO LOCATION : 7	==>FULL flag=0
+# USER WROTE DATA : 1			===>POINTS TO LOCATION : 8	==>FULL flag=0
+# USER WROTE DATA : 13			===>POINTS TO LOCATION : 9	==>FULL flag=0
+# USER WROTE DATA : 118			===>POINTS TO LOCATION : 10	==>FULL flag=0
+# USER WROTE DATA : 61			===>POINTS TO LOCATION : 11	==>FULL flag=0
+# USER WROTE DATA : 237			===>POINTS TO LOCATION : 12	==>FULL flag=0
+# USER WROTE DATA : 140			===>POINTS TO LOCATION : 13	==>FULL flag=0
+# USER WROTE DATA : 249			===>POINTS TO LOCATION : 14	==>FULL flag=0
+# USER WROTE DATA : 198			===>POINTS TO LOCATION : 15	==>FULL flag=0
+# USER WROTE DATA : 197			===>POINTS TO LOCATION : 16	==>FULL flag=0
+# USER WROTE DATA : 170			===>POINTS TO LOCATION : 17	==>FULL flag=0
+# USER WROTE DATA : 229			===>POINTS TO LOCATION : 18	==>FULL flag=0
+# USER WROTE DATA : 119			===>POINTS TO LOCATION : 19	==>FULL flag=0
+# USER WROTE DATA : 18			===>POINTS TO LOCATION : 20	==>FULL flag=0
+# USER WROTE DATA : 143			===>POINTS TO LOCATION : 21	==>FULL flag=0
+# USER WROTE DATA : 242			===>POINTS TO LOCATION : 22	==>FULL flag=0
+# USER WROTE DATA : 206			===>POINTS TO LOCATION : 23	==>FULL flag=0
+# USER WROTE DATA : 232			===>POINTS TO LOCATION : 24	==>FULL flag=0
+# USER WROTE DATA : 197			===>POINTS TO LOCATION : 25	==>FULL flag=0
+# USER WROTE DATA : 92			===>POINTS TO LOCATION : 26	==>FULL flag=0
+# USER WROTE DATA : 189			===>POINTS TO LOCATION : 27	==>FULL flag=0
+# USER WROTE DATA : 45			===>POINTS TO LOCATION : 28	==>FULL flag=0
+# USER WROTE DATA : 101			===>POINTS TO LOCATION : 29	==>FULL flag=0
+# USER WROTE DATA : 99			===>POINTS TO LOCATION : 30	==>FULL flag=0
+# USER WROTE DATA : 10			===>POINTS TO LOCATION : 31	==>FULL flag=0
+# USER WROTE DATA : 128			===>POINTS TO LOCATION : 0	==>FULL flag=1
+# USER READING THE DATA : 0			===>POINTED AT LOCATION : 0	
+# USER READING THE DATA : 0			===>POINTED AT LOCATION : 0	
+# USER READING THE DATA : 0			===>POINTED AT LOCATION : 0	
+# USER READING THE DATA : 0			===>POINTED AT LOCATION : 0	
+# USER READING THE DATA : 0			===>POINTED AT LOCATION : 0	
+# ** Note: $finish    : tb.v(24)
+#    Time: 546 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb.v line 24
+
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:17:17 on Jun 03,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 16:17:17 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:17:17 on Jun 03,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 16:17:18 on Jun 03,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 16:17:19 on Jun 03,2025, Elapsed time: 0:00:59
+# Errors: 0, Warnings: 1
+# vsim -novopt -suppress 12110 tb 
+# Start time: 16:17:19 on Jun 03,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.sync_fifo
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.sync_fifo
+# time-2:	========RESET APPLIED==========
+# USER WROTE DATA : 36			===>POINTS TO LOCATION : 0	==>FULL flag=0
+# USER WROTE DATA : 129			===>POINTS TO LOCATION : 1	==>FULL flag=0
+# USER WROTE DATA : 9			===>POINTS TO LOCATION : 2	==>FULL flag=0
+# USER WROTE DATA : 99			===>POINTS TO LOCATION : 3	==>FULL flag=0
+# USER WROTE DATA : 13			===>POINTS TO LOCATION : 4	==>FULL flag=0
+# USER WROTE DATA : 141			===>POINTS TO LOCATION : 5	==>FULL flag=0
+# USER WROTE DATA : 101			===>POINTS TO LOCATION : 6	==>FULL flag=0
+# USER WROTE DATA : 18			===>POINTS TO LOCATION : 7	==>FULL flag=0
+# USER WROTE DATA : 1			===>POINTS TO LOCATION : 8	==>FULL flag=0
+# USER WROTE DATA : 13			===>POINTS TO LOCATION : 9	==>FULL flag=0
+# USER WROTE DATA : 118			===>POINTS TO LOCATION : 10	==>FULL flag=0
+# USER WROTE DATA : 61			===>POINTS TO LOCATION : 11	==>FULL flag=0
+# USER WROTE DATA : 237			===>POINTS TO LOCATION : 12	==>FULL flag=0
+# USER WROTE DATA : 140			===>POINTS TO LOCATION : 13	==>FULL flag=0
+# USER WROTE DATA : 249			===>POINTS TO LOCATION : 14	==>FULL flag=0
+# USER WROTE DATA : 198			===>POINTS TO LOCATION : 15	==>FULL flag=0
+# USER WROTE DATA : 197			===>POINTS TO LOCATION : 16	==>FULL flag=0
+# USER WROTE DATA : 170			===>POINTS TO LOCATION : 17	==>FULL flag=0
+# USER WROTE DATA : 229			===>POINTS TO LOCATION : 18	==>FULL flag=0
+# USER WROTE DATA : 119			===>POINTS TO LOCATION : 19	==>FULL flag=0
+# USER WROTE DATA : 18			===>POINTS TO LOCATION : 20	==>FULL flag=0
+# USER WROTE DATA : 143			===>POINTS TO LOCATION : 21	==>FULL flag=0
+# USER WROTE DATA : 242			===>POINTS TO LOCATION : 22	==>FULL flag=0
+# USER WROTE DATA : 206			===>POINTS TO LOCATION : 23	==>FULL flag=0
+# USER WROTE DATA : 232			===>POINTS TO LOCATION : 24	==>FULL flag=0
+# USER WROTE DATA : 197			===>POINTS TO LOCATION : 25	==>FULL flag=0
+# USER WROTE DATA : 92			===>POINTS TO LOCATION : 26	==>FULL flag=0
+# USER WROTE DATA : 189			===>POINTS TO LOCATION : 27	==>FULL flag=0
+# USER WROTE DATA : 45			===>POINTS TO LOCATION : 28	==>FULL flag=0
+# USER WROTE DATA : 101			===>POINTS TO LOCATION : 29	==>FULL flag=0
+# USER WROTE DATA : 99			===>POINTS TO LOCATION : 30	==>FULL flag=0
+# USER WROTE DATA : 10			===>POINTS TO LOCATION : 31	==>FULL flag=0
+# USER WROTE DATA : 128			===>POINTS TO LOCATION : 0	==>FULL flag=1
+# USER READING THE DATA : 0			===>POINTED AT LOCATION : 0	
+# USER READING THE DATA : 36			===>POINTED AT LOCATION : 0	
+# USER READING THE DATA : 36			===>POINTED AT LOCATION : 0	
+# USER READING THE DATA : 36			===>POINTED AT LOCATION : 0	
+# USER READING THE DATA : 36			===>POINTED AT LOCATION : 0	
+# ** Note: $finish    : tb.v(24)
+#    Time: 645 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb.v line 24
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:17:29 on Jun 03,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 16:17:30 on Jun 03,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:17:30 on Jun 03,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 16:17:30 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:17:31 on Jun 03,2025, Elapsed time: 0:00:12
+# Errors: 0, Warnings: 1
+# vsim -novopt -suppress 12110 tb 
+# Start time: 16:17:31 on Jun 03,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.sync_fifo
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.sync_fifo
+# time-2:	========RESET APPLIED==========
+# USER WROTE DATA : 36			===>POINTS TO LOCATION : 0	==>FULL flag=0
+# USER WROTE DATA : 129			===>POINTS TO LOCATION : 1	==>FULL flag=0
+# USER WROTE DATA : 9			===>POINTS TO LOCATION : 2	==>FULL flag=0
+# USER WROTE DATA : 99			===>POINTS TO LOCATION : 3	==>FULL flag=0
+# USER WROTE DATA : 13			===>POINTS TO LOCATION : 4	==>FULL flag=0
+# USER WROTE DATA : 141			===>POINTS TO LOCATION : 5	==>FULL flag=0
+# USER WROTE DATA : 101			===>POINTS TO LOCATION : 6	==>FULL flag=0
+# USER WROTE DATA : 18			===>POINTS TO LOCATION : 7	==>FULL flag=0
+# USER WROTE DATA : 1			===>POINTS TO LOCATION : 8	==>FULL flag=0
+# USER WROTE DATA : 13			===>POINTS TO LOCATION : 9	==>FULL flag=0
+# USER WROTE DATA : 118			===>POINTS TO LOCATION : 10	==>FULL flag=0
+# USER WROTE DATA : 61			===>POINTS TO LOCATION : 11	==>FULL flag=0
+# USER WROTE DATA : 237			===>POINTS TO LOCATION : 12	==>FULL flag=0
+# USER WROTE DATA : 140			===>POINTS TO LOCATION : 13	==>FULL flag=0
+# USER WROTE DATA : 249			===>POINTS TO LOCATION : 14	==>FULL flag=0
+# USER WROTE DATA : 198			===>POINTS TO LOCATION : 15	==>FULL flag=0
+# USER WROTE DATA : 197			===>POINTS TO LOCATION : 16	==>FULL flag=0
+# USER WROTE DATA : 170			===>POINTS TO LOCATION : 17	==>FULL flag=0
+# USER WROTE DATA : 229			===>POINTS TO LOCATION : 18	==>FULL flag=0
+# USER WROTE DATA : 119			===>POINTS TO LOCATION : 19	==>FULL flag=0
+# USER WROTE DATA : 18			===>POINTS TO LOCATION : 20	==>FULL flag=0
+# USER WROTE DATA : 143			===>POINTS TO LOCATION : 21	==>FULL flag=0
+# USER WROTE DATA : 242			===>POINTS TO LOCATION : 22	==>FULL flag=0
+# USER WROTE DATA : 206			===>POINTS TO LOCATION : 23	==>FULL flag=0
+# USER WROTE DATA : 232			===>POINTS TO LOCATION : 24	==>FULL flag=0
+# USER WROTE DATA : 197			===>POINTS TO LOCATION : 25	==>FULL flag=0
+# USER WROTE DATA : 92			===>POINTS TO LOCATION : 26	==>FULL flag=0
+# USER WROTE DATA : 189			===>POINTS TO LOCATION : 27	==>FULL flag=0
+# USER WROTE DATA : 45			===>POINTS TO LOCATION : 28	==>FULL flag=0
+# USER WROTE DATA : 101			===>POINTS TO LOCATION : 29	==>FULL flag=0
+# USER WROTE DATA : 99			===>POINTS TO LOCATION : 30	==>FULL flag=0
+# USER WROTE DATA : 10			===>POINTS TO LOCATION : 31	==>FULL flag=0
+# USER WROTE DATA : 128			===>POINTS TO LOCATION : 0	==>FULL flag=1
+# USER READING THE DATA : 36			===>POINTED AT LOCATION : 0	
+# USER READING THE DATA : 36			===>POINTED AT LOCATION : 0	
+# USER READING THE DATA : 36			===>POINTED AT LOCATION : 0	
+# USER READING THE DATA : 36			===>POINTED AT LOCATION : 0	
+# USER READING THE DATA : 36			===>POINTED AT LOCATION : 0	
+# ** Note: $finish    : tb.v(24)
+#    Time: 646 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb.v line 24
+
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:18:55 on Jun 03,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 16:18:55 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:18:55 on Jun 03,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 16:18:56 on Jun 03,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 16:18:57 on Jun 03,2025, Elapsed time: 0:01:26
+# Errors: 0, Warnings: 1
+# vsim -novopt -suppress 12110 tb 
+# Start time: 16:18:57 on Jun 03,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.sync_fifo
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.sync_fifo
+# time-2:	========RESET APPLIED==========
+# USER WROTE DATA : 36			===>POINTS TO LOCATION : 0	==>FULL flag=0
+# USER WROTE DATA : 129			===>POINTS TO LOCATION : 1	==>FULL flag=0
+# USER WROTE DATA : 9			===>POINTS TO LOCATION : 2	==>FULL flag=0
+# USER WROTE DATA : 99			===>POINTS TO LOCATION : 3	==>FULL flag=0
+# USER WROTE DATA : 13			===>POINTS TO LOCATION : 4	==>FULL flag=0
+# USER WROTE DATA : 141			===>POINTS TO LOCATION : 5	==>FULL flag=0
+# USER WROTE DATA : 101			===>POINTS TO LOCATION : 6	==>FULL flag=0
+# USER WROTE DATA : 18			===>POINTS TO LOCATION : 7	==>FULL flag=0
+# USER WROTE DATA : 1			===>POINTS TO LOCATION : 8	==>FULL flag=0
+# USER WROTE DATA : 13			===>POINTS TO LOCATION : 9	==>FULL flag=0
+# USER WROTE DATA : 118			===>POINTS TO LOCATION : 10	==>FULL flag=0
+# USER WROTE DATA : 61			===>POINTS TO LOCATION : 11	==>FULL flag=0
+# USER WROTE DATA : 237			===>POINTS TO LOCATION : 12	==>FULL flag=0
+# USER WROTE DATA : 140			===>POINTS TO LOCATION : 13	==>FULL flag=0
+# USER WROTE DATA : 249			===>POINTS TO LOCATION : 14	==>FULL flag=0
+# USER WROTE DATA : 198			===>POINTS TO LOCATION : 15	==>FULL flag=0
+# USER WROTE DATA : 197			===>POINTS TO LOCATION : 16	==>FULL flag=0
+# USER WROTE DATA : 170			===>POINTS TO LOCATION : 17	==>FULL flag=0
+# USER WROTE DATA : 229			===>POINTS TO LOCATION : 18	==>FULL flag=0
+# USER WROTE DATA : 119			===>POINTS TO LOCATION : 19	==>FULL flag=0
+# USER WROTE DATA : 18			===>POINTS TO LOCATION : 20	==>FULL flag=0
+# USER WROTE DATA : 143			===>POINTS TO LOCATION : 21	==>FULL flag=0
+# USER WROTE DATA : 242			===>POINTS TO LOCATION : 22	==>FULL flag=0
+# USER WROTE DATA : 206			===>POINTS TO LOCATION : 23	==>FULL flag=0
+# USER WROTE DATA : 232			===>POINTS TO LOCATION : 24	==>FULL flag=0
+# USER WROTE DATA : 197			===>POINTS TO LOCATION : 25	==>FULL flag=0
+# USER WROTE DATA : 92			===>POINTS TO LOCATION : 26	==>FULL flag=0
+# USER WROTE DATA : 189			===>POINTS TO LOCATION : 27	==>FULL flag=0
+# USER WROTE DATA : 45			===>POINTS TO LOCATION : 28	==>FULL flag=0
+# USER WROTE DATA : 101			===>POINTS TO LOCATION : 29	==>FULL flag=0
+# USER WROTE DATA : 99			===>POINTS TO LOCATION : 30	==>FULL flag=0
+# USER WROTE DATA : 10			===>POINTS TO LOCATION : 31	==>FULL flag=0
+# USER WROTE DATA : 128			===>POINTS TO LOCATION : 0	==>FULL flag=1
+# ** Note: $finish    : tb.v(24)
+#    Time: 595 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb.v line 24
+
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:19:53 on Jun 03,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 16:19:53 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:19:53 on Jun 03,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 16:19:53 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:19:54 on Jun 03,2025, Elapsed time: 0:00:57
+# Errors: 0, Warnings: 1
+# vsim -novopt -suppress 12110 tb 
+# Start time: 16:19:54 on Jun 03,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.sync_fifo
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.sync_fifo
+# time-2:	========RESET APPLIED==========
+# USER WROTE DATA : 36			===>POINTS TO LOCATION : 0	==>FULL flag=0
+# USER WROTE DATA : 129			===>POINTS TO LOCATION : 1	==>FULL flag=0
+# USER WROTE DATA : 9			===>POINTS TO LOCATION : 2	==>FULL flag=0
+# USER WROTE DATA : 99			===>POINTS TO LOCATION : 3	==>FULL flag=0
+# USER WROTE DATA : 13			===>POINTS TO LOCATION : 4	==>FULL flag=0
+# USER WROTE DATA : 141			===>POINTS TO LOCATION : 5	==>FULL flag=0
+# USER WROTE DATA : 101			===>POINTS TO LOCATION : 6	==>FULL flag=0
+# USER WROTE DATA : 18			===>POINTS TO LOCATION : 7	==>FULL flag=0
+# USER WROTE DATA : 1			===>POINTS TO LOCATION : 8	==>FULL flag=0
+# USER WROTE DATA : 13			===>POINTS TO LOCATION : 9	==>FULL flag=0
+# USER WROTE DATA : 118			===>POINTS TO LOCATION : 10	==>FULL flag=0
+# USER WROTE DATA : 61			===>POINTS TO LOCATION : 11	==>FULL flag=0
+# USER WROTE DATA : 237			===>POINTS TO LOCATION : 12	==>FULL flag=0
+# USER WROTE DATA : 140			===>POINTS TO LOCATION : 13	==>FULL flag=0
+# USER WROTE DATA : 249			===>POINTS TO LOCATION : 14	==>FULL flag=0
+# USER WROTE DATA : 198			===>POINTS TO LOCATION : 15	==>FULL flag=0
+# USER WROTE DATA : 197			===>POINTS TO LOCATION : 16	==>FULL flag=0
+# USER WROTE DATA : 170			===>POINTS TO LOCATION : 17	==>FULL flag=0
+# USER WROTE DATA : 229			===>POINTS TO LOCATION : 18	==>FULL flag=0
+# USER WROTE DATA : 119			===>POINTS TO LOCATION : 19	==>FULL flag=0
+# USER WROTE DATA : 18			===>POINTS TO LOCATION : 20	==>FULL flag=0
+# USER WROTE DATA : 143			===>POINTS TO LOCATION : 21	==>FULL flag=0
+# USER WROTE DATA : 242			===>POINTS TO LOCATION : 22	==>FULL flag=0
+# USER WROTE DATA : 206			===>POINTS TO LOCATION : 23	==>FULL flag=0
+# USER WROTE DATA : 232			===>POINTS TO LOCATION : 24	==>FULL flag=0
+# USER WROTE DATA : 197			===>POINTS TO LOCATION : 25	==>FULL flag=0
+# USER WROTE DATA : 92			===>POINTS TO LOCATION : 26	==>FULL flag=0
+# USER WROTE DATA : 189			===>POINTS TO LOCATION : 27	==>FULL flag=0
+# USER WROTE DATA : 45			===>POINTS TO LOCATION : 28	==>FULL flag=0
+# USER WROTE DATA : 101			===>POINTS TO LOCATION : 29	==>FULL flag=0
+# USER WROTE DATA : 99			===>POINTS TO LOCATION : 30	==>FULL flag=0
+# USER WROTE DATA : 10			===>POINTS TO LOCATION : 31	==>FULL flag=0
+# USER WROTE DATA : 128			===>POINTS TO LOCATION : 0	==>FULL flag=1
+# USER READING THE DATA : 0			===>POINTED AT LOCATION : 0	
+# USER READING THE DATA : 129			===>POINTED AT LOCATION : 2	
+# USER READING THE DATA : 99			===>POINTED AT LOCATION : 4	
+# USER READING THE DATA : 141			===>POINTED AT LOCATION : 6	
+# USER READING THE DATA : 18			===>POINTED AT LOCATION : 8	
+# ** Note: $finish    : tb.v(24)
+#    Time: 645 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb.v line 24
+
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:20:12 on Jun 03,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 16:20:13 on Jun 03,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:20:13 on Jun 03,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 16:20:13 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:20:14 on Jun 03,2025, Elapsed time: 0:00:20
+# Errors: 0, Warnings: 1
+# vsim -novopt -suppress 12110 tb 
+# Start time: 16:20:14 on Jun 03,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.sync_fifo
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.sync_fifo
+# time-2:	========RESET APPLIED==========
+# USER WROTE DATA : 36			===>POINTS TO LOCATION : 0	==>FULL flag=0
+# USER WROTE DATA : 129			===>POINTS TO LOCATION : 1	==>FULL flag=0
+# USER WROTE DATA : 9			===>POINTS TO LOCATION : 2	==>FULL flag=0
+# USER WROTE DATA : 99			===>POINTS TO LOCATION : 3	==>FULL flag=0
+# USER WROTE DATA : 13			===>POINTS TO LOCATION : 4	==>FULL flag=0
+# USER WROTE DATA : 141			===>POINTS TO LOCATION : 5	==>FULL flag=0
+# USER WROTE DATA : 101			===>POINTS TO LOCATION : 6	==>FULL flag=0
+# USER WROTE DATA : 18			===>POINTS TO LOCATION : 7	==>FULL flag=0
+# USER WROTE DATA : 1			===>POINTS TO LOCATION : 8	==>FULL flag=0
+# USER WROTE DATA : 13			===>POINTS TO LOCATION : 9	==>FULL flag=0
+# USER WROTE DATA : 118			===>POINTS TO LOCATION : 10	==>FULL flag=0
+# USER WROTE DATA : 61			===>POINTS TO LOCATION : 11	==>FULL flag=0
+# USER WROTE DATA : 237			===>POINTS TO LOCATION : 12	==>FULL flag=0
+# USER WROTE DATA : 140			===>POINTS TO LOCATION : 13	==>FULL flag=0
+# USER WROTE DATA : 249			===>POINTS TO LOCATION : 14	==>FULL flag=0
+# USER WROTE DATA : 198			===>POINTS TO LOCATION : 15	==>FULL flag=0
+# USER WROTE DATA : 197			===>POINTS TO LOCATION : 16	==>FULL flag=0
+# USER WROTE DATA : 170			===>POINTS TO LOCATION : 17	==>FULL flag=0
+# USER WROTE DATA : 229			===>POINTS TO LOCATION : 18	==>FULL flag=0
+# USER WROTE DATA : 119			===>POINTS TO LOCATION : 19	==>FULL flag=0
+# USER WROTE DATA : 18			===>POINTS TO LOCATION : 20	==>FULL flag=0
+# USER WROTE DATA : 143			===>POINTS TO LOCATION : 21	==>FULL flag=0
+# USER WROTE DATA : 242			===>POINTS TO LOCATION : 22	==>FULL flag=0
+# USER WROTE DATA : 206			===>POINTS TO LOCATION : 23	==>FULL flag=0
+# USER WROTE DATA : 232			===>POINTS TO LOCATION : 24	==>FULL flag=0
+# USER WROTE DATA : 197			===>POINTS TO LOCATION : 25	==>FULL flag=0
+# USER WROTE DATA : 92			===>POINTS TO LOCATION : 26	==>FULL flag=0
+# USER WROTE DATA : 189			===>POINTS TO LOCATION : 27	==>FULL flag=0
+# USER WROTE DATA : 45			===>POINTS TO LOCATION : 28	==>FULL flag=0
+# USER WROTE DATA : 101			===>POINTS TO LOCATION : 29	==>FULL flag=0
+# USER WROTE DATA : 99			===>POINTS TO LOCATION : 30	==>FULL flag=0
+# USER WROTE DATA : 10			===>POINTS TO LOCATION : 31	==>FULL flag=0
+# USER WROTE DATA : 128			===>POINTS TO LOCATION : 0	==>FULL flag=1
+# USER READING THE DATA : 0			===>POINTED AT LOCATION : 0	
+# USER READING THE DATA : 0			===>POINTED AT LOCATION : 0	
+# USER READING THE DATA : 36			===>POINTED AT LOCATION : 1	
+# USER READING THE DATA : 129			===>POINTED AT LOCATION : 2	
+# USER READING THE DATA : 9			===>POINTED AT LOCATION : 3	
+# ** Note: $finish    : tb.v(24)
+#    Time: 595 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb.v line 24
+
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:20:26 on Jun 03,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 16:20:26 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:20:27 on Jun 03,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 16:20:27 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:20:28 on Jun 03,2025, Elapsed time: 0:00:14
+# Errors: 0, Warnings: 1
+# vsim -novopt -suppress 12110 tb 
+# Start time: 16:20:28 on Jun 03,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.sync_fifo
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.sync_fifo
+# time-2:	========RESET APPLIED==========
+# USER WROTE DATA : 36			===>POINTS TO LOCATION : 0	==>FULL flag=0
+# USER WROTE DATA : 129			===>POINTS TO LOCATION : 1	==>FULL flag=0
+# USER WROTE DATA : 9			===>POINTS TO LOCATION : 2	==>FULL flag=0
+# USER WROTE DATA : 99			===>POINTS TO LOCATION : 3	==>FULL flag=0
+# USER WROTE DATA : 13			===>POINTS TO LOCATION : 4	==>FULL flag=0
+# USER WROTE DATA : 141			===>POINTS TO LOCATION : 5	==>FULL flag=0
+# USER WROTE DATA : 101			===>POINTS TO LOCATION : 6	==>FULL flag=0
+# USER WROTE DATA : 18			===>POINTS TO LOCATION : 7	==>FULL flag=0
+# USER WROTE DATA : 1			===>POINTS TO LOCATION : 8	==>FULL flag=0
+# USER WROTE DATA : 13			===>POINTS TO LOCATION : 9	==>FULL flag=0
+# USER WROTE DATA : 118			===>POINTS TO LOCATION : 10	==>FULL flag=0
+# USER WROTE DATA : 61			===>POINTS TO LOCATION : 11	==>FULL flag=0
+# USER WROTE DATA : 237			===>POINTS TO LOCATION : 12	==>FULL flag=0
+# USER WROTE DATA : 140			===>POINTS TO LOCATION : 13	==>FULL flag=0
+# USER WROTE DATA : 249			===>POINTS TO LOCATION : 14	==>FULL flag=0
+# USER WROTE DATA : 198			===>POINTS TO LOCATION : 15	==>FULL flag=0
+# USER WROTE DATA : 197			===>POINTS TO LOCATION : 16	==>FULL flag=0
+# USER WROTE DATA : 170			===>POINTS TO LOCATION : 17	==>FULL flag=0
+# USER WROTE DATA : 229			===>POINTS TO LOCATION : 18	==>FULL flag=0
+# USER WROTE DATA : 119			===>POINTS TO LOCATION : 19	==>FULL flag=0
+# USER WROTE DATA : 18			===>POINTS TO LOCATION : 20	==>FULL flag=0
+# USER WROTE DATA : 143			===>POINTS TO LOCATION : 21	==>FULL flag=0
+# USER WROTE DATA : 242			===>POINTS TO LOCATION : 22	==>FULL flag=0
+# USER WROTE DATA : 206			===>POINTS TO LOCATION : 23	==>FULL flag=0
+# USER WROTE DATA : 232			===>POINTS TO LOCATION : 24	==>FULL flag=0
+# USER WROTE DATA : 197			===>POINTS TO LOCATION : 25	==>FULL flag=0
+# USER WROTE DATA : 92			===>POINTS TO LOCATION : 26	==>FULL flag=0
+# USER WROTE DATA : 189			===>POINTS TO LOCATION : 27	==>FULL flag=0
+# USER WROTE DATA : 45			===>POINTS TO LOCATION : 28	==>FULL flag=0
+# USER WROTE DATA : 101			===>POINTS TO LOCATION : 29	==>FULL flag=0
+# USER WROTE DATA : 99			===>POINTS TO LOCATION : 30	==>FULL flag=0
+# USER WROTE DATA : 10			===>POINTS TO LOCATION : 31	==>FULL flag=0
+# USER WROTE DATA : 128			===>POINTS TO LOCATION : 0	==>FULL flag=1
+# USER READING THE DATA : 0			===>POINTED AT LOCATION : 0	
+# USER READING THE DATA : 36			===>POINTED AT LOCATION : 1	
+# USER READING THE DATA : 129			===>POINTED AT LOCATION : 2	
+# USER READING THE DATA : 9			===>POINTED AT LOCATION : 3	
+# USER READING THE DATA : 99			===>POINTED AT LOCATION : 4	
+# ** Note: $finish    : tb.v(24)
+#    Time: 596 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb.v line 24
+
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:21:00 on Jun 03,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 16:21:01 on Jun 03,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:21:01 on Jun 03,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 16:21:01 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:21:03 on Jun 03,2025, Elapsed time: 0:00:35
+# Errors: 0, Warnings: 1
+# vsim -novopt -suppress 12110 tb 
+# Start time: 16:21:03 on Jun 03,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.sync_fifo
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.sync_fifo
+# time-2:	========RESET APPLIED==========
+# USER WROTE DATA : 36			===>POINTS TO LOCATION : 0	==>FULL flag=0
+# USER WROTE DATA : 129			===>POINTS TO LOCATION : 1	==>FULL flag=0
+# USER WROTE DATA : 9			===>POINTS TO LOCATION : 2	==>FULL flag=0
+# USER WROTE DATA : 99			===>POINTS TO LOCATION : 3	==>FULL flag=0
+# USER WROTE DATA : 13			===>POINTS TO LOCATION : 4	==>FULL flag=0
+# USER WROTE DATA : 141			===>POINTS TO LOCATION : 5	==>FULL flag=0
+# USER WROTE DATA : 101			===>POINTS TO LOCATION : 6	==>FULL flag=0
+# USER WROTE DATA : 18			===>POINTS TO LOCATION : 7	==>FULL flag=0
+# USER WROTE DATA : 1			===>POINTS TO LOCATION : 8	==>FULL flag=0
+# USER WROTE DATA : 13			===>POINTS TO LOCATION : 9	==>FULL flag=0
+# USER WROTE DATA : 118			===>POINTS TO LOCATION : 10	==>FULL flag=0
+# USER WROTE DATA : 61			===>POINTS TO LOCATION : 11	==>FULL flag=0
+# USER WROTE DATA : 237			===>POINTS TO LOCATION : 12	==>FULL flag=0
+# USER WROTE DATA : 140			===>POINTS TO LOCATION : 13	==>FULL flag=0
+# USER WROTE DATA : 249			===>POINTS TO LOCATION : 14	==>FULL flag=0
+# USER WROTE DATA : 198			===>POINTS TO LOCATION : 15	==>FULL flag=0
+# USER WROTE DATA : 197			===>POINTS TO LOCATION : 16	==>FULL flag=0
+# USER WROTE DATA : 170			===>POINTS TO LOCATION : 17	==>FULL flag=0
+# USER WROTE DATA : 229			===>POINTS TO LOCATION : 18	==>FULL flag=0
+# USER WROTE DATA : 119			===>POINTS TO LOCATION : 19	==>FULL flag=0
+# USER WROTE DATA : 18			===>POINTS TO LOCATION : 20	==>FULL flag=0
+# USER WROTE DATA : 143			===>POINTS TO LOCATION : 21	==>FULL flag=0
+# USER WROTE DATA : 242			===>POINTS TO LOCATION : 22	==>FULL flag=0
+# USER WROTE DATA : 206			===>POINTS TO LOCATION : 23	==>FULL flag=0
+# USER WROTE DATA : 232			===>POINTS TO LOCATION : 24	==>FULL flag=0
+# USER WROTE DATA : 197			===>POINTS TO LOCATION : 25	==>FULL flag=0
+# USER WROTE DATA : 92			===>POINTS TO LOCATION : 26	==>FULL flag=0
+# USER WROTE DATA : 189			===>POINTS TO LOCATION : 27	==>FULL flag=0
+# USER WROTE DATA : 45			===>POINTS TO LOCATION : 28	==>FULL flag=0
+# USER WROTE DATA : 101			===>POINTS TO LOCATION : 29	==>FULL flag=0
+# USER WROTE DATA : 99			===>POINTS TO LOCATION : 30	==>FULL flag=0
+# USER WROTE DATA : 10			===>POINTS TO LOCATION : 31	==>FULL flag=0
+# USER READING THE DATA : 0			===>POINTED AT LOCATION : 0	
+# USER READING THE DATA : 36			===>POINTED AT LOCATION : 1	
+# USER READING THE DATA : 129			===>POINTED AT LOCATION : 2	
+# USER READING THE DATA : 9			===>POINTED AT LOCATION : 3	
+# USER READING THE DATA : 99			===>POINTED AT LOCATION : 4	
+# ** Note: $finish    : tb.v(24)
+#    Time: 586 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb.v line 24
+
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:21:57 on Jun 03,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 16:21:57 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:21:57 on Jun 03,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 16:21:58 on Jun 03,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 16:21:59 on Jun 03,2025, Elapsed time: 0:00:56
+# Errors: 0, Warnings: 1
+# vsim -novopt -suppress 12110 tb 
+# Start time: 16:21:59 on Jun 03,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.sync_fifo
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.sync_fifo
+# time-2:	========RESET APPLIED==========
+# USER WROTE DATA : 36			===>POINTS TO LOCATION : 0	==>FULL flag=0
+# USER WROTE DATA : 129			===>POINTS TO LOCATION : 1	==>FULL flag=0
+# USER WROTE DATA : 9			===>POINTS TO LOCATION : 2	==>FULL flag=0
+# USER WROTE DATA : 99			===>POINTS TO LOCATION : 3	==>FULL flag=0
+# USER WROTE DATA : 13			===>POINTS TO LOCATION : 4	==>FULL flag=0
+# USER WROTE DATA : 141			===>POINTS TO LOCATION : 5	==>FULL flag=0
+# USER WROTE DATA : 101			===>POINTS TO LOCATION : 6	==>FULL flag=0
+# USER WROTE DATA : 18			===>POINTS TO LOCATION : 7	==>FULL flag=0
+# USER WROTE DATA : 1			===>POINTS TO LOCATION : 8	==>FULL flag=0
+# USER WROTE DATA : 13			===>POINTS TO LOCATION : 9	==>FULL flag=0
+# USER WROTE DATA : 118			===>POINTS TO LOCATION : 10	==>FULL flag=0
+# USER WROTE DATA : 61			===>POINTS TO LOCATION : 11	==>FULL flag=0
+# USER WROTE DATA : 237			===>POINTS TO LOCATION : 12	==>FULL flag=0
+# USER WROTE DATA : 140			===>POINTS TO LOCATION : 13	==>FULL flag=0
+# USER WROTE DATA : 249			===>POINTS TO LOCATION : 14	==>FULL flag=0
+# USER WROTE DATA : 198			===>POINTS TO LOCATION : 15	==>FULL flag=0
+# USER WROTE DATA : 197			===>POINTS TO LOCATION : 16	==>FULL flag=0
+# USER WROTE DATA : 170			===>POINTS TO LOCATION : 17	==>FULL flag=0
+# USER WROTE DATA : 229			===>POINTS TO LOCATION : 18	==>FULL flag=0
+# USER WROTE DATA : 119			===>POINTS TO LOCATION : 19	==>FULL flag=0
+# USER WROTE DATA : 18			===>POINTS TO LOCATION : 20	==>FULL flag=0
+# USER WROTE DATA : 143			===>POINTS TO LOCATION : 21	==>FULL flag=0
+# USER WROTE DATA : 242			===>POINTS TO LOCATION : 22	==>FULL flag=0
+# USER WROTE DATA : 206			===>POINTS TO LOCATION : 23	==>FULL flag=0
+# USER WROTE DATA : 232			===>POINTS TO LOCATION : 24	==>FULL flag=0
+# USER WROTE DATA : 197			===>POINTS TO LOCATION : 25	==>FULL flag=0
+# USER WROTE DATA : 92			===>POINTS TO LOCATION : 26	==>FULL flag=0
+# USER WROTE DATA : 189			===>POINTS TO LOCATION : 27	==>FULL flag=0
+# USER WROTE DATA : 45			===>POINTS TO LOCATION : 28	==>FULL flag=0
+# USER WROTE DATA : 101			===>POINTS TO LOCATION : 29	==>FULL flag=0
+# USER WROTE DATA : 99			===>POINTS TO LOCATION : 30	==>FULL flag=0
+# USER WROTE DATA : 10			===>POINTS TO LOCATION : 31	==>FULL flag=0
+# USER READING THE DATA : 36			===>POINTED AT LOCATION : 1	
+# USER READING THE DATA : 9			===>POINTED AT LOCATION : 3	
+# USER READING THE DATA : 13			===>POINTED AT LOCATION : 5	
+# USER READING THE DATA : 101			===>POINTED AT LOCATION : 7	
+# USER READING THE DATA : 1			===>POINTED AT LOCATION : 9	
+# ** Note: $finish    : tb.v(24)
+#    Time: 636 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb.v line 24
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:22:12 on Jun 03,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 16:22:13 on Jun 03,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:22:13 on Jun 03,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 16:22:13 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:22:14 on Jun 03,2025, Elapsed time: 0:00:15
+# Errors: 0, Warnings: 1
+# vsim -novopt -suppress 12110 tb 
+# Start time: 16:22:14 on Jun 03,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.sync_fifo
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.sync_fifo
+# time-2:	========RESET APPLIED==========
+# USER WROTE DATA : 36			===>POINTS TO LOCATION : 0	==>FULL flag=0
+# USER WROTE DATA : 129			===>POINTS TO LOCATION : 1	==>FULL flag=0
+# USER WROTE DATA : 9			===>POINTS TO LOCATION : 2	==>FULL flag=0
+# USER WROTE DATA : 99			===>POINTS TO LOCATION : 3	==>FULL flag=0
+# USER WROTE DATA : 13			===>POINTS TO LOCATION : 4	==>FULL flag=0
+# USER WROTE DATA : 141			===>POINTS TO LOCATION : 5	==>FULL flag=0
+# USER WROTE DATA : 101			===>POINTS TO LOCATION : 6	==>FULL flag=0
+# USER WROTE DATA : 18			===>POINTS TO LOCATION : 7	==>FULL flag=0
+# USER WROTE DATA : 1			===>POINTS TO LOCATION : 8	==>FULL flag=0
+# USER WROTE DATA : 13			===>POINTS TO LOCATION : 9	==>FULL flag=0
+# USER WROTE DATA : 118			===>POINTS TO LOCATION : 10	==>FULL flag=0
+# USER WROTE DATA : 61			===>POINTS TO LOCATION : 11	==>FULL flag=0
+# USER WROTE DATA : 237			===>POINTS TO LOCATION : 12	==>FULL flag=0
+# USER WROTE DATA : 140			===>POINTS TO LOCATION : 13	==>FULL flag=0
+# USER WROTE DATA : 249			===>POINTS TO LOCATION : 14	==>FULL flag=0
+# USER WROTE DATA : 198			===>POINTS TO LOCATION : 15	==>FULL flag=0
+# USER WROTE DATA : 197			===>POINTS TO LOCATION : 16	==>FULL flag=0
+# USER WROTE DATA : 170			===>POINTS TO LOCATION : 17	==>FULL flag=0
+# USER WROTE DATA : 229			===>POINTS TO LOCATION : 18	==>FULL flag=0
+# USER WROTE DATA : 119			===>POINTS TO LOCATION : 19	==>FULL flag=0
+# USER WROTE DATA : 18			===>POINTS TO LOCATION : 20	==>FULL flag=0
+# USER WROTE DATA : 143			===>POINTS TO LOCATION : 21	==>FULL flag=0
+# USER WROTE DATA : 242			===>POINTS TO LOCATION : 22	==>FULL flag=0
+# USER WROTE DATA : 206			===>POINTS TO LOCATION : 23	==>FULL flag=0
+# USER WROTE DATA : 232			===>POINTS TO LOCATION : 24	==>FULL flag=0
+# USER WROTE DATA : 197			===>POINTS TO LOCATION : 25	==>FULL flag=0
+# USER WROTE DATA : 92			===>POINTS TO LOCATION : 26	==>FULL flag=0
+# USER WROTE DATA : 189			===>POINTS TO LOCATION : 27	==>FULL flag=0
+# USER WROTE DATA : 45			===>POINTS TO LOCATION : 28	==>FULL flag=0
+# USER WROTE DATA : 101			===>POINTS TO LOCATION : 29	==>FULL flag=0
+# USER WROTE DATA : 99			===>POINTS TO LOCATION : 30	==>FULL flag=0
+# USER WROTE DATA : 10			===>POINTS TO LOCATION : 31	==>FULL flag=0
+# USER READING THE DATA : 0			===>POINTED AT LOCATION : 0	
+# USER READING THE DATA : 129			===>POINTED AT LOCATION : 2	
+# USER READING THE DATA : 99			===>POINTED AT LOCATION : 4	
+# USER READING THE DATA : 141			===>POINTED AT LOCATION : 6	
+# USER READING THE DATA : 18			===>POINTED AT LOCATION : 8	
+# ** Note: $finish    : tb.v(24)
+#    Time: 635 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb.v line 24
+
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:23:01 on Jun 03,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 16:23:01 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:23:01 on Jun 03,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 16:23:02 on Jun 03,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 16:23:04 on Jun 03,2025, Elapsed time: 0:00:50
+# Errors: 0, Warnings: 1
+# vsim -novopt -suppress 12110 tb 
+# Start time: 16:23:04 on Jun 03,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.sync_fifo
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.sync_fifo
+# time-2:	========RESET APPLIED==========
+# USER WROTE DATA : 36			===>POINTS TO LOCATION : 0	==>FULL flag=0
+# USER WROTE DATA : 129			===>POINTS TO LOCATION : 1	==>FULL flag=0
+# USER WROTE DATA : 9			===>POINTS TO LOCATION : 2	==>FULL flag=0
+# USER WROTE DATA : 99			===>POINTS TO LOCATION : 3	==>FULL flag=0
+# USER WROTE DATA : 13			===>POINTS TO LOCATION : 4	==>FULL flag=0
+# USER WROTE DATA : 141			===>POINTS TO LOCATION : 5	==>FULL flag=0
+# USER WROTE DATA : 101			===>POINTS TO LOCATION : 6	==>FULL flag=0
+# USER WROTE DATA : 18			===>POINTS TO LOCATION : 7	==>FULL flag=0
+# USER WROTE DATA : 1			===>POINTS TO LOCATION : 8	==>FULL flag=0
+# USER WROTE DATA : 13			===>POINTS TO LOCATION : 9	==>FULL flag=0
+# USER WROTE DATA : 118			===>POINTS TO LOCATION : 10	==>FULL flag=0
+# USER WROTE DATA : 61			===>POINTS TO LOCATION : 11	==>FULL flag=0
+# USER WROTE DATA : 237			===>POINTS TO LOCATION : 12	==>FULL flag=0
+# USER WROTE DATA : 140			===>POINTS TO LOCATION : 13	==>FULL flag=0
+# USER WROTE DATA : 249			===>POINTS TO LOCATION : 14	==>FULL flag=0
+# USER WROTE DATA : 198			===>POINTS TO LOCATION : 15	==>FULL flag=0
+# USER WROTE DATA : 197			===>POINTS TO LOCATION : 16	==>FULL flag=0
+# USER WROTE DATA : 170			===>POINTS TO LOCATION : 17	==>FULL flag=0
+# USER WROTE DATA : 229			===>POINTS TO LOCATION : 18	==>FULL flag=0
+# USER WROTE DATA : 119			===>POINTS TO LOCATION : 19	==>FULL flag=0
+# USER WROTE DATA : 18			===>POINTS TO LOCATION : 20	==>FULL flag=0
+# USER WROTE DATA : 143			===>POINTS TO LOCATION : 21	==>FULL flag=0
+# USER WROTE DATA : 242			===>POINTS TO LOCATION : 22	==>FULL flag=0
+# USER WROTE DATA : 206			===>POINTS TO LOCATION : 23	==>FULL flag=0
+# USER WROTE DATA : 232			===>POINTS TO LOCATION : 24	==>FULL flag=0
+# USER WROTE DATA : 197			===>POINTS TO LOCATION : 25	==>FULL flag=0
+# USER WROTE DATA : 92			===>POINTS TO LOCATION : 26	==>FULL flag=0
+# USER WROTE DATA : 189			===>POINTS TO LOCATION : 27	==>FULL flag=0
+# USER WROTE DATA : 45			===>POINTS TO LOCATION : 28	==>FULL flag=0
+# USER WROTE DATA : 101			===>POINTS TO LOCATION : 29	==>FULL flag=0
+# USER WROTE DATA : 99			===>POINTS TO LOCATION : 30	==>FULL flag=0
+# USER WROTE DATA : 10			===>POINTS TO LOCATION : 31	==>FULL flag=0
+# USER READING THE DATA : 36			===>POINTED AT LOCATION : 1	
+# ** Note: $finish    : tb.v(24)
+#    Time: 556 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb.v line 24
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:23:45 on Jun 03,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 16:23:45 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:23:45 on Jun 03,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 16:23:45 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:23:48 on Jun 03,2025, Elapsed time: 0:00:44
+# Errors: 0, Warnings: 1
+# vsim -novopt -suppress 12110 tb 
+# Start time: 16:23:48 on Jun 03,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.sync_fifo
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.sync_fifo
+# time-2:	========RESET APPLIED==========
+# USER WROTE DATA : 36			===>POINTS TO LOCATION : 0	==>FULL flag=0
+# USER WROTE DATA : 129			===>POINTS TO LOCATION : 1	==>FULL flag=0
+# USER WROTE DATA : 9			===>POINTS TO LOCATION : 2	==>FULL flag=0
+# USER WROTE DATA : 99			===>POINTS TO LOCATION : 3	==>FULL flag=0
+# USER WROTE DATA : 13			===>POINTS TO LOCATION : 4	==>FULL flag=0
+# USER WROTE DATA : 141			===>POINTS TO LOCATION : 5	==>FULL flag=0
+# USER WROTE DATA : 101			===>POINTS TO LOCATION : 6	==>FULL flag=0
+# USER WROTE DATA : 18			===>POINTS TO LOCATION : 7	==>FULL flag=0
+# USER WROTE DATA : 1			===>POINTS TO LOCATION : 8	==>FULL flag=0
+# USER WROTE DATA : 13			===>POINTS TO LOCATION : 9	==>FULL flag=0
+# USER WROTE DATA : 118			===>POINTS TO LOCATION : 10	==>FULL flag=0
+# USER WROTE DATA : 61			===>POINTS TO LOCATION : 11	==>FULL flag=0
+# USER WROTE DATA : 237			===>POINTS TO LOCATION : 12	==>FULL flag=0
+# USER WROTE DATA : 140			===>POINTS TO LOCATION : 13	==>FULL flag=0
+# USER WROTE DATA : 249			===>POINTS TO LOCATION : 14	==>FULL flag=0
+# USER WROTE DATA : 198			===>POINTS TO LOCATION : 15	==>FULL flag=0
+# USER WROTE DATA : 197			===>POINTS TO LOCATION : 16	==>FULL flag=0
+# USER WROTE DATA : 170			===>POINTS TO LOCATION : 17	==>FULL flag=0
+# USER WROTE DATA : 229			===>POINTS TO LOCATION : 18	==>FULL flag=0
+# USER WROTE DATA : 119			===>POINTS TO LOCATION : 19	==>FULL flag=0
+# USER WROTE DATA : 18			===>POINTS TO LOCATION : 20	==>FULL flag=0
+# USER WROTE DATA : 143			===>POINTS TO LOCATION : 21	==>FULL flag=0
+# USER WROTE DATA : 242			===>POINTS TO LOCATION : 22	==>FULL flag=0
+# USER WROTE DATA : 206			===>POINTS TO LOCATION : 23	==>FULL flag=0
+# USER WROTE DATA : 232			===>POINTS TO LOCATION : 24	==>FULL flag=0
+# USER WROTE DATA : 197			===>POINTS TO LOCATION : 25	==>FULL flag=0
+# USER WROTE DATA : 92			===>POINTS TO LOCATION : 26	==>FULL flag=0
+# USER WROTE DATA : 189			===>POINTS TO LOCATION : 27	==>FULL flag=0
+# USER WROTE DATA : 45			===>POINTS TO LOCATION : 28	==>FULL flag=0
+# USER WROTE DATA : 101			===>POINTS TO LOCATION : 29	==>FULL flag=0
+# USER WROTE DATA : 99			===>POINTS TO LOCATION : 30	==>FULL flag=0
+# USER WROTE DATA : 10			===>POINTS TO LOCATION : 31	==>FULL flag=0
+# USER READING THE DATA : 36			===>POINTED AT LOCATION : 1	
+# USER READING THE DATA : 9			===>POINTED AT LOCATION : 3	
+# ** Note: $finish    : tb.v(24)
+#    Time: 576 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb.v line 24
+# A time value could not be extracted from the current line
+
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:25:27 on Jun 03,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 16:25:28 on Jun 03,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:25:28 on Jun 03,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 16:25:28 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:25:29 on Jun 03,2025, Elapsed time: 0:01:41
+# Errors: 0, Warnings: 1
+# vsim -novopt -suppress 12110 tb 
+# Start time: 16:25:29 on Jun 03,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.sync_fifo
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.sync_fifo
+# time-2:	========RESET APPLIED==========
+# USER WROTE DATA : 36			===>POINTS TO LOCATION : 0	==>FULL flag=0
+# USER WROTE DATA : 129			===>POINTS TO LOCATION : 1	==>FULL flag=0
+# USER WROTE DATA : 9			===>POINTS TO LOCATION : 2	==>FULL flag=0
+# USER WROTE DATA : 99			===>POINTS TO LOCATION : 3	==>FULL flag=0
+# USER WROTE DATA : 13			===>POINTS TO LOCATION : 4	==>FULL flag=0
+# USER WROTE DATA : 141			===>POINTS TO LOCATION : 5	==>FULL flag=0
+# USER WROTE DATA : 101			===>POINTS TO LOCATION : 6	==>FULL flag=0
+# USER WROTE DATA : 18			===>POINTS TO LOCATION : 7	==>FULL flag=0
+# USER WROTE DATA : 1			===>POINTS TO LOCATION : 8	==>FULL flag=0
+# USER WROTE DATA : 13			===>POINTS TO LOCATION : 9	==>FULL flag=0
+# USER WROTE DATA : 118			===>POINTS TO LOCATION : 10	==>FULL flag=0
+# USER WROTE DATA : 61			===>POINTS TO LOCATION : 11	==>FULL flag=0
+# USER WROTE DATA : 237			===>POINTS TO LOCATION : 12	==>FULL flag=0
+# USER WROTE DATA : 140			===>POINTS TO LOCATION : 13	==>FULL flag=0
+# USER WROTE DATA : 249			===>POINTS TO LOCATION : 14	==>FULL flag=0
+# USER WROTE DATA : 198			===>POINTS TO LOCATION : 15	==>FULL flag=0
+# USER WROTE DATA : 197			===>POINTS TO LOCATION : 16	==>FULL flag=0
+# USER WROTE DATA : 170			===>POINTS TO LOCATION : 17	==>FULL flag=0
+# USER WROTE DATA : 229			===>POINTS TO LOCATION : 18	==>FULL flag=0
+# USER WROTE DATA : 119			===>POINTS TO LOCATION : 19	==>FULL flag=0
+# USER WROTE DATA : 18			===>POINTS TO LOCATION : 20	==>FULL flag=0
+# USER WROTE DATA : 143			===>POINTS TO LOCATION : 21	==>FULL flag=0
+# USER WROTE DATA : 242			===>POINTS TO LOCATION : 22	==>FULL flag=0
+# USER WROTE DATA : 206			===>POINTS TO LOCATION : 23	==>FULL flag=0
+# USER WROTE DATA : 232			===>POINTS TO LOCATION : 24	==>FULL flag=0
+# USER WROTE DATA : 197			===>POINTS TO LOCATION : 25	==>FULL flag=0
+# USER WROTE DATA : 92			===>POINTS TO LOCATION : 26	==>FULL flag=0
+# USER WROTE DATA : 189			===>POINTS TO LOCATION : 27	==>FULL flag=0
+# USER WROTE DATA : 45			===>POINTS TO LOCATION : 28	==>FULL flag=0
+# USER WROTE DATA : 101			===>POINTS TO LOCATION : 29	==>FULL flag=0
+# USER WROTE DATA : 99			===>POINTS TO LOCATION : 30	==>FULL flag=0
+# USER WROTE DATA : 10			===>POINTS TO LOCATION : 31	==>FULL flag=0
+# USER READING THE DATA : 0			===>POINTED AT LOCATION : 0	
+# USER READING THE DATA : 129			===>POINTED AT LOCATION : 2	
+# ** Note: $finish    : tb.v(24)
+#    Time: 575 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb.v line 24
+
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:29:49 on Jun 03,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 16:29:50 on Jun 03,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:29:50 on Jun 03,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 16:29:50 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:29:51 on Jun 03,2025, Elapsed time: 0:04:22
+# Errors: 0, Warnings: 1
+# vsim -novopt -suppress 12110 tb 
+# Start time: 16:29:51 on Jun 03,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.sync_fifo
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.sync_fifo
+# time-2:	========RESET APPLIED==========
+# USER WROTE DATA : 36			===>POINTS TO LOCATION : 0	==>FULL flag=0
+# USER WROTE DATA : 129			===>POINTS TO LOCATION : 1	==>FULL flag=0
+# USER WROTE DATA : 9			===>POINTS TO LOCATION : 2	==>FULL flag=0
+# USER WROTE DATA : 99			===>POINTS TO LOCATION : 3	==>FULL flag=0
+# USER WROTE DATA : 13			===>POINTS TO LOCATION : 4	==>FULL flag=0
+# USER WROTE DATA : 141			===>POINTS TO LOCATION : 5	==>FULL flag=0
+# USER WROTE DATA : 101			===>POINTS TO LOCATION : 6	==>FULL flag=0
+# USER WROTE DATA : 18			===>POINTS TO LOCATION : 7	==>FULL flag=0
+# USER WROTE DATA : 1			===>POINTS TO LOCATION : 8	==>FULL flag=0
+# USER WROTE DATA : 13			===>POINTS TO LOCATION : 9	==>FULL flag=0
+# USER WROTE DATA : 118			===>POINTS TO LOCATION : 10	==>FULL flag=0
+# USER WROTE DATA : 61			===>POINTS TO LOCATION : 11	==>FULL flag=0
+# USER WROTE DATA : 237			===>POINTS TO LOCATION : 12	==>FULL flag=0
+# USER WROTE DATA : 140			===>POINTS TO LOCATION : 13	==>FULL flag=0
+# USER WROTE DATA : 249			===>POINTS TO LOCATION : 14	==>FULL flag=0
+# USER WROTE DATA : 198			===>POINTS TO LOCATION : 15	==>FULL flag=0
+# USER WROTE DATA : 197			===>POINTS TO LOCATION : 16	==>FULL flag=0
+# USER WROTE DATA : 170			===>POINTS TO LOCATION : 17	==>FULL flag=0
+# USER WROTE DATA : 229			===>POINTS TO LOCATION : 18	==>FULL flag=0
+# USER WROTE DATA : 119			===>POINTS TO LOCATION : 19	==>FULL flag=0
+# USER WROTE DATA : 18			===>POINTS TO LOCATION : 20	==>FULL flag=0
+# USER WROTE DATA : 143			===>POINTS TO LOCATION : 21	==>FULL flag=0
+# USER WROTE DATA : 242			===>POINTS TO LOCATION : 22	==>FULL flag=0
+# USER WROTE DATA : 206			===>POINTS TO LOCATION : 23	==>FULL flag=0
+# USER WROTE DATA : 232			===>POINTS TO LOCATION : 24	==>FULL flag=0
+# USER WROTE DATA : 197			===>POINTS TO LOCATION : 25	==>FULL flag=0
+# USER WROTE DATA : 92			===>POINTS TO LOCATION : 26	==>FULL flag=0
+# USER WROTE DATA : 189			===>POINTS TO LOCATION : 27	==>FULL flag=0
+# USER WROTE DATA : 45			===>POINTS TO LOCATION : 28	==>FULL flag=0
+# USER WROTE DATA : 101			===>POINTS TO LOCATION : 29	==>FULL flag=0
+# USER WROTE DATA : 99			===>POINTS TO LOCATION : 30	==>FULL flag=0
+# USER WROTE DATA : 10			===>POINTS TO LOCATION : 31	==>FULL flag=0
+# USER READING THE DATA : 0			===>POINTED AT LOCATION : 0	
+# USER READING THE DATA : 36			===>POINTED AT LOCATION : 1	
+# ** Note: $finish    : tb.v(24)
+#    Time: 556 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb.v line 24
+
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:30:11 on Jun 03,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 16:30:11 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:30:11 on Jun 03,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 16:30:12 on Jun 03,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 16:30:12 on Jun 03,2025, Elapsed time: 0:00:21
+# Errors: 0, Warnings: 1
+# vsim -novopt -suppress 12110 tb 
+# Start time: 16:30:12 on Jun 03,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.sync_fifo
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.sync_fifo
+# time-2:	========RESET APPLIED==========
+# USER WROTE DATA : 36			===>POINTS TO LOCATION : 0	==>FULL flag=0
+# USER WROTE DATA : 129			===>POINTS TO LOCATION : 1	==>FULL flag=0
+# USER WROTE DATA : 9			===>POINTS TO LOCATION : 2	==>FULL flag=0
+# USER WROTE DATA : 99			===>POINTS TO LOCATION : 3	==>FULL flag=0
+# USER WROTE DATA : 13			===>POINTS TO LOCATION : 4	==>FULL flag=0
+# USER WROTE DATA : 141			===>POINTS TO LOCATION : 5	==>FULL flag=0
+# USER WROTE DATA : 101			===>POINTS TO LOCATION : 6	==>FULL flag=0
+# USER WROTE DATA : 18			===>POINTS TO LOCATION : 7	==>FULL flag=0
+# USER WROTE DATA : 1			===>POINTS TO LOCATION : 8	==>FULL flag=0
+# USER WROTE DATA : 13			===>POINTS TO LOCATION : 9	==>FULL flag=0
+# USER WROTE DATA : 118			===>POINTS TO LOCATION : 10	==>FULL flag=0
+# USER WROTE DATA : 61			===>POINTS TO LOCATION : 11	==>FULL flag=0
+# USER WROTE DATA : 237			===>POINTS TO LOCATION : 12	==>FULL flag=0
+# USER WROTE DATA : 140			===>POINTS TO LOCATION : 13	==>FULL flag=0
+# USER WROTE DATA : 249			===>POINTS TO LOCATION : 14	==>FULL flag=0
+# USER WROTE DATA : 198			===>POINTS TO LOCATION : 15	==>FULL flag=0
+# USER WROTE DATA : 197			===>POINTS TO LOCATION : 16	==>FULL flag=0
+# USER WROTE DATA : 170			===>POINTS TO LOCATION : 17	==>FULL flag=0
+# USER WROTE DATA : 229			===>POINTS TO LOCATION : 18	==>FULL flag=0
+# USER WROTE DATA : 119			===>POINTS TO LOCATION : 19	==>FULL flag=0
+# USER WROTE DATA : 18			===>POINTS TO LOCATION : 20	==>FULL flag=0
+# USER WROTE DATA : 143			===>POINTS TO LOCATION : 21	==>FULL flag=0
+# USER WROTE DATA : 242			===>POINTS TO LOCATION : 22	==>FULL flag=0
+# USER WROTE DATA : 206			===>POINTS TO LOCATION : 23	==>FULL flag=0
+# USER WROTE DATA : 232			===>POINTS TO LOCATION : 24	==>FULL flag=0
+# USER WROTE DATA : 197			===>POINTS TO LOCATION : 25	==>FULL flag=0
+# USER WROTE DATA : 92			===>POINTS TO LOCATION : 26	==>FULL flag=0
+# USER WROTE DATA : 189			===>POINTS TO LOCATION : 27	==>FULL flag=0
+# USER WROTE DATA : 45			===>POINTS TO LOCATION : 28	==>FULL flag=0
+# USER WROTE DATA : 101			===>POINTS TO LOCATION : 29	==>FULL flag=0
+# USER WROTE DATA : 99			===>POINTS TO LOCATION : 30	==>FULL flag=0
+# USER WROTE DATA : 10			===>POINTS TO LOCATION : 31	==>FULL flag=0
+# USER READING THE DATA : 36			===>POINTED AT LOCATION : 1	
+# USER READING THE DATA : 9			===>POINTED AT LOCATION : 3	
+# ** Note: $finish    : tb.v(24)
+#    Time: 576 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb.v line 24
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:31:22 on Jun 03,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 16:31:23 on Jun 03,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:31:23 on Jun 03,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 16:31:23 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:31:24 on Jun 03,2025, Elapsed time: 0:01:12
+# Errors: 0, Warnings: 1
+# vsim -novopt -suppress 12110 tb 
+# Start time: 16:31:24 on Jun 03,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.sync_fifo
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.sync_fifo
+# time-2:	========RESET APPLIED==========
+# USER WROTE DATA : 36			===>POINTS TO LOCATION : 0	==>FULL flag=0
+# USER WROTE DATA : 129			===>POINTS TO LOCATION : 1	==>FULL flag=0
+# USER WROTE DATA : 9			===>POINTS TO LOCATION : 2	==>FULL flag=0
+# USER WROTE DATA : 99			===>POINTS TO LOCATION : 3	==>FULL flag=0
+# USER WROTE DATA : 13			===>POINTS TO LOCATION : 4	==>FULL flag=0
+# USER WROTE DATA : 141			===>POINTS TO LOCATION : 5	==>FULL flag=0
+# USER WROTE DATA : 101			===>POINTS TO LOCATION : 6	==>FULL flag=0
+# USER WROTE DATA : 18			===>POINTS TO LOCATION : 7	==>FULL flag=0
+# USER WROTE DATA : 1			===>POINTS TO LOCATION : 8	==>FULL flag=0
+# USER WROTE DATA : 13			===>POINTS TO LOCATION : 9	==>FULL flag=0
+# USER WROTE DATA : 118			===>POINTS TO LOCATION : 10	==>FULL flag=0
+# USER WROTE DATA : 61			===>POINTS TO LOCATION : 11	==>FULL flag=0
+# USER WROTE DATA : 237			===>POINTS TO LOCATION : 12	==>FULL flag=0
+# USER WROTE DATA : 140			===>POINTS TO LOCATION : 13	==>FULL flag=0
+# USER WROTE DATA : 249			===>POINTS TO LOCATION : 14	==>FULL flag=0
+# USER WROTE DATA : 198			===>POINTS TO LOCATION : 15	==>FULL flag=0
+# USER WROTE DATA : 197			===>POINTS TO LOCATION : 16	==>FULL flag=0
+# USER WROTE DATA : 170			===>POINTS TO LOCATION : 17	==>FULL flag=0
+# USER WROTE DATA : 229			===>POINTS TO LOCATION : 18	==>FULL flag=0
+# USER WROTE DATA : 119			===>POINTS TO LOCATION : 19	==>FULL flag=0
+# USER WROTE DATA : 18			===>POINTS TO LOCATION : 20	==>FULL flag=0
+# USER WROTE DATA : 143			===>POINTS TO LOCATION : 21	==>FULL flag=0
+# USER WROTE DATA : 242			===>POINTS TO LOCATION : 22	==>FULL flag=0
+# USER WROTE DATA : 206			===>POINTS TO LOCATION : 23	==>FULL flag=0
+# USER WROTE DATA : 232			===>POINTS TO LOCATION : 24	==>FULL flag=0
+# USER WROTE DATA : 197			===>POINTS TO LOCATION : 25	==>FULL flag=0
+# USER WROTE DATA : 92			===>POINTS TO LOCATION : 26	==>FULL flag=0
+# USER WROTE DATA : 189			===>POINTS TO LOCATION : 27	==>FULL flag=0
+# USER WROTE DATA : 45			===>POINTS TO LOCATION : 28	==>FULL flag=0
+# USER WROTE DATA : 101			===>POINTS TO LOCATION : 29	==>FULL flag=0
+# USER WROTE DATA : 99			===>POINTS TO LOCATION : 30	==>FULL flag=0
+# USER WROTE DATA : 10			===>POINTS TO LOCATION : 31	==>FULL flag=0
+# USER READING THE DATA : 0			===>POINTED AT LOCATION : 0	
+# USER READING THE DATA : 36			===>POINTED AT LOCATION : 1	
+# ** Note: $finish    : tb.v(24)
+#    Time: 556 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb.v line 24
+
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:32:08 on Jun 03,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 16:32:08 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:32:08 on Jun 03,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 16:32:08 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:32:09 on Jun 03,2025, Elapsed time: 0:00:45
+# Errors: 0, Warnings: 1
+# vsim -novopt -suppress 12110 tb 
+# Start time: 16:32:09 on Jun 03,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.sync_fifo
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.sync_fifo
+# time-2:	========RESET APPLIED==========
+# USER WROTE DATA : 36			===>POINTS TO LOCATION : 0	==>FULL flag=0
+# USER WROTE DATA : 129			===>POINTS TO LOCATION : 1	==>FULL flag=0
+# USER WROTE DATA : 9			===>POINTS TO LOCATION : 2	==>FULL flag=0
+# USER WROTE DATA : 99			===>POINTS TO LOCATION : 3	==>FULL flag=0
+# USER WROTE DATA : 13			===>POINTS TO LOCATION : 4	==>FULL flag=0
+# USER WROTE DATA : 141			===>POINTS TO LOCATION : 5	==>FULL flag=0
+# USER WROTE DATA : 101			===>POINTS TO LOCATION : 6	==>FULL flag=0
+# USER WROTE DATA : 18			===>POINTS TO LOCATION : 7	==>FULL flag=0
+# USER WROTE DATA : 1			===>POINTS TO LOCATION : 8	==>FULL flag=0
+# USER WROTE DATA : 13			===>POINTS TO LOCATION : 9	==>FULL flag=0
+# USER WROTE DATA : 118			===>POINTS TO LOCATION : 10	==>FULL flag=0
+# USER WROTE DATA : 61			===>POINTS TO LOCATION : 11	==>FULL flag=0
+# USER WROTE DATA : 237			===>POINTS TO LOCATION : 12	==>FULL flag=0
+# USER WROTE DATA : 140			===>POINTS TO LOCATION : 13	==>FULL flag=0
+# USER WROTE DATA : 249			===>POINTS TO LOCATION : 14	==>FULL flag=0
+# USER WROTE DATA : 198			===>POINTS TO LOCATION : 15	==>FULL flag=0
+# USER WROTE DATA : 197			===>POINTS TO LOCATION : 16	==>FULL flag=0
+# USER WROTE DATA : 170			===>POINTS TO LOCATION : 17	==>FULL flag=0
+# USER WROTE DATA : 229			===>POINTS TO LOCATION : 18	==>FULL flag=0
+# USER WROTE DATA : 119			===>POINTS TO LOCATION : 19	==>FULL flag=0
+# USER WROTE DATA : 18			===>POINTS TO LOCATION : 20	==>FULL flag=0
+# USER WROTE DATA : 143			===>POINTS TO LOCATION : 21	==>FULL flag=0
+# USER WROTE DATA : 242			===>POINTS TO LOCATION : 22	==>FULL flag=0
+# USER WROTE DATA : 206			===>POINTS TO LOCATION : 23	==>FULL flag=0
+# USER WROTE DATA : 232			===>POINTS TO LOCATION : 24	==>FULL flag=0
+# USER WROTE DATA : 197			===>POINTS TO LOCATION : 25	==>FULL flag=0
+# USER WROTE DATA : 92			===>POINTS TO LOCATION : 26	==>FULL flag=0
+# USER WROTE DATA : 189			===>POINTS TO LOCATION : 27	==>FULL flag=0
+# USER WROTE DATA : 45			===>POINTS TO LOCATION : 28	==>FULL flag=0
+# USER WROTE DATA : 101			===>POINTS TO LOCATION : 29	==>FULL flag=0
+# USER WROTE DATA : 99			===>POINTS TO LOCATION : 30	==>FULL flag=0
+# USER WROTE DATA : 10			===>POINTS TO LOCATION : 31	==>FULL flag=0
+# USER READING THE DATA : 0			===>POINTED AT LOCATION : 0	
+# USER READING THE DATA : 0			===>POINTED AT LOCATION : 0	
+# ** Note: $finish    : tb.v(24)
+#    Time: 555 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb.v line 24
+
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:32:26 on Jun 03,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 16:32:26 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:32:27 on Jun 03,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 16:32:27 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:32:28 on Jun 03,2025, Elapsed time: 0:00:19
+# Errors: 0, Warnings: 1
+# vsim -novopt -suppress 12110 tb 
+# Start time: 16:32:28 on Jun 03,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.sync_fifo
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.sync_fifo
+# time-2:	========RESET APPLIED==========
+# USER WROTE DATA : 36			===>POINTS TO LOCATION : 0	==>FULL flag=0
+# USER WROTE DATA : 129			===>POINTS TO LOCATION : 1	==>FULL flag=0
+# USER WROTE DATA : 9			===>POINTS TO LOCATION : 2	==>FULL flag=0
+# USER WROTE DATA : 99			===>POINTS TO LOCATION : 3	==>FULL flag=0
+# USER WROTE DATA : 13			===>POINTS TO LOCATION : 4	==>FULL flag=0
+# USER WROTE DATA : 141			===>POINTS TO LOCATION : 5	==>FULL flag=0
+# USER WROTE DATA : 101			===>POINTS TO LOCATION : 6	==>FULL flag=0
+# USER WROTE DATA : 18			===>POINTS TO LOCATION : 7	==>FULL flag=0
+# USER WROTE DATA : 1			===>POINTS TO LOCATION : 8	==>FULL flag=0
+# USER WROTE DATA : 13			===>POINTS TO LOCATION : 9	==>FULL flag=0
+# USER WROTE DATA : 118			===>POINTS TO LOCATION : 10	==>FULL flag=0
+# USER WROTE DATA : 61			===>POINTS TO LOCATION : 11	==>FULL flag=0
+# USER WROTE DATA : 237			===>POINTS TO LOCATION : 12	==>FULL flag=0
+# USER WROTE DATA : 140			===>POINTS TO LOCATION : 13	==>FULL flag=0
+# USER WROTE DATA : 249			===>POINTS TO LOCATION : 14	==>FULL flag=0
+# USER WROTE DATA : 198			===>POINTS TO LOCATION : 15	==>FULL flag=0
+# USER WROTE DATA : 197			===>POINTS TO LOCATION : 16	==>FULL flag=0
+# USER WROTE DATA : 170			===>POINTS TO LOCATION : 17	==>FULL flag=0
+# USER WROTE DATA : 229			===>POINTS TO LOCATION : 18	==>FULL flag=0
+# USER WROTE DATA : 119			===>POINTS TO LOCATION : 19	==>FULL flag=0
+# USER WROTE DATA : 18			===>POINTS TO LOCATION : 20	==>FULL flag=0
+# USER WROTE DATA : 143			===>POINTS TO LOCATION : 21	==>FULL flag=0
+# USER WROTE DATA : 242			===>POINTS TO LOCATION : 22	==>FULL flag=0
+# USER WROTE DATA : 206			===>POINTS TO LOCATION : 23	==>FULL flag=0
+# USER WROTE DATA : 232			===>POINTS TO LOCATION : 24	==>FULL flag=0
+# USER WROTE DATA : 197			===>POINTS TO LOCATION : 25	==>FULL flag=0
+# USER WROTE DATA : 92			===>POINTS TO LOCATION : 26	==>FULL flag=0
+# USER WROTE DATA : 189			===>POINTS TO LOCATION : 27	==>FULL flag=0
+# USER WROTE DATA : 45			===>POINTS TO LOCATION : 28	==>FULL flag=0
+# USER WROTE DATA : 101			===>POINTS TO LOCATION : 29	==>FULL flag=0
+# USER WROTE DATA : 99			===>POINTS TO LOCATION : 30	==>FULL flag=0
+# USER WROTE DATA : 10			===>POINTS TO LOCATION : 31	==>FULL flag=0
+# USER READING THE DATA : 0			===>POINTED AT LOCATION : 0	
+# USER READING THE DATA : 36			===>POINTED AT LOCATION : 1	
+# ** Note: $finish    : tb.v(24)
+#    Time: 556 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb.v line 24
+
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:35:11 on Jun 03,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 16:35:12 on Jun 03,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:35:12 on Jun 03,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 16:35:12 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:35:13 on Jun 03,2025, Elapsed time: 0:02:45
+# Errors: 0, Warnings: 1
+# vsim -novopt -suppress 12110 tb 
+# Start time: 16:35:13 on Jun 03,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.sync_fifo
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.sync_fifo
+# time-2:	========RESET APPLIED==========
+# USER WROTE DATA : 36			===>POINTS TO LOCATION : 0	==>FULL flag=0
+# USER WROTE DATA : 129			===>POINTS TO LOCATION : 1	==>FULL flag=0
+# USER WROTE DATA : 9			===>POINTS TO LOCATION : 2	==>FULL flag=0
+# USER WROTE DATA : 99			===>POINTS TO LOCATION : 3	==>FULL flag=0
+# USER WROTE DATA : 13			===>POINTS TO LOCATION : 4	==>FULL flag=0
+# USER WROTE DATA : 141			===>POINTS TO LOCATION : 5	==>FULL flag=0
+# USER WROTE DATA : 101			===>POINTS TO LOCATION : 6	==>FULL flag=0
+# USER WROTE DATA : 18			===>POINTS TO LOCATION : 7	==>FULL flag=0
+# USER WROTE DATA : 1			===>POINTS TO LOCATION : 8	==>FULL flag=0
+# USER WROTE DATA : 13			===>POINTS TO LOCATION : 9	==>FULL flag=0
+# USER WROTE DATA : 118			===>POINTS TO LOCATION : 10	==>FULL flag=0
+# USER WROTE DATA : 61			===>POINTS TO LOCATION : 11	==>FULL flag=0
+# USER WROTE DATA : 237			===>POINTS TO LOCATION : 12	==>FULL flag=0
+# USER WROTE DATA : 140			===>POINTS TO LOCATION : 13	==>FULL flag=0
+# USER WROTE DATA : 249			===>POINTS TO LOCATION : 14	==>FULL flag=0
+# USER WROTE DATA : 198			===>POINTS TO LOCATION : 15	==>FULL flag=0
+# USER WROTE DATA : 197			===>POINTS TO LOCATION : 16	==>FULL flag=0
+# USER WROTE DATA : 170			===>POINTS TO LOCATION : 17	==>FULL flag=0
+# USER WROTE DATA : 229			===>POINTS TO LOCATION : 18	==>FULL flag=0
+# USER WROTE DATA : 119			===>POINTS TO LOCATION : 19	==>FULL flag=0
+# USER WROTE DATA : 18			===>POINTS TO LOCATION : 20	==>FULL flag=0
+# USER WROTE DATA : 143			===>POINTS TO LOCATION : 21	==>FULL flag=0
+# USER WROTE DATA : 242			===>POINTS TO LOCATION : 22	==>FULL flag=0
+# USER WROTE DATA : 206			===>POINTS TO LOCATION : 23	==>FULL flag=0
+# USER WROTE DATA : 232			===>POINTS TO LOCATION : 24	==>FULL flag=0
+# USER WROTE DATA : 197			===>POINTS TO LOCATION : 25	==>FULL flag=0
+# USER WROTE DATA : 92			===>POINTS TO LOCATION : 26	==>FULL flag=0
+# USER WROTE DATA : 189			===>POINTS TO LOCATION : 27	==>FULL flag=0
+# USER WROTE DATA : 45			===>POINTS TO LOCATION : 28	==>FULL flag=0
+# USER WROTE DATA : 101			===>POINTS TO LOCATION : 29	==>FULL flag=0
+# USER WROTE DATA : 99			===>POINTS TO LOCATION : 30	==>FULL flag=0
+# USER WROTE DATA : 10			===>POINTS TO LOCATION : 31	==>FULL flag=0
+# POINTER POINTS TO LOCATION : 0AND USER READING THE DATA : 0POINTER POINTS TO LOCATION : 0AND USER READING THE DATA : 36** Note: $finish    : tb.v(24)
+#    Time: 556 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb.v line 24
+
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:37:44 on Jun 03,2025
+# vlog -reportprogress 300 sync_fifo.v 
+# -- Compiling module sync_fifo
+# 
+# Top level modules:
+# 	sync_fifo
+# End time: 16:37:44 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 16:37:45 on Jun 03,2025
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 16:37:45 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:37:46 on Jun 03,2025, Elapsed time: 0:02:33
+# Errors: 0, Warnings: 1
+# vsim -novopt -suppress 12110 tb 
+# Start time: 16:37:46 on Jun 03,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.tb
+# Refreshing /mnt/ncsudrive/v/vchiluk3/vlsi-guru/FIFO/PRACTICE/work.sync_fifo
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.sync_fifo
+# time-2:	========RESET APPLIED==========
+# USER WROTE DATA : 36			===>POINTS TO LOCATION : 0	==>FULL flag=0
+# USER WROTE DATA : 129			===>POINTS TO LOCATION : 1	==>FULL flag=0
+# USER WROTE DATA : 9			===>POINTS TO LOCATION : 2	==>FULL flag=0
+# USER WROTE DATA : 99			===>POINTS TO LOCATION : 3	==>FULL flag=0
+# USER WROTE DATA : 13			===>POINTS TO LOCATION : 4	==>FULL flag=0
+# USER WROTE DATA : 141			===>POINTS TO LOCATION : 5	==>FULL flag=0
+# USER WROTE DATA : 101			===>POINTS TO LOCATION : 6	==>FULL flag=0
+# USER WROTE DATA : 18			===>POINTS TO LOCATION : 7	==>FULL flag=0
+# USER WROTE DATA : 1			===>POINTS TO LOCATION : 8	==>FULL flag=0
+# USER WROTE DATA : 13			===>POINTS TO LOCATION : 9	==>FULL flag=0
+# USER WROTE DATA : 118			===>POINTS TO LOCATION : 10	==>FULL flag=0
+# USER WROTE DATA : 61			===>POINTS TO LOCATION : 11	==>FULL flag=0
+# USER WROTE DATA : 237			===>POINTS TO LOCATION : 12	==>FULL flag=0
+# USER WROTE DATA : 140			===>POINTS TO LOCATION : 13	==>FULL flag=0
+# USER WROTE DATA : 249			===>POINTS TO LOCATION : 14	==>FULL flag=0
+# USER WROTE DATA : 198			===>POINTS TO LOCATION : 15	==>FULL flag=0
+# USER WROTE DATA : 197			===>POINTS TO LOCATION : 16	==>FULL flag=0
+# USER WROTE DATA : 170			===>POINTS TO LOCATION : 17	==>FULL flag=0
+# USER WROTE DATA : 229			===>POINTS TO LOCATION : 18	==>FULL flag=0
+# USER WROTE DATA : 119			===>POINTS TO LOCATION : 19	==>FULL flag=0
+# USER WROTE DATA : 18			===>POINTS TO LOCATION : 20	==>FULL flag=0
+# USER WROTE DATA : 143			===>POINTS TO LOCATION : 21	==>FULL flag=0
+# USER WROTE DATA : 242			===>POINTS TO LOCATION : 22	==>FULL flag=0
+# USER WROTE DATA : 206			===>POINTS TO LOCATION : 23	==>FULL flag=0
+# USER WROTE DATA : 232			===>POINTS TO LOCATION : 24	==>FULL flag=0
+# USER WROTE DATA : 197			===>POINTS TO LOCATION : 25	==>FULL flag=0
+# USER WROTE DATA : 92			===>POINTS TO LOCATION : 26	==>FULL flag=0
+# USER WROTE DATA : 189			===>POINTS TO LOCATION : 27	==>FULL flag=0
+# USER WROTE DATA : 45			===>POINTS TO LOCATION : 28	==>FULL flag=0
+# USER WROTE DATA : 101			===>POINTS TO LOCATION : 29	==>FULL flag=0
+# USER WROTE DATA : 99			===>POINTS TO LOCATION : 30	==>FULL flag=0
+# USER WROTE DATA : 10			===>POINTS TO LOCATION : 31	==>FULL flag=0
+# POINTER POINTS TO LOCATION : 0
+# AND USER READING THE DATA : 36
+# POINTER POINTS TO LOCATION : 1
+# AND USER READING THE DATA : 9
+# ** Note: $finish    : tb.v(24)
+#    Time: 576 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb.v line 24

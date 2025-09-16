@@ -1,0 +1,13 @@
+Write TB code for reading from location 27.
+TB code for writing locations starting from  15 to 25 decimal with values from 55 to 65(in same order).
+    15 --> 55 
+    16 --> 56
+    .
+    .
+    25 --> 65
+
+write TB code for writing locations starting from 15 to 25 decimal 
+    dataA[10:0] - This array has the data that we want  to write to memory location from 15 to 25.
+        -dataA[0] ==> 15, dataA[1]==>16 and so on...
+
+TB for write the  5 octate of memory(out of 8 parts of memory)

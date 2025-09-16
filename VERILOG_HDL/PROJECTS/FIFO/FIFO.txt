@@ -1,0 +1,44 @@
+Synchronous FIFO:
+-----------------
+- module sync_fio(
+    clk_i,rst_i,
+    wr_en, wr_data_i, full, overflow,
+    rd_en, rd_data_o, empty, underflow);
+
+//significance of input and output ports.
+-----------------------------------------
+- Before user writing the data, he has to to check if its full or not. Also, user should write by making wr_en high.
+- Before reading the data, user should check if its empty or there is a data. Before reading, we need to make rd_en high to tell its a read.
+- underflow and overflow are also indications. 
+
+-For detecting full and empty conditions, we compare wr_ptr and rd_ptr. Because they are running on same clock, both pointers change
+  w.r.t same clock.
+
+
+==================
+ASYNCHRONOUS FIFO |
+==================
+- In ASYNCHRONOUS FIFO, everything is same is synchronous FIFO.
+- But, here writes happens wrt to write clock and reads happens wrt to read clock.
+    - So, the wr_ptr changes its value wrt to write clock.
+    - Read pointer changes its value wrt to read clock.
+- So, it is difficult to detect full and empty conditions. Beacuse we can't compare pointers running on different clock domains.
+- The solution for this is "SYNCHRONIZATION".
+
+Full condition:
+===============
+- Detection of full condition is needed for write clock, because it knows whether to write or not.
+- Full condition should be generated in write clock domain.
+- Solution: 
+    - we keep wr_ptr as it is.
+    - But synchronise rd_ptr into write clock domain.
+    - Now, both the pointers are synchronous wrt to write clcok domain.
+    - Now we can compare both of them to detect full condition.
+
+EMPTY CONDITION:
+================
+- Simlarly, Detection of empty condition is required for read clock domain. Because, it should know whether to read or not.
+- Keep rd_ptr as it is in read clcok domain.
+- But, synchronise wr_ptr into read clock domain.
+- Now, both the pointers are synchronous wrt to read clock domain.
+- Now we can compare both the pointers to detect empty condition.

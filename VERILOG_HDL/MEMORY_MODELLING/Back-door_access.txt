@@ -1,0 +1,21 @@
+This is used for SIMULATION PURPOSES ONLY. Can not be applicable in real life.
+
+we use Memory hierarchy dot convention -XMR, for back door access.
+Using back door acces, we can load the memory very quickly. It happens in 0 time.
+-------------------
+BACK_DOOR ACCESS: |
+-------------------
+In front door access, we access the memory using interface ports, by giving adress and giving data(if writing).
+But, in back door access, we can directly go the address and place the data there, without driving those address and data ports.
+    -When there are very huge memories, loading that fully takes so much time.
+    -At that time, we use XMR(back-door access) with system tasks to load the memory with data quickly.
+We have Back door access system tasks in verilog:
+    1. $readmemh(); //read the image file and load image content to the memory
+        //h - it can only read hexa-decimal image file 
+    2. $writememh(); //Take memory contents and write those contents to the image file 
+    3. $readmemb(); //same as above, but in binary format.
+    4. $writememb(); //same as above, but in binary format.
+
+-We can use arguments to above system tasks.
+-$readmemh("image.hex",memory_identifier_using_XMR, [begin_address, [end_address]]);
+    - begin_address and end_address are optional arguments.

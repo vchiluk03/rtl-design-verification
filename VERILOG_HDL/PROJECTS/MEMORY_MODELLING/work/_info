@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2025.1_1 2025.02, Feb 13 2025
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/mnt/ncsudrive/v/vchiluk3/vlsi-guru/MEMORY_MODELLING
+vmemory
+Z1 !s110 1748901842
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+2parameterized_memory.v
+!i10b 1
+!s100 8NF:>9bZ8_I_46[7fD8LX1
+ICzgdeLlH^9P_VK>S=^VB80
+R0
+w1748800519
+8parameterized_memory.v
+Fparameterized_memory.v
+!i122 2
+L0 3 56
+Z3 OL;L;2025.1_1;82
+31
+!s108 1748901841.000000
+!s107 parameterized_memory.v|
+!s90 -reportprogress|300|parameterized_memory.v|
+!i113 0
+Z4 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z5 tCvgOpt 0
+vtb
+R1
+R2
+r1
+!s85 0
+2test_cases_tb.v
+!i10b 1
+!s100 2>UKWE9NAi]9E[Uoc]jhP0
+I9Ojn>TY6QCbIl2@n5[TF>0
+R0
+w1748901795
+8test_cases_tb.v
+Ftest_cases_tb.v
+!i122 3
+L0 3 119
+R3
+31
+!s108 1748901842.000000
+!s107 test_cases_tb.v|
+!s90 -reportprogress|300|test_cases_tb.v|
+!i113 0
+R4
+R5
