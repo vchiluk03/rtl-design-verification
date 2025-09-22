@@ -1,0 +1,39 @@
+//Interrupt Controller
+/***********************************************************************************************
+An Interrupt Controller is a hardware block that manages multiple interrupt requests from various sources (like peripherals) and prioritizes them before forwarding them to the CPU.
+🔹 What Is an Interrupt?
+An interrupt is a signal from a peripheral (like a timer, UART, GPIO, etc.) indicating that it needs CPU attention immediately — usually to handle an event (e.g., data arrival, timer overflow, button press).
+Instead of constantly polling peripherals (which wastes CPU cycles), interrupts let the CPU pause what it's doing and handle only when needed.
+🔹 What Is an Interrupt Controller?
+An Interrupt Controller does 3 key things:
+
+- Collects interrupt signals from multiple peripherals.
+- Prioritizes them (in case more than one interrupt comes at once).
+- Sends a single interrupt signal to the CPU with information about the highest-priority pending interrupt.
+
+Some controllers also:
+- Support masking and enabling/disabling interrupts.
+- Provide vector numbers or interrupt IDs.
+- Handle nested interrupts.
+🔹 When Do We Use an Interrupt Controller?
+You use it when:
+- The CPU needs to deal with multiple interrupt sources.
+- You want to avoid polling.
+- You need to prioritize interrupts (e.g., a timer is more important than a keyboard input).
+- You want to optimize CPU efficiency by only reacting when needed.
+
+🔹 Examples
+Use Case	Interrupt From
+Timer overflow	Timer peripheral
+UART data received	UART peripheral
+GPIO button press	GPIO pin
+ADC conversion complete	ADC peripheral
+
+The interrupt controller takes all these, prioritizes them, and sends the proper signal + vector to the CPU.
+
+🔹 Common Interrupt Controllers
+PIC (Programmable Interrupt Controller) – legacy x86
+APIC (Advanced PIC) – used in modern x86
+GIC (Generic Interrupt Controller) – ARM systems (e.g., GICv2, GICv3)
+PLIC (Platform-Level Interrupt Controller) – in RISC-V-based SoCs
+********************************************************************************************************/
