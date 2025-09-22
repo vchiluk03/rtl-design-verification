@@ -1,0 +1,134 @@
+# //  Questa Sim-64
+# //  Version 2025.1_1 linux_x86_64 Feb 13 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# vsim do 
+# Start time: 22:45:49 on Jul 29,2025
+# ** Error (suppressible): (vsim-19) Failed to access library 'work' at "work".
+# No such file or directory. (errno = ENOENT)
+# Error loading design
+# End time: 22:45:53 on Jul 29,2025, Elapsed time: 0:00:04
+# Errors: 1, Warnings: 0
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 22:45:57 on Jul 29,2025
+# vlog -reportprogress 300 static.sv 
+# -- Compiling package static_sv_unit
+# ** Error: static.sv(5): (vlog-2888) Illegal to access non-static property 'count' from a static method.
+# ** Error: static.sv(5): Unresolved reference to 'this' for non-static field 'count'.
+# -- Compiling module top
+# ** Error: static.sv(12): (vlog-2164) Class or package 'sample' not found.
+# ** Error: static.sv(12): (vlog-2730) Undefined variable: 'sample'.
+# ** Error: (vlog-13069) static.sv(12): near "::": syntax error, unexpected ::.
+# End time: 22:45:59 on Jul 29,2025, Elapsed time: 0:00:02
+# Errors: 5, Warnings: 0
+# ** Error: /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+# Error in macro ./run.do line 2
+# /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog static.sv"
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 22:48:40 on Jul 29,2025
+# vlog -reportprogress 300 static.sv 
+# -- Compiling package static_sv_unit
+# ** Error: static.sv(5): (vlog-2888) Illegal to access non-static property 'count' from a static method.
+# ** Error: static.sv(5): Unresolved reference to 'this' for non-static field 'count'.
+# -- Compiling module top
+# ** Error: static.sv(12): (vlog-2164) Class or package 'sample' not found.
+# ** Error: static.sv(12): (vlog-2730) Undefined variable: 'sample'.
+# ** Error: (vlog-13069) static.sv(12): near "::": syntax error, unexpected ::.
+# End time: 22:48:40 on Jul 29,2025, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+# ** Error: /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+# Error in macro ./run.do line 2
+# /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog static.sv"
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 22:49:02 on Jul 29,2025
+# vlog -reportprogress 300 static.sv 
+# -- Compiling package static_sv_unit
+# ** Error: (vlog-13245) static.sv(5): Unresolved reference to 'this'.
+# -- Compiling module top
+# ** Error: static.sv(12): (vlog-2164) Class or package 'sample' not found.
+# ** Error: static.sv(12): (vlog-2730) Undefined variable: 'sample'.
+# ** Error: (vlog-13069) static.sv(12): near "::": syntax error, unexpected ::.
+# End time: 22:49:02 on Jul 29,2025, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+# Error in macro ./run.do line 2
+# /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog static.sv"
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 22:49:24 on Jul 29,2025
+# vlog -reportprogress 300 static.sv 
+# -- Compiling package static_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 22:49:24 on Jul 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 22:49:26 on Jul 29,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.static_sv_unit(fast)
+# Loading work.top(fast)
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 22:56:51 on Jul 29,2025
+# vlog -reportprogress 300 static.sv 
+# -- Compiling package static_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 22:56:51 on Jul 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 22:57:01 on Jul 29,2025, Elapsed time: 0:07:35
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 22:57:01 on Jul 29,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.static_sv_unit(fast)
+# Loading work.top(fast)
+# value of count:1
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 23:00:30 on Jul 29,2025
+# vlog -reportprogress 300 static.sv 
+# -- Compiling package static_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 23:00:31 on Jul 29,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 23:00:39 on Jul 29,2025, Elapsed time: 0:03:38
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 23:00:39 on Jul 29,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.static_sv_unit(fast)
+# Loading work.top(fast)
+# value of count:1
+# value of count:2
+# End time: 23:07:41 on Jul 29,2025, Elapsed time: 0:07:02
+# Errors: 0, Warnings: 0

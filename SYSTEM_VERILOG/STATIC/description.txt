@@ -1,0 +1,34 @@
+Static methods & properties point to the comon memory for all objects of a class.
+- Memory for static methods & properties is allocated as soon as class is defined.
+	- There is no need to create object to access static methods and properties.
+	Ex: class eth_pkt;
+			static protected int count();
+			
+			static function int get_count();
+				return count;
+			endfunction
+			
+			static function set_count(int count_l);
+				count = count_l;
+			endfunction
+		endclass
+		
+		eth_pkt::count = 10; //possible, but it won't work due to protected.
+		eth_pkt::set_count(10); //use of scope resolution(::) to access static methods.
+		eth_pkt::get_count();
+		
+	- set_count & get_count can be called from anyhere in the testbench.
+	- Sharing 'count' variable across complete test bench.
+
+- Methods and properties in a class are automatic by default. User need to explicitly declare static.
+
+
+- Static properties and methods are one of the widely used concepts in UVM base class implementation(classes that are pre-implemented in UVM library source code).
+    - Whole comcept of factory, resource database, config database works on basis of static       properties and static methods only.
+- In our TB development, we will widely use static properties to give sense of commonly share variables, which can be accesses anywhere in the testbench.
+    - eth_common::testname
+    - eth_common::count
+    - eth_common::gen2bfm
+        - Above 3 shared variables can be accesses anywhere in the testbench.
+
+- using 'static' can reduces the coding effort significantly.

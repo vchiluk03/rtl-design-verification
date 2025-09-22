@@ -1,0 +1,100 @@
+m255
+K4
+z2
+!s12c _opt5
+Z0 !s99 nomlopt
+Z1 !s12c _opt4
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+!s12c _opt3
+R0
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z2 d/mnt/ncsudrive/v/vchiluk3/vlsi-guru/SYSTEM_VERILOG/STRUCT_DT
+T_opt5
+!s110 1755043415
+V<F_;oLiKmg^8Xg<TRV2PV1
+04 3 4 work top fast 0
+=1-48df37cd58b8-689bd656-bb9a-19ad3
+R0
+!s12f OEM100
+!s12b OEM100
+!s124 OEM100
+!s135 nogc
+o-quiet -auto_acc_if_foreign -work work
+Z3 tCvgOpt 0
+n@_opt5
+OL;O;2025.1_1;82
+Xstruct_sv_unit
+Z4 2struct.sv
+Z5 DXx6 sv_std 3 std 0 22 @5XbY]_OacJl=`ToSm<M^0
+Z6 !s110 1755043411
+VBH3>bIfgniZS;5m08dDIY3
+r1
+!s85 0
+!i10b 1
+!s100 ?nc9ViL^LLZl2hTCU]7Pb1
+IBH3>bIfgniZS;5m08dDIY3
+!i103 1
+S1
+R2
+Z7 w1755043306
+Z8 8struct.sv
+Z9 Fstruct.sv
+!i122 16
+L0 19 0
+Z10 OL;L;2025.1_1;82
+31
+Z11 !s108 1755043411.000000
+Z12 !s107 struct.sv|
+Z13 !s90 -reportprogress|300|struct.sv|
+!i113 0
+Z14 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vtop
+R4
+R5
+DXx4 work 14 struct_sv_unit 0 22 BH3>bIfgniZS;5m08dDIY3
+R6
+VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 O=bDKJbFZ1oZR@d4^`TUo0
+I5dCoNaP`T:h8KUo[gd6cb1
+!s105 struct_sv_unit
+S1
+R2
+R7
+R8
+R9
+!i122 16
+L0 40 43
+R10
+31
+R11
+R12
+R13
+!i113 0
+R14
+R3

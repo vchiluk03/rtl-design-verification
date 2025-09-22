@@ -1,0 +1,82 @@
+m255
+K4
+z2
+Z0 !s12c _opt
+Z1 !s99 nomlopt
+R0
+R1
+!s11f vlog 2025.1_1 2025.02, Feb 13 2025
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z2 d/mnt/ncsudrive/v/vchiluk3/vlsi-guru/SYSTEM_VERILOG/13-june/OOPS/ETHERNET/STATIC
+T_opt
+!s110 1751758105
+V_WCoUInlP<1=fSI5G9z7I3
+04 3 4 work top fast 0
+=1-d404e62ac451-6869b517-1d618-efbc7
+R1
+!s12f OEM100
+!s12b OEM100
+!s124 OEM100
+!s135 nogc
+o-quiet -auto_acc_if_foreign -work work
+Z3 tCvgOpt 0
+n@_opt
+OL;O;2025.1_1;82
+Xstatic_sv_unit
+Z4 2static.sv
+Z5 DXx6 sv_std 3 std 0 22 @5XbY]_OacJl=`ToSm<M^0
+Z6 !s110 1751758092
+VjLZ@bo=A<_73RejKOh]0>0
+r1
+!s85 0
+!i10b 1
+!s100 ed_>c^gOGRaBHfAaoC`ji1
+IjLZ@bo=A<_73RejKOh]0>0
+!i103 1
+S1
+R2
+Z7 w1751758089
+Z8 8static.sv
+Z9 Fstatic.sv
+!i122 1
+L0 4 0
+Z10 OL;L;2025.1_1;82
+31
+Z11 !s108 1751758091.000000
+Z12 !s107 static.sv|
+Z13 !s90 -reportprogress|300|static.sv|
+!i113 0
+Z14 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vtop
+R4
+R5
+DXx4 work 14 static_sv_unit 0 22 jLZ@bo=A<_73RejKOh]0>0
+R6
+VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 i62`Fbo9cdARmiSJ]:@mR3
+Ic7:_EgED[RL1?A3SV9jBn1
+!s105 static_sv_unit
+S1
+R2
+R7
+R8
+R9
+!i122 1
+L0 10 13
+R10
+31
+R11
+R12
+R13
+!i113 0
+R14
+R3

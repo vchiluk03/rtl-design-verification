@@ -1,0 +1,9 @@
+UNION:
+======
+- Grouping of different data types into single entity, but all variables sharing a same memory.
+- In struct all variables have unique memories.
+- Union is a static data type.
+	- Memory is allocated on instantiation.
+	- Tagged unions are synamic in nature.
+- Union are used when user wanst to see the same memory as different data types.
+	-Ex: same memory location data viewed as an integer, byte, bit vector, etc.

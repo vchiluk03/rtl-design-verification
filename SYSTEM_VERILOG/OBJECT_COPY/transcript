@@ -1,0 +1,366 @@
+# //  Questa Sim-64
+# //  Version 2025.1_1 linux_x86_64 Feb 13 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# vsim do 
+# Start time: 12:34:45 on Aug 09,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: (vopt-11) Could not find work.do.
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=0.
+# Error loading design
+# End time: 12:34:47 on Aug 09,2025, Elapsed time: 0:00:02
+# Errors: 1, Warnings: 0
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 12:35:37 on Aug 09,2025
+# vlog -reportprogress 300 shallow_copy-2.sv 
+# -- Compiling package shallow_copy2d2_sv_unit
+# -- Compiling module top
+# ** Warning: shallow_copy-2.sv(42): (vlog-2240) Treating stand-alone use of function 'display' as an implicit VOID cast.
+# ** Warning: shallow_copy-2.sv(48): (vlog-2240) Treating stand-alone use of function 'display' as an implicit VOID cast.
+# ** Warning: shallow_copy-2.sv(51): (vlog-2240) Treating stand-alone use of function 'display' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	top
+# End time: 12:35:38 on Aug 09,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 3
+# vsim top 
+# Start time: 12:35:40 on Aug 09,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Error (suppressible): shallow_copy-2.sv(37): (vopt-7063) Failed to find 'P1' in hierarchical name 'P1.display'.
+#         Region: top
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=0.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 10
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 12:36:24 on Aug 09,2025
+# vlog -reportprogress 300 shallow_copy-2.sv 
+# -- Compiling package shallow_copy2d2_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:36:24 on Aug 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 12:35:40 on Aug 09,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.shallow_copy2d2_sv_unit(fast)
+# Loading work.top(fast)
+# [p1] addr=abcdcafe data=12345678 id=26
+# [p2] addr=abcdcafe data=12345678 id=26
+# [p1] addr=abcdef12 data=5a5a5a5a id=17
+# [p2] addr=abcdcafe data=12345678 id=17
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 12:41:05 on Aug 09,2025
+# vlog -reportprogress 300 shallow_copy-2.sv 
+# -- Compiling package shallow_copy2d2_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:41:05 on Aug 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:41:15 on Aug 09,2025, Elapsed time: 0:05:35
+# Errors: 1, Warnings: 0
+# vsim top 
+# Start time: 12:41:15 on Aug 09,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.shallow_copy2d2_sv_unit(fast)
+# Loading work.top(fast)
+# [p1] addr=abcdcafe data=12345678 id=26
+# ** Fatal: (SIGSEGV) Bad handle or reference.
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#34 File: shallow_copy-2.sv
+# Fatal error in Function shallow_copy2d2_sv_unit/packet::display at shallow_copy-2.sv line 26
+# 
+# HDL call sequence:
+# Stopped at shallow_copy-2.sv 26 Function shallow_copy2d2_sv_unit/packet::display
+# called from  shallow_copy-2.sv 38  
+# 
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 12:43:58 on Aug 09,2025
+# vlog -reportprogress 300 shallow_copy-2.sv 
+# -- Compiling package shallow_copy2d2_sv_unit
+# -- Compiling module top
+# ** Warning: shallow_copy-2.sv(37): (vlog-2240) Treating stand-alone use of function 'display' as an implicit VOID cast.
+# ** Warning: shallow_copy-2.sv(38): (vlog-2240) Treating stand-alone use of function 'display' as an implicit VOID cast.
+# ** Warning: shallow_copy-2.sv(43): (vlog-2240) Treating stand-alone use of function 'display' as an implicit VOID cast.
+# ** Warning: shallow_copy-2.sv(49): (vlog-2240) Treating stand-alone use of function 'display' as an implicit VOID cast.
+# ** Warning: shallow_copy-2.sv(52): (vlog-2240) Treating stand-alone use of function 'display' as an implicit VOID cast.
+# ** Warning: shallow_copy-2.sv(56): (vlog-2240) Treating stand-alone use of function 'display' as an implicit VOID cast.
+# ** Warning: shallow_copy-2.sv(57): (vlog-2240) Treating stand-alone use of function 'display' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	top
+# End time: 12:43:59 on Aug 09,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 7
+# End time: 12:44:08 on Aug 09,2025, Elapsed time: 0:02:53
+# Errors: 1, Warnings: 0
+# vsim top 
+# Start time: 12:44:08 on Aug 09,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: shallow_copy-2.sv(25): (vopt-2250) Function "display" has no return value assignment.
+# ** Warning: shallow_copy-2.sv(37): (vopt-2240) Treating stand-alone use of function 'display' as an implicit VOID cast.
+# ** Warning: shallow_copy-2.sv(38): (vopt-2240) Treating stand-alone use of function 'display' as an implicit VOID cast.
+# ** Warning: shallow_copy-2.sv(43): (vopt-2240) Treating stand-alone use of function 'display' as an implicit VOID cast.
+# ** Warning: shallow_copy-2.sv(49): (vopt-2240) Treating stand-alone use of function 'display' as an implicit VOID cast.
+# ** Warning: shallow_copy-2.sv(52): (vopt-2240) Treating stand-alone use of function 'display' as an implicit VOID cast.
+# ** Warning: shallow_copy-2.sv(56): (vopt-2240) Treating stand-alone use of function 'display' as an implicit VOID cast.
+# ** Warning: shallow_copy-2.sv(57): (vopt-2240) Treating stand-alone use of function 'display' as an implicit VOID cast.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=8.
+# Loading sv_std.std
+# Loading work.shallow_copy2d2_sv_unit(fast)
+# Loading work.top(fast)
+# [p1] addr=abcdcafe data=12345678 id=26
+# ** Fatal: (SIGSEGV) Bad handle or reference.
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#34 File: shallow_copy-2.sv
+# Fatal error in Function shallow_copy2d2_sv_unit/packet::display at shallow_copy-2.sv line 26
+# 
+# HDL call sequence:
+# Stopped at shallow_copy-2.sv 26 Function shallow_copy2d2_sv_unit/packet::display
+# called from  shallow_copy-2.sv 38  
+# 
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 12:46:25 on Aug 09,2025
+# vlog -reportprogress 300 shallow_copy-2.sv 
+# -- Compiling package shallow_copy2d2_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:46:26 on Aug 09,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 12:46:35 on Aug 09,2025, Elapsed time: 0:02:27
+# Errors: 1, Warnings: 8
+# vsim top 
+# Start time: 12:46:35 on Aug 09,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.shallow_copy2d2_sv_unit(fast)
+# Loading work.top(fast)
+# [p1] addr=abcdcafe data=12345678 id=26
+# ** Fatal: (SIGSEGV) Bad handle or reference.
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#34 File: shallow_copy-2.sv
+# Fatal error in Function shallow_copy2d2_sv_unit/packet::display at shallow_copy-2.sv line 26
+# 
+# HDL call sequence:
+# Stopped at shallow_copy-2.sv 26 Function shallow_copy2d2_sv_unit/packet::display
+# called from  shallow_copy-2.sv 38  
+# 
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 12:49:30 on Aug 09,2025
+# vlog -reportprogress 300 shallow_copy-2.sv 
+# -- Compiling package shallow_copy2d2_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:49:30 on Aug 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:49:39 on Aug 09,2025, Elapsed time: 0:03:04
+# Errors: 1, Warnings: 0
+# vsim top 
+# Start time: 12:49:39 on Aug 09,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.shallow_copy2d2_sv_unit(fast)
+# Loading work.top(fast)
+# [p1] addr=abcdcafe data=12345678 id=26
+# [p2] addr=abcdcafe data=12345678 id=26
+# [p1] addr=abcdef12 data=5a5a5a5a id=17
+# [p2] addr=abcdcafe data=12345678 id=17
+# [p1] addr=abcdef12 data=5a5a5a5a id=17
+# [p2] addr=abcdcafe data=12345678 id=17
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 12:51:07 on Aug 09,2025
+# vlog -reportprogress 300 shallow_copy-2.sv 
+# -- Compiling package shallow_copy2d2_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:51:07 on Aug 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:51:17 on Aug 09,2025, Elapsed time: 0:01:38
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 12:51:17 on Aug 09,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.shallow_copy2d2_sv_unit(fast)
+# Loading work.top(fast)
+# [p1] addr=abcdcafe data=12345678 id=26
+# [p2] addr=abcdcafe data=12345678 id=26
+# [p1] addr=abcdef12 data=5a5a5a5a id=17
+# [p2] addr=abcdcafe data=12345678 id=17
+# [p1] addr=abcdef12 data=5a5a5a5a id=54
+# [p2] addr=abcdcafe data=12345678 id=54
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 13:09:01 on Aug 09,2025
+# vlog -reportprogress 300 deep_copy.sv 
+# -- Compiling package deep_copy_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 13:09:02 on Aug 09,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 13:09:11 on Aug 09,2025, Elapsed time: 0:17:54
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 13:09:11 on Aug 09,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.deep_copy_sv_unit(fast)
+# Loading work.top(fast)
+# ====Printing s1 fields====
+# a=0
+# b=0
+# pkt='{count:0}
+# ====Printing s2 fields====
+# a=100
+# b=200
+# pkt='{count:42}
+# ** Fatal: (SIGSEGV) Bad handle or reference.
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#29 File: deep_copy.sv
+# Fatal error in Function deep_copy_sv_unit/sample::copy at deep_copy.sv line 19
+# 
+# HDL call sequence:
+# Stopped at deep_copy.sv 19 Function deep_copy_sv_unit/sample::copy
+# called from  deep_copy.sv 40  
+# 
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 13:15:56 on Aug 09,2025
+# vlog -reportprogress 300 deep_copy-2.sv 
+# -- Compiling package deep_copy2d2_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 13:15:57 on Aug 09,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 13:16:10 on Aug 09,2025, Elapsed time: 0:06:59
+# Errors: 1, Warnings: 0
+# vsim top 
+# Start time: 13:16:10 on Aug 09,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.deep_copy2d2_sv_unit(fast)
+# Loading work.top(fast)
+# [p1] addr=abcdcafe data=12345678 id=26
+# [p2] addr=1 data=2 id=3
+# [p2] addr=1 data=2 id=26
+# [p1] addr=abcdef12 data=5a5a5a5a id=11
+# [p2] addr=1 data=2 id=26
+# [p1] addr=abcdef12 data=5a5a5a5a id=11
+# [p2] addr=1 data=2 id=54
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 13:26:14 on Aug 09,2025
+# vlog -reportprogress 300 deep_copy-2.sv 
+# -- Compiling package deep_copy2d2_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 13:26:14 on Aug 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:26:26 on Aug 09,2025, Elapsed time: 0:10:16
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 13:26:26 on Aug 09,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.deep_copy2d2_sv_unit(fast)
+# Loading work.top(fast)
+# [p1] addr=abcdcafe data=12345678 id=26
+# [p2] addr=1 data=2 id=3
+# [p2] addr=abcdcafe data=12345678 id=26
+# [p1] addr=abcdef12 data=5a5a5a5a id=11
+# [p2] addr=abcdcafe data=12345678 id=26
+# [p1] addr=abcdef12 data=5a5a5a5a id=11
+# [p2] addr=abcdcafe data=12345678 id=54
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 13:29:54 on Aug 09,2025
+# vlog -reportprogress 300 deep_copy-2.sv 
+# -- Compiling package deep_copy2d2_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 13:29:54 on Aug 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:30:05 on Aug 09,2025, Elapsed time: 0:03:39
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 13:30:05 on Aug 09,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.deep_copy2d2_sv_unit(fast)
+# Loading work.top(fast)
+# [p1] addr=abcdcafe data=12345678 id=26
+# [p2] addr=1 data=2 id=3
+# [p2] addr=abcdcafe data=12345678 id=26
+# [p1] addr=abcdef12 data=5a5a5a5a id=11
+# [p2] addr=abcdcafe data=12345678 id=26
+# [p1] addr=abcdef12 data=5a5a5a5a id=11
+# [p2] addr=abcdcafe data=12345678 id=24
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 13:30:52 on Aug 09,2025
+# vlog -reportprogress 300 deep_copy-2.sv 
+# -- Compiling package deep_copy2d2_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 13:30:52 on Aug 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:31:02 on Aug 09,2025, Elapsed time: 0:00:57
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 13:31:02 on Aug 09,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.deep_copy2d2_sv_unit(fast)
+# Loading work.top(fast)
+# [p1] addr=abcdcafe data=12345678 id=26
+# [p2] addr=1 data=2 id=3
+# [p2] addr=abcdcafe data=12345678 id=26
+# [p1] addr=abcdef12 data=5a5a5a5a id=11
+# [p2] addr=abcdcafe data=12345678 id=26
+# [p1] addr=abcdef12 data=5a5a5a5a id=24
+# [p2] addr=abcdcafe data=12345678 id=54
+
+vsim -quit
+# ** UI-Msg (Error): (vish-3296) Unknown option '-quit'.
+# Use the -help option for complete vsim usage.
+# Error loading design
+quit
+# End time: 13:53:31 on Aug 09,2025, Elapsed time: 0:22:29
+# Errors: 0, Warnings: 0

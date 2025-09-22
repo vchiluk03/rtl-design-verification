@@ -1,0 +1,171 @@
+# //  Questa Sim-64
+# //  Version 2025.1_1 linux_x86_64 Feb 13 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# vsim do 
+# Start time: 19:11:25 on Jul 05,2025
+# ** Error (suppressible): (vsim-19) Failed to access library 'work' at "work".
+# No such file or directory. (errno = ENOENT)
+# Error loading design
+# End time: 19:11:38 on Jul 05,2025, Elapsed time: 0:00:13
+# Errors: 1, Warnings: 0
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 19:12:33 on Jul 05,2025
+# vlog -reportprogress 300 static.sv 
+# -- Compiling package static_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 19:12:40 on Jul 05,2025, Elapsed time: 0:00:07
+# Errors: 0, Warnings: 0
+# vsim top -sv_seed 564444 
+# Start time: 19:12:40 on Jul 05,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.static_sv_unit(fast)
+# Loading work.top(fast)
+# sample-a=20
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 19:27:23 on Jul 05,2025
+# vlog -reportprogress 300 static.sv 
+# ** Error: static.sv(18): Illegal declaration after the statement near line '12'.  Declarations must precede statements.  Look for stray semicolons.
+# End time: 19:27:24 on Jul 05,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# ** Error: /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+# Error in macro ./run.do line 1
+# /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog static.sv"
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 19:28:11 on Jul 05,2025
+# vlog -reportprogress 300 static.sv 
+# -- Compiling package static_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 19:28:12 on Jul 05,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 19:28:22 on Jul 05,2025, Elapsed time: 0:15:42
+# Errors: 1, Warnings: 0
+# vsim top -sv_seed 564444 
+# Start time: 19:28:22 on Jul 05,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.static_sv_unit(fast)
+# Loading work.top(fast)
+# sample-a=20
+# b=40
+ls
+# run.do
+# static.sv
+# transcript
+# work
+cd ..
+# Cannot change directory while a simulation is in progress.
+# Use the "quit -sim" command to unload the design first.
+ls
+# run.do
+# static.sv
+# transcript
+# work
+quit -sim
+# End time: 19:53:25 on Jul 05,2025, Elapsed time: 0:25:03
+# Errors: 0, Warnings: 0
+cd ..
+ls
+# ETH_FRAME
+# EXAMPLE
+# run.do
+# STATIC
+# top.sv
+# transcript
+# VARIABLE_SCOPE
+# work
+cd VARIABLE_SCOPE
+ls
+# run.do
+# scope.sv
+do run.do
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 19:54:18 on Jul 05,2025
+# vlog -reportprogress 300 scope.sv 
+# -- Compiling package scope_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 19:54:19 on Jul 05,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim top -sv_seed 564444 
+# Start time: 19:54:20 on Jul 05,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.scope_sv_unit(fast)
+# Loading work.top(fast)
+# count=10
+# count=10
+# count=10
+# count=30
+# count=40
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 20:01:10 on Jul 05,2025
+# vlog -reportprogress 300 scope.sv 
+# -- Compiling package scope_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 20:01:11 on Jul 05,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 20:01:17 on Jul 05,2025, Elapsed time: 0:06:57
+# Errors: 0, Warnings: 0
+# vsim top -sv_seed 564444 
+# Start time: 20:01:17 on Jul 05,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Error (suppressible): scope.sv(15): (vopt-7063) Failed to find 'count' in hierarchical name '$root.count'.
+#         Region: top
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=0.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 4
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 20:01:44 on Jul 05,2025
+# vlog -reportprogress 300 scope.sv 
+# -- Compiling package scope_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 20:01:45 on Jul 05,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim top -sv_seed 564444 
+# Start time: 20:01:17 on Jul 05,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.scope_sv_unit(fast)
+# Loading work.top(fast)
+# count=10
+# count=10
+# count=10
+# count=30
+# count=40

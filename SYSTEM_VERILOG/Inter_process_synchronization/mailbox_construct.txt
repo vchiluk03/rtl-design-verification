@@ -1,0 +1,46 @@
+INTER PROCESS SYNCHRONIZATION CONSTRUCTS: MAILBOX, SEMAPHORE, EVENT - Each of these meant for specific synchronization purposes.
+-----------------------------------------
+1. MAILBOX: It is a dynamic construct, hence needs new for memory allocation. 
+				- Mailbox memory can be increases, decreased or deleted at run time.
+			- Mailbox is a communication channel for connecting producer with consumer.
+				- It is like a FIFO which provides blocking nature.
+			- We can achieve same FIFO like behaviour using Queues and Arrays with pre-defined functions.
+				- But Since they use functions which gets over in zxero time,they can not provide blocking nature.
+			- It is heterogenous in nature. We can put various data type varaibles into the same mailbox.
+					- We call this as non-parametrized mailboxes. These we eon't use much.
+			
+			Parameterized mailbox: these will hold items related to only single data type.
+				- mailbox #(int) mbox; //It will take only integer type elements.
+				
+	Methods:
+	=======
+	new : allocate memory of mailbox.
+	get : get data from mailbox, wait till data is available(if mailbox is empty).
+	put : Put data into mailbox. When we put eth_pkt object into mailbox, we are only putting object handle, not complete object data.
+			- If mailbox is full, put will wait till mailbox has some free space.
+			- We will put the data and proceed to next step of execution.
+	try_get: Function to get data from mailbox, does not wait if data is not available.
+				- Hence non-blocking in nature.
+	try_put: Function to put data into mailbox.
+				- Does not wait if mailbox is full.
+	num: Returns total number of elements in the mailbox.
+	Peek: Copy the first element of mailbox, do not take out the element from mailbox.
+			Analogy: Go and see and tell me what is the first element, do not take out the element.
+		- mbox.peek(tx); //mbox has 10 elements, after peek it will have 10. 1st element of mbox is copied into tx, the 1st element is not taken out.
+		- mbox.get(tx); //taking out the 1st element into the tx from mailbox.
+		
+	How mailbox differs from Queue?
+		- Blocking vs Non-blocking(process).
+			- Mailbox has blocking in nature. Mailbox has some methods as tasks, which provides us with blocking behaviour.
+			- Queue has non-blocking in nature. Since, in Queue, all the methods are functions which happends at zero time.
+		- Queue: All methods are functions.
+		- Array: All methodsa are functions(new, size, delete).
+		- Arrays and Queues can not be used for synchronization since they only have functions.
+		
+	Is it still possible to achieve synchronization using Queue?
+		- Yes, we can do that using wait statement.
+			- wait(pktQ.size>0); //waiting for Queue to have some elements.
+				- Wait will bringing blocking nature.
+			- pkt = pktQ.pop_front();
+		- Same above 2 lines using mbox.
+			- mbox.get(pkt);

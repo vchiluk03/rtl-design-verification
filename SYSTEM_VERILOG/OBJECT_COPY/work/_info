@@ -1,0 +1,318 @@
+m255
+K4
+z2
+Z0 !s12c _opt
+Z1 !s99 nomlopt
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+!s11f vlog 2025.1_1 2025.02, Feb 13 2025
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z2 d/mnt/ncsudrive/v/vchiluk3/vlsi-guru/SYSTEM_VERILOG/OBJECT_COPY
+T_opt
+!s110 1754760663
+VnOk>m;9@`Q0L[hN>kSIM@2
+04 3 4 work top fast 0
+=1-043201bca3c1-689785d6-ac1d4-21b842
+R1
+!s12f OEM100
+!s12b OEM100
+!s124 OEM100
+!s135 nogc
+o-quiet -auto_acc_if_foreign -work work
+Z3 tCvgOpt 0
+n@_opt
+OL;O;2025.1_1;82
+Xcopy_by_handle_sv_unit
+2copy_by_handle.sv
+Z4 DXx6 sv_std 3 std 0 22 @5XbY]_OacJl=`ToSm<M^0
+!s110 1754663936
+V3IFMh?`WoZNL0>m9`660h0
+r1
+!s85 0
+!i10b 1
+!s100 jR[IXD29m8nAi6jd``kLS2
+I3IFMh?`WoZNL0>m9`660h0
+!i103 1
+S1
+R2
+w1754663741
+8copy_by_handle.sv
+Fcopy_by_handle.sv
+!i122 0
+Z5 L0 1 0
+Z6 OL;L;2025.1_1;82
+31
+!s108 1754663934.000000
+!s107 copy_by_handle.sv|
+!s90 -reportprogress|300|copy_by_handle.sv|
+!i113 0
+Z7 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+Xdeep_copy2d1_sv_unit
+2deep_copy-1.sv
+R4
+!s110 1754692546
+VfKJPj42z]n>Oj8LQEPZ4_0
+r1
+!s85 0
+!i10b 1
+!s100 IMLRa_F>ROKDzR`YaHMOC2
+IfKJPj42z]n>Oj8LQEPZ4_0
+!i103 1
+S1
+R2
+w1754692543
+8deep_copy-1.sv
+Fdeep_copy-1.sv
+!i122 15
+R5
+R6
+31
+!s108 1754692546.000000
+!s107 deep_copy-1.sv|
+!s90 -reportprogress|300|deep_copy-1.sv|
+!i113 0
+R7
+R3
+Xdeep_copy2d2_sv_unit
+Z8 2deep_copy-2.sv
+R4
+Z9 !s110 1754760652
+VKQm=UR:5SWmXU475:@bd_3
+r1
+!s85 0
+!i10b 1
+!s100 GE`CK>43GUA3lV[jen[8n2
+IKQm=UR:5SWmXU475:@bd_3
+!i103 1
+S1
+R2
+Z10 w1754760646
+Z11 8deep_copy-2.sv
+Z12 Fdeep_copy-2.sv
+!i122 27
+L0 3 0
+R6
+31
+Z13 !s108 1754760652.000000
+Z14 !s107 deep_copy-2.sv|
+Z15 !s90 -reportprogress|300|deep_copy-2.sv|
+!i113 0
+R7
+R3
+Xdeep_copy_practical_exampe_sv_unit
+2deep_copy_practical_exampe.sv
+R4
+!s110 1754691758
+VbLknC`2`S=ES=k<cMlWhE1
+r1
+!s85 0
+!i10b 1
+!s100 HM1Fa3GUIXDoIhV9g;=`53
+IbLknC`2`S=ES=k<cMlWhE1
+!i103 1
+S1
+R2
+w1754691753
+8deep_copy_practical_exampe.sv
+Fdeep_copy_practical_exampe.sv
+!i122 14
+R5
+R6
+31
+!s108 1754691758.000000
+!s107 deep_copy_practical_exampe.sv|
+!s90 -reportprogress|300|deep_copy_practical_exampe.sv|
+!i113 0
+R7
+R3
+Xdeep_copy_sv_unit
+2deep_copy.sv
+R4
+!s110 1754759342
+VQFEo[MV8W@8DWK10dEj=A0
+r1
+!s85 0
+!i10b 1
+!s100 eWO14c79FIa_Q8X305>4;0
+IQFEo[MV8W@8DWK10dEj=A0
+!i103 1
+S1
+R2
+w1754759319
+8deep_copy.sv
+Fdeep_copy.sv
+!i122 23
+R5
+R6
+31
+!s108 1754759341.000000
+!s107 deep_copy.sv|
+!s90 -reportprogress|300|deep_copy.sv|
+!i113 0
+R7
+R3
+Xshallow_copy2d1_sv_unit
+2shallow_copy-1.sv
+R4
+!s110 1754666885
+VM[62^PkJMCdQ=4J?_fb^80
+r1
+!s85 0
+!i10b 1
+!s100 5I:1f;cZiUiLF@4`GV[=V0
+IM[62^PkJMCdQ=4J?_fb^80
+!i103 1
+S1
+R2
+w1754666877
+8shallow_copy-1.sv
+Fshallow_copy-1.sv
+!i122 7
+L0 4 0
+R6
+31
+!s108 1754666885.000000
+!s107 shallow_copy-1.sv|
+!s90 -reportprogress|300|shallow_copy-1.sv|
+!i113 0
+R7
+R3
+Xshallow_copy2d2_sv_unit
+2shallow_copy-2.sv
+R4
+!s110 1754758267
+ViOWV>V25QgQ?Hc:Ka1fXe3
+r1
+!s85 0
+!i10b 1
+!s100 K3cc2MYLD@I]XbFa>D4g30
+IiOWV>V25QgQ?Hc:Ka1fXe3
+!i103 1
+S1
+R2
+w1754758261
+8shallow_copy-2.sv
+Fshallow_copy-2.sv
+!i122 22
+L0 2 0
+R6
+31
+!s108 1754758267.000000
+!s107 shallow_copy-2.sv|
+!s90 -reportprogress|300|shallow_copy-2.sv|
+!i113 0
+R7
+R3
+Xshallow_copy_sv_unit
+2shallow_copy.sv
+R4
+!s110 1754664812
+Vd4EEBdkal0^mc^a:f;?2W0
+r1
+!s85 0
+!i10b 1
+!s100 VXW=T4TV<:244DblHdnfV1
+Id4EEBdkal0^mc^a:f;?2W0
+!i103 1
+S1
+R2
+w1754664809
+8shallow_copy.sv
+Fshallow_copy.sv
+!i122 2
+L0 5 0
+R6
+31
+!s108 1754664812.000000
+!s107 shallow_copy.sv|
+!s90 -reportprogress|300|shallow_copy.sv|
+!i113 0
+R7
+R3
+vtop
+R8
+R4
+DXx4 work 20 deep_copy2d2_sv_unit 0 22 KQm=UR:5SWmXU475:@bd_3
+R9
+VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 iZSe3<oMMGDFX_BTH;3c=1
+IXLD6;P_WV4kUAU5EFW1=P2
+!s105 deep_copy2d2_sv_unit
+S1
+R2
+R10
+R11
+R12
+!i122 27
+L0 37 29
+R6
+31
+R13
+R14
+R15
+!i113 0
+R7
+R3

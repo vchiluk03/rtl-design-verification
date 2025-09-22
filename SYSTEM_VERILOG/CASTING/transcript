@@ -1,0 +1,84 @@
+# //  Questa Sim-64
+# //  Version 2025.1_1 linux_x86_64 Feb 13 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# vsim do 
+# Start time: 17:41:31 on Aug 09,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: (vopt-11) Could not find work.do.
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=0.
+# Error loading design
+# End time: 17:41:36 on Aug 09,2025, Elapsed time: 0:00:05
+# Errors: 1, Warnings: 0
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 17:42:11 on Aug 09,2025
+# vlog -reportprogress 300 dynamic_casting.sv 
+# -- Compiling package dynamic_casting_sv_unit
+# -- Compiling module top
+# ** Warning: dynamic_casting.sv(16): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	top
+# End time: 17:42:13 on Aug 09,2025, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 1
+# vsim top 
+# Start time: 17:42:14 on Aug 09,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: dynamic_casting.sv(16): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.dynamic_casting_sv_unit(fast)
+# Loading work.top(fast)
+# pkt1='{count:100}
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 17:48:01 on Aug 09,2025
+# vlog -reportprogress 300 dynamic_casting.sv 
+# ** Error: (vlog-13069) dynamic_casting.sv(38): near "end": syntax error, unexpected end, expecting ';'.
+# End time: 17:48:01 on Aug 09,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+# Error in macro ./run.do line 3
+# /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog dynamic_casting.sv"
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 17:48:19 on Aug 09,2025
+# vlog -reportprogress 300 dynamic_casting.sv 
+# -- Compiling package dynamic_casting_sv_unit
+# -- Compiling module top
+# ** Warning: dynamic_casting.sv(16): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	top
+# End time: 17:48:19 on Aug 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 17:48:31 on Aug 09,2025, Elapsed time: 0:06:17
+# Errors: 1, Warnings: 1
+# vsim top 
+# Start time: 17:48:31 on Aug 09,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: dynamic_casting.sv(16): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.dynamic_casting_sv_unit(fast)
+# Loading work.top(fast)
+# pkt1='{count:100}
+# ** Error: (vsim-3971) $cast to type 'class work.dynamic_casting_sv_unit::eth_good_pkt' from 'class work.dynamic_casting_sv_unit::eth_pkt' failed in file dynamic_casting.sv at line 28.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Error: Assertion error.
+#    Time: 0 ns  Scope: top File: dynamic_casting.sv Line: 34
+# cast failed

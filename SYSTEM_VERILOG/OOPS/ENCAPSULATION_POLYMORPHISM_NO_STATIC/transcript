@@ -1,0 +1,263 @@
+# //  Questa Sim-64
+# //  Version 2025.1_1 linux_x86_64 Feb 13 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# vsim do 
+# Start time: 19:38:34 on Jul 17,2025
+# ** Error (suppressible): (vsim-19) Failed to access library 'work' at "work".
+# No such file or directory. (errno = ENOENT)
+# Error loading design
+# End time: 19:38:35 on Jul 17,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 19:40:34 on Jul 17,2025
+# vlog -reportprogress 300 top.sv 
+# ** Error: ** while parsing file included at top.sv(8)
+# ** at eth_gen.sv(10): (vlog-13530) Failed to find the name 'test_case_name' in scope 'eth_pkt_common' at eth_pkt_common.sv(1).
+# ** Error: ** while parsing file included at top.sv(8)
+# ** at eth_gen.sv(12): (vlog-13530) Failed to find the name 'no_of_packets' in scope 'eth_pkt_common' at eth_pkt_common.sv(1).
+# ** Error: ** while parsing file included at top.sv(8)
+# ** at eth_gen.sv(19): (vlog-13530) Failed to find the name 'gen2bfm_mb' in scope 'eth_pkt_common' at eth_pkt_common.sv(1).
+# ** Error: ** while parsing file included at top.sv(8)
+# ** at eth_gen.sv(24): (vlog-13530) Failed to find the name 'gen2bfm_mb' in scope 'eth_pkt_common' at eth_pkt_common.sv(1).
+# ** Error: ** while parsing file included at top.sv(8)
+# ** at eth_gen.sv(29): (vlog-13530) Failed to find the name 'gen2bfm_mb' in scope 'eth_pkt_common' at eth_pkt_common.sv(1).
+# ** Error: ** while parsing file included at top.sv(8)
+# ** at eth_gen.sv(36): (vlog-13530) Failed to find the name 'no_of_packets' in scope 'eth_pkt_common' at eth_pkt_common.sv(1).
+# ** Error: ** while parsing file included at top.sv(8)
+# ** at eth_gen.sv(39): (vlog-13530) Failed to find the name 'gen2bfm_mb' in scope 'eth_pkt_common' at eth_pkt_common.sv(1).
+# ** Error: ** while parsing file included at top.sv(8)
+# ** at eth_gen.sv(44): (vlog-13530) Failed to find the name 'no_of_packets' in scope 'eth_pkt_common' at eth_pkt_common.sv(1).
+# ** Error: ** while parsing file included at top.sv(8)
+# ** at eth_gen.sv(47): (vlog-13530) Failed to find the name 'gen2bfm_mb' in scope 'eth_pkt_common' at eth_pkt_common.sv(1).
+# ** Error: ** while parsing file included at top.sv(8)
+# ** at eth_gen.sv(52): (vlog-13530) Failed to find the name 'no_of_packets' in scope 'eth_pkt_common' at eth_pkt_common.sv(1).
+# ** Error: ** while parsing file included at top.sv(8)
+# ** at eth_gen.sv(55): (vlog-13530) Failed to find the name 'gen2bfm_mb' in scope 'eth_pkt_common' at eth_pkt_common.sv(1).
+# ** Error: ** while parsing file included at top.sv(9)
+# ** at eth_bfm.sv(26): (vlog-13530) Failed to find the name 'gen2bfm_mb' in scope 'eth_pkt_common' at eth_pkt_common.sv(1).
+# ** Error: top.sv(19): (vlog-13530) Failed to find the name 'test_case_name' in scope 'eth_pkt_common' at eth_pkt_common.sv(1).
+# End time: 19:40:35 on Jul 17,2025, Elapsed time: 0:00:01
+# Errors: 13, Warnings: 0
+# ** Error: /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+# Error in macro ./run.do line 1
+# /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog top.sv "
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 19:50:32 on Jul 17,2025
+# vlog -reportprogress 300 top.sv 
+# ** Error: ** while parsing file included at top.sv(8)
+# ** at eth_gen.sv(15): (vlog-13530) Failed to find the name 'test_case_name' in scope 'eth_pkt_common' at eth_pkt_common.sv(1).
+# ** Error: ** while parsing file included at top.sv(8)
+# ** at eth_gen.sv(17): (vlog-13530) Failed to find the name 'no_of_packets' in scope 'eth_pkt_common' at eth_pkt_common.sv(1).
+# ** Error: ** while parsing file included at top.sv(8)
+# ** at eth_gen.sv(41): (vlog-13530) Failed to find the name 'no_of_packets' in scope 'eth_pkt_common' at eth_pkt_common.sv(1).
+# ** Error: ** while parsing file included at top.sv(8)
+# ** at eth_gen.sv(49): (vlog-13530) Failed to find the name 'no_of_packets' in scope 'eth_pkt_common' at eth_pkt_common.sv(1).
+# ** Error: ** while parsing file included at top.sv(8)
+# ** at eth_gen.sv(57): (vlog-13530) Failed to find the name 'no_of_packets' in scope 'eth_pkt_common' at eth_pkt_common.sv(1).
+# ** Error: top.sv(19): (vlog-13530) Failed to find the name 'test_case_name' in scope 'eth_pkt_common' at eth_pkt_common.sv(1).
+# End time: 19:50:32 on Jul 17,2025, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+# ** Error: /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+# Error in macro ./run.do line 1
+# /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog top.sv "
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 20:03:47 on Jul 17,2025
+# vlog -reportprogress 300 top.sv 
+# ** Error: top.sv(21): (vlog-13530) Failed to find the name 'test_case_name' in scope 'eth_pkt_common' at eth_pkt_common.sv(1).
+# End time: 20:03:47 on Jul 17,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+# Error in macro ./run.do line 1
+# /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog top.sv "
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 20:04:17 on Jul 17,2025
+# vlog -reportprogress 300 top.sv 
+# -- Compiling package top_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 20:04:17 on Jul 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim top "+test_case_name=test_random_pkts" 
+# Start time: 20:04:18 on Jul 17,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+# ~~~~-------------------------- Printing from BFM ~~~~----------------------------------------
+# 	 Retreived bad packet from the mailbox ----
+############ I am eth_bad_pkt ################
+# 		**** Printing eth_pkt(base_class) properties ****
+# 	Count=6
+# 	Length=16
+# 	Payload='{-108, -72, -56, 90, -96, 55, -71, 122, 54, 73, 95, -126, -86, -22, -81, -20}
+# 	Count_bad=3
+# ~~~~-------------------------- Printing from BFM ~~~~----------------------------------------
+# 	 Retreived bad packet from the mailbox ----
+############ I am eth_bad_pkt ################
+# 		**** Printing eth_pkt(base_class) properties ****
+# 	Count=6
+# 	Length=15
+# 	Payload='{74, 69, -115, 102, -21, 23, -123, -127, 63, -43, 100, -65, -78, -54, -89}
+# 	Count_bad=3
+# ~~~~-------------------------- Printing from BFM ~~~~----------------------------------------
+# 	 Retreived good packet from the mailbox ----
+############ I am eth_good_pkt ################
+# 		**** Printing eth_pkt(base_class) properties ****
+# 	Count=6
+# 	Length=21
+# 	Payload='{-35, -6, -31, -23, -66, -31, 53, 81, 23, -30, -49, 100, -81, 20, 111, 99, 52, 104, 61, -44, -45}
+# 	Count_good=2
+# ~~~~-------------------------- Printing from BFM ~~~~----------------------------------------
+# 	 Retreived good packet from the mailbox ----
+############ I am eth_good_pkt ################
+# 		**** Printing eth_pkt(base_class) properties ****
+# 	Count=6
+# 	Length=22
+# 	Payload='{-117, -72, 32, -54, 125, 28, -65, 73, 63, 105, -81, -78, 120, 56, -31, -72, -51, -50, 82, 65, 117, -3}
+# 	Count_good=2
+# ~~~~-------------------------- Printing from BFM ~~~~----------------------------------------
+# 	 Retreived bad packet from the mailbox ----
+############ I am eth_bad_pkt ################
+# 		**** Printing eth_pkt(base_class) properties ****
+# 	Count=6
+# 	Length=17
+# 	Payload='{-49, 87, -27, -49, -11, -35, 60, -4, 95, 61, -55, 96, -76, -42, 46, -97, 64}
+# 	Count_bad=3
+# ~~~~-------------------------- Printing from BFM ~~~~----------------------------------------
+# 	 Retreived illegal packet from the mailbox ----
+# 
+############ I am eth_illegal_pkt ################
+# 		**** Printing eth_pkt(base_class) properties ****
+# 	Count=6
+# 	Length=20
+# 	Payload='{-74, -96, 29, -80, 29, -124, -115, -125, 36, 61, 67, -7, 73, -31, -87, 10, -120, -3, 97, -98}
+# 	Count_ill=1
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 20:08:49 on Jul 17,2025
+# vlog -reportprogress 300 top.sv 
+# -- Compiling package top_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 20:08:49 on Jul 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:08:56 on Jul 17,2025, Elapsed time: 0:04:38
+# Errors: 0, Warnings: 0
+# vsim top "+test_case_name=test_random_pkts" "+no_of_packets=8" 
+# Start time: 20:08:56 on Jul 17,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 20:11:06 on Jul 17,2025
+# vlog -reportprogress 300 top.sv 
+# -- Compiling package top_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 20:11:06 on Jul 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:11:18 on Jul 17,2025, Elapsed time: 0:02:22
+# Errors: 0, Warnings: 0
+# vsim top "+test_case_name=test_random_pkts" "+no_of_packets=8" 
+# Start time: 20:11:18 on Jul 17,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+# ~~~~-------------------------- Printing from BFM ~~~~----------------------------------------
+# 	 Retreived bad packet from the mailbox ----
+############ I am eth_bad_pkt ################
+# 		**** Printing eth_pkt(base_class) properties ****
+# 	Count=8
+# 	Length=16
+# 	Payload='{-108, -72, -56, 90, -96, 55, -71, 122, 54, 73, 95, -126, -86, -22, -81, -20}
+# 	Count_bad=4
+# ~~~~-------------------------- Printing from BFM ~~~~----------------------------------------
+# 	 Retreived bad packet from the mailbox ----
+############ I am eth_bad_pkt ################
+# 		**** Printing eth_pkt(base_class) properties ****
+# 	Count=8
+# 	Length=15
+# 	Payload='{74, 69, -115, 102, -21, 23, -123, -127, 63, -43, 100, -65, -78, -54, -89}
+# 	Count_bad=4
+# ~~~~-------------------------- Printing from BFM ~~~~----------------------------------------
+# 	 Retreived good packet from the mailbox ----
+############ I am eth_good_pkt ################
+# 		**** Printing eth_pkt(base_class) properties ****
+# 	Count=8
+# 	Length=21
+# 	Payload='{-35, -6, -31, -23, -66, -31, 53, 81, 23, -30, -49, 100, -81, 20, 111, 99, 52, 104, 61, -44, -45}
+# 	Count_good=2
+# ~~~~-------------------------- Printing from BFM ~~~~----------------------------------------
+# 	 Retreived good packet from the mailbox ----
+############ I am eth_good_pkt ################
+# 		**** Printing eth_pkt(base_class) properties ****
+# 	Count=8
+# 	Length=22
+# 	Payload='{-117, -72, 32, -54, 125, 28, -65, 73, 63, 105, -81, -78, 120, 56, -31, -72, -51, -50, 82, 65, 117, -3}
+# 	Count_good=2
+# ~~~~-------------------------- Printing from BFM ~~~~----------------------------------------
+# 	 Retreived bad packet from the mailbox ----
+############ I am eth_bad_pkt ################
+# 		**** Printing eth_pkt(base_class) properties ****
+# 	Count=8
+# 	Length=17
+# 	Payload='{-49, 87, -27, -49, -11, -35, 60, -4, 95, 61, -55, 96, -76, -42, 46, -97, 64}
+# 	Count_bad=4
+# ~~~~-------------------------- Printing from BFM ~~~~----------------------------------------
+# 	 Retreived illegal packet from the mailbox ----
+# 
+############ I am eth_illegal_pkt ################
+# 		**** Printing eth_pkt(base_class) properties ****
+# 	Count=8
+# 	Length=20
+# 	Payload='{-74, -96, 29, -80, 29, -124, -115, -125, 36, 61, 67, -7, 73, -31, -87, 10, -120, -3, 97, -98}
+# 	Count_ill=2
+# ~~~~-------------------------- Printing from BFM ~~~~----------------------------------------
+# 	 Retreived illegal packet from the mailbox ----
+# 
+############ I am eth_illegal_pkt ################
+# 		**** Printing eth_pkt(base_class) properties ****
+# 	Count=8
+# 	Length=23
+# 	Payload='{68, -10, -56, -102, -19, -99, 122, 15, -15, -81, 13, -126, 47, -57, 117, 13, 24, 109, 121, -120, -124, 23, 120}
+# 	Count_ill=2
+# ~~~~-------------------------- Printing from BFM ~~~~----------------------------------------
+# 	 Retreived bad packet from the mailbox ----
+############ I am eth_bad_pkt ################
+# 		**** Printing eth_pkt(base_class) properties ****
+# 	Count=8
+# 	Length=18
+# 	Payload='{-109, -11, 112, -10, 7, -56, -57, 3, -88, 52, -46, 36, 70, 106, 104, 8, -93, 109}
+# 	Count_bad=4
+# End time: 20:19:34 on Jul 17,2025, Elapsed time: 0:08:16
+# Errors: 0, Warnings: 0

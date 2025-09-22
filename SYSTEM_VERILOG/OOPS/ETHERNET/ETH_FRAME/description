@@ -1,0 +1,39 @@
+Local Area Network(LAN) communication frame: 
+	- Intra-Network Communication: Ethernet frame
+	-Ethernet is the wired technology that allows devices to send and receive data in a fast, organized, and reliable way.
+
+network to network communication --> IPv4 and IPv6 communication.
+
+802.3 Ethernet frame structure:
+================================
+preamble : series of zeros and ones --> 7 octets (56 bits) --> 28 ones and 28 zeros.
+	1 octet = 8 bits.
+	- It tells the receiver that some transaction is going to start.
+	Purpose: Helps the receiver sync up and prepare for incoming data.
+	
+start of frame delimiter(sfd):
+	Tells the receiver: “The real data starts now, right after this.”
+	- It's 10101011, right after the preamble.
+
+Destination Address (6 octets).
+- 🏠 “Deliver this to my friend.”
+- The MAC address of the device you're sending the frame to.
+- Like writing your friend's house address on a package.
+
+Source Address (6 octets).
+- 🏡 “I’m the one who sent this.”
+- The MAC address of the device that’s sending the frame.
+- Like writing your own address on the box — “From: Me.”
+
+length : it should be inside 42 to 1500 octets. So, we will write a constraint for that.
+	constraint length_C { //length should be between 42 to 1500 octets.
+		len inside {[42:1500]};
+	}
+	
+payload: payload size should be length number of octets.
+	constraint payload_C {
+		payload.size() == len;
+	}
+	
+crc: cyclic redundancy check
+

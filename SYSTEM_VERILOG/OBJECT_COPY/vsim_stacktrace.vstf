@@ -1,0 +1,219 @@
+# Current time Fri Aug  8 11:57:37 2025
+# Program = vsim
+# Id = "2025.1_1"
+# Version = "2025.02"
+# Date = "Feb 13 2025"
+# Platform = "linux_x86_64"
+# Signature = 34855ebf4cce6f0c979f0c3feb63e838
+# 0    0x00007feff0315183: 'deep_copy.sv:18'
+# 1    0x00007feff0315b2c: 'deep_copy.sv:33'
+# 2    0x0000000004560e62: '<unknown (@0x4560e62)>'
+# 3    0x00000000004fbd7f: '<unknown (@0x4fbd7f)>'
+# 4    0x00000000008464ee: '<unknown (@0x8464ee)>'
+# 5    0x0000000000e4e8b3: '<unknown (@0xe4e8b3)>'
+# 6    0x0000000000e53f80: '<unknown (@0xe53f80)>'
+# 7    0x0000000000e55d2e: '<unknown (@0xe55d2e)>'
+# 8    0x000000000119d81d: '<unknown (@0x119d81d)>'
+# 9    0x0000000004a301fd: '<unknown (@0x4a301fd)>'
+# 10   0x0000000004a34656: '<unknown (@0x4a34656)>'
+# 11   0x0000000004a35d41: '<unknown (@0x4a35d41)>'
+# 12   0x0000000004a360a6: '<unknown (@0x4a360a6)>'
+# 13   0x00000000014444b1: '<unknown (@0x14444b1)>'
+# 14   0x0000000004ad5faf: '<unknown (@0x4ad5faf)>'
+# 15   0x0000000004b29b27: '<unknown (@0x4b29b27)>'
+# 16   0x0000000004aeca17: '<unknown (@0x4aeca17)>'
+# 17   0x0000000004aeccf9: '<unknown (@0x4aeccf9)>'
+# 18   0x00000000048e4c1d: '<unknown (@0x48e4c1d)>'
+# 19   0x0000000000e0fcc4: '<unknown (@0xe0fcc4)>'
+# End of Stack Trace
+
+
+# Current time Fri Aug  8 17:32:55 2025
+# Program = vsim
+# Id = "2025.1_1"
+# Version = "2025.02"
+# Date = "Feb 13 2025"
+# Platform = "linux_x86_64"
+# Signature = 34855ebf4cce6f0c979f0c3feb63e838
+# 0    0x00007feff0315151: 'deep_copy.sv:18'
+# 1    0x00007feff0315b6c: 'deep_copy.sv:32'
+# 2    0x0000000004560e62: '<unknown (@0x4560e62)>'
+# 3    0x00000000004fbd7f: '<unknown (@0x4fbd7f)>'
+# 4    0x00000000008464ee: '<unknown (@0x8464ee)>'
+# 5    0x0000000000e4e8b3: '<unknown (@0xe4e8b3)>'
+# 6    0x0000000000e53f80: '<unknown (@0xe53f80)>'
+# 7    0x0000000000e55d2e: '<unknown (@0xe55d2e)>'
+# 8    0x000000000119d81d: '<unknown (@0x119d81d)>'
+# 9    0x0000000004a301fd: '<unknown (@0x4a301fd)>'
+# 10   0x0000000004a34656: '<unknown (@0x4a34656)>'
+# 11   0x0000000004a35d41: '<unknown (@0x4a35d41)>'
+# 12   0x0000000004a360a6: '<unknown (@0x4a360a6)>'
+# 13   0x00000000014444b1: '<unknown (@0x14444b1)>'
+# 14   0x0000000004ad5faf: '<unknown (@0x4ad5faf)>'
+# 15   0x0000000004b29b27: '<unknown (@0x4b29b27)>'
+# 16   0x0000000004aeca17: '<unknown (@0x4aeca17)>'
+# 17   0x0000000004aeccf9: '<unknown (@0x4aeccf9)>'
+# 18   0x00000000048e4c1d: '<unknown (@0x48e4c1d)>'
+# 19   0x0000000000e0fcc4: '<unknown (@0xe0fcc4)>'
+# End of Stack Trace
+
+
+# Current time Fri Aug  8 17:38:58 2025
+# Program = vsim
+# Id = "2025.1_1"
+# Version = "2025.02"
+# Date = "Feb 13 2025"
+# Platform = "linux_x86_64"
+# Signature = 34855ebf4cce6f0c979f0c3feb63e838
+# 0    0x00007feff0315151: 'deep_copy.sv:18'
+# 1    0x00007feff0315bac: 'deep_copy.sv:37'
+# 2    0x0000000004560e62: '<unknown (@0x4560e62)>'
+# 3    0x00000000004fbd7f: '<unknown (@0x4fbd7f)>'
+# 4    0x00000000008464ee: '<unknown (@0x8464ee)>'
+# 5    0x0000000000e4e8b3: '<unknown (@0xe4e8b3)>'
+# 6    0x0000000000e53f80: '<unknown (@0xe53f80)>'
+# 7    0x0000000000e55d2e: '<unknown (@0xe55d2e)>'
+# 8    0x000000000119d81d: '<unknown (@0x119d81d)>'
+# 9    0x0000000004a301fd: '<unknown (@0x4a301fd)>'
+# 10   0x0000000004a34656: '<unknown (@0x4a34656)>'
+# 11   0x0000000004a35d41: '<unknown (@0x4a35d41)>'
+# 12   0x0000000004a360a6: '<unknown (@0x4a360a6)>'
+# 13   0x00000000014444b1: '<unknown (@0x14444b1)>'
+# 14   0x0000000004ad5faf: '<unknown (@0x4ad5faf)>'
+# 15   0x0000000004b29b27: '<unknown (@0x4b29b27)>'
+# 16   0x0000000004aeca17: '<unknown (@0x4aeca17)>'
+# 17   0x0000000004aeccf9: '<unknown (@0x4aeccf9)>'
+# 18   0x00000000048e4c1d: '<unknown (@0x48e4c1d)>'
+# 19   0x0000000000e0fcc4: '<unknown (@0xe0fcc4)>'
+# End of Stack Trace
+
+
+# Current time Sat Aug  9 12:41:30 2025
+# Program = vsim
+# Id = "2025.1_1"
+# Version = "2025.02"
+# Date = "Feb 13 2025"
+# Platform = "linux_x86_64"
+# Signature = 34855ebf4cce6f0c979f0c3feb63e838
+# 0    0x00000000013fca47: '<unknown (@0x13fca47)>'
+# 1    0x00000000013dd7c5: '<unknown (@0x13dd7c5)>'
+# 2    0x0000000000927655: '<unknown (@0x927655)>'
+# 3    0x00007feff031530f: 'shallow_copy-2.sv:26'
+# 4    0x00007feff0315bbc: 'shallow_copy-2.sv:38'
+# 5    0x0000000004560e62: '<unknown (@0x4560e62)>'
+# 6    0x00000000004fbd7f: '<unknown (@0x4fbd7f)>'
+# 7    0x00000000008464ee: '<unknown (@0x8464ee)>'
+# 8    0x0000000000e4e8b3: '<unknown (@0xe4e8b3)>'
+# 9    0x0000000000e53f80: '<unknown (@0xe53f80)>'
+# 10   0x0000000000e55d2e: '<unknown (@0xe55d2e)>'
+# 11   0x000000000119d81d: '<unknown (@0x119d81d)>'
+# 12   0x0000000004a301fd: '<unknown (@0x4a301fd)>'
+# 13   0x0000000004a34656: '<unknown (@0x4a34656)>'
+# 14   0x0000000004a35d41: '<unknown (@0x4a35d41)>'
+# 15   0x0000000004a360a6: '<unknown (@0x4a360a6)>'
+# 16   0x00000000014444b1: '<unknown (@0x14444b1)>'
+# 17   0x0000000004ad5faf: '<unknown (@0x4ad5faf)>'
+# 18   0x0000000004b29b27: '<unknown (@0x4b29b27)>'
+# 19   0x0000000004aeca17: '<unknown (@0x4aeca17)>'
+# 20   0x0000000004aeccf9: '<unknown (@0x4aeccf9)>'
+# 21   0x00000000048e4c1d: '<unknown (@0x48e4c1d)>'
+# 22   0x0000000000e0fcc4: '<unknown (@0xe0fcc4)>'
+# End of Stack Trace
+
+
+# Current time Sat Aug  9 12:44:24 2025
+# Program = vsim
+# Id = "2025.1_1"
+# Version = "2025.02"
+# Date = "Feb 13 2025"
+# Platform = "linux_x86_64"
+# Signature = 34855ebf4cce6f0c979f0c3feb63e838
+# 0    0x00000000013fca47: '<unknown (@0x13fca47)>'
+# 1    0x00000000013dd7c5: '<unknown (@0x13dd7c5)>'
+# 2    0x0000000000927655: '<unknown (@0x927655)>'
+# 3    0x00007feff031535c: 'shallow_copy-2.sv:26'
+# 4    0x00007feff0315c50: 'shallow_copy-2.sv:38'
+# 5    0x0000000004560e62: '<unknown (@0x4560e62)>'
+# 6    0x00000000004fbd7f: '<unknown (@0x4fbd7f)>'
+# 7    0x00000000008464ee: '<unknown (@0x8464ee)>'
+# 8    0x0000000000e4e8b3: '<unknown (@0xe4e8b3)>'
+# 9    0x0000000000e53f80: '<unknown (@0xe53f80)>'
+# 10   0x0000000000e55d2e: '<unknown (@0xe55d2e)>'
+# 11   0x000000000119d81d: '<unknown (@0x119d81d)>'
+# 12   0x0000000004a301fd: '<unknown (@0x4a301fd)>'
+# 13   0x0000000004a34656: '<unknown (@0x4a34656)>'
+# 14   0x0000000004a35d41: '<unknown (@0x4a35d41)>'
+# 15   0x0000000004a360a6: '<unknown (@0x4a360a6)>'
+# 16   0x00000000014444b1: '<unknown (@0x14444b1)>'
+# 17   0x0000000004ad5faf: '<unknown (@0x4ad5faf)>'
+# 18   0x0000000004b29b27: '<unknown (@0x4b29b27)>'
+# 19   0x0000000004aeca17: '<unknown (@0x4aeca17)>'
+# 20   0x0000000004aeccf9: '<unknown (@0x4aeccf9)>'
+# 21   0x00000000048e4c1d: '<unknown (@0x48e4c1d)>'
+# 22   0x0000000000e0fcc4: '<unknown (@0xe0fcc4)>'
+# End of Stack Trace
+
+
+# Current time Sat Aug  9 12:46:51 2025
+# Program = vsim
+# Id = "2025.1_1"
+# Version = "2025.02"
+# Date = "Feb 13 2025"
+# Platform = "linux_x86_64"
+# Signature = 34855ebf4cce6f0c979f0c3feb63e838
+# 0    0x00000000013fca47: '<unknown (@0x13fca47)>'
+# 1    0x00000000013dd7c5: '<unknown (@0x13dd7c5)>'
+# 2    0x0000000000927655: '<unknown (@0x927655)>'
+# 3    0x00007feff031530f: 'shallow_copy-2.sv:26'
+# 4    0x00007feff0315bbc: 'shallow_copy-2.sv:38'
+# 5    0x0000000004560e62: '<unknown (@0x4560e62)>'
+# 6    0x00000000004fbd7f: '<unknown (@0x4fbd7f)>'
+# 7    0x00000000008464ee: '<unknown (@0x8464ee)>'
+# 8    0x0000000000e4e8b3: '<unknown (@0xe4e8b3)>'
+# 9    0x0000000000e53f80: '<unknown (@0xe53f80)>'
+# 10   0x0000000000e55d2e: '<unknown (@0xe55d2e)>'
+# 11   0x000000000119d81d: '<unknown (@0x119d81d)>'
+# 12   0x0000000004a301fd: '<unknown (@0x4a301fd)>'
+# 13   0x0000000004a34656: '<unknown (@0x4a34656)>'
+# 14   0x0000000004a35d41: '<unknown (@0x4a35d41)>'
+# 15   0x0000000004a360a6: '<unknown (@0x4a360a6)>'
+# 16   0x00000000014444b1: '<unknown (@0x14444b1)>'
+# 17   0x0000000004ad5faf: '<unknown (@0x4ad5faf)>'
+# 18   0x0000000004b29b27: '<unknown (@0x4b29b27)>'
+# 19   0x0000000004aeca17: '<unknown (@0x4aeca17)>'
+# 20   0x0000000004aeccf9: '<unknown (@0x4aeccf9)>'
+# 21   0x00000000048e4c1d: '<unknown (@0x48e4c1d)>'
+# 22   0x0000000000e0fcc4: '<unknown (@0xe0fcc4)>'
+# End of Stack Trace
+
+
+# Current time Sat Aug  9 13:09:28 2025
+# Program = vsim
+# Id = "2025.1_1"
+# Version = "2025.02"
+# Date = "Feb 13 2025"
+# Platform = "linux_x86_64"
+# Signature = 34855ebf4cce6f0c979f0c3feb63e838
+# 0    0x00007feff0315151: 'deep_copy.sv:19'
+# 1    0x00007feff0315bec: 'deep_copy.sv:40'
+# 2    0x0000000004560e62: '<unknown (@0x4560e62)>'
+# 3    0x00000000004fbd7f: '<unknown (@0x4fbd7f)>'
+# 4    0x00000000008464ee: '<unknown (@0x8464ee)>'
+# 5    0x0000000000e4e8b3: '<unknown (@0xe4e8b3)>'
+# 6    0x0000000000e53f80: '<unknown (@0xe53f80)>'
+# 7    0x0000000000e55d2e: '<unknown (@0xe55d2e)>'
+# 8    0x000000000119d81d: '<unknown (@0x119d81d)>'
+# 9    0x0000000004a301fd: '<unknown (@0x4a301fd)>'
+# 10   0x0000000004a34656: '<unknown (@0x4a34656)>'
+# 11   0x0000000004a35d41: '<unknown (@0x4a35d41)>'
+# 12   0x0000000004a360a6: '<unknown (@0x4a360a6)>'
+# 13   0x00000000014444b1: '<unknown (@0x14444b1)>'
+# 14   0x0000000004ad5faf: '<unknown (@0x4ad5faf)>'
+# 15   0x0000000004b29b27: '<unknown (@0x4b29b27)>'
+# 16   0x0000000004aeca17: '<unknown (@0x4aeca17)>'
+# 17   0x0000000004aeccf9: '<unknown (@0x4aeccf9)>'
+# 18   0x00000000048e4c1d: '<unknown (@0x48e4c1d)>'
+# 19   0x0000000000e0fcc4: '<unknown (@0xe0fcc4)>'
+# End of Stack Trace
+
+

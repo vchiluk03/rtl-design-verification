@@ -1,0 +1,80 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f vlog 2025.1_1 2025.02, Feb 13 2025
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/mnt/ncsudrive/v/vchiluk3/vlsi-guru/SYSTEM_VERILOG/UNION_DT
+T_opt
+!s110 1755045399
+VeC9TXTQkXMzadI_IR1Wcf0
+04 3 4 work top fast 0
+=1-48df37cd58b8-689bde16-277d5-1a16a
+R0
+!s12f OEM100
+!s12b OEM100
+!s124 OEM100
+!s135 nogc
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2025.1_1;82
+vtop
+Z3 2union.sv
+Z4 DXx6 sv_std 3 std 0 22 @5XbY]_OacJl=`ToSm<M^0
+DXx4 work 13 union_sv_unit 0 22 n[iASODkbn^Zdz8SPDc;E2
+Z5 !s110 1755045395
+VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 TLN@]Z<Z`AFMb7jS]b8df1
+IS7QZWo6>hTi0bi@f7X>DV2
+!s105 union_sv_unit
+S1
+R1
+Z6 w1755045259
+Z7 8union.sv
+Z8 Funion.sv
+!i122 0
+L0 9 12
+Z9 OL;L;2025.1_1;82
+31
+Z10 !s108 1755045395.000000
+Z11 !s107 union.sv|
+Z12 !s90 -reportprogress|300|union.sv|
+!i113 0
+Z13 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+Xunion_sv_unit
+R3
+R4
+R5
+Vn[iASODkbn^Zdz8SPDc;E2
+r1
+!s85 0
+!i10b 1
+!s100 OzXRPMU5LHE]U:3FK<RTF2
+In[iASODkbn^Zdz8SPDc;E2
+!i103 1
+S1
+R1
+R6
+R7
+R8
+!i122 0
+L0 1 0
+R9
+31
+R10
+R11
+R12
+!i113 0
+R13
+R2

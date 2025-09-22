@@ -1,0 +1,119 @@
+# //  Questa Sim-64
+# //  Version 2025.1_1 linux_x86_64 Feb 13 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# vsim do 
+# Start time: 11:14:18 on Aug 24,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: (vopt-11) Could not find work.do.
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=0.
+# Error loading design
+# End time: 11:14:20 on Aug 24,2025, Elapsed time: 0:00:02
+# Errors: 1, Warnings: 0
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 11:15:03 on Aug 24,2025
+# vlog -reportprogress 300 event-3.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 11:15:04 on Aug 24,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim top -sv_seed 84365 
+# Start time: 11:15:06 on Aug 24,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Error: event-3.sv(12): (vopt-2123) Missing argument for format specification '%t'.
+# Optimization failed
+# ** Error: (vopt-2064) Compiler back-end code generation process terminated due to previous errors with code 12.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=2, Warnings=0.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 11
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 11:15:41 on Aug 24,2025
+# vlog -reportprogress 300 event-3.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 11:15:41 on Aug 24,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim top -sv_seed 84365 
+# Start time: 11:15:06 on Aug 24,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.top(fast)
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 11:18:36 on Aug 24,2025
+# vlog -reportprogress 300 event-4.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 11:18:37 on Aug 24,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 11:18:48 on Aug 24,2025, Elapsed time: 0:03:42
+# Errors: 2, Warnings: 0
+# vsim top -sv_seed 84365 
+# Start time: 11:18:48 on Aug 24,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+#                    6: e2 is triggered
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 12:42:26 on Aug 24,2025
+# vlog -reportprogress 300 semaphore.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:42:27 on Aug 24,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 12:42:38 on Aug 24,2025, Elapsed time: 1:23:50
+# Errors: 0, Warnings: 0
+# vsim top -sv_seed 84365 
+# Start time: 12:42:38 on Aug 24,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+#                    2: Process#2 is currently writing to the memory
+#                    5: Process#1 is currently writing to the memory
+#                   22: Process#2 has completed writing to the memory
+#                   25: Process#1 has completed writing to the memory
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 12:46:38 on Aug 24,2025
+# vlog -reportprogress 300 semaphore-1.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:46:38 on Aug 24,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:46:48 on Aug 24,2025, Elapsed time: 0:04:10
+# Errors: 0, Warnings: 0
+# vsim top -sv_seed 84365 
+# Start time: 12:46:48 on Aug 24,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+#                    2: Process#2 is currently writing to the memory
+#                   22: Process#2 has completed writing to the memory
+#                   22: Process#1 is currently writing to the memory
+#                   42: Process#1 has completed writing to the memory

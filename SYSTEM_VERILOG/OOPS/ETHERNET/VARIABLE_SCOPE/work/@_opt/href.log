@@ -1,0 +1,8 @@
+BEGIN 1:top:fast:work
+    count :  1:top:fast:work
+END 
+BEGIN_PACKAGE
+BEGIN scope_sv_unit:work
+    count :  1:top:fast:work
+END 
+END_PACKAGE

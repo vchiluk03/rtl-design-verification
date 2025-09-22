@@ -1,0 +1,587 @@
+# //  Questa Sim-64
+# //  Version 2025.1_1 linux_x86_64 Feb 13 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# vsim do 
+# Start time: 13:25:45 on Jul 27,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: (vopt-11) Could not find work.do.
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=0.
+# Error loading design
+# End time: 13:25:53 on Jul 27,2025, Elapsed time: 0:00:08
+# Errors: 1, Warnings: 0
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 13:27:27 on Jul 27,2025
+# vlog -reportprogress 300 lifo_fifo_1.sv 
+# -- Compiling package lifo_fifo_1_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 13:27:29 on Jul 27,2025, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 13:27:30 on Jul 27,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.lifo_fifo_1_sv_unit(fast)
+# Loading work.top(fast)
+# Inserting number into the FIFO :         203
+# Inserting number into the FIFO :         108
+# Inserting number into the FIFO :         492
+# Inserting number into the FIFO :         473
+# Inserting number into the FIFO :         194
+# Inserting number into the FIFO :         308
+# Inserting number into the FIFO :         411
+# Inserting number into the FIFO :         215
+# Inserting number into the FIFO :         404
+# Inserting number into the FIFO :         414
+# ** Warning: (vsim-2553) Queue operation would exceed max. right index of 9.
+# 
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#30 File: lifo_fifo_1.sv Line: 8
+# Inserting number into the FIFO :         270
+# ** Warning: (vsim-2553) Queue operation would exceed max. right index of 9.
+# 
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#30 File: lifo_fifo_1.sv Line: 8
+# Inserting number into the FIFO :         278
+# ** Warning: (vsim-2553) Queue operation would exceed max. right index of 9.
+# 
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#30 File: lifo_fifo_1.sv Line: 8
+# Inserting number into the FIFO :         481
+# ** Warning: (vsim-2553) Queue operation would exceed max. right index of 9.
+# 
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#30 File: lifo_fifo_1.sv Line: 8
+# Inserting number into the FIFO :         428
+# ** Warning: (vsim-2553) Queue operation would exceed max. right index of 9.
+# 
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#30 File: lifo_fifo_1.sv Line: 8
+# Inserting number into the FIFO :         280
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :         414
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :         404
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :         215
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :         411
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :         308
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :         194
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :         473
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :         492
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :         108
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :         203
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :           0
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :           0
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :           0
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :           0
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :           0
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 13:31:21 on Jul 27,2025
+# vlog -reportprogress 300 lifo_fifo_1.sv 
+# -- Compiling package lifo_fifo_1_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 13:31:21 on Jul 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:31:31 on Jul 27,2025, Elapsed time: 0:04:01
+# Errors: 0, Warnings: 5
+# vsim top 
+# Start time: 13:31:31 on Jul 27,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.lifo_fifo_1_sv_unit(fast)
+# Loading work.top(fast)
+# Inserting number into the FIFO :         203
+# Inserting number into the FIFO :         108
+# Inserting number into the FIFO :         492
+# Inserting number into the FIFO :         473
+# Inserting number into the FIFO :         194
+# Inserting number into the FIFO :         308
+# Inserting number into the FIFO :         411
+# Inserting number into the FIFO :         215
+# Inserting number into the FIFO :         404
+# Inserting number into the FIFO :         414
+# Inserting number into the FIFO :         270
+# Inserting number into the FIFO :         278
+# Inserting number into the FIFO :         481
+# Inserting number into the FIFO :         428
+# Inserting number into the FIFO :         280
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :         280
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :         428
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :         481
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :         278
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :         270
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :         414
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :         404
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :         215
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :         411
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :         308
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :         194
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :         473
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :         492
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :         108
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :         203
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 13:33:12 on Jul 27,2025
+# vlog -reportprogress 300 lifo_fifo_1.sv 
+# -- Compiling package lifo_fifo_1_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 13:33:12 on Jul 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:33:20 on Jul 27,2025, Elapsed time: 0:01:49
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 13:33:20 on Jul 27,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.lifo_fifo_1_sv_unit(fast)
+# Loading work.top(fast)
+# Inserting number into the FIFO :         203
+# Inserting number into the FIFO :         108
+# Inserting number into the FIFO :         492
+# Inserting number into the FIFO :         473
+# Inserting number into the FIFO :         194
+# Inserting number into the FIFO :         308
+# Inserting number into the FIFO :         411
+# Inserting number into the FIFO :         215
+# Inserting number into the FIFO :         404
+# Inserting number into the FIFO :         414
+# ** Warning: (vsim-2553) Queue operation would exceed max. right index of 9.
+# 
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#30 File: lifo_fifo_1.sv Line: 8
+# Inserting number into the FIFO :         270
+# ** Warning: (vsim-2553) Queue operation would exceed max. right index of 9.
+# 
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#30 File: lifo_fifo_1.sv Line: 8
+# Inserting number into the FIFO :         278
+# ** Warning: (vsim-2553) Queue operation would exceed max. right index of 9.
+# 
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#30 File: lifo_fifo_1.sv Line: 8
+# Inserting number into the FIFO :         481
+# ** Warning: (vsim-2553) Queue operation would exceed max. right index of 9.
+# 
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#30 File: lifo_fifo_1.sv Line: 8
+# Inserting number into the FIFO :         428
+# ** Warning: (vsim-2553) Queue operation would exceed max. right index of 9.
+# 
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#30 File: lifo_fifo_1.sv Line: 8
+# Inserting number into the FIFO :         280
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :         414
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :         404
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :         215
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :         411
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :         308
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :         194
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :         473
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :         492
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :         108
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :         203
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :           0
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :           0
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :           0
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :           0
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :           0
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 13:35:53 on Jul 27,2025
+# vlog -reportprogress 300 lifo_fifo_1.sv 
+# -- Compiling package lifo_fifo_1_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 13:35:54 on Jul 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 13:36:02 on Jul 27,2025, Elapsed time: 0:02:42
+# Errors: 0, Warnings: 5
+# vsim top 
+# Start time: 13:36:02 on Jul 27,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.lifo_fifo_1_sv_unit(fast)
+# Loading work.top(fast)
+# Inserting number into the FIFO :  -53
+# Inserting number into the FIFO :  108
+# Inserting number into the FIFO :  -20
+# Inserting number into the FIFO :  -39
+# Inserting number into the FIFO :  -62
+# Inserting number into the FIFO :   52
+# Inserting number into the FIFO : -101
+# Inserting number into the FIFO :  -41
+# Inserting number into the FIFO : -108
+# Inserting number into the FIFO :  -98
+# ** Warning: (vsim-2553) Queue operation would exceed max. right index of 9.
+# 
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#30 File: lifo_fifo_1.sv Line: 8
+# Inserting number into the FIFO :   14
+# ** Warning: (vsim-2553) Queue operation would exceed max. right index of 9.
+# 
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#30 File: lifo_fifo_1.sv Line: 8
+# Inserting number into the FIFO :   22
+# ** Warning: (vsim-2553) Queue operation would exceed max. right index of 9.
+# 
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#30 File: lifo_fifo_1.sv Line: 8
+# Inserting number into the FIFO :  -31
+# ** Warning: (vsim-2553) Queue operation would exceed max. right index of 9.
+# 
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#30 File: lifo_fifo_1.sv Line: 8
+# Inserting number into the FIFO :  -84
+# ** Warning: (vsim-2553) Queue operation would exceed max. right index of 9.
+# 
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#30 File: lifo_fifo_1.sv Line: 8
+# Inserting number into the FIFO :   24
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :  -98
+# ---- This is LIFO behaviour ----
+# Number from the FIFO : -108
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :  -41
+# ---- This is LIFO behaviour ----
+# Number from the FIFO : -101
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :   52
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :  -62
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :  -39
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :  -20
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :  108
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :  -53
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :    0
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :    0
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :    0
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :    0
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :    0
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 13:36:56 on Jul 27,2025
+# vlog -reportprogress 300 lifo_fifo_1.sv 
+# -- Compiling package lifo_fifo_1_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 13:36:56 on Jul 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:37:05 on Jul 27,2025, Elapsed time: 0:01:03
+# Errors: 0, Warnings: 5
+# vsim top 
+# Start time: 13:37:05 on Jul 27,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.lifo_fifo_1_sv_unit(fast)
+# Loading work.top(fast)
+# Inserting number into the FIFO :  -53
+# Inserting number into the FIFO :  108
+# Inserting number into the FIFO :  -20
+# Inserting number into the FIFO :  -39
+# Inserting number into the FIFO :  -62
+# Inserting number into the FIFO :   52
+# Inserting number into the FIFO : -101
+# Inserting number into the FIFO :  -41
+# Inserting number into the FIFO : -108
+# Inserting number into the FIFO :  -98
+# ** Warning: (vsim-2553) Queue operation would exceed max. right index of 9.
+# 
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#30 File: lifo_fifo_1.sv Line: 8
+# Inserting number into the FIFO :   14
+# ** Warning: (vsim-2553) Queue operation would exceed max. right index of 9.
+# 
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#30 File: lifo_fifo_1.sv Line: 8
+# Inserting number into the FIFO :   22
+# ** Warning: (vsim-2553) Queue operation would exceed max. right index of 9.
+# 
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#30 File: lifo_fifo_1.sv Line: 8
+# Inserting number into the FIFO :  -31
+# ** Warning: (vsim-2553) Queue operation would exceed max. right index of 9.
+# 
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#30 File: lifo_fifo_1.sv Line: 8
+# Inserting number into the FIFO :  -84
+# ** Warning: (vsim-2553) Queue operation would exceed max. right index of 9.
+# 
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#30 File: lifo_fifo_1.sv Line: 8
+# Inserting number into the FIFO :   24
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :  -98
+# ---- This is LIFO behaviour ----
+# Number from the FIFO : -108
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :  -41
+# ---- This is LIFO behaviour ----
+# Number from the FIFO : -101
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :   52
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :  -62
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :  -39
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :  -20
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :  108
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :  -53
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :    0
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :    0
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :    0
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :    0
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :    0
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 13:39:32 on Jul 27,2025
+# vlog -reportprogress 300 lifo_fifo_1.sv 
+# ** Error: (vlog-13069) lifo_fifo_1.sv(4): near "byte": syntax error, unexpected "SystemVerilog keyword 'byte'", expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER or '#'.
+# ** Error: lifo_fifo_1.sv(6): (vlog-13205) Syntax error found in the scope following 'data_type'. Is there a missing '::'?
+# End time: 13:39:33 on Jul 27,2025, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 0
+# ** Error: /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+# Error in macro ./run.do line 5
+# /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog lifo_fifo_1.sv"
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 13:41:04 on Jul 27,2025
+# vlog -reportprogress 300 lifo_fifo_1.sv 
+# ** Error: (vlog-13069) lifo_fifo_1.sv(5): near "class": syntax error, unexpected class, expecting ';'.
+# ** Error: lifo_fifo_1.sv(6): (vlog-13205) Syntax error found in the scope following 'data_type'. Is there a missing '::'?
+# End time: 13:41:04 on Jul 27,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+# Error in macro ./run.do line 5
+# /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog lifo_fifo_1.sv"
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 13:41:39 on Jul 27,2025
+# vlog -reportprogress 300 lifo_fifo_1.sv 
+# -- Compiling package lifo_fifo_1_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 13:41:40 on Jul 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 13:41:48 on Jul 27,2025, Elapsed time: 0:04:43
+# Errors: 2, Warnings: 5
+# vsim top 
+# Start time: 13:41:48 on Jul 27,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.lifo_fifo_1_sv_unit(fast)
+# Loading work.top(fast)
+# Inserting number into the FIFO :  -53
+# Inserting number into the FIFO :  108
+# Inserting number into the FIFO :  -20
+# Inserting number into the FIFO :  -39
+# Inserting number into the FIFO :  -62
+# Inserting number into the FIFO :   52
+# Inserting number into the FIFO : -101
+# Inserting number into the FIFO :  -41
+# Inserting number into the FIFO : -108
+# Inserting number into the FIFO :  -98
+# ** Warning: (vsim-2553) Queue operation would exceed max. right index of 9.
+# 
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#31 File: lifo_fifo_1.sv Line: 9
+# Inserting number into the FIFO :   14
+# ** Warning: (vsim-2553) Queue operation would exceed max. right index of 9.
+# 
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#31 File: lifo_fifo_1.sv Line: 9
+# Inserting number into the FIFO :   22
+# ** Warning: (vsim-2553) Queue operation would exceed max. right index of 9.
+# 
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#31 File: lifo_fifo_1.sv Line: 9
+# Inserting number into the FIFO :  -31
+# ** Warning: (vsim-2553) Queue operation would exceed max. right index of 9.
+# 
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#31 File: lifo_fifo_1.sv Line: 9
+# Inserting number into the FIFO :  -84
+# ** Warning: (vsim-2553) Queue operation would exceed max. right index of 9.
+# 
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#31 File: lifo_fifo_1.sv Line: 9
+# Inserting number into the FIFO :   24
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :  -98
+# ---- This is LIFO behaviour ----
+# Number from the FIFO : -108
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :  -41
+# ---- This is LIFO behaviour ----
+# Number from the FIFO : -101
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :   52
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :  -62
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :  -39
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :  -20
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :  108
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :  -53
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :    0
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :    0
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :    0
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :    0
+# ---- This is LIFO behaviour ----
+# Number from the FIFO :    0
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 13:46:04 on Jul 27,2025
+# vlog -reportprogress 300 lifo_fifo_2.sv 
+# -- Compiling package lifo_fifo_2_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 13:46:04 on Jul 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:46:13 on Jul 27,2025, Elapsed time: 0:04:25
+# Errors: 0, Warnings: 5
+# vsim top 
+# Start time: 13:46:13 on Jul 27,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.lifo_fifo_2_sv_unit(fast)
+# Loading work.top(fast)
+# Inserting number into the FIFO : vishnu203
+# Inserting number into the FIFO : vishnu108
+# Inserting number into the FIFO : vishnu492
+# Inserting number into the FIFO : vishnu473
+# Inserting number into the FIFO : vishnu194
+# Inserting number into the FIFO : vishnu308
+# Inserting number into the FIFO : vishnu411
+# Inserting number into the FIFO : vishnu215
+# Inserting number into the FIFO : vishnu404
+# Inserting number into the FIFO : vishnu414
+# ** Warning: (vsim-2553) Queue operation would exceed max. right index of 9.
+# 
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#31 File: lifo_fifo_2.sv Line: 9
+# Inserting number into the FIFO : vishnu270
+# ** Warning: (vsim-2553) Queue operation would exceed max. right index of 9.
+# 
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#31 File: lifo_fifo_2.sv Line: 9
+# Inserting number into the FIFO : vishnu278
+# ** Warning: (vsim-2553) Queue operation would exceed max. right index of 9.
+# 
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#31 File: lifo_fifo_2.sv Line: 9
+# Inserting number into the FIFO : vishnu481
+# ** Warning: (vsim-2553) Queue operation would exceed max. right index of 9.
+# 
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#31 File: lifo_fifo_2.sv Line: 9
+# Inserting number into the FIFO : vishnu428
+# ** Warning: (vsim-2553) Queue operation would exceed max. right index of 9.
+# 
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#31 File: lifo_fifo_2.sv Line: 9
+# Inserting number into the FIFO : vishnu280
+# ---- This is LIFO behaviour ----
+# Number from the FIFO : vishnu414
+# ---- This is LIFO behaviour ----
+# Number from the FIFO : vishnu404
+# ---- This is LIFO behaviour ----
+# Number from the FIFO : vishnu215
+# ---- This is LIFO behaviour ----
+# Number from the FIFO : vishnu411
+# ---- This is LIFO behaviour ----
+# Number from the FIFO : vishnu308
+# ---- This is LIFO behaviour ----
+# Number from the FIFO : vishnu194
+# ---- This is LIFO behaviour ----
+# Number from the FIFO : vishnu473
+# ---- This is LIFO behaviour ----
+# Number from the FIFO : vishnu492
+# ---- This is LIFO behaviour ----
+# Number from the FIFO : vishnu108
+# ---- This is LIFO behaviour ----
+# Number from the FIFO : vishnu203
+# ---- This is LIFO behaviour ----
+# Number from the FIFO : 
+# ---- This is LIFO behaviour ----
+# Number from the FIFO : 
+# ---- This is LIFO behaviour ----
+# Number from the FIFO : 
+# ---- This is LIFO behaviour ----
+# Number from the FIFO : 
+# ---- This is LIFO behaviour ----
+# Number from the FIFO : 
+# End time: 14:03:09 on Jul 27,2025, Elapsed time: 0:16:56
+# Errors: 0, Warnings: 5

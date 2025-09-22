@@ -1,0 +1,680 @@
+# //  Questa Sim-64
+# //  Version 2025.1_1 linux_x86_64 Feb 13 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# vsim do 
+# Start time: 19:07:24 on Jun 16,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: (vopt-11) Could not find work.do.
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=0.
+# Error loading design
+# End time: 19:07:27 on Jun 16,2025, Elapsed time: 0:00:03
+# Errors: 1, Warnings: 0
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 19:10:23 on Jun 16,2025
+# vlog -reportprogress 300 apb_tx_copy-1.sv 
+# ** Error: apb_tx_copy-1.sv(35): (vlog-2152) <type> = new syntax only allowed with embedded covergroups in classes
+# ** Error: apb_tx_copy-1.sv(40): (vlog-2730) Undefined variable: 'tx'.
+# ** Error: (vlog-13069) apb_tx_copy-1.sv(42): near "endtask": syntax error, unexpected endtask, expecting endfunction.
+# ** Error: apb_tx_copy-1.sv(56): Illegal use of 'automatic' for variable declaration (tx1).
+# ** Error: apb_tx_copy-1.sv(56): Illegal use of 'automatic' for variable declaration (tx2).
+# ** Error: apb_tx_copy-1.sv(59): Illegal declaration after the statement near line '55'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: apb_tx_copy-1.sv(61): (vlog-2730) Undefined variable: 'tx2'.
+# ** Error (suppressible): apb_tx_copy-1.sv(61): (vlog-2388) 'tx2' already declared in this scope (work) at apb_tx_copy-1.sv(56).
+# apb_tx_copy-1.sv(61): Verilog Compiler exiting
+# End time: 19:10:24 on Jun 16,2025, Elapsed time: 0:00:01
+# Errors: 8, Warnings: 0
+# ** Error: /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+# Error in macro ./run.do line 3
+# /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog apb_tx_copy-1.sv"
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 19:11:01 on Jun 16,2025
+# vlog -reportprogress 300 apb_tx_copy-1.sv 
+# ** Error: (vlog-13069) apb_tx_copy-1.sv(42): near "endtask": syntax error, unexpected endtask, expecting endfunction.
+# ** Error: apb_tx_copy-1.sv(56): Illegal use of 'automatic' for variable declaration (tx1).
+# ** Error: apb_tx_copy-1.sv(56): Illegal use of 'automatic' for variable declaration (tx2).
+# ** Error: apb_tx_copy-1.sv(59): Illegal declaration after the statement near line '55'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: apb_tx_copy-1.sv(61): (vlog-2730) Undefined variable: 'tx2'.
+# ** Error (suppressible): apb_tx_copy-1.sv(61): (vlog-2388) 'tx2' already declared in this scope (work) at apb_tx_copy-1.sv(56).
+# apb_tx_copy-1.sv(61): Verilog Compiler exiting
+# End time: 19:11:02 on Jun 16,2025, Elapsed time: 0:00:01
+# Errors: 6, Warnings: 0
+# ** Error: /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+# Error in macro ./run.do line 3
+# /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog apb_tx_copy-1.sv"
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 19:13:20 on Jun 16,2025
+# vlog -reportprogress 300 apb_tx_copy-1.sv 
+# ** Error: (vlog-13069) apb_tx_copy-1.sv(57): near "=": syntax error, unexpected '='.
+# ** Error: apb_tx_copy-1.sv(57): (vlog-13205) Syntax error found in the scope following 'tx1'. Is there a missing '::'?
+# End time: 19:13:21 on Jun 16,2025, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 0
+# ** Error: /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+# Error in macro ./run.do line 3
+# /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog apb_tx_copy-1.sv"
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 19:14:21 on Jun 16,2025
+# vlog -reportprogress 300 apb_tx_copy-1.sv 
+# -- Compiling package apb_tx_copy2d1_sv_unit
+# -- Compiling module top
+# ** Warning: apb_tx_copy-1.sv(67): (vlog-2240) Treating stand-alone use of function 'compare' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	top
+# End time: 19:14:22 on Jun 16,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# vsim top -sv_seed 46574 
+# Start time: 19:14:23 on Jun 16,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: apb_tx_copy-1.sv(18): (vopt-2250) Function "compare" has no return value assignment.
+# ** Warning: apb_tx_copy-1.sv(67): (vopt-2240) Treating stand-alone use of function 'compare' as an implicit VOID cast.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
+# Loading sv_std.std
+# Loading work.apb_tx_copy2d1_sv_unit(fast)
+# Loading work.top(fast)
+# ***************PRINTING tx1 FIELDS:After Randomization*********************
+# 	wr_rd:1
+# 	Address:155
+# 	Data:60bec098
+# 	sel: 1
+# ***************PRINTING tx2 FIELDS:After Randomization*********************
+# 	wr_rd:1
+# 	Address:124
+# 	Data:40914d2d
+# 	sel: 1
+# ========================Comparing the properties of tx1 and tx2=============================
+# tx1 and tx2 fields are MIS-MATCHING
+# tx1.wr_rd=1 and tx2.wr_rd=1
+# tx1.addr=155 and tx2.addr=124
+# tx1.data=60bec098 and tx2.data=40914d2d
+# tx1.sel= 1 and tx2.sel= 1
+# ***************PRINTING tx1 FIELDS:*********************
+# 	wr_rd:1
+# 	Address:155
+# 	Data:60bec098
+# 	sel: 1
+# ***************PRINTING tx2 FIELDS:*********************
+# 	wr_rd:1
+# 	Address:155
+# 	Data:60bec098
+# 	sel:10
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 19:16:10 on Jun 16,2025
+# vlog -reportprogress 300 apb_tx_copy-1.sv 
+# -- Compiling package apb_tx_copy2d1_sv_unit
+# -- Compiling module top
+# ** Warning: apb_tx_copy-1.sv(67): (vlog-2240) Treating stand-alone use of function 'compare' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	top
+# End time: 19:16:11 on Jun 16,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# End time: 19:16:25 on Jun 16,2025, Elapsed time: 0:02:02
+# Errors: 0, Warnings: 2
+# vsim top -sv_seed 46574 
+# Start time: 19:16:25 on Jun 16,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: apb_tx_copy-1.sv(18): (vopt-2250) Function "compare" has no return value assignment.
+# ** Warning: apb_tx_copy-1.sv(67): (vopt-2240) Treating stand-alone use of function 'compare' as an implicit VOID cast.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
+# Loading sv_std.std
+# Loading work.apb_tx_copy2d1_sv_unit(fast)
+# Loading work.top(fast)
+# ***************PRINTING tx1 FIELDS:After Randomization*********************
+# 	wr_rd:1
+# 	Address:155
+# 	Data:60bec098
+# 	sel: 1
+# ***************PRINTING tx2 FIELDS:After Randomization*********************
+# 	wr_rd:1
+# 	Address:124
+# 	Data:40914d2d
+# 	sel: 1
+# ========================Comparing the properties of tx1 and tx2=============================
+# tx1 and tx2 fields are MIS-MATCHING
+# tx1.wr_rd=1 and tx2.wr_rd=1
+# tx1.addr=155 and tx2.addr=124
+# tx1.data=60bec098 and tx2.data=40914d2d
+# tx1.sel= 1 and tx2.sel= 1
+# ***************PRINTING tx1 FIELDS:*********************
+# 	wr_rd:1
+# 	Address:155
+# 	Data:60bec098
+# 	sel: 1
+# ***************PRINTING tx2 FIELDS:*********************
+# 	wr_rd:1
+# 	Address:155
+# 	Data:60bec098
+# 	sel: 1
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 19:23:07 on Jun 16,2025
+# vlog -reportprogress 300 apb_tx_copy-1.sv 
+# -- Compiling package apb_tx_copy2d1_sv_unit
+# -- Compiling module top
+# ** Warning: apb_tx_copy-1.sv(67): (vlog-2240) Treating stand-alone use of function 'compare' as an implicit VOID cast.
+# ** Warning: apb_tx_copy-1.sv(74): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: apb_tx_copy-1.sv(75): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: apb_tx_copy-1.sv(76): (vlog-2240) Treating stand-alone use of function 'compare' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	top
+# End time: 19:23:08 on Jun 16,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 4
+# End time: 19:23:19 on Jun 16,2025, Elapsed time: 0:06:54
+# Errors: 0, Warnings: 2
+# vsim top -sv_seed 46574 
+# Start time: 19:23:19 on Jun 16,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: apb_tx_copy-1.sv(18): (vopt-2250) Function "compare" has no return value assignment.
+# ** Warning: apb_tx_copy-1.sv(67): (vopt-2240) Treating stand-alone use of function 'compare' as an implicit VOID cast.
+# ** Warning: apb_tx_copy-1.sv(74): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: apb_tx_copy-1.sv(75): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: apb_tx_copy-1.sv(76): (vopt-2240) Treating stand-alone use of function 'compare' as an implicit VOID cast.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=5.
+# Loading sv_std.std
+# Loading work.apb_tx_copy2d1_sv_unit(fast)
+# Loading work.top(fast)
+# ***************PRINTING tx1 FIELDS:After Randomization*********************
+# 	wr_rd:1
+# 	Address:155
+# 	Data:60bec098
+# 	sel: 1
+# ***************PRINTING tx2 FIELDS:After Randomization*********************
+# 	wr_rd:1
+# 	Address:124
+# 	Data:40914d2d
+# 	sel: 1
+# ========================Comparing the properties of tx1 and tx2=============================
+# tx1 and tx2 fields are MIS-MATCHING
+# tx1.wr_rd=1 and tx2.wr_rd=1
+# tx1.addr=155 and tx2.addr=124
+# tx1.data=60bec098 and tx2.data=40914d2d
+# tx1.sel= 1 and tx2.sel= 1
+# ***************PRINTING tx1 FIELDS:*********************
+# 	wr_rd:1
+# 	Address:155
+# 	Data:60bec098
+# 	sel: 1
+# ***************PRINTING tx2 FIELDS:*********************
+# 	wr_rd:1
+# 	Address:155
+# 	Data:60bec098
+# 	sel: 1
+# ========================Comparing the properties of tx3 and tx4=============================
+# tx3 and tx4 fields are MIS-MATCHING
+# tx3.wr_rd=1 and tx4.wr_rd=0
+# tx3.addr=241 and tx4.addr=168
+# tx3.data=6763aef5 and tx4.data=b3e24b76
+# tx3.sel= 1 and tx4.sel= 2
+# ***************PRINTING tx3 FIELDS:*********************
+# 	wr_rd:1
+# 	Address:241
+# 	Data:6763aef5
+# 	sel: 1
+# ***************PRINTING tx4 FIELDS:*********************
+# 	wr_rd:1
+# 	Address:241
+# 	Data:6763aef5
+# 	sel: 1
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 19:25:47 on Jun 16,2025
+# vlog -reportprogress 300 apb_tx_copy-1.sv 
+# -- Compiling package apb_tx_copy2d1_sv_unit
+# -- Compiling module top
+# ** Warning: apb_tx_copy-1.sv(61): (vlog-2240) Treating stand-alone use of function 'compare' as an implicit VOID cast.
+# ** Warning: apb_tx_copy-1.sv(68): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: apb_tx_copy-1.sv(69): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: apb_tx_copy-1.sv(70): (vlog-2240) Treating stand-alone use of function 'compare' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	top
+# End time: 19:25:48 on Jun 16,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 4
+# End time: 19:25:59 on Jun 16,2025, Elapsed time: 0:02:40
+# Errors: 0, Warnings: 5
+# vsim top -sv_seed 46574 
+# Start time: 19:26:00 on Jun 16,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: apb_tx_copy-1.sv(20): (vopt-2250) Function "compare" has no return value assignment.
+# ** Warning: apb_tx_copy-1.sv(61): (vopt-2240) Treating stand-alone use of function 'compare' as an implicit VOID cast.
+# ** Warning: apb_tx_copy-1.sv(68): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: apb_tx_copy-1.sv(69): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: apb_tx_copy-1.sv(70): (vopt-2240) Treating stand-alone use of function 'compare' as an implicit VOID cast.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=5.
+# Loading sv_std.std
+# Loading work.apb_tx_copy2d1_sv_unit(fast)
+# Loading work.top(fast)
+# ========================Comparing the properties of tx1 and tx2=============================
+# tx1 and tx2 fields are MIS-MATCHING
+# tx1.wr_rd=1 and tx2.wr_rd=1
+# tx1.addr=155 and tx2.addr=124
+# tx1.data=60bec098 and tx2.data=40914d2d
+# tx1.sel= 1 and tx2.sel= 1
+# ***************PRINTING tx1 FIELDS:*********************
+# 	wr_rd:1
+# 	Address:155
+# 	Data:60bec098
+# 	sel: 1
+# ***************PRINTING tx2 FIELDS:*********************
+# 	wr_rd:1
+# 	Address:155
+# 	Data:60bec098
+# 	sel: 1
+# ========================Comparing the properties of tx3 and tx4=============================
+# tx3 and tx4 fields are MIS-MATCHING
+# tx3.wr_rd=1 and tx4.wr_rd=0
+# tx3.addr=241 and tx4.addr=168
+# tx3.data=6763aef5 and tx4.data=b3e24b76
+# tx3.sel= 1 and tx4.sel= 2
+# ***************PRINTING tx3 FIELDS:*********************
+# 	wr_rd:1
+# 	Address:241
+# 	Data:6763aef5
+# 	sel: 1
+# ***************PRINTING tx4 FIELDS:*********************
+# 	wr_rd:1
+# 	Address:241
+# 	Data:6763aef5
+# 	sel: 1
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 19:30:59 on Jun 16,2025
+# vlog -reportprogress 300 apb_tx_copy-1.sv 
+# ** Error: apb_tx_copy-1.sv(38): Illegal declaration after the statement near line '36'.  Declarations must precede statements.  Look for stray semicolons.
+# End time: 19:31:00 on Jun 16,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# ** Error: /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+# Error in macro ./run.do line 3
+# /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog apb_tx_copy-1.sv"
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 19:31:25 on Jun 16,2025
+# vlog -reportprogress 300 apb_tx_copy-1.sv 
+# ** Error: apb_tx_copy-1.sv(38): Illegal declaration after the statement near line '36'.  Declarations must precede statements.  Look for stray semicolons.
+# End time: 19:31:26 on Jun 16,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# ** Error: /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+# Error in macro ./run.do line 3
+# /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog apb_tx_copy-1.sv"
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 19:32:24 on Jun 16,2025
+# vlog -reportprogress 300 apb_tx_copy-1.sv 
+# ** Error: apb_tx_copy-1.sv(38): Illegal declaration after the statement near line '36'.  Declarations must precede statements.  Look for stray semicolons.
+# End time: 19:32:25 on Jun 16,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# ** Error: /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+# Error in macro ./run.do line 3
+# /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog apb_tx_copy-1.sv"
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 19:33:16 on Jun 16,2025
+# vlog -reportprogress 300 apb_tx_copy-1.sv 
+# ** Error: apb_tx_copy-1.sv(38): Illegal declaration after the statement near line '36'.  Declarations must precede statements.  Look for stray semicolons.
+# End time: 19:33:17 on Jun 16,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# ** Error: /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+# Error in macro ./run.do line 3
+# /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog apb_tx_copy-1.sv"
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 19:34:13 on Jun 16,2025
+# vlog -reportprogress 300 apb_tx_copy-1.sv 
+# -- Compiling package apb_tx_copy2d1_sv_unit
+# -- Compiling module top
+# ** Warning: apb_tx_copy-1.sv(62): (vlog-2240) Treating stand-alone use of function 'compare' as an implicit VOID cast.
+# ** Warning: apb_tx_copy-1.sv(64): (vlog-2240) Treating stand-alone use of function 'compare' as an implicit VOID cast.
+# ** Warning: apb_tx_copy-1.sv(70): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: apb_tx_copy-1.sv(71): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: apb_tx_copy-1.sv(72): (vlog-2240) Treating stand-alone use of function 'compare' as an implicit VOID cast.
+# ** Warning: apb_tx_copy-1.sv(75): (vlog-2240) Treating stand-alone use of function 'compare' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	top
+# End time: 19:34:14 on Jun 16,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 6
+# End time: 19:34:27 on Jun 16,2025, Elapsed time: 0:08:27
+# Errors: 4, Warnings: 5
+# vsim top -sv_seed 46574 
+# Start time: 19:34:27 on Jun 16,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: apb_tx_copy-1.sv(20): (vopt-2250) Function "compare" has no return value assignment.
+# ** Warning: apb_tx_copy-1.sv(62): (vopt-2240) Treating stand-alone use of function 'compare' as an implicit VOID cast.
+# ** Warning: apb_tx_copy-1.sv(64): (vopt-2240) Treating stand-alone use of function 'compare' as an implicit VOID cast.
+# ** Warning: apb_tx_copy-1.sv(70): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: apb_tx_copy-1.sv(71): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: apb_tx_copy-1.sv(72): (vopt-2240) Treating stand-alone use of function 'compare' as an implicit VOID cast.
+# ** Warning: apb_tx_copy-1.sv(75): (vopt-2240) Treating stand-alone use of function 'compare' as an implicit VOID cast.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=7.
+# Loading sv_std.std
+# Loading work.apb_tx_copy2d1_sv_unit(fast)
+# Loading work.top(fast)
+# ========================Comparing the properties of tx1 and tx2=============================
+# tx1 and tx2 fields are MIS-MATCHING
+# tx1.wr_rd=1 and tx2.wr_rd=1
+# tx1.addr=155 and tx2.addr=124
+# tx1.data=60bec098 and tx2.data=40914d2d
+# tx1.sel= 1 and tx2.sel= 1
+# *************************************COPYING CONTENTS OF tx1**********************************
+# ========================Comparing the properties of tx1 and tx2=============================
+# tx1 and tx2 fields are MATCHING
+# tx1.wr_rd=1 and tx2.wr_rd=1
+# tx1.addr=155 and tx2.addr=155
+# tx1.data=60bec098 and tx2.data=60bec098
+# tx1.sel= 1 and tx2.sel= 1
+# ***************PRINTING tx1 FIELDS:*********************
+# 	wr_rd:1
+# 	Address:155
+# 	Data:60bec098
+# 	sel: 1
+# ***************PRINTING tx2 FIELDS:*********************
+# 	wr_rd:1
+# 	Address:155
+# 	Data:60bec098
+# 	sel: 1
+# ========================Comparing the properties of tx3 and tx4=============================
+# tx3 and tx4 fields are MIS-MATCHING
+# tx3.wr_rd=1 and tx4.wr_rd=0
+# tx3.addr=241 and tx4.addr=168
+# tx3.data=6763aef5 and tx4.data=b3e24b76
+# tx3.sel= 1 and tx4.sel= 2
+# *************************************COPYING CONTENTS OF tx3**********************************
+# ========================Comparing the properties of tx3 and tx4=============================
+# tx3 and tx4 fields are MATCHING
+# tx3.wr_rd=1 and tx4.wr_rd=1
+# tx3.addr=241 and tx4.addr=241
+# tx3.data=6763aef5 and tx4.data=6763aef5
+# tx3.sel= 1 and tx4.sel= 1
+# ***************PRINTING tx3 FIELDS:*********************
+# 	wr_rd:1
+# 	Address:241
+# 	Data:6763aef5
+# 	sel: 1
+# ***************PRINTING tx4 FIELDS:*********************
+# 	wr_rd:1
+# 	Address:241
+# 	Data:6763aef5
+# 	sel: 1
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 19:41:23 on Jun 16,2025
+# vlog -reportprogress 300 apb_tx_copy-2.sv 
+# -- Compiling package apb_tx_copy2d2_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 19:41:23 on Jun 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:41:35 on Jun 16,2025, Elapsed time: 0:07:08
+# Errors: 0, Warnings: 7
+# vsim top -sv_seed 46574 
+# Start time: 19:41:35 on Jun 16,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: apb_tx_copy-2.sv(20): (vopt-2250) Function "compare" has no return value assignment.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.apb_tx_copy2d2_sv_unit(fast)
+# Loading work.top(fast)
+# ***************PRINTING tx1 FIELDS:*********************
+# 	wr_rd:1
+# 	Address:155
+# 	Data:60bec098
+# 	sel: 1
+# ***************PRINTING tx2 FIELDS:*********************
+# ** Fatal: (SIGSEGV) Bad handle or reference.
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#55(#ublk#31584#55) File: apb_tx_copy-2.sv
+# Fatal error in Task apb_tx_copy2d2_sv_unit/apb_tx::print at apb_tx_copy-2.sv line 13
+# 
+# HDL call sequence:
+# Stopped at apb_tx_copy-2.sv 13 Task apb_tx_copy2d2_sv_unit/apb_tx::print
+# called from  apb_tx_copy-2.sv 60  
+# 
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 19:43:36 on Jun 16,2025
+# vlog -reportprogress 300 apb_tx_copy-2.sv 
+# -- Compiling package apb_tx_copy2d2_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 19:43:37 on Jun 16,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 19:43:48 on Jun 16,2025, Elapsed time: 0:02:13
+# Errors: 1, Warnings: 1
+# vsim top -sv_seed 46574 
+# Start time: 19:43:48 on Jun 16,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.apb_tx_copy2d2_sv_unit(fast)
+# Loading work.top(fast)
+# ***************PRINTING tx1 FIELDS:*********************
+# 	wr_rd:1
+# 	Address:155
+# 	Data:60bec098
+# 	sel: 1
+# ***************PRINTING tx2 FIELDS:*********************
+# ** Fatal: (SIGSEGV) Bad handle or reference.
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#55(#ublk#31584#55) File: apb_tx_copy-2.sv
+# Fatal error in Task apb_tx_copy2d2_sv_unit/apb_tx::print at apb_tx_copy-2.sv line 13
+# 
+# HDL call sequence:
+# Stopped at apb_tx_copy-2.sv 13 Task apb_tx_copy2d2_sv_unit/apb_tx::print
+# called from  apb_tx_copy-2.sv 60  
+# 
+
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 19:47:00 on Jun 16,2025
+# vlog -reportprogress 300 apb_tx_copy-2.sv 
+# -- Compiling package apb_tx_copy2d2_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 19:47:01 on Jun 16,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 19:47:12 on Jun 16,2025, Elapsed time: 0:03:24
+# Errors: 1, Warnings: 0
+# vsim top -sv_seed 46574 
+# Start time: 19:47:12 on Jun 16,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: apb_tx_copy-2.sv(20): (vopt-2250) Function "compare" has no return value assignment.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.apb_tx_copy2d2_sv_unit(fast)
+# Loading work.top(fast)
+# ***************PRINTING tx1 FIELDS:*********************
+# 	wr_rd:1
+# 	Address:155
+# 	Data:60bec098
+# 	sel: 1
+# tx2 is currently pointing to NULL
+# ***************PRINTING tx2 FIELDS:After SHALLOW COPY*********************
+# 	wr_rd:1
+# 	Address:155
+# 	Data:60bec098
+# 	sel: 1
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 19:49:17 on Jun 16,2025
+# vlog -reportprogress 300 apb_tx_copy-2.sv 
+# ** Error: apb_tx_copy-2.sv(68): (vlog-2730) Undefined variable: 'abcd'.
+# End time: 19:49:17 on Jun 16,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+# Error in macro ./run.do line 4
+# /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog apb_tx_copy-2.sv"
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 19:50:57 on Jun 16,2025
+# vlog -reportprogress 300 apb_tx_copy-2.sv 
+# -- Compiling package apb_tx_copy2d2_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 19:50:58 on Jun 16,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 19:51:10 on Jun 16,2025, Elapsed time: 0:03:58
+# Errors: 1, Warnings: 1
+# vsim top -sv_seed 46574 
+# Start time: 19:51:10 on Jun 16,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: apb_tx_copy-2.sv(20): (vopt-2250) Function "compare" has no return value assignment.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.apb_tx_copy2d2_sv_unit(fast)
+# Loading work.top(fast)
+# ***************PRINTING tx1 FIELDS:*********************
+# 	wr_rd:1
+# 	Address:155
+# 	Data:60bec098
+# 	sel: 1
+# tx2 is currently pointing to NULL
+# ***************PRINTING tx2 FIELDS:After SHALLOW COPY*********************
+# 	wr_rd:1
+# 	Address:155
+# 	Data:60bec098
+# 	sel: 1
+# ***************PRINTING tx1 FIELDS:*********************
+# 	wr_rd:1
+# 	Address:100
+# 	Data:60bec098
+# 	sel: 1
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 19:53:25 on Jun 16,2025
+# vlog -reportprogress 300 apb_tx_copy-2.sv 
+# -- Compiling package apb_tx_copy2d2_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 19:53:25 on Jun 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:53:37 on Jun 16,2025, Elapsed time: 0:02:27
+# Errors: 0, Warnings: 1
+# vsim top -sv_seed 46574 
+# Start time: 19:53:37 on Jun 16,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: apb_tx_copy-2.sv(20): (vopt-2250) Function "compare" has no return value assignment.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.apb_tx_copy2d2_sv_unit(fast)
+# Loading work.top(fast)
+# ***************PRINTING tx1 FIELDS:*********************
+# 	wr_rd:1
+# 	Address:155
+# 	Data:60bec098
+# 	sel: 1
+# tx2 is currently pointing to NULL
+# ***************PRINTING tx2 FIELDS:After SHALLOW COPY*********************
+# 	wr_rd:1
+# 	Address:155
+# 	Data:60bec098
+# 	sel: 1
+# ***************PRINTING tx1 FIELDS:*********************
+# 	wr_rd:1
+# 	Address: 22
+# 	Data:60bec098
+# 	sel: 1
+# ***************PRINTING tx2 FIELDS:*********************
+# 	wr_rd:1
+# 	Address: 22
+# 	Data:60bec098
+# 	sel: 1
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 19:57:39 on Jun 16,2025
+# vlog -reportprogress 300 apb_tx_copy-2.sv 
+# -- Compiling package apb_tx_copy2d2_sv_unit
+# -- Compiling module top
+# ** Error: apb_tx_copy-2.sv(69): 'tx1' is not a task name.
+# End time: 19:57:40 on Jun 16,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# ** Error: /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+# Error in macro ./run.do line 4
+# /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog apb_tx_copy-2.sv"
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 19:59:31 on Jun 16,2025
+# vlog -reportprogress 300 apb_tx_copy-2.sv 
+# -- Compiling package apb_tx_copy2d2_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 19:59:31 on Jun 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:59:45 on Jun 16,2025, Elapsed time: 0:06:08
+# Errors: 1, Warnings: 1
+# vsim top -sv_seed 46574 
+# Start time: 19:59:45 on Jun 16,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: apb_tx_copy-2.sv(20): (vopt-2250) Function "compare" has no return value assignment.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.apb_tx_copy2d2_sv_unit(fast)
+# Loading work.top(fast)
+# ***************PRINTING tx1 FIELDS:*********************
+# 	wr_rd:1
+# 	Address:155
+# 	Data:60bec098
+# 	sel: 1
+# tx2 is currently pointing to NULL
+# ***************PRINTING tx2 FIELDS:After SHALLOW COPY*********************
+# 	wr_rd:1
+# 	Address:155
+# 	Data:60bec098
+# 	sel: 1
+# addr 22
+# ***************PRINTING tx1 FIELDS:*********************
+# 	wr_rd:1
+# 	Address: 22
+# 	Data:60bec098
+# 	sel: 1
+# ***************PRINTING tx2 FIELDS:*********************
+# 	wr_rd:1
+# 	Address: 22
+# 	Data:60bec098
+# 	sel: 1
+# End time: 20:44:54 on Jun 16,2025, Elapsed time: 0:45:09
+# Errors: 0, Warnings: 1

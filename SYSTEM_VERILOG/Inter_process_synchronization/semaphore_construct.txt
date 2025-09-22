@@ -1,0 +1,30 @@
+- SEMAPHORE is one of the INTER_PROCESS SYNCHRONIZATION Constructs.
+	- Similar to mailbox and event, but semaphore does different type of synchronization.
+	- It provides ARBITRATION.
+	
+- ANALOGY: Whenever the number of resources are less than the people, then there is a conflixt happens.
+	- So, In that case we need an arbitrator: SEMAPHORE.
+	- This kind of synchronization can not be achieved with event and mailbox.
+	- SEMAPHORE is a SV costruct used for achieving synchronization among multiple processes which are trying to access a common resource.
+		- Semaphore is used to arbitrate(or synchronize) the execution of multiple processes while they are trying to access a common resource.
+	
+	- Single resource accessed by multple components(processes).
+		- HENCE, there is a need for arbitrator.
+		- Semaphore acts as an arbitrator for sharing the common resource.
+			- So there is no conflict in accessing the same resource.
+		- Semaphore allocates a key to give access to the resource.
+			- If there are 2 resources, cretae semaphore with 2 keys.
+		- Consumer give back key after resource access is completed.
+			- EX: Once a person has used the car, he will gaive back key to arbitratoe.
+				- GIving back key to the seamaphore(smp.put(1)).
+				
+
+- SEMAPHORE Methods:
+====================
+- new, get, put, try_get
+- get is a task.
+	- smp.get(1);
+	- A process is trying to get 1 key key from the semaphore, if key is not available - wait for the key to be available(imp benefit of semaphore).
+- put and try_get are functions.
+	- smp.put(1);
+	- putting key back in to semaphore.

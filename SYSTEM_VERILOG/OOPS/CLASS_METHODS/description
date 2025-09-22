@@ -1,0 +1,6 @@
+we can have various types of class methods --> print,copy,compare etc.
+
+'class' will have two types of methods.
+	- language provided: new, pre_randomize,randomize,post_randomize
+	- user_defined: we can use any name for these methods(functions/tasks).
+						-print,copy,compare,pack,unpack,drive,start,run etc.

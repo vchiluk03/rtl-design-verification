@@ -1,0 +1,44 @@
+INTER PROCESS SYNCHRONIZATION CONSTRUCTS: MAILBOX, SEMAPHORE, EVENT - Each of these meant for specific synchronization purposes.
+-----------------------------------------
+2. EVENT:
+---------
+- Handle to a synchronization object.
+- It has two states:
+		1. Waiting for the event.
+		2. Triggering the event.
+
+- SV events has PERSISTANT triggered state.
+	- Verilog events  are non-persistant.
+		- If there is any wait after trigger is done, this event will not caught since triger happened first and wait is happening later in the time step.
+			This can lead to race condition where event wait never gets cleared.
+		- To avoid this race conditions, SV introduces event with PERSISTANT nature.	
+	
+- Verilog is subset of SV, how do we decide between verilog and SV style of usage?
+	- @(e): verilog style.
+	- wait(e.triggered()): SV style of usage.
+- In SV, multiple processes can wait for the same event.
+- event can e passed as an argument to task and function, but wae can not use @(e) in function.
+- event variable can be assigned to another event variable.
+- event can be deactivated by assigning null to it.
+	o event e;
+	o -> e;
+	o e = null; //nullfied, even if any process is waiting for event 'e', it won't catch event.
+	
+- EXAMPLE:
+==========
+- Lets say the time step = 10ns.
+	- Initial time step = 0 to 10ns
+	- 2nd time step = 11 to 20ns 
+	
+	- Trigger happened at 1ns.
+	- waiting for the event is at 5ns.
+		
+	- In the above case, SV event will be detected(caught).
+		- Since, it has persistant in nature.
+			- PERSISTANT: Event is like a level, it will bbe till end of the time step.
+		
+	- In verilog, this event will not be detected(caught).
+		- SInce, it is non-persistant in nature.
+			- NON-PERSISTANT: Event is only active at the point of trigger.
+			
+	

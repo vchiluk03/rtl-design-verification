@@ -1,0 +1,52 @@
+# //  Questa Sim-64
+# //  Version 2025.1_1 linux_x86_64 Feb 13 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# vsim do 
+# Start time: 20:03:14 on Aug 12,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: (vopt-11) Could not find work.do.
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=0.
+# Error loading design
+# End time: 20:03:17 on Aug 12,2025, Elapsed time: 0:00:03
+# Errors: 1, Warnings: 0
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 20:03:31 on Aug 12,2025
+# vlog -reportprogress 300 struct.sv 
+# -- Compiling package struct_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 20:03:31 on Aug 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim top -sv_seed 95869 
+# Start time: 20:03:33 on Aug 12,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.struct_sv_unit(fast)
+# Loading work.top(fast)
+# medalsA = '{'{country_name:"country_9", gold:7, silver:10, bronze:1}, '{country_name:"country_8", gold:5, silver:10, bronze:7}, '{country_name:"country_7", gold:2, silver:0, bronze:8}, '{country_name:"country_6", gold:4, silver:1, bronze:6}, '{country_name:"country_5", gold:5, silver:7, bronze:6}, '{country_name:"country_4", gold:11, silver:10, bronze:2}, '{country_name:"country_3", gold:4, silver:1, bronze:8}, '{country_name:"country_2", gold:0, silver:1, bronze:5}, '{country_name:"country_1", gold:11, silver:4, bronze:1}, '{country_name:"country_0", gold:1, silver:6, bronze:6}}
+# s.goldA='{7, 5, 2, 4, 5, 11, 4, 0, 11, 1}
+# s.silverA='{10, 10, 0, 1, 7, 10, 1, 1, 4, 6}
+# s.bronzeA='{1, 7, 8, 6, 6, 2, 8, 5, 1, 6}
+# medalsA after normal sort(ascending order)='{'{country_name:"country_2", gold:0, silver:1, bronze:5}, '{country_name:"country_0", gold:1, silver:6, bronze:6}, '{country_name:"country_7", gold:2, silver:0, bronze:8}, '{country_name:"country_6", gold:4, silver:1, bronze:6}, '{country_name:"country_3", gold:4, silver:1, bronze:8}, '{country_name:"country_8", gold:5, silver:10, bronze:7}, '{country_name:"country_5", gold:5, silver:7, bronze:6}, '{country_name:"country_9", gold:7, silver:10, bronze:1}, '{country_name:"country_4", gold:11, silver:10, bronze:2}, '{country_name:"country_1", gold:11, silver:4, bronze:1}}
+# medalsA after reverse sort(descending order)='{'{country_name:"country_4", gold:11, silver:10, bronze:2}, '{country_name:"country_1", gold:11, silver:4, bronze:1}, '{country_name:"country_9", gold:7, silver:10, bronze:1}, '{country_name:"country_8", gold:5, silver:10, bronze:7}, '{country_name:"country_5", gold:5, silver:7, bronze:6}, '{country_name:"country_6", gold:4, silver:1, bronze:6}, '{country_name:"country_3", gold:4, silver:1, bronze:8}, '{country_name:"country_7", gold:2, silver:0, bronze:8}, '{country_name:"country_0", gold:1, silver:6, bronze:6}, '{country_name:"country_2", gold:0, silver:1, bronze:5}}
+# medalsA after reverse sorting by taking total number of medals as ref:
+# '{'{country_name:"country_4", gold:11, silver:10, bronze:2}, '{country_name:"country_8", gold:5, silver:10, bronze:7}, '{country_name:"country_9", gold:7, silver:10, bronze:1}, '{country_name:"country_5", gold:5, silver:7, bronze:6}, '{country_name:"country_1", gold:11, silver:4, bronze:1}, '{country_name:"country_3", gold:4, silver:1, bronze:8}, '{country_name:"country_0", gold:1, silver:6, bronze:6}, '{country_name:"country_6", gold:4, silver:1, bronze:6}, '{country_name:"country_7", gold:2, silver:0, bronze:8}, '{country_name:"country_2", gold:0, silver:1, bronze:5}}
+# Printing queue, which has countries with gold medals > 5
+# '{'{country_name:"country_4", gold:11, silver:10, bronze:2}, '{country_name:"country_9", gold:7, silver:10, bronze:1}, '{country_name:"country_1", gold:11, silver:4, bronze:1}}
+# End time: 20:23:09 on Aug 12,2025, Elapsed time: 0:19:36
+# Errors: 0, Warnings: 0

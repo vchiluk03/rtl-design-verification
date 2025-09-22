@@ -1,0 +1,9 @@
+Parametrized classes with inheritance.
+	- Derived Classes : Either parameterized or non-parameterized.
+	- Base Class : Either parameterized or non-parameterized.
+	
+Total 4 combinations.
+	- Case1: paramterized class extended from parameterized class.
+	- Case2: paramterized class extended from non-parameterized class.
+	- Case3: non-paramterized class extended from parameterized class.
+	- Case4: non-paramterized class extended from non-parameterized class.

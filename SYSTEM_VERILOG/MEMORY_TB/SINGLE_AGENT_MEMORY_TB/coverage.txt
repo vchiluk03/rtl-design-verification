@@ -1,0 +1,69 @@
+3 types
+	- Functional coverage
+	- code coverage 
+	- Assertion coverage 
+	
+	
+1. Functional Coverage: Measure of how much % of valid scenario has been targeted on to the DUT.
+	Analogy: Laptop(DUT)
+				Features: Keyboard, USB, DIsplay, Ethernet, HDMI, ..20 features ==> 20 features ==> we call each feature as a COVER_GROUP.
+				what if we targeted 5 features only ? ==> It is 25% functional coverage.
+				what if I covered 12 features only =? ==> It is 60% functional coverage.
+					- Tool will tell us, how much we covered.
+				
+				- Here we can give weight to a feature based on its importance. If we don't give any weightage, defualt is equal to all features which is one.
+					- Keyboard - very imp feature - we give weight 5.
+					- VGA port - Not so important - we give weight 2.
+				
+				- How fo we arrive the final number for functional coverage based on calculation?
+					- Lets say for each feature, the maximum coverage is 100.
+					- But for keyboard, we covered 90%.
+						       VGA,  we covered 80%
+							   USB, we covered 50%
+						- Total coverage is 90+80+50/3 = 73.3%.
+					- For each COVER_GROUP(feature), there are some sub-features(cover points).
+						- Example: For keyboard - sub features are Alphabets, number keys, functions, audio control, etc
+							- Here, if out of 10 sub features, 9 got tested and 1 not tested ==> 90% coverage for that sub feature(cover point).
+					-  Coverage of coverpoint is average of bins inside coverpoint,
+					- COverage of covergroup is, average of all the coverpoints in a covergroup.
+					- Coverage of DUT is the avarage of all the cover groups.
+		
+	SV Functional Coverage: Laptop;
+	 - For DUT coverage class, we have many covergroups. For each covergroup, we have coverpoints, and for each coverpoint, we have bins.
+		class laptop_coverage;
+			covergroup keyboard_cg;
+				coverpoint alphabet_cp {
+					//bins 
+					bins A = {a,A};
+					bins B = {b,B};
+					bins C = {c,C};
+					....
+					....
+				}
+				coverpoint number_keys {
+					option.auto_bin_max = 10; //Based on size of number keys, if will automatically creates 10 bins.
+						
+				}
+				coverpoint functions;
+				
+			endgroup
+			
+			covergroup USB_cg;
+			endgroup
+			
+			covergroup display_cg;
+			endgroup 
+			
+			......
+			......
+			......
+			
+			like this, we have cover group for each feature.
+		endclass
+		
+- How to integrate coverage class into TB environment.
+	- Include monitor and coverage class in the agent class.
+	
+- covergroup is a dynamic construct
+	- It needs to be explicitly allocated memory, by using new().
+	- cg_name = new(); must be done in the function new of the coverage class(nowhere else).

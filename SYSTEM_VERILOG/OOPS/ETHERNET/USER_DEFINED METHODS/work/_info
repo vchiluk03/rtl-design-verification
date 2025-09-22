@@ -1,0 +1,81 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f vlog 2025.1_1 2025.02, Feb 13 2025
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/mnt/ncsudrive/v/vchiluk3/vlsi-guru/SYSTEM_VERILOG/13-june/OOPS/ETHERNET/USER_DEFINED METHODS
+T_opt
+!s110 1752364736
+V30L48_FfM28[>Y3<h?j1;2
+04 3 4 work top fast 0
+=1-48df37cdaf08-6872f6bf-e2182-969c2
+R0
+!s12f OEM100
+!s12b OEM100
+!s124 OEM100
+!s135 nogc
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2025.1_1;82
+vtop
+Z3 2top.sv
+Z4 DXx6 sv_std 3 std 0 22 @5XbY]_OacJl=`ToSm<M^0
+DXx4 work 11 top_sv_unit 0 22 8ZG?>>^c8GAm8R^0CPciA3
+Z5 !s110 1752364735
+VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 JgWemDYkY0m]nmT?4hV=`1
+I;TN^ofJA@n8hLVkDB`9@90
+!s105 top_sv_unit
+S1
+R1
+w1752364172
+Z6 8top.sv
+Z7 Ftop.sv
+!i122 0
+L0 2 30
+Z8 OL;L;2025.1_1;82
+31
+Z9 !s108 1752364734.000000
+Z10 !s107 class_example_extern.sv|top.sv|
+Z11 !s90 -reportprogress|300|top.sv|
+!i113 0
+Z12 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+Xtop_sv_unit
+R3
+R4
+R5
+V8ZG?>>^c8GAm8R^0CPciA3
+r1
+!s85 0
+!i10b 1
+!s100 56N3OiBaDW;3k>8[dz4gl1
+I8ZG?>>^c8GAm8R^0CPciA3
+!i103 1
+S1
+R1
+w1752364734
+R6
+R7
+Fclass_example_extern.sv
+!i122 0
+L0 15 0
+R8
+31
+R9
+R10
+R11
+!i113 0
+R12
+R2

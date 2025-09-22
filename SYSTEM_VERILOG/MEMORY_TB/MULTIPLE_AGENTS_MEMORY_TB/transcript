@@ -1,0 +1,108 @@
+# //  Questa Sim-64
+# //  Version 2025.1_1 linux_x86_64 Feb 13 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# vsim do 
+# Start time: 17:47:25 on Sep 16,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: (vopt-11) Could not find work.do.
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=0.
+# Error loading design
+# End time: 17:47:27 on Sep 16,2025, Elapsed time: 0:00:02
+# Errors: 1, Warnings: 0
+
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 17:49:43 on Sep 16,2025
+# vlog -reportprogress 300 list.svh 
+# -- Compiling module memory
+# -- Compiling interface mem_intf
+# ** Error: ** while parsing file included at list.svh(11)
+# ** at mem_env.sv(11): (vlog-2730) Undefined variable: 'i'.
+# End time: 17:49:43 on Sep 16,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+# Error in macro ./run.do line 2
+# /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog list.svh"
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 17:51:42 on Sep 16,2025
+# vlog -reportprogress 300 list.svh 
+# -- Compiling module memory
+# -- Compiling interface mem_intf
+# -- Compiling package list_svh_unit
+# ** Warning: mem_gen.sv(11): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: mem_gen.sv(17): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: mem_gen.sv(25): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: mem_gen.sv(32): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# -- Compiling module tb_top
+# ** Warning: tb_top.sv(21): (vlog-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+# 
+# Top level modules:
+# 	tb_top
+# End time: 17:51:43 on Sep 16,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 5
+# vsim tb_top "+testcase=test_n_wr_n_rd" 
+# Start time: 17:51:43 on Sep 16,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: mem_gen.sv(11): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: mem_gen.sv(17): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: mem_gen.sv(25): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: mem_gen.sv(32): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: tb_top.sv(21): (vopt-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+# ** Warning: tb_top.sv(21): (vopt-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=6.
+# Loading sv_std.std
+# Loading work.list_svh_unit(fast)
+# Loading work.tb_top(fast)
+# ** Warning: In instance '\/list_svh_unit::mem_cov::mem_cg ' the 'option.per_instance' is set to '0' (false). Assignment to members 'weight', 'goal' and 'comment' of 'option' would not have any effect.
+# ** Note: $finish    : tb_top.sv(62)
+#    Time: 5020 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break at tb_top.sv line 62
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 17:55:40 on Sep 16,2025
+# vlog -reportprogress 300 list.svh 
+# -- Compiling module memory
+# -- Compiling interface mem_intf
+# -- Compiling package list_svh_unit
+# ** Warning: mem_gen.sv(11): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: mem_gen.sv(17): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: mem_gen.sv(25): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: mem_gen.sv(32): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# -- Compiling module tb_top
+# ** Warning: tb_top.sv(21): (vlog-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+# 
+# Top level modules:
+# 	tb_top
+# End time: 17:55:40 on Sep 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 5
+# End time: 17:56:19 on Sep 16,2025, Elapsed time: 0:04:36
+# Errors: 0, Warnings: 7
+# vsim tb_top "+testcase=test_n_wr_n_rd" 
+# Start time: 17:56:20 on Sep 16,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt4
+# Loading sv_std.std
+# Loading work.list_svh_unit(fast)
+# Loading work.tb_top(fast)
+# ** Warning: In instance '\/list_svh_unit::mem_cov::mem_cg ' the 'option.per_instance' is set to '0' (false). Assignment to members 'weight', 'goal' and 'comment' of 'option' would not have any effect.
+# ** Note: $finish    : tb_top.sv(62)
+#    Time: 5020 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break at tb_top.sv line 62
+# End time: 18:00:35 on Sep 16,2025, Elapsed time: 0:04:15
+# Errors: 0, Warnings: 1

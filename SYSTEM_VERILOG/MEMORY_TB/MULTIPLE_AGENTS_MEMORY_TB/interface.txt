@@ -1,0 +1,48 @@
+- Test bench environment has 3 types of connections.
+	- Module to module connection: Ports
+	- Class to class connection: Mailbox.
+	- Module to class connection: Interface.
+		- Module has ports, class does not have ports.
+		- How to connect 2 components, one with ports and pother without ports.
+-Bundling together design interface signals into a single entity, is called as interface.
+
+- Modports are coded inside interface to give sense of direction to each signal.
+	- modport bfm: output addr, output wdata, input rdata, output valid,..
+	- modport dut: input addr, input wdata, output rdata.
+	- modport monitor: input addr, wdata, rdata.
+	- Suggested usage: modport bfm_mp(clocking bfm_cb);
+		- No need to declare the pport width, just direction is sufficient.
+
+- There are lot of similarities in interface and module coding, with few differences.	
+	- Similarities:
+		- ports are declared in same manner.
+		- Tasks, functions and assertions can be coded in both modules and interfaces.
+	- Differences:
+		- Interface is only meant for connecting TB and DUT, whereas module is meant for implementing design functionality. Hence interface does not require always block coding.
+		- Interface port list consists of inputs only, other signalas will be declares as logic or bit, whereas in module all ports have to be declared in port list only.
+		- interface has clocking block and modport, which are not required in module definition.
+
+- We declare all the signals common to all the blocks as input argument.
+	- we know clk and rst signals are direction in common to all the blocks - BFM, DUT, MONITOR.
+		- So, we kept them as inputs to interface.
+		- Remaining signals directions differs based on its functionality.
+			- For this purpose, we introduced modport construct. 
+			- We can use modport by giving  directions to signals- using the common interface.
+			- How we do that?
+				- We give common signals as inputs to interface and remaining all are internal signals to interface.
+					- Now we give direction to those internal signals using modport, based on its block.
+
+SUMMARY:
+--------
+- Interface use:
+	- Used as virtual interface in all TB components(classes).
+- Interface handle can be used in all components that connect to interface.
+	- BFM, DUT, Monitor.
+- Interface can be declared as a port to module.
+- Interface instance can be passed as argument in DUt instantiation.
+	- Avoids the need for pot by port connections to DUT instance.
+- Interface can be passed to BFm, monitor through function new argument.
+	- Till now we used mem_common::vif.
+- Interface can be declared as a static virtual handle in common class.
+	- Accesses everywhere in TB using cfg_class::handle_name.
+- All handles in testbench must point to physical interface declared in top module.

@@ -1,0 +1,10 @@
+BEGIN 3:mem_intf:fast__2:work
+    ready_o :  1:tb_top:fast:work
+    wr_data_i :  1:tb_top:fast:work
+    rst_i :  1:tb_top:fast:work
+    valid_i :  1:tb_top:fast:work
+    wr_rd_i :  1:tb_top:fast:work
+    clk_i :  1:tb_top:fast:work
+    addr_i :  1:tb_top:fast:work
+    rd_data_o :  1:tb_top:fast:work
+END 

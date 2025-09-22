@@ -1,0 +1,117 @@
+m255
+K4
+z2
+Z0 !s12c _opt5
+Z1 !s99 nomlopt
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+Z2 !s12c _opt4
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+Z3 !s12c _opt3
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+Z4 !s12c _opt
+R1
+R4
+R1
+R4
+R1
+R4
+R1
+!s11f vlog 2025.1_1 2025.02, Feb 13 2025
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z5 d/mnt/ncsudrive/v/vchiluk3/vlsi-guru/SYSTEM_VERILOG/13-june/OOPS/ETHERNET/CLASS_METHODS
+T_opt5
+!s110 1752359366
+VO2XPb_FG1UV@=873@dcCa2
+04 3 4 work top fast 0
+=1-d404e62ac451-6872e1c4-f2542-131a2b
+R1
+!s12f OEM100
+!s12b OEM100
+!s124 OEM100
+!s135 nogc
+o-quiet -auto_acc_if_foreign -work work
+Z6 tCvgOpt 0
+n@_opt5
+OL;O;2025.1_1;82
+vtop
+Z7 2top.sv
+Z8 DXx6 sv_std 3 std 0 22 @5XbY]_OacJl=`ToSm<M^0
+DXx4 work 11 top_sv_unit 0 22 fF6j^ZnQZzn7eOa[dlGH50
+Z9 !s110 1752359353
+VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 JgWemDYkY0m]nmT?4hV=`1
+I;TN^ofJA@n8hLVkDB`9@90
+!s105 top_sv_unit
+S1
+R5
+Z10 w1752359352
+Z11 8top.sv
+Z12 Ftop.sv
+!i122 27
+L0 2 30
+Z13 OL;L;2025.1_1;82
+31
+Z14 !s108 1752359353.000000
+Z15 !s107 class_example.sv|top.sv|
+Z16 !s90 -reportprogress|300|top.sv|
+!i113 0
+Z17 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R6
+Xtop_sv_unit
+R7
+R8
+R9
+VfF6j^ZnQZzn7eOa[dlGH50
+r1
+!s85 0
+!i10b 1
+!s100 eTZo2ZdD=;a]gC8jZ`9;;0
+IfF6j^ZnQZzn7eOa[dlGH50
+!i103 1
+S1
+R5
+R10
+R11
+R12
+Fclass_example.sv
+!i122 27
+L0 15 0
+R13
+31
+R14
+R15
+R16
+!i113 0
+R17
+R6

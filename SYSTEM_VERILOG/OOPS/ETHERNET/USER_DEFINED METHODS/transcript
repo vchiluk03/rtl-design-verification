@@ -1,0 +1,499 @@
+# //  Questa Sim-64
+# //  Version 2025.1_1 linux_x86_64 Feb 13 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# vsim do 
+# Start time: 19:51:12 on Jul 12,2025
+# ** Error (suppressible): (vsim-19) Failed to access library 'work' at "work".
+# No such file or directory. (errno = ENOENT)
+# Error loading design
+# End time: 19:51:13 on Jul 12,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+do run.do
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 19:52:13 on Jul 12,2025
+# vlog -reportprogress 300 top.sv 
+# ** Error: ** while parsing file included at top.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** at functions.sv(1): (vlog-2164) Class or package 'eth_pkt' not found.
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** at functions.sv(1): near "::": syntax error, unexpected ::, expecting '(' or ';'.
+# ** Error: ** while parsing file included at top.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** at functions.sv(13): (vlog-2164) Class or package 'eth_pkt' not found.
+# ** Error: ** while parsing file included at top.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** at functions.sv(13): 'eth_pkt' already exists; must not be redefined as a function.
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** at functions.sv(13): near "::": syntax error, unexpected ::, expecting '(' or ';'.
+# ** Error: ** while parsing file included at top.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** at functions.sv(36): (vlog-2164) Class or package 'eth_pkt' not found.
+# ** Error: ** while parsing file included at top.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** at functions.sv(36): 'eth_pkt' already exists; must not be redefined as a function.
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** at functions.sv(36): near "::": syntax error, unexpected ::, expecting '(' or ';'.
+# ** Error: ** while parsing file included at top.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** at functions.sv(42): (vlog-2164) Class or package 'eth_pkt' not found.
+# ** Error: ** while parsing file included at top.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** at functions.sv(42): 'eth_pkt' already exists; must not be redefined as a function.
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** at functions.sv(42): near "::": syntax error, unexpected ::, expecting '(' or ';'.
+# ** Error: ** while parsing file included at top.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** at functions.sv(50): (vlog-2164) Class or package 'eth_pkt' not found.
+# ** Error: ** while parsing file included at top.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** at functions.sv(50): 'eth_pkt' already exists; must not be redefined as a function.
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** at functions.sv(50): near "::": syntax error, unexpected ::, expecting '(' or ';'.
+# ** Error: ** while parsing file included at top.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** at functions.sv(65): (vlog-2164) Class or package 'eth_pkt' not found.
+# ** Error: ** while parsing file included at top.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** at functions.sv(65): 'eth_pkt' already exists; must not be redefined as a function.
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** at functions.sv(65): near "::": syntax error, unexpected ::, expecting '(' or ';'.
+# ** Error: ** while parsing file included at top.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** at functions.sv(82): (vlog-2164) Class or package 'eth_pkt' not found.
+# ** Error: ** while parsing file included at top.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** at functions.sv(82): 'eth_pkt' already exists; must not be redefined as a function.
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** at functions.sv(82): near "::": syntax error, unexpected ::, expecting '(' or ';'.
+# ** Error: ** while parsing file included at top.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** at functions.sv(90): (vlog-2164) Class or package 'eth_pkt' not found.
+# ** Error: ** while parsing file included at top.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** at functions.sv(90): 'eth_pkt' already exists; must not be redefined as a function.
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** at functions.sv(90): near "::": syntax error, unexpected ::, expecting '(' or ';'.
+# ** Error: ** while parsing file included at top.sv(1)
+# ** at class_example_extern.sv(17): 'eth_pkt' already declared as a non-typedef
+# ** while parsing file included at top.sv(1)
+# ** at class_example_extern.sv(17): Verilog Compiler exiting
+# End time: 19:52:14 on Jul 12,2025, Elapsed time: 0:00:01
+# Errors: 24, Warnings: 0
+# ** Error: /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+# Error in macro ./run.do line 1
+# /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog top.sv"
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 19:53:36 on Jul 12,2025
+# vlog -reportprogress 300 top.sv 
+# ** Error: ** while parsing file included at top.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** at functions.sv(1): Recursive `include of file "class_example_extern.sv".
+# ** Error: ** while parsing file included at top.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** at functions.sv(2): (vlog-2164) Class or package 'eth_pkt' not found.
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** at functions.sv(2): near "::": syntax error, unexpected ::, expecting '(' or ';'.
+# ** Error: ** while parsing file included at top.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** at functions.sv(14): (vlog-2164) Class or package 'eth_pkt' not found.
+# ** Error: ** while parsing file included at top.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** at functions.sv(14): 'eth_pkt' already exists; must not be redefined as a function.
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** at functions.sv(14): near "::": syntax error, unexpected ::, expecting '(' or ';'.
+# ** Error: ** while parsing file included at top.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** at functions.sv(37): (vlog-2164) Class or package 'eth_pkt' not found.
+# ** Error: ** while parsing file included at top.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** at functions.sv(37): 'eth_pkt' already exists; must not be redefined as a function.
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** at functions.sv(37): near "::": syntax error, unexpected ::, expecting '(' or ';'.
+# ** Error: ** while parsing file included at top.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** at functions.sv(43): (vlog-2164) Class or package 'eth_pkt' not found.
+# ** Error: ** while parsing file included at top.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** at functions.sv(43): 'eth_pkt' already exists; must not be redefined as a function.
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** at functions.sv(43): near "::": syntax error, unexpected ::, expecting '(' or ';'.
+# ** Error: ** while parsing file included at top.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** at functions.sv(51): (vlog-2164) Class or package 'eth_pkt' not found.
+# ** Error: ** while parsing file included at top.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** at functions.sv(51): 'eth_pkt' already exists; must not be redefined as a function.
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** at functions.sv(51): near "::": syntax error, unexpected ::, expecting '(' or ';'.
+# ** Error: ** while parsing file included at top.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** at functions.sv(66): (vlog-2164) Class or package 'eth_pkt' not found.
+# ** Error: ** while parsing file included at top.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** at functions.sv(66): 'eth_pkt' already exists; must not be redefined as a function.
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** at functions.sv(66): near "::": syntax error, unexpected ::, expecting '(' or ';'.
+# ** Error: ** while parsing file included at top.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** at functions.sv(83): (vlog-2164) Class or package 'eth_pkt' not found.
+# ** Error: ** while parsing file included at top.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** at functions.sv(83): 'eth_pkt' already exists; must not be redefined as a function.
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** at functions.sv(83): near "::": syntax error, unexpected ::, expecting '(' or ';'.
+# ** Error: ** while parsing file included at top.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** at functions.sv(91): (vlog-2164) Class or package 'eth_pkt' not found.
+# ** Error: ** while parsing file included at top.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** at functions.sv(91): 'eth_pkt' already exists; must not be redefined as a function.
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** at functions.sv(91): near "::": syntax error, unexpected ::, expecting '(' or ';'.
+# ** Error: ** while parsing file included at top.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** at class_example_extern.sv(17): 'eth_pkt' already declared as a non-typedef
+# ** while parsing file included at top.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** while parsing file included at class_example_extern.sv(15)
+# ** while parsing file included at functions.sv(1)
+# ** at class_example_extern.sv(17): Verilog Compiler exiting
+# End time: 19:53:36 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 25, Warnings: 0
+# ** Error: /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+# Error in macro ./run.do line 1
+# /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog top.sv"
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 19:54:44 on Jul 12,2025
+# vlog -reportprogress 300 top.sv 
+# ** Error: ** while parsing file included at top.sv(1)
+# ** at class_example_extern.sv(118): Multiple definitions for function 'post_randomize'.
+# ** Error: ** while parsing file included at top.sv(1)
+# ** at class_example_extern.sv(120): (vlog-2730) Undefined variable: 'crc'.
+# ** Error: ** while parsing file included at top.sv(1)
+# ** at class_example_extern.sv(120): (vlog-2730) Undefined variable: 'calc_crc'.
+# End time: 19:54:44 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+# Error in macro ./run.do line 1
+# /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog top.sv"
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 19:58:54 on Jul 12,2025
+# vlog -reportprogress 300 top.sv 
+# -- Compiling package top_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 19:58:55 on Jul 12,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim top "+test_name=test_fixed_preamble" 
+# Start time: 19:58:55 on Jul 12,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+############ Running test case : test_fixed_preamble ###################
+# ****PRINTING ETH_PKT PROPERTIES: ****
+# Type of packet=LARGE
+# 	preamble=00000000000000000000000000000000000000000000001000000000
+# 	Source address=000000000064
+# 	Destination address=9d48b1df3936
+# 	Length=219
+# 	Payload='{95, 95, 31, 95, 31, 31, 31, 31, 95, 95, 95, 31, 95, 31, 95, 31, 95, 31, 31, 95, 31, 95, 95, 95, 95, 95, 31, 95, 95, 31, 31, 31, 95, 95, 31, 95, 95, 95, 31, 95, 95, 31, 31, 31, 95, 95, 31, 31, 95, 95, 95, 95, 95, 31, 95, 31, 95, 31, 31, 95, 31, 95, 31, 31, 31, 95, 95, 31, 31, 95, 31, 95, 95, 95, 31, 31, 31, 95, 95, 31, 31, 95, 31, 95, 31, 95, 31, 31, 95, 95, 31, 95, 31, 95, 31, 31, 95, 95, 31, 95, 31, 95, 95, 95, 95, 31, 95, 95, 95, 31, 31, 31, 95, 95, 95, 95, 31, 95, 31, 31, 31, 31, 31, 31, 31, 95, 31, 31, 95, 95, 31, 31, 95, 95, 95, 95, 95, 31, 95, 31, 95, 95, 95, 31, 31, 31, 95, 95, 31, 95, 31, 95, 31, 95, 31, 95, 31, 31, 95, 95, 95, 31, 95, 95, 31, 95, 31, 95, 95, 31, 95, 31, 31, 95, 31, 95, 31, 95, 31, 95, 31, 95, 95, 95, 95, 31, 31, 31, 95, 31, 95, 31, 95, 31, 31, 95, 31, 95, 31, 31, 95, 95, 31, 95, 31, 31, 31, 95, 95, 95, 95, 31, 95, 95, 95, 95, 31, 95, 31}
+# 	crc=12345678
+# 	Number of objects created till now: count-1
+# 
+# 

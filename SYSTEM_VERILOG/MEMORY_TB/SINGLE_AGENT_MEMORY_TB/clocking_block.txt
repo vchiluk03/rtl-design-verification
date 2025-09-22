@@ -1,0 +1,32 @@
+Verilog :
+  - To avoid signal driving and sampling exactly at the positive ede of clokc, we introduce small delay before and after the edge of the clock.
+
+System Verilog: 
+	- SV provides 'clocking block' to do this automatically, with minimal updates ==> Thi is better way of doing than Verilog.
+	- Modport and clocking block are inter-linked.
+		- when clocking block is there, modport should be there and vice-versa.
+- CLOCKING BLOCK should be kept in interface class.
+
+
+CLOCKING BLOCK:
+---------------
+- Used to avoid signal driving and sampling issues.
+- Driving 
+    - driving addr = 100
+    - Design inputs are driven by BFM.
+    - We don't want to drive exactly at +edge of the clock.
+        - It leads to race condition, where signal may be captured or may not captured.
+        - Setup time: How much time before +edge of clock, input must be stable, so thet design can capture it properly.
+        
+    - Sampling:
+      - Sample rdata of 200 value.
+      - Design output are sampled by BFM.
+    
+    
+    - Drive design inputs just after the positive edge of clock, so that, they will be captured at the next positive edge of clock.
+        - Just ater? what is the value of just after.
+            - just after ==> output skew ==> #1
+            
+    - Sample design outputs just before the positive edge of clock, so that, we give enough time for deign to process the inputs and provide us with stable output value.
+        - Just before? what is the value of just before.
+            - Just before ==> input skew ==> #1

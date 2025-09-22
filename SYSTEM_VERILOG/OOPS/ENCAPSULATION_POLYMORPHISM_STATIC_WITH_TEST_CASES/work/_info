@@ -1,0 +1,120 @@
+m255
+K4
+z2
+Z0 !s12c _opt8
+Z1 !s99 nomlopt
+R0
+R1
+Z2 !s12c _opt7
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+!s12c _opt3
+R1
+Z3 !s12c _opt1
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+!s11f vlog 2025.1_1 2025.02, Feb 13 2025
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/mnt/ncsudrive/v/vchiluk3/vlsi-guru/SYSTEM_VERILOG/13-june/OOPS/ENCAPSULATION
+T_opt8
+!s110 1752794968
+V9i5:zQebRHCNm]8HAzdYU0
+04 3 4 work top fast 0
+=1-d404e62a8361-68798756-76cc2-7491a
+R1
+!s12f OEM100
+!s12b OEM100
+!s124 OEM100
+!s135 nogc
+o-quiet -auto_acc_if_foreign -work work
+Z4 tCvgOpt 0
+n@_opt8
+OL;O;2025.1_1;82
+vtop
+Z5 2top.sv
+Z6 DXx6 sv_std 3 std 0 22 @5XbY]_OacJl=`ToSm<M^0
+DXx4 work 11 top_sv_unit 0 22 6`hiSIUN67oZQaC]N@>gm0
+Z7 !s110 1752794958
+VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 0`TReXk4OAhO=1_aXjiJ<2
+I=0@?YO;e7TbOlB4aB[jQj2
+!s105 top_sv_unit
+S1
+Z8 d/mnt/ncsudrive/v/vchiluk3/vlsi-guru/SYSTEM_VERILOG/13-june/OOPS/ENCAPSULATION_POLYMORPHISM
+w1752794920
+Z9 8top.sv
+Z10 Ftop.sv
+!i122 18
+L0 13 11
+Z11 OL;L;2025.1_1;82
+31
+Z12 !s108 1752794958.000000
+Z13 !s107 eth_pkt.sv|eth_env.sv|eth_bfm.sv|eth_gen.sv|eth_ill_pkt.sv|eth_bad_pkt.sv|eth_good_pkt.sv|eth_pkt_common.sv|top.sv|
+Z14 !s90 -reportprogress|300|top.sv|
+!i113 0
+Z15 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
+Xtop_sv_unit
+R5
+R6
+R7
+V6`hiSIUN67oZQaC]N@>gm0
+r1
+!s85 0
+!i10b 1
+!s100 ^RO5CNBjDg^Od1hV@AFIG1
+I6`hiSIUN67oZQaC]N@>gm0
+!i103 1
+S1
+R8
+w1752794954
+R9
+R10
+Feth_pkt_common.sv
+Feth_good_pkt.sv
+Feth_bad_pkt.sv
+Feth_ill_pkt.sv
+Feth_gen.sv
+Feth_bfm.sv
+Feth_env.sv
+Feth_pkt.sv
+!i122 18
+L0 1 0
+R11
+31
+R12
+R13
+R14
+!i113 0
+R15
+R4

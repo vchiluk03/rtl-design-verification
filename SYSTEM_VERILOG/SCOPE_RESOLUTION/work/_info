@@ -1,0 +1,154 @@
+m255
+K4
+z2
+Z0 !s12c _opt4
+Z1 !s99 nomlopt
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+Z2 !s12c _opt3
+R1
+R2
+R1
+R2
+R1
+Z3 !s12c _opt
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+!s11f vlog 2025.1_1 2025.02, Feb 13 2025
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z4 d/mnt/ncsudrive/v/vchiluk3/vlsi-guru/SYSTEM_VERILOG/SCOPE_RESOLUTION
+T_opt4
+!s110 1754604327
+VQbn@j?UV3[c5U]585k`CM2
+04 3 4 work top fast 0
+=1-043201bc7641-68952325-f2450-2f771
+R1
+!s12f OEM100
+!s12b OEM100
+!s124 OEM100
+!s135 nogc
+o-quiet -auto_acc_if_foreign -work work
+Z5 tCvgOpt 0
+n@_opt4
+OL;O;2025.1_1;82
+Xscope_resolution2d1_sv_unit
+2scope_resolution-1.sv
+Z6 DXx6 sv_std 3 std 0 22 @5XbY]_OacJl=`ToSm<M^0
+!s110 1754596844
+VDS`01:IAeen]c]KZgDnUe2
+r1
+!s85 0
+!i10b 1
+!s100 za`WK7>6bLKRL>[aF6jiF2
+IDS`01:IAeen]c]KZgDnUe2
+!i103 1
+S1
+R4
+w1754596839
+8scope_resolution-1.sv
+Fscope_resolution-1.sv
+!i122 4
+Z7 L0 1 0
+Z8 OL;L;2025.1_1;82
+31
+!s108 1754596843.000000
+!s107 scope_resolution-1.sv|
+!s90 -reportprogress|300|scope_resolution-1.sv|
+!i113 0
+Z9 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R5
+Xscope_resolution2d2_sv_unit
+Z10 2scope_resolution-2.sv
+R6
+Z11 !s110 1754604315
+Vg@UiDlD2dlnm^m__g3YGA2
+r1
+!s85 0
+!i10b 1
+!s100 Y7mdY9LamNP=Mc<dJT3iP3
+Ig@UiDlD2dlnm^m__g3YGA2
+!i103 1
+S1
+R4
+Z12 w1754604311
+Z13 8scope_resolution-2.sv
+Z14 Fscope_resolution-2.sv
+!i122 9
+R7
+R8
+31
+Z15 !s108 1754604315.000000
+Z16 !s107 scope_resolution-2.sv|
+Z17 !s90 -reportprogress|300|scope_resolution-2.sv|
+!i113 0
+R9
+R5
+Xscope_resolution_sv_unit
+2scope_resolution.sv
+R6
+!s110 1754596369
+Vak[LXZYzKFjb[^zTY4m=a1
+r1
+!s85 0
+!i10b 1
+!s100 ;d[<`8IR<:::_e_oMk1LB2
+Iak[LXZYzKFjb[^zTY4m=a1
+!i103 1
+S1
+R4
+w1754585124
+8scope_resolution.sv
+Fscope_resolution.sv
+!i122 1
+R7
+R8
+31
+!s108 1754596369.000000
+!s107 scope_resolution.sv|
+!s90 -reportprogress|300|scope_resolution.sv|
+!i113 0
+R9
+R5
+vtop
+R10
+R6
+DXx4 work 27 scope_resolution2d2_sv_unit 0 22 g@UiDlD2dlnm^m__g3YGA2
+R11
+VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 zk2Xk2F:?GXWf[jn685l22
+IYU>aOJ2BfA1OMm;o[Fh0h2
+!s105 scope_resolution2d2_sv_unit
+S1
+R4
+R12
+R13
+R14
+!i122 9
+L0 19 15
+R8
+31
+R15
+R16
+R17
+!i113 0
+R9
+R5

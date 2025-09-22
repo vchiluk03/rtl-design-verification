@@ -1,0 +1,55 @@
+- If We want to synchronize mutiple processes in some order as or wish, we do this inter process synchronization. with this, we can synchronize them in any order to happen one a after another sequentially.
+- To make this possible, we use some constructs called inter process synchronization constructs.
+
+Process:
+-------
+- Any statements coded between begin and end or a single statemenet can also be a process.
+- wait(ready==1); //Waiting for ready=1 is a process.
+- repeat(2) @(posedge clk); //counting 2 posedge clk cycles, is a pocess.
+- write_tx(); //calling task write_tx is also a process.
+
+- Multiple processes can be merged into a single process by keeping them between begin and end.
+- initial begin 
+    a =1;
+    b =0; 
+    c =3;
+  end
+
+
+
+- In system verilog, we can have following states for a process.
+    - FINISHED, RUNNING, WAITING, SUSPENDED, KILLED.
+- We can label a process and we can check the status of process using below.
+      - Label.state //we can get status of process out of five mentioned above.
+      
+
+INTER PROCESS SYNCHRONIZATION:IPS
+------------------------------
+Inter process: Between the processes.
+Synchronization: Achieving synchronization between the processes.
+
+
+Why do we need IPS?
+-  TB has various components like gen, BFM, monitor and scoreboard.
+    - Each component has various processes running inside them.
+    - IPS constructs are used for acheiving synchronization between these processes.
+    
+- SV provides 3 constructs for IPS.
+    - MAILBOX
+    - SEMAPHORE
+    - EVENT
+    
+- SO wherever there is dependency one process and another, we have to use IPS constructs to make them possible. 
+    - Beacause we have make them run one after another in some order.
+    - EX: Only after generator generated txs, BFM will be able to able to drive them to DUT.
+        - Here there is a dependency between generator and BFM.
+        
+DEPENDENCY BETWEEN GENERATOR AND BFM. 
+-  BFM can not drive a transaction unless generator gives the tx.
+-  This is called as process dependency.
+    - BFM can not proceed unless generator gives the transactions.
+    - Here there is a need for synchronization, between BFM and Generator.
+          - We have MAILBOX, SEMAPHORE, EVENT as option to use. 
+              - But for this, MAILBOX will be most suitable option.
+              
+

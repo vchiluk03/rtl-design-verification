@@ -1,0 +1,8 @@
+SV has a cpncept which helps user to represent numbers in Englishh word format, so that code becomes more readable.
+- ENUM data type doesn't change the functionality of the code.
+  - It only helps make the code more readable.
+- Wherever in the coode the word is used, word will be replaced by corresponding integer during compilation.
+
+
+- Can we use directly use enum without typedef?
+    - We can use it. BUt it becomes data variable not data type.

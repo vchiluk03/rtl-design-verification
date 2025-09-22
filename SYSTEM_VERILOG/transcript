@@ -1,0 +1,65 @@
+# //  Questa Sim-64
+# //  Version 2025.1_1 linux_x86_64 Feb 13 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# vsim do 
+# Start time: 21:06:13 on Sep 03,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: (vopt-11) Could not find work.do.
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=0.
+# Error loading design
+# End time: 21:06:15 on Sep 03,2025, Elapsed time: 0:00:02
+# Errors: 1, Warnings: 0
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 21:06:24 on Sep 03,2025
+# vlog -reportprogress 300 repeat.sv 
+# -- Compiling package repeat_sv_unit
+# -- Compiling module top
+# ** Warning: repeat.sv(14): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	top
+# End time: 21:06:25 on Sep 03,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# vsim top 
+# Start time: 21:06:27 on Sep 03,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: repeat.sv(14): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.repeat_sv_unit(fast)
+# Loading work.top(fast)
+# s='{a:1}
+# s='{a:0}
+# s='{a:1}
+# s='{a:0}
+# s='{a:1}
+# s='{a:0}
+# s='{a:1}
+# s='{a:0}
+# s='{a:1}
+# s='{a:0}
+# s='{a:1}
+# s='{a:0}
+# s='{a:1}
+# s='{a:0}
+# s='{a:1}
+# s='{a:0}
+# s='{a:1}
+# s='{a:0}
+# s='{a:1}
+# s='{a:0}
+# End time: 21:43:42 on Sep 03,2025, Elapsed time: 0:37:15
+# Errors: 0, Warnings: 1

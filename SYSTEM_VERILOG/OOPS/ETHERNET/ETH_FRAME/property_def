@@ -1,0 +1,39 @@
+In a class, I can include properties, methods and constraints.
+
+- We can define property defnition in various ways as per our wish.
+- Property Defnition:
+	- rand or randc or none.
+	- signed or unsigned or none(default behaviour-based on data type).
+	- local/protected/none(public).
+		- local: when declared local, only I should change the property, nobody else. It is local to that class.
+		- Use case: There are cases, where the property value should be constant to some value, and changing it by anybody cause different behaviour.
+			- So, we need to make sure, it should not be changed by anybody.
+			- This can be done by declaring property as 'local'.
+					- Meaning, it is local to that class.
+					- It should be done by person who developed class.
+				Ex: In ethernet frame, preamble should 56 bits of pattern '01'.
+					- we give constraint for that to be 01.
+					- But we other user change the value? it changes.
+					- So we declare it as 'local bit [55:0] preamble'.
+						- same with sfd. It should be '10101011'.
+					- When property declared as 'local', then nobody can change that value.
+						- This property should not be updated by any component outside the class.
+						- Only inside that class only, we can access that property.
+						- we can not even display taht property outside class.
+		
+		- Protected: The name itself says that 'protecting' for future generations.
+			- This means that, the 'protected property' can only be accessed by parent class or Inherited classes(child classes)
+			  from that parent class.
+			- Other than parent&child of that parent classes, nobody can be able to access/update that property.
+			- Also, Child class has its own local/protected properties.
+				- Child class can have access to all protected/public properties and methods.
+					- So, when we randomize child packet, the parent class also gets randomized.
+						
+						
+						
+						
+						
+						
+	- static or none(automatic).
+	- 2 state or 4 state(bit or logic).
+	

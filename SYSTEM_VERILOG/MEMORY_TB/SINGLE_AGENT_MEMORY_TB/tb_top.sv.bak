@@ -1,0 +1,58 @@
+module tb_top;
+reg clk,rst;
+	mem_env env;
+	
+	//Declare and define clock and reset signals
+	initial begin 
+		clk = 0;
+		forever #5 clk = ~clk;
+	end
+
+	task reset_inputs();
+		//reset all design inputs also
+		pif.addr_i = 0;
+		pif.wr_rd_i = 0;
+		pif.wr_data_i = 0;
+		pif.valid_i = 0;
+	endtask
+	
+	initial begin 
+		rst = 1; //applying reset 
+		$value$plusargs("testcase=%s",mem_common::testcase);
+		reset_inputs(); 
+		repeat(2) @(posedge clk); //holding reset for 2 clock cycles.
+		rst = 0; //releasing reset
+		
+		//Environment class, new, run
+		env = new();
+		env.run(); //starting the environment
+	end
+	
+	//Interface instantiation
+	mem_intf pif(clk,rst); //this is where the memory is getting allocated.
+	
+	initial begin 
+		mem_common::vif = pif; //we are asigning the physical interface to the virtual interface in mem_common
+	end
+	//DUT instantiation
+	memory DUT(
+			   .clk(pif.clk_i),
+			   .rst(pif.rst_i),
+			   .addr_i(pif.addr_i),
+			   .wr_rd_i(pif.wr_rd_i),
+			   .wr_data_i(pif.wr_data_i),
+			   .rd_data_o(pif.rd_data_o),
+			   .valid_i(pif.valid_i),
+			   .ready_o(pif.ready_o)
+			   );
+			   
+	
+	//Get the test name fom the user, keep all commonly shared variables in cfg class.
+	//Logic to end the simulation($finish)
+	initial begin 
+		//#2000;
+		wait(mem_common::count*2 == mem_common::total_driven_txs);
+		$finish;
+	end
+	
+endmodule

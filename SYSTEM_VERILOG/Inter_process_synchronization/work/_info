@@ -1,0 +1,171 @@
+m255
+K4
+z2
+Z0 !s12c _opt
+Z1 !s99 nomlopt
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+!s11f vlog 2025.1_1 2025.02, Feb 13 2025
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z2 d/mnt/ncsudrive/v/vchiluk3/vlsi-guru/SYSTEM_VERILOG/Inter_process_synchronization
+T_opt
+!s110 1756054009
+VaTadMS@FW]U`_F8G55?^H3
+04 3 4 work top fast 0
+=1-48df37cd82f8-68ab41f8-60914-85f01
+R1
+!s12f OEM100
+!s12b OEM100
+!s124 OEM100
+!s135 nogc
+o-quiet -auto_acc_if_foreign -work work
+Z3 tCvgOpt 0
+n@_opt
+OL;O;2025.1_1;82
+Xevent2d2_sv_unit
+2event-2.sv
+Z4 DXx6 sv_std 3 std 0 22 @5XbY]_OacJl=`ToSm<M^0
+!s110 1755906947
+VJIB`5cX0e960Zz1g0E5>;2
+r1
+!s85 0
+!i10b 1
+!s100 <>G<:CCoT7>6g9ALY7R5F0
+IJIB`5cX0e960Zz1g0E5>;2
+!i103 1
+S1
+R2
+w1755906946
+8event-2.sv
+Fevent-2.sv
+!i122 16
+Z5 L0 3 0
+Z6 OL;L;2025.1_1;82
+31
+!s108 1755906946.000000
+!s107 event-2.sv|
+!s90 -reportprogress|300|event-2.sv|
+!i113 0
+Z7 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+Xevent_SV_STYLE_sv_unit
+2event_SV_STYLE.sv
+R4
+!s110 1755907160
+VUcPc4HA`NcY^J]i8UH8Ob2
+r1
+!s85 0
+!i10b 1
+!s100 kLX8`iN[>3Z9<4D_b38>`2
+IUcPc4HA`NcY^J]i8UH8Ob2
+!i103 1
+S1
+R2
+w1755907120
+8event_SV_STYLE.sv
+Fevent_SV_STYLE.sv
+!i122 17
+R5
+R6
+31
+!s108 1755907160.000000
+!s107 event_SV_STYLE.sv|
+!s90 -reportprogress|300|event_SV_STYLE.sv|
+!i113 0
+R7
+R3
+nevent_@s@v_@s@t@y@l@e_sv_unit
+Xmailbox_sv_unit
+2mailbox.sv
+R4
+!s110 1755900351
+Vj5Tl3jE>;c;b?_WZ@d1891
+r1
+!s85 0
+!i10b 1
+!s100 ;g@=>FkN[@LF>4mnQ[1gb2
+Ij5Tl3jE>;c;b?_WZ@d1891
+!i103 1
+S1
+R2
+w1755900098
+8mailbox.sv
+Fmailbox.sv
+!i122 1
+L0 1 0
+R6
+31
+!s108 1755900351.000000
+!s107 mailbox.sv|
+!s90 -reportprogress|300|mailbox.sv|
+!i113 0
+R7
+R3
+vtop
+2semaphore-1.sv
+R4
+!s110 1756053998
+!i10b 1
+!s100 Tj1FImWmAPAzEDon^6EKJ2
+Ibm7hT3iYSDJme9U>:C1l;0
+S1
+R2
+w1756053954
+8semaphore-1.sv
+Fsemaphore-1.sv
+!i122 22
+L0 3 26
+VDg1SIo80bB@j0V0VzS_@n1
+R6
+r1
+!s85 0
+31
+!s108 1756053998.000000
+!s107 semaphore-1.sv|
+!s90 -reportprogress|300|semaphore-1.sv|
+!i113 0
+R7
+R3

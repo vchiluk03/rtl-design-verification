@@ -1,0 +1,324 @@
+# //  Questa Sim-64
+# //  Version 2025.1_1 linux_x86_64 Feb 13 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# vsim do 
+# Start time: 19:24:03 on Jul 17,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: (vopt-11) Could not find work.do.
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=0.
+# Error loading design
+# End time: 19:24:06 on Jul 17,2025, Elapsed time: 0:00:03
+# Errors: 1, Warnings: 0
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 19:24:49 on Jul 17,2025
+# vlog -reportprogress 300 top.sv 
+# -- Compiling package top_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 19:24:50 on Jul 17,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim top "+test_case_name=test_random_pkts" 
+# Start time: 19:24:51 on Jul 17,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+# ~~~~-------------------------- Printing from BFM ~~~~----------------------------------------
+# 	 Retreived bad packet from the mailbox ----
+############ I am eth_bad_pkt ################
+# 		**** Printing eth_pkt(base_class) properties ****
+# 	Count=10
+# 	Length=16
+# 	Payload='{-108, -72, -56, 90, -96, 55, -71, 122, 54, 73, 95, -126, -86, -22, -81, -20}
+# 	Count_bad=4
+# ~~~~-------------------------- Printing from BFM ~~~~----------------------------------------
+# 	 Retreived bad packet from the mailbox ----
+############ I am eth_bad_pkt ################
+# 		**** Printing eth_pkt(base_class) properties ****
+# 	Count=10
+# 	Length=15
+# 	Payload='{74, 69, -115, 102, -21, 23, -123, -127, 63, -43, 100, -65, -78, -54, -89}
+# 	Count_bad=4
+# ~~~~-------------------------- Printing from BFM ~~~~----------------------------------------
+# 	 Retreived good packet from the mailbox ----
+############ I am eth_good_pkt ################
+# 		**** Printing eth_pkt(base_class) properties ****
+# 	Count=10
+# 	Length=21
+# 	Payload='{-35, -6, -31, -23, -66, -31, 53, 81, 23, -30, -49, 100, -81, 20, 111, 99, 52, 104, 61, -44, -45}
+# 	Count_good=4
+# ~~~~-------------------------- Printing from BFM ~~~~----------------------------------------
+# 	 Retreived good packet from the mailbox ----
+############ I am eth_good_pkt ################
+# 		**** Printing eth_pkt(base_class) properties ****
+# 	Count=10
+# 	Length=22
+# 	Payload='{-117, -72, 32, -54, 125, 28, -65, 73, 63, 105, -81, -78, 120, 56, -31, -72, -51, -50, 82, 65, 117, -3}
+# 	Count_good=4
+# ~~~~-------------------------- Printing from BFM ~~~~----------------------------------------
+# 	 Retreived bad packet from the mailbox ----
+############ I am eth_bad_pkt ################
+# 		**** Printing eth_pkt(base_class) properties ****
+# 	Count=10
+# 	Length=17
+# 	Payload='{-49, 87, -27, -49, -11, -35, 60, -4, 95, 61, -55, 96, -76, -42, 46, -97, 64}
+# 	Count_bad=4
+# ~~~~-------------------------- Printing from BFM ~~~~----------------------------------------
+# 	 Retreived illegal packet from the mailbox ----
+# 
+############ I am eth_illegal_pkt ################
+# 		**** Printing eth_pkt(base_class) properties ****
+# 	Count=10
+# 	Length=20
+# 	Payload='{-74, -96, 29, -80, 29, -124, -115, -125, 36, 61, 67, -7, 73, -31, -87, 10, -120, -3, 97, -98}
+# 	Count_ill=2
+# ~~~~-------------------------- Printing from BFM ~~~~----------------------------------------
+# 	 Retreived illegal packet from the mailbox ----
+# 
+############ I am eth_illegal_pkt ################
+# 		**** Printing eth_pkt(base_class) properties ****
+# 	Count=10
+# 	Length=23
+# 	Payload='{68, -10, -56, -102, -19, -99, 122, 15, -15, -81, 13, -126, 47, -57, 117, 13, 24, 109, 121, -120, -124, 23, 120}
+# 	Count_ill=2
+# ~~~~-------------------------- Printing from BFM ~~~~----------------------------------------
+# 	 Retreived bad packet from the mailbox ----
+############ I am eth_bad_pkt ################
+# 		**** Printing eth_pkt(base_class) properties ****
+# 	Count=10
+# 	Length=18
+# 	Payload='{-109, -11, 112, -10, 7, -56, -57, 3, -88, 52, -46, 36, 70, 106, 104, 8, -93, 109}
+# 	Count_bad=4
+# ~~~~-------------------------- Printing from BFM ~~~~----------------------------------------
+# 	 Retreived good packet from the mailbox ----
+############ I am eth_good_pkt ################
+# 		**** Printing eth_pkt(base_class) properties ****
+# 	Count=10
+# 	Length=16
+# 	Payload='{-86, 18, 57, -48, -20, 72, 82, -48, 107, -88, 58, 12, -9, 24, -122, 76}
+# 	Count_good=4
+# ~~~~-------------------------- Printing from BFM ~~~~----------------------------------------
+# 	 Retreived good packet from the mailbox ----
+############ I am eth_good_pkt ################
+# 		**** Printing eth_pkt(base_class) properties ****
+# 	Count=10
+# 	Length=17
+# 	Payload='{15, -32, -116, 6, -85, 80, 74, -13, 24, 111, -100, -108, -49, 101, 44, 89, -61}
+# 	Count_good=4
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 19:28:49 on Jul 17,2025
+# vlog -reportprogress 300 top.sv 
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(4)
+# ** at eth_pkt_common.sv(4): near "20": syntax error, unexpected INTEGER NUMBER, expecting "SystemVerilog keyword 'new'".
+# End time: 19:28:49 on Jul 17,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+# Error in macro ./run.do line 1
+# /mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog top.sv "
+do run.do
+# QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
+# Start time: 19:29:18 on Jul 17,2025
+# vlog -reportprogress 300 top.sv 
+# -- Compiling package top_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 19:29:18 on Jul 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:29:26 on Jul 17,2025, Elapsed time: 0:04:35
+# Errors: 1, Warnings: 0
+# vsim top "+test_case_name=test_random_pkts" 
+# Start time: 19:29:26 on Jul 17,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+# ~~~~-------------------------- Printing from BFM ~~~~----------------------------------------
+# 	 Retreived bad packet from the mailbox ----
+############ I am eth_bad_pkt ################
+# 		**** Printing eth_pkt(base_class) properties ****
+# 	Count=20
+# 	Length=16
+# 	Payload='{-108, -72, -56, 90, -96, 55, -71, 122, 54, 73, 95, -126, -86, -22, -81, -20}
+# 	Count_bad=8
+# ~~~~-------------------------- Printing from BFM ~~~~----------------------------------------
+# 	 Retreived bad packet from the mailbox ----
+############ I am eth_bad_pkt ################
+# 		**** Printing eth_pkt(base_class) properties ****
+# 	Count=20
+# 	Length=15
+# 	Payload='{74, 69, -115, 102, -21, 23, -123, -127, 63, -43, 100, -65, -78, -54, -89}
+# 	Count_bad=8
+# ~~~~-------------------------- Printing from BFM ~~~~----------------------------------------
+# 	 Retreived good packet from the mailbox ----
+############ I am eth_good_pkt ################
+# 		**** Printing eth_pkt(base_class) properties ****
+# 	Count=20
+# 	Length=21
+# 	Payload='{-35, -6, -31, -23, -66, -31, 53, 81, 23, -30, -49, 100, -81, 20, 111, 99, 52, 104, 61, -44, -45}
+# 	Count_good=4
+# ~~~~-------------------------- Printing from BFM ~~~~----------------------------------------
+# 	 Retreived good packet from the mailbox ----
+############ I am eth_good_pkt ################
+# 		**** Printing eth_pkt(base_class) properties ****
+# 	Count=20
+# 	Length=22
+# 	Payload='{-117, -72, 32, -54, 125, 28, -65, 73, 63, 105, -81, -78, 120, 56, -31, -72, -51, -50, 82, 65, 117, -3}
+# 	Count_good=4
+# ~~~~-------------------------- Printing from BFM ~~~~----------------------------------------
+# 	 Retreived bad packet from the mailbox ----
+############ I am eth_bad_pkt ################
+# 		**** Printing eth_pkt(base_class) properties ****
+# 	Count=20
+# 	Length=17
+# 	Payload='{-49, 87, -27, -49, -11, -35, 60, -4, 95, 61, -55, 96, -76, -42, 46, -97, 64}
+# 	Count_bad=8
+# ~~~~-------------------------- Printing from BFM ~~~~----------------------------------------
+# 	 Retreived illegal packet from the mailbox ----
+# 
+############ I am eth_illegal_pkt ################
+# 		**** Printing eth_pkt(base_class) properties ****
+# 	Count=20
+# 	Length=20
+# 	Payload='{-74, -96, 29, -80, 29, -124, -115, -125, 36, 61, 67, -7, 73, -31, -87, 10, -120, -3, 97, -98}
+# 	Count_ill=8
+# ~~~~-------------------------- Printing from BFM ~~~~----------------------------------------
+# 	 Retreived illegal packet from the mailbox ----
+# 
+############ I am eth_illegal_pkt ################
+# 		**** Printing eth_pkt(base_class) properties ****
+# 	Count=20
+# 	Length=23
+# 	Payload='{68, -10, -56, -102, -19, -99, 122, 15, -15, -81, 13, -126, 47, -57, 117, 13, 24, 109, 121, -120, -124, 23, 120}
+# 	Count_ill=8
+# ~~~~-------------------------- Printing from BFM ~~~~----------------------------------------
+# 	 Retreived bad packet from the mailbox ----
+############ I am eth_bad_pkt ################
+# 		**** Printing eth_pkt(base_class) properties ****
+# 	Count=20
+# 	Length=18
+# 	Payload='{-109, -11, 112, -10, 7, -56, -57, 3, -88, 52, -46, 36, 70, 106, 104, 8, -93, 109}
+# 	Count_bad=8
+# ~~~~-------------------------- Printing from BFM ~~~~----------------------------------------
+# 	 Retreived good packet from the mailbox ----
+############ I am eth_good_pkt ################
+# 		**** Printing eth_pkt(base_class) properties ****
+# 	Count=20
+# 	Length=16
+# 	Payload='{-86, 18, 57, -48, -20, 72, 82, -48, 107, -88, 58, 12, -9, 24, -122, 76}
+# 	Count_good=4
+# ~~~~-------------------------- Printing from BFM ~~~~----------------------------------------
+# 	 Retreived good packet from the mailbox ----
+############ I am eth_good_pkt ################
+# 		**** Printing eth_pkt(base_class) properties ****
+# 	Count=20
+# 	Length=17
+# 	Payload='{15, -32, -116, 6, -85, 80, 74, -13, 24, 111, -100, -108, -49, 101, 44, 89, -61}
+# 	Count_good=4
+# ~~~~-------------------------- Printing from BFM ~~~~----------------------------------------
+# 	 Retreived illegal packet from the mailbox ----
+# 
+############ I am eth_illegal_pkt ################
+# 		**** Printing eth_pkt(base_class) properties ****
+# 	Count=20
+# 	Length=24
+# 	Payload='{-84, -51, -25, -97, 114, -9, -117, 123, 71, -67, 58, -10, -96, 91, 16, -30, -114, 105, 70, -111, -49, 111, -58, -51}
+# 	Count_ill=8
+# ~~~~-------------------------- Printing from BFM ~~~~----------------------------------------
+# 	 Retreived illegal packet from the mailbox ----
+# 
+############ I am eth_illegal_pkt ################
+# 		**** Printing eth_pkt(base_class) properties ****
+# 	Count=20
+# 	Length=21
+# 	Payload='{-117, -15, 29, -103, -31, 112, 49, -94, -128, -8, 50, 33, -46, -72, 114, 14, -37, -56, -97, 64, -91}
+# 	Count_ill=8
+# ~~~~-------------------------- Printing from BFM ~~~~----------------------------------------
+# 	 Retreived illegal packet from the mailbox ----
+# 
+############ I am eth_illegal_pkt ################
+# 		**** Printing eth_pkt(base_class) properties ****
+# 	Count=20
+# 	Length=16
+# 	Payload='{-2, 7, 77, -2, -123, -53, 28, -98, 24, 60, 44, -36, 113, 116, -64, 28}
+# 	Count_ill=8
+# ~~~~-------------------------- Printing from BFM ~~~~----------------------------------------
+# 	 Retreived illegal packet from the mailbox ----
+# 
+############ I am eth_illegal_pkt ################
+# 		**** Printing eth_pkt(base_class) properties ****
+# 	Count=20
+# 	Length=20
+# 	Payload='{71, 85, 1, -58, -108, 69, 104, 45, -64, 89, -54, 88, -114, -85, 121, 39, 50, -72, -97, -1}
+# 	Count_ill=8
+# ~~~~-------------------------- Printing from BFM ~~~~----------------------------------------
+# 	 Retreived bad packet from the mailbox ----
+############ I am eth_bad_pkt ################
+# 		**** Printing eth_pkt(base_class) properties ****
+# 	Count=20
+# 	Length=16
+# 	Payload='{12, 41, 114, -43, 79, 95, -63, -90, -22, -128, 59, 80, 81, 49, 104, -91}
+# 	Count_bad=8
+# ~~~~-------------------------- Printing from BFM ~~~~----------------------------------------
+# 	 Retreived bad packet from the mailbox ----
+############ I am eth_bad_pkt ################
+# 		**** Printing eth_pkt(base_class) properties ****
+# 	Count=20
+# 	Length=21
+# 	Payload='{-28, 4, -45, 94, 40, -99, 39, 29, -98, -92, 85, -12, -22, -3, 21, -17, -39, -92, 62, -96, -112}
+# 	Count_bad=8
+# ~~~~-------------------------- Printing from BFM ~~~~----------------------------------------
+# 	 Retreived illegal packet from the mailbox ----
+# 
+############ I am eth_illegal_pkt ################
+# 		**** Printing eth_pkt(base_class) properties ****
+# 	Count=20
+# 	Length=25
+# 	Payload='{80, -57, -62, -46, 25, 79, 45, 21, 92, 50, -26, -77, 51, -118, -12, -87, -21, 82, 111, 44, 78, -122, -36, 49, -127}
+# 	Count_ill=8
+# ~~~~-------------------------- Printing from BFM ~~~~----------------------------------------
+# 	 Retreived bad packet from the mailbox ----
+############ I am eth_bad_pkt ################
+# 		**** Printing eth_pkt(base_class) properties ****
+# 	Count=20
+# 	Length=22
+# 	Payload='{-91, 95, -3, -78, 100, 27, -41, -63, -103, 56, -45, 28, -36, -100, -97, -4, -4, 27, 91, -85, 48, -120}
+# 	Count_bad=8
+# ~~~~-------------------------- Printing from BFM ~~~~----------------------------------------
+# 	 Retreived illegal packet from the mailbox ----
+# 
+############ I am eth_illegal_pkt ################
+# 		**** Printing eth_pkt(base_class) properties ****
+# 	Count=20
+# 	Length=19
+# 	Payload='{-47, -63, 31, -127, -60, 10, -125, 105, -107, -29, -81, 41, 109, 108, -35, -93, -89, -104, -38}
+# 	Count_ill=8
+# ~~~~-------------------------- Printing from BFM ~~~~----------------------------------------
+# 	 Retreived bad packet from the mailbox ----
+############ I am eth_bad_pkt ################
+# 		**** Printing eth_pkt(base_class) properties ****
+# 	Count=20
+# 	Length=15
+# 	Payload='{-93, 69, -75, -3, -20, 77, 22, -86, 117, 2, -28, 15, 84, 65, 89}
+# 	Count_bad=8
+# End time: 19:36:04 on Jul 17,2025, Elapsed time: 0:06:38
+# Errors: 0, Warnings: 0

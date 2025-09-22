@@ -1,0 +1,60 @@
+1. Define eth_pkt class with following properties and methods.
+	- Fields: count(int),len[10 bits], payload (queue of bytes)
+	- Methods: Declare a print function to display count, Len and payload	
+		- Write simple constraints on len(15 to 25), payload size should be len
+		- Count is requied for counting the packets.
+		
+2. Declare 3 derived classes using extends: eth_good_pkt, eth_bad_pkt, eth_ill_pkt
+	- eth_good_pkt: Add a new field count_good(used for counting good pkts)
+	- eth_bad_pkt: Add a new field count_bad
+	- eth_ill_pkt: Add a new field count_ill.
+	- print function: Print all packet fields by using print from base class.
+	
+3. code eth_gen.sv
+	- Generate in total 10 packets of above 3 categories in random manner
+		- Some good, same bad, and some illegal, totally adding to 10 packets.
+	-Put these packets into the mailbox.
+		- Impelement all this in the run task.
+		
+4. Code eth_bfm.sv
+	- get above 10 packets from the mailbox in run task of bfm.
+	- call print method to print the packet fields.
+
+5. Code eth_env.sv
+	- Instantiate eth_bfm, eth_gen, and mailbox to connect these two components.
+	- Call eth_bfm & eth_gen object 'run' method in the eth_env 'run' task.
+
+6. Code top.sv (coded using module)
+	- Instantiate eth_env, create eth_env object 
+	- call run method of eth_env object in the initial block.
+	
+	
+INHERITANCE: 
+------------
+- Here we will extend child class/derived class from parent/base class using keywor 'extends'.
+- All the properties and methods will also accessible to child class from parent class(inheriting things).
+	- For this to happen, the properties and methods in parent class should be declared as protected or public and not local.
+- To re-use methods of parent class in child class, we can do that using 'super' keyword.
+
+POLYMORPHISM:
+------------
+- It allows us to use a base class variable (handle/reference) to hold objects of derived (child) classes. 
+  When we call methods using that base class variable, the method of the base class or the corresponding overridden method in the child class will be invoked, depending on the actual object the base class variable is pointing to.
+
+- All of this is possible only when the base class methods are declared as virtual. 
+  Declaring a method as virtual allows derived classes to override that method, enabling polymorphic behavior.
+
+- Sytem verilog only supports static POLYMORPHISM. i.e; In derived classes, function/task prototype should be same as base class. 
+			- Fucntion/task defnition should macth.
+			
+✅ Virtual keyword in base class only
+You only need to declare the method as virtual in the base class. Derived classes override it using the same method name (and optionally mark it with virtual again, but that’s not strictly required).
+
+✅ Dynamic vs. static binding
+Declaring methods as virtual enables dynamic binding (runtime polymorphism). Without virtual, method calls use static binding (resolved at compile time).
+
+✅ Polymorphism works for tasks and functions
+In SystemVerilog, both task and function can be declared as virtual.
+
+Real Life use cases of POLYMORPHISM:
+------------------------------------

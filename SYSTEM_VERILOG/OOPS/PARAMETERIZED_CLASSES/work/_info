@@ -1,0 +1,227 @@
+m255
+K4
+z2
+Z0 !s12c _opt3
+Z1 !s99 nomlopt
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+Z2 !s12c _opt
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+!s11f vlog 2025.1_1 2025.02, Feb 13 2025
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z3 d/mnt/ncsudrive/v/vchiluk3/vlsi-guru/SYSTEM_VERILOG/13-june/OOPS/PARAMETERIZED_CLASSES
+T_opt3
+!s110 1753638375
+VHd@b_:CZg5mM5>PZdK10I1
+04 3 4 work top fast 0
+=1-48df37cd4768-688665e5-cfc8c-d4dd4
+R1
+!s12f OEM100
+!s12b OEM100
+!s124 OEM100
+!s135 nogc
+o-quiet -auto_acc_if_foreign -work work
+Z4 tCvgOpt 0
+n@_opt3
+OL;O;2025.1_1;82
+Xfifo_example_sv_unit
+2fifo_example.sv
+Z5 DXx6 sv_std 3 std 0 22 @5XbY]_OacJl=`ToSm<M^0
+!s110 1753579744
+VY<618E]l3mNQU[bIE=k^J0
+r1
+!s85 0
+!i10b 1
+!s100 iF=TY4JY@fh`9lB:@<[N41
+IY<618E]l3mNQU[bIE=k^J0
+!i103 1
+S1
+R3
+w1753579014
+8fifo_example.sv
+Ffifo_example.sv
+!i122 5
+L0 2 0
+Z6 OL;L;2025.1_1;82
+31
+!s108 1753579744.000000
+!s107 fifo_example.sv|
+!s90 -reportprogress|300|fifo_example.sv|
+!i113 0
+Z7 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
+Xlifo_example_sv_unit
+2lifo_example.sv
+R5
+!s110 1753578478
+VNjdoHGUkNj@lEPd[SW7B?1
+r1
+!s85 0
+!i10b 1
+!s100 g6X;J=eP[MM5UW77fh@4E1
+INjdoHGUkNj@lEPd[SW7B?1
+!i103 1
+S1
+R3
+w1753578473
+8lifo_example.sv
+Flifo_example.sv
+!i122 1
+L0 6 0
+R6
+31
+!s108 1753578478.000000
+!s107 lifo_example.sv|
+!s90 -reportprogress|300|lifo_example.sv|
+!i113 0
+R7
+R4
+Xlifo_fifo_1_sv_unit
+!i114 1
+2lifo_fifo_1.sv
+R5
+!s110 1753638099
+V>Xm;e?c2B8dV8>zo:I28K1
+r1
+!s85 0
+!i10b 1
+!s100 [oVmY1Q_C]]aSB1HSJCQB1
+I>Xm;e?c2B8dV8>zo:I28K1
+!i103 1
+S1
+R3
+w1753638096
+8lifo_fifo_1.sv
+Flifo_fifo_1.sv
+!i122 22
+Z8 L0 4 0
+R6
+31
+!s108 1753638099.000000
+!s107 lifo_fifo_1.sv|
+!s90 -reportprogress|300|lifo_fifo_1.sv|
+!i113 0
+R7
+R4
+Xlifo_fifo_2_sv_unit
+!i114 1
+Z9 2lifo_fifo_2.sv
+R5
+Z10 !s110 1753638364
+V1V7?>l2NLk]5:4e0EeTFc1
+r1
+!s85 0
+!i10b 1
+!s100 0D7G=nTif=ZhN4e0ecUkm1
+I1V7?>l2NLk]5:4e0EeTFc1
+!i103 1
+S1
+R3
+Z11 w1753638339
+Z12 8lifo_fifo_2.sv
+Z13 Flifo_fifo_2.sv
+!i122 23
+R8
+R6
+31
+Z14 !s108 1753638364.000000
+Z15 !s107 lifo_fifo_2.sv|
+Z16 !s90 -reportprogress|300|lifo_fifo_2.sv|
+!i113 0
+R7
+R4
+Xlifo_fifo_sv_unit
+!i114 1
+2lifo_fifo.sv
+R5
+!s110 1753580014
+VhE:6BnQn^FJ;h6S`Xnz1X0
+r1
+!s85 0
+!i10b 1
+!s100 M6ToY7jT4i`;mFQ5>`WDF1
+IhE:6BnQn^FJ;h6S`Xnz1X0
+!i103 1
+S1
+R3
+w1753580012
+8lifo_fifo.sv
+Flifo_fifo.sv
+!i122 7
+L0 5 0
+R6
+31
+!s108 1753580014.000000
+!s107 lifo_fifo.sv|
+!s90 -reportprogress|300|lifo_fifo.sv|
+!i113 0
+R7
+R4
+vtop
+R9
+R5
+DXx4 work 19 lifo_fifo_2_sv_unit 0 22 1V7?>l2NLk]5:4e0EeTFc1
+R10
+VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 oME_Tf6zQjWc8TTC6?=SI2
+INhi`lf[3>NQ6F9z5Bd<480
+!s105 lifo_fifo_2_sv_unit
+S1
+R3
+R11
+R12
+R13
+!i122 23
+L0 27 15
+R6
+31
+R14
+R15
+R16
+!i113 0
+R7
+R4

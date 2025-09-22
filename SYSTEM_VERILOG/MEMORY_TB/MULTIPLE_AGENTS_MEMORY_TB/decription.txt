@@ -1,0 +1,53 @@
+- We are developing SV testbench development for basic memory(DUT).
+
+- Here we follow top-down coding approach
+	- top module
+		- program block (represents the overall TB) //we are skipping this for now
+			- environment
+				- sub-environment (agents)
+					- BFM, Generator, Monitor, Coverage
+				- Reference model
+				- Checker & Scoreboard
+	
+
+- For testbench architecture development, there is no standard architecture diagram, we can deveop our owm TB architecture, as long as it does not violate
+  the basic verification guidelines.
+  
+  
+INTERFACE:
+=========
+- Why do we need interface?
+    - Interface is required to connect TB with the design.
+        - TB: class --> does not have ports.
+        - Design: Module has ports.
+              - How do we connect 2 elements, one which has ports and one which does not?
+              - why don't we see this issue in verilog?
+                  - In verilog, TB is also developed using MODULE.
+              
+              SOLUTION FOR ABOVE?
+                - Declare a new data variable called as INTERFACE.
+                    - WHere we keep all the ports.
+                    - Pass the handle of interface.
+                - 4 Components directly connected to the interface.
+                    - BFM, Monitor, DUT, Assertion.
+                    - Use interface to connect wherever ports are available,
+                        o DUT, Assertion block - Created using MODULE.
+                    - USe interface handle for components which does not have ports.
+                        o BFM, Monitor - Created using CLASS --> We need to pass the handle.
+						o Interface is static in nature, class is dynamic in nature. 
+							- so we can not connect physical interface to BFM and Monitor(class objects).
+								- we should use virtual interface there.
+				
+				- Here the thing is, when we have ports for the TB component, we can use physical interface.
+					- Since, interface will also have ports. So, we can just connect them together.
+				- The components which don't have ports but communicate with DUT --> BFM, Monitor
+					- How do they communicate with DUT when they have no ports.
+					- Here we come up with a solution called VIRTUAL INTERFACE. Here we pass the handle of the physical interface.
+						- THe interface which does not exist physically but mimics the actual interface behaviour.
+	- PHYSICAL INTERFACE
+		o Interface we actually allocate the memory.
+	- VIRTUAL INTERFACE
+		o Handles we pass to various components which requires interface, called as virtual interface.
+     o It is done to indicate the compiler that don't allocate memory. I am going to get the handle from thae physical interface.
+	
+  

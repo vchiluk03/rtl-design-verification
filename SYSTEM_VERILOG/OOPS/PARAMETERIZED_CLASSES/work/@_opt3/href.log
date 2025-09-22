@@ -1,0 +1,3 @@
+BEGIN 1:top:fast:work
+    lifo_fifo_inst :  1:top:fast:work
+END 
